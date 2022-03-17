@@ -26,5 +26,7 @@ if ngrok == '1':
 Cam = input('введите цифру>>>')
 if Cam == '5':    
     os.system('sl')
+else:
+        print("Вы ввели не правильное значение"
 
 
