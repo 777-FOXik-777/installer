@@ -2,14 +2,66 @@ import time
 import os
 os.system('clear')
 
-print ('загружаем вашы мозги')
-time.sleep(10)
-
+print ('<чистим вашы динамики>')
+print ('>')
+time.sleep(1)
 os.system('clear')
-print ('открываем вашы мозги')
-time.sleep(10)
 
+print ('<чистим вашы динамики>')
+print ('>>')
+time.sleep(1)
 os.system('clear')
+
+print ('<чистим вашы динамики>')
+print ('>>>')
+time.sleep(1)
+os.system('clear')
+
+print ('<чистим вашы динамики>')
+print ('>')
+time.sleep(1)
+os.system('clear')
+
+print ('<чистим вашы динамики>')
+print ('>>')
+time.sleep(1)
+os.system('clear')
+
+print ('<чистим вашы динамики>')
+print ('>>>')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
+print ('>')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
+print ('>>')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
+print ('>>>')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
+print ('>')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
+print ('>>')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
+print ('>>>')
+time.sleep(1)
+os.system('clear')
+
 
 print ("#                  #          ##    ##              ")
 print ("                   #           #     #              ")
