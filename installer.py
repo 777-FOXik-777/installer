@@ -104,10 +104,14 @@ print ("[2] фишинг")
 print ("[3] брутфорс <Instagram>")
 print ("[4] заблокировать Termux<!!ОПАСНО!!>")
 print ("[5] просмотр камер <98 стран>")
+print (" ")
+print ("[99] обновить")
 print ("[0] выход")
 print (" ")
 print (" ")
 
-ngrok = input ('введите цифру>>>')
-if ngrok == '1':    
-    print ("1")
+new = input ('выбери пункт>>>')
+if new == '99':    
+    os.system('git clone https://github.com/777-FOXik-777/installer')
+    os.system('cd installer')
+    os.system('python3 installer.py')
