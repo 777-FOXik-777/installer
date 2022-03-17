@@ -1,10 +1,15 @@
+import time
 import os
 os.system('clear')
 
-sleep(10)
+print ('загружаем вашы мозги')
+time.sleep(10)
 
+os.system('clear')
+print ('открываем вашы мозги')
+time.sleep(10)
 
-
+os.system('clear')
 
 print ("#                  #          ##    ##              ")
 print ("                   #           #     #              ")
