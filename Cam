@@ -1,0 +1,7 @@
+git clone https://github.com/AngelSecurityTeam/Cam-Hackers
+
+cd Cam-Hackers
+
+chmod +x *
+
+python cam-hackers.py
