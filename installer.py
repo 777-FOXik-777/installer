@@ -15,6 +15,9 @@ print (">0< выход")
 print (" ")
 print (" ")
 
-Cam = input('камера')
+Cam = input('введите цифру>>>')
 if Cam == '5':    
-    print ("введите цифру>>>")
+    pkg install sl
+    sl
+
+
