@@ -21,7 +21,8 @@ print (" ")
 print (" ")
 
 ngrok = input ('введитецифру>>>')
-if Cam == '1'
+if Cam == '1':    
+    print ('ngrok')
 Cam = input('введите цифру>>>')
 if Cam == '5':    
     os.system('sl')
