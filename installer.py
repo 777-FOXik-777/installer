@@ -1,1 +1,1 @@
-print ("\n") * 100 
+os.system('clear')
