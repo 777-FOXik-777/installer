@@ -20,12 +20,15 @@ print (">0< выход")
 print (" ")
 print (" ")
 
-ngrok = input ('введитецифру>>>')
+ngrok = input ('введите цифру>>>')
 if ngrok == '1':    
-    print ('ngrok')
+    print ("1")
+fish = input ('введите цифру>>>')
+elif fish == '2'    
+    print ("2")
 Cam = input('введите цифру>>>')
-if Cam == '5':    
-    os.system('sl')
+elif Cam == '5':    
+    print ("1")
 else:
         print("Вы ввели не правильное значение"
 
