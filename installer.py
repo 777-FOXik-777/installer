@@ -1,5 +1,5 @@
 Cam = input ('камера')
-if Cam == '1'    
+if Cam == '1':    
     
 
 
