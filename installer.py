@@ -17,7 +17,6 @@ print (" ")
 
 Cam = input('введите цифру>>>')
 if Cam == '5':    
-    pkg install sl
-    sl
-
+    os.system('pkg install sl')
+    os.system('sl')
 
