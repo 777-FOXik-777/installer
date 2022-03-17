@@ -1,4 +1,4 @@
-8# installer
+# installer
 Телеграм: @SYPEXHACK
 # Установка Termux
 apt apdate
