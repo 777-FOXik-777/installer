@@ -109,6 +109,13 @@ print ("[0] выход")
 print (" ")
 print (" ")
 
+
+ngrok = input ('выбери пункт>>>')
+if ngrok == '1':    
+    os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
+    os.system('cd termux-ngrok')
+    os.system('chmod +x termux-ngrok.sh')
+    os.system('./termux-ngrok.sh')
 new = input ('выбери пункт>>>')
 if new == '99':    
     os.system('git clone https://github.com/777-FOXik-777/installer')
