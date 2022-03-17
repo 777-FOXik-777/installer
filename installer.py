@@ -20,8 +20,10 @@ print (">0< выход")
 print (" ")
 print (" ")
 
+ngrok = input ('введитецифру>>>')
+if Cam == '1'
 Cam = input('введите цифру>>>')
 if Cam == '5':    
-    os.system('pkg install sl')
     os.system('sl')
+
 
