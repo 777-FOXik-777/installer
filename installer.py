@@ -1,6 +1,12 @@
 import os
 os.system('clear')
 
+print ("#                  #          ##    ##              ")
+print ("                   #           #     #              ")
+print ("##   ###    ###   ###    ###   #     #     ##   ### ")
+print (" #   #  #  ##      #    #  #   #     #    # ##  #  #")
+print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
+print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
 
 print ("телеграм канал>>> @SYPEXHACK")
 print (" ")
