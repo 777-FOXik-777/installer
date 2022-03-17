@@ -1,5 +1,7 @@
 
-from colorama import Fore, Back, Style
+
+
+
 import time
 import os
 os.system('clear')
@@ -92,7 +94,8 @@ print (" #   #  #  ##      #    #  #   #     #    # ##  #  #")
 print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
 print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
 print (" ")
-print (Fore.RED + 'телеграм канал>>> @SYPEXHACK')
+print ('телеграм канал>>> @SYPEXHACK')
+print ("[v1.0]")
 time.sleep(2)
 print (" ")
 print (" ")
