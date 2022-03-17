@@ -1,6 +1,11 @@
 import os
 os.system('clear')
 
+sleep(10)
+
+
+
+
 print ("#                  #          ##    ##              ")
 print ("                   #           #     #              ")
 print ("##   ###    ###   ###    ###   #     #     ##   ### ")
