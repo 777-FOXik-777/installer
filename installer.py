@@ -1,8 +1,14 @@
+pip install colorama
 import time
 import os
 os.system('clear')
 
 print ('<чистим вашы динамики>')
+print ('')
+time.sleep(1)
+os.system('clear')
+
+print ('<чистим вашы динамики>')
 print ('>')
 time.sleep(1)
 os.system('clear')
@@ -14,6 +20,11 @@ os.system('clear')
 
 print ('<чистим вашы динамики>')
 print ('>>>')
+time.sleep(1)
+os.system('clear')
+
+print ('<чистим вашы динамики>')
+print ('')
 time.sleep(1)
 os.system('clear')
 
@@ -33,6 +44,11 @@ time.sleep(1)
 os.system('clear')
 
 print ('уменьшаем вам IQ')
+print ('')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
 print ('>')
 time.sleep(1)
 os.system('clear')
@@ -44,6 +60,11 @@ os.system('clear')
 
 print ('уменьшаем вам IQ')
 print ('>>>')
+time.sleep(1)
+os.system('clear')
+
+print ('уменьшаем вам IQ')
+print ('')
 time.sleep(1)
 os.system('clear')
 
