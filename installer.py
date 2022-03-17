@@ -1,3 +1,4 @@
+import colorama
 import time
 import os
 os.system('clear')
