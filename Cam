@@ -1,3 +1,6 @@
+Cam = input( 'камера')
+
+
 git clone https://github.com/AngelSecurityTeam/Cam-Hackers
 
 cd Cam-Hackers
