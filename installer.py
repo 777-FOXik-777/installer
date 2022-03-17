@@ -112,5 +112,6 @@ print (" ")
 new = input ('выбери пункт>>>')
 if new == '99':    
     os.system('git clone https://github.com/777-FOXik-777/installer')
+    time.sleep(2)
     os.system('cd installer')
     os.system('python3 installer.py')
