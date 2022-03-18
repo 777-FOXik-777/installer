@@ -4,6 +4,9 @@ print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
 
+#питон2
+os.system('pkg install python2')
+
 #нгрок
 os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
 
