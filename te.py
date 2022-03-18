@@ -1,3 +1,4 @@
 import os
 
-print('$HOME')
+print($HOME)
+os.system('cd PyPhisher')
