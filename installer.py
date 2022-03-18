@@ -48,9 +48,8 @@ while True:
     os.system('clear')
     
     if inp == '1':    
-        os.system('cd $HOME')
         time.sleep(1)
-        os.system('cd termux-ngrok')
+        os.chdir('termux-ngrok')
         os.system('chmod +x termux-ngrok.sh')
         os.system('./termux-ngrok.sh')
     
@@ -61,9 +60,8 @@ while True:
         os.system('python3 pyphisher.py')
 
     if inp == '3':    
-        os.system('cd $HOME')
         time.sleep(1)
-        os.system('cd ighack')
+        os.chdir('ighack')
         os.system('bash setup')
         os.system('bash ighack.sh')
 
