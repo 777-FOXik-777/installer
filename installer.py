@@ -54,9 +54,10 @@ while True:
         os.system('chmod +x termux-ngrok.sh')
         os.system('./termux-ngrok.sh')
     
-    if inp == '2':    
-        time.sleep(1)
-        os.system('cd $PyPhisher')
+    if inp == '2':   
+        os.system('cd $HOME')
+        os.system('cd installer')
+        os.system('cd PyPhisher')
         time.sleep(1)
         os.system('python3 pyphisher.py')
 
