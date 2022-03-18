@@ -1,6 +1,4 @@
-import os, time
-os.system('pip install colorama')
-import colorama
+import os, time, colorama
 from colorama import Fore, Style
 colorama.init()
 
