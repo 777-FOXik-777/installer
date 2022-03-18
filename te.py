@@ -1,5 +1,4 @@
 import os
 
-print(dir)
-os.system('cd PyPhisher')
-print(dir)
+os.chdir('$HOME')
+os.system('ls')
