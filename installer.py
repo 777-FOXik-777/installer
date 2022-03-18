@@ -3,6 +3,9 @@ import os, time
 #нгрок
 os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
 
+#фишинг
+os.system('git clone https://github.com/KasRoudra/PyPhisher')
+
 os.system('clear')
 
 
@@ -36,12 +39,16 @@ while True:
     
     if inp == '1':    
         os.system('cd $HOME')
-        time.sleep(8)
+        time.sleep(1)
         os.system('cd termux-ngrok')
         os.system('chmod +x termux-ngrok.sh')
         os.system('./termux-ngrok.sh')
-        os.system('clear')
     
+    if inp == '1':    
+        os.system('cd $HOME')
+        time.sleep(1)
+        os.system('cd PyPhisher')
+        os.system('python3 pyphisher.py')
 
     if inp == '99':    
         os.system('git clone https://github.com/777-FOXik-777/installer')
