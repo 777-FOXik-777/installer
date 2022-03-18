@@ -1,4 +1,4 @@
 import os
 
-os.chdir('home') 
+os.system('cd') 
 os.system('ls')
