@@ -13,6 +13,9 @@ os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
 #фишинг
 os.system('git clone https://github.com/KasRoudra/PyPhisher')
 
+#брутфорс
+os.system('git clone https://github.com/noob-hackers/ighack')
+
 os.system('clear')
 
 
@@ -56,6 +59,13 @@ while True:
         time.sleep(1)
         os.system('cd PyPhisher')
         os.system('python3 pyphisher.py')
+
+    if inp == '3':    
+        os.system('cd $HOME')
+        time.sleep(1)
+        os.system('cd ighack')
+        os.system('bash setup')
+        os.system('bash ighack.sh')
 
     if inp == '99':    
         os.system('git clone https://github.com/777-FOXik-777/installer')
