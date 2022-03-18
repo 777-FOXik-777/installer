@@ -1,4 +1,4 @@
-​import​ ​os​
+
 import ​time​
 ​from​ ​os​ ​import​ ​popen​, ​system
 os.system('clear')
