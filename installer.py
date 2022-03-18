@@ -1,7 +1,29 @@
-
-import time
-import os
+​import​ ​os​, ​sys​, ​time​, ​socket​, ​json 
+​from​ ​os​ ​import​ ​popen​, ​system
 os.system('clear')
+
+#Normal
+ 
+ ​black​=​"​\033​[0;30m" 
+ ​red​=​"​\033​[0;31m" 
+ ​green​=​"​\033​[0;32m" 
+ ​bgreen​=​"​\033​[1;32m" 
+ ​yellow​=​"​\033​[0;33m" 
+ ​blue​=​"​\033​[0;34m" 
+ ​purple​=​"​\033​[0;35m" 
+ ​cyan​=​"​\033​[0;36m" 
+ ​bcyan​=​"​\033​[1;36m" 
+ ​white​=​"​\033​[0;37m" 
+ ​nc​=​"​\033​[00m"
+
+ 
+ ​version​=​"1.6" 
+  
+ ​ask​ ​=​ ​green​ ​+​ ​'['​ ​+​ ​white​ ​+​ ​'?'​ ​+​ ​green​ ​+​ ​'] '​+​ ​yellow 
+ ​success​ ​=​ ​yellow​ ​+​ ​'['​ ​+​ ​white​ ​+​ ​'√'​ ​+​ ​yellow​ ​+​ ​'] '​+​green 
+ ​error​ ​=​ ​blue​ ​+​ ​'['​ ​+​ ​white​ ​+​ ​'!'​ ​+​ ​blue​ ​+​ ​'] '​+​red 
+ ​info​=​ ​yellow​ ​+​ ​'['​ ​+​ ​white​ ​+​ ​'+'​ ​+​ ​yellow​ ​+​ ​'] '​+​ ​cyan 
+ ​info2​=​ ​green​ ​+​ ​'['​ ​+​ ​white​ ​+​ ​'•'​ ​+​ ​green​ ​+​ ​'] '​+​ ​purple
 
 print ('[загрузка...]')
 print ('[               ]')
@@ -91,7 +113,7 @@ print (" #   #  #  ##      #    #  #   #     #    # ##  #  #")
 print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
 print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
 print (" ")
-print ('[by @SYPEXHACK]                            [v1.0]')
+{red} [by @SYPEXHACK]                            [v1.0]
 time.sleep(2)
 print (" ")
 print (" ")
