@@ -42,7 +42,7 @@ while True:
 
     if inp == '99':    
         os.system('git clone https://github.com/777-FOXik-777/installer')
-        os.system('clear'
+        os.system('clear')
         print ("Загрузка...")
         time.sleep(3)
         os.system('cd installer')
