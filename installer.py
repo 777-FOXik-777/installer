@@ -109,8 +109,9 @@ print (" ")
 
 ngrok = input ('выбери пункт>>>')
 if ngrok == '1':    
+    os.system('clear')
     os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
-    time.sleep(5)
+    time.sleep(8)
     os.system('cd termux-ngrok')
     os.system('chmod +x termux-ngrok.sh')
     os.system('./termux-ngrok.sh')
