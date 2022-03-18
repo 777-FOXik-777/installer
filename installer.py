@@ -56,6 +56,7 @@ while True:
     
     if inp == '2':    
         os.system('cd $HOME')
+        os.system('cd installer')
         time.sleep(1)
         os.system('cd PyPhisher')
         os.system('python3 pyphisher.py')
