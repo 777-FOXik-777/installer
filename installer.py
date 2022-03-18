@@ -57,7 +57,7 @@ while True:
     if inp == '2':   
         os.system('ls')
         os.system("cd PyPhisher")
-        os.system('python3 pyphisher.py')
+        os.system('ls')
 
     if inp == '3':    
         os.system('cd $HOME')
