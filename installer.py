@@ -1,4 +1,8 @@
 import os, time
+os.system('pip install colorama')
+import colorama
+from colorama import Fore, Style
+colorama.init()
 
 print ('[установка нужных файлов]')
 time.sleep(3)
@@ -54,6 +58,7 @@ while True:
         os.system('./termux-ngrok.sh')
     
     if inp == '2':   
+        print(colorama.Fore.RED+'  ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ', Style.RESET_ALL)
         os.system('ls')
         os.chdir("PyPhisher")
         os.system('ls')
