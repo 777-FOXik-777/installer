@@ -3,84 +3,10 @@ import time
 os.system('clear')
 
 print ('[загрузка...]')
-print ('[               ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[загрузка...]')
-print ('[>              ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[загрузка...]')
-print ('[>>             ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[загрузка...]')
-print ('[>>>            ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[загрузка...]')
-print ('[>>>>           ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[загрузка...]')
-print ('[>>>>>          ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[загрузка...]')
-print ('[>>>>>>         ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[загрузка...]')
-print ('[>>>>>>>        ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>       ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>>      ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>>>     ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>>>>    ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>>>>>   ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>>>>>>  ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>>>>>>> ]')
-time.sleep(1)
-os.system('clear')
-
-print ('[подпишись на тг >>> @SYPEXHACK]')
-print ('[>>>>>>>>>>>>>>>]')
-time.sleep(1)
-os.system('clear')
+s='■'
+fot i in range(21):    
+    time.sleep(0.1)
+    print('\r','Load',i*s,str(i)'%',end=' ')
 
 
 print (" #                 #          ##    ##              ")
