@@ -1,5 +1,9 @@
 import os, time
 
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
+
 #нгрок
 os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
 
