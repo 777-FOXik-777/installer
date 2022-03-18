@@ -1,5 +1,6 @@
   
- ​import​ ​os​, ​time 
+ ​import​ ​os​
+ import time
  ​os​.​system​(​'clear'​) 
  ​########################## новые 
  ​import​ ​random 
