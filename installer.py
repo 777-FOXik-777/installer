@@ -1,6 +1,5 @@
-
-import ​time​
-​from​ ​os​ ​import​ ​popen​, ​system
+import os
+import time
 os.system('clear')
 
 print ('[загрузка...]')
