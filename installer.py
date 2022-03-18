@@ -57,6 +57,7 @@ while True:
     if inp == '2':    
         time.sleep(1)
         os.system('cd PyPhisher')
+        time.sleep(1.5)
         os.system('python3 pyphisher.py')
 
     if inp == '3':    
