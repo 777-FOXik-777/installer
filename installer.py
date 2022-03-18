@@ -54,8 +54,8 @@ while True:
         os.system('./termux-ngrok.sh')
     
     if inp == '2':   
-        print('  ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ')
-        tru = input("Включили y/n --> ')
+        print('  ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ")
+        tru = input("\n Включили y/n --> ')
         if tru == 'y':
             os.system('ls')
             os.chdir("PyPhisher")
