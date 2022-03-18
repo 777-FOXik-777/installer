@@ -1,4 +1,8 @@
-​import​ ​os​, ​sys​, ​time​, ​socket​, ​json 
+​import​ ​os​
+import ​sys​
+import ​time​
+import ​socket​
+import ​json 
 ​from​ ​os​ ​import​ ​popen​, ​system
 os.system('clear')
 
