@@ -15,7 +15,7 @@ print ('\n')
 
 while True:
     print('\n\n')
-    print(" #                 #          ##    ##              ")
+    print (" #                 #          ##    ##              ")
     print ("                   #           #     #              ")
     print ("##   ###    ###   ###    ###   #     #     ##   ### ")
     print (" #   #  #  ##      #    #  #   #     #    # ##  #  #")
@@ -44,7 +44,7 @@ while True:
         os.system('chmod +x termux-ngrok.sh')
         os.system('./termux-ngrok.sh')
     
-    if inp == '1':    
+    if inp == '2':    
         os.system('cd $HOME')
         time.sleep(1)
         os.system('cd PyPhisher')
