@@ -55,7 +55,7 @@ while True:
         os.system('./termux-ngrok.sh')
     
     if inp == '2':   
-        os.system('cd $HOME')
+        print(dir)
         os.system('cd PyPhisher')
         time.sleep(1)
         os.system('python3 pyphisher.py')
