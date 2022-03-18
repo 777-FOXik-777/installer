@@ -110,12 +110,14 @@ print (" ")
 ngrok = input ('выбери пункт>>>')
 if ngrok == '1':    
     os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
+    time.sleep(5)
     os.system('cd termux-ngrok')
     os.system('chmod +x termux-ngrok.sh')
     os.system('./termux-ngrok.sh')
+
 new = input ('выбери пункт>>>')
 if new == '99':    
     os.system('git clone https://github.com/777-FOXik-777/installer')
-    time.sleep(2)
+    time.sleep(3)
     os.system('cd installer')
     os.system('python3 installer.py')
