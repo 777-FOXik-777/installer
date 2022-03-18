@@ -1,17 +1,14 @@
+import​ ​os​
+import time
+os​.​system​(​'clear'​)  
   
- ​import​ ​os​
- import time
- ​os​.​system​(​'clear'​) 
- ​########################## новые 
- ​import​ ​random 
-  
-  
- ​print​ (​'​\n​'​) 
+
+​print​ (​'​\n​'​) 
   
  ​while​ ​True​: 
- ​    ​print​(​'​\n​\n​'​) 
- ​    ​print​(​" #                 #          ##    ##              "​) 
- ​    ​print​ (​"                   #           #     #              "​) 
+ ​    print​(​'​\n​\n​'​) 
+ ​    print​(​" #                 #          ##    ##              "​) 
+ ​   ​ print​ (​"                   #           #     #              "​) 
  ​    ​print​ (​"##   ###    ###   ###    ###   #     #     ##   ### "​) 
  ​    ​print​ (​" #   #  #  ##      #    #  #   #     #    # ##  #  #"​) 
  ​    ​print​ (​" #   #  #    ##    #    # ##   #     #    ##    #   "​) 
