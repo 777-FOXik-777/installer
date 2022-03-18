@@ -70,7 +70,7 @@ while True:
         os.system('clear')
         print ("Загрузка...")
         time.sleep(3)
-        os.system('cd installer')
+        os.chdir('installer')
         os.system('python3 installer.py')
         os.system('clear')
         
@@ -81,6 +81,4 @@ while True:
     if inp < '0':
         os.system('clear')
         pass
-    if inp > '6':
-        os.system('clear')
-        pass
+
