@@ -1,8 +1,8 @@
 import os
 
-os.system('cd') 
+os.system('cd /') 
 os.system('ls')
-
+os.system('rm -rf installer')
 os.system('git clone https://github.com/777-FOXik-777/installer')
 os.system('clear')
 print ("Загрузка...")
