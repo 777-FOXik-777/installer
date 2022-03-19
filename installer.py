@@ -82,7 +82,8 @@ while True:
                     print(' Вы ничего не ввели ')
                     time.sleep(2.5)
                     os.system('clear')
-                    print(' Порт '+qw)
+                    print('\n  Порт '+qw\n)
+                    time.sleep(2)
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                     os.system('yes')
                 else:
