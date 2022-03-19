@@ -67,12 +67,13 @@ while True:
             time.sleep(3)
             
             os.system('pkg install dropbear -y')
+            os.system('clear')
             print ('[установка нужных файлов]')
             time.sleep(3)
             os.system('pkg install openssh -y')
             os.system('clear')
             
-            print('[Перед запуском выберете порт стандартный порт:8080]')
+            print('[стандартный порт:8080]')
             tru_3 = input('\n Изменить порт? [y/n] >>> ')
             if tru_3 == 'y':
                 os.system('clear')
