@@ -13,7 +13,8 @@ time.sleep(3)
 os.system('clear')
 
 #нгрок
-os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
+os.system('pkg install nodejs-lts')
+os.system('npm install ngrok')
 os.system('clear')
 print ('[установка нужных файлов]')
 time.sleep(3)
@@ -80,10 +81,8 @@ while True:
     
     if inp == '1':    
         os.system('clear')
-        os.chdir('termux-ngrok')
-        os.system("chmod +x termux-ngrok.sh")
-        os.system("./termux-ngrok.sh")
-
+        print('[напишите команду< ngrok http [порт] >Пример: ngrok http 8080]')
+        break
     
     if inp == '2':   
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
