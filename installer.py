@@ -88,6 +88,7 @@ while True:
         os.system('python3 termuxman.py')
 
     if inp == '5':    
+        os.system('pip install requests')
         os.system('clear')
         os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
         os.system('clear')
