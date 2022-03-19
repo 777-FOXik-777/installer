@@ -78,8 +78,8 @@ while True:
             if tru_3 == 'y':
                 os.system('clear')
                 qw = 8080
-                qw_2 = input('Введите порт>>>')
-                if qw_2 == ' ':
+                qw_2 = input('Введите порт>>> ')
+                if qw_2 == '':
                     print(' Вы ничего не ввели ')
                     print('\n  Порт '+qw+'\n')
                     time.sleep(4)
