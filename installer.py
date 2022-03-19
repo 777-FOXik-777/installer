@@ -76,7 +76,7 @@ while True:
     print ("    [2] фишинг <PyPhisher>")
     print ("    [3] брутфорс <Instagram> [временно не работает]")
     print ("    [4] заблокировать Termux <!!ОПАСНО!!>")
-    print ("    [5] просмотр камер <98 стран>")
+    print ("    [5] просмотр взломаных камер <CAM-HACKERS>")
     print ("\n")
     print ("    [99] обновить[BETA]")
     print ("    [0] выход")
