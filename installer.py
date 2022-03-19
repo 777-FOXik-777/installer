@@ -95,6 +95,7 @@ while True:
         time.sleep(3)
         os.system('clear') 
         os.chdir('Cam-Hackers')
+        os.system('chmod +x *')
         os.system('python cam-hackers.py')
 
     if inp == '99':    
