@@ -13,7 +13,7 @@ time.sleep(3)
 os.system('clear')
 
 #нгрок
-os.system('pkg install nodejs-lts')
+os.system('pkg install nodejs-lts -y')
 os.system('npm install ngrok')
 os.system('clear')
 print ('[установка нужных файлов]')
