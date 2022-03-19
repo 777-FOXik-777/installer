@@ -57,7 +57,30 @@ while True:
         print('[напишите команду< ngrok http [порт] >Пример: ngrok http 8080]')
         break
     
+    if inp == '2':   
+        os.system('clear')
+        print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        tru = input('\n Включили? [y/n] >>> ')
+        os.system('clear')
+        if tru == 'y':
+            print ('[установка нужных файлов]')
+            time.sleep(3)
+            
+            os.system('pkg install dropbear -y')
+            print ('[установка нужных файлов]')
+            time.sleep(3)
+            os.system('pkg install openssh -y')
+            os.system('clear')
+            print('
+           
+        if tru == 'n':
+            os.system('clear')
+            pass
+        else:
+            os.system('clear')
+
     if inp == '3':   
+        os.system('clear')
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
         os.system('clear')
