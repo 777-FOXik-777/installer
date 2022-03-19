@@ -57,6 +57,7 @@ while True:
     if inp == '2':   
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
+        os.system('clear')
         if tru == 'y':
             os.system('cd $HOME')
             os.chdir('PyPhisher')
@@ -64,6 +65,8 @@ while True:
         if tru == 'n':
             os.system('clear')
             pass
+        else:
+            os.system('clear')
 
     if inp == '3':    
         time.sleep(1)
