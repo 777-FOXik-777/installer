@@ -35,7 +35,7 @@ while True:
     print ("    [by @SYPEXHACK]                            [v1.0]")
     time.sleep(2)
     print ('\n\n')
-    print ("    [1] ngrok")
+    print ("    [1] ngrok [временно не работает]")
     print ("    [2] фишинг")
     print ("    [3] брутфорс <Instagram>")
     print ("    [4] заблокировать Termux <!!ОПАСНО!!>")
