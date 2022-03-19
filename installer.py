@@ -78,8 +78,8 @@ while True:
             if tru_3 == 'y':
                 os.system('clear')
                 qw = 8080
-                qw = input('Введите порт>>>')
-                if qw == '':
+                qw_2 = input('Введите порт>>>')
+                if qw_2 == '':
                     print(' Вы ничего не ввели ')
                     time.sleep(2.5)
                     os.system('clear')
@@ -88,7 +88,7 @@ while True:
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                     os.system('yes')
                 else:
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
                     
 
             if tru_3 == 'n':
