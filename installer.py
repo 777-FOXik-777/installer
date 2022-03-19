@@ -84,14 +84,16 @@ while True:
                     os.system('clear')
                     print(' Порт '+qw)
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
-
+                    os.system('yes')
 
             if tru_3 == 'n':
                 os.system('clear')
                 os.system('ssh -R 80:localhost:8080 nokey@localhost.run')
+                os.system('yes')
             else:
                 os.system('clear')
                 os.system('ssh -R 80:localhost:8080 nokey@localhost.run')
+                os.system('yes')
 
         if tru_2 == 'n':
             os.system('clear')
