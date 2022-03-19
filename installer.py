@@ -76,7 +76,9 @@ while True:
             tru = input('\n Изменить порт? [y/n] >>> ')
             if tru == 'y':
                 os.system('clear')
-
+                qw = 8080
+                qw = input('Введите порт>>>')
+                os.system('ssh -R 80:localhost:'qw' nokey@localhost.run')
 
 
             if tru == 'n':
