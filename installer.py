@@ -7,15 +7,45 @@ os.system('clear')
 
 #питон2
 os.system('pkg install python2')
+os.system('clear')
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
 
 #нгрок
 os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
+os.system('clear')
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
 
 #фишинг
 os.system('git clone https://github.com/KasRoudra/PyPhisher')
+os.system('clear')
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
 
 #брутфорс
 os.system('git clone https://github.com/noob-hackers/ighack')
+os.system('clear')
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
+
+#блокировка.тер..
+os.system('git clone https://github.com/fuckwbored/termuxman')
+os.system('clear')
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
+
+#камера
+os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
+os.system('clear')
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
 
 os.system('clear')
 
@@ -49,7 +79,7 @@ while True:
     os.system('clear')
     
     if inp == '1':    
-        time.sleep(1)
+        os.system('clear')
         os.chdir('termux-ngrok')
         os.system("chmod +x termux-ngrok.sh")
         os.system("./termux-ngrok.sh")
@@ -70,11 +100,21 @@ while True:
             os.system('clear')
 
     if inp == '3':    
-        time.sleep(1)
+        os.system('clear')
         os.chdir('ighack')
         os.system('bash setup')
         os.system('bash ighack.sh')
         os.system('tor')
+
+    if inp == '4':   
+        os.system('clear') 
+        os.chdir('termuxman')
+        os.system('python3 termuxman.py')
+
+    if inp == '5':    
+        os.system('clear') 
+        os.chdir('Cam-Hackers')
+        os.system('python cam-hackers.py'
 
     if inp == '99':    
         os.system('git clone https://github.com/777-FOXik-777/installer')
