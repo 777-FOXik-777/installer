@@ -13,17 +13,10 @@ time.sleep(3)
 os.system('clear')
 
 #нгрок
-os.system('pkg install nodejs-lts -y')
-os.system('clear')
-os.system('npm install ngrok')
-os.system('clear')
-os.system('npm install ngrok -g')
-os.system('clear')
-print ('[установка нужных файлов]')
-time.sleep(3)
-os.system('clear')
+
 
 #фишинг
+
 
 #брутфорс
 os.system('git clone https://github.com/noob-hackers/ighack')
@@ -33,20 +26,11 @@ time.sleep(3)
 os.system('clear')
 
 #блокировка.тер..
-os.system('git clone https://github.com/fuckwbored/termuxman')
-os.system('clear')
-print ('[установка нужных файлов]')
-time.sleep(3)
-os.system('clear')
+
 
 #камера
 os.system('pip install colorama')
-os.system('clear')
-os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
-os.system('clear')
-print ('[установка нужных файлов]')
-time.sleep(3)
-os.system('clear')
+
 
 os.system('clear')
 
@@ -79,21 +63,29 @@ while True:
     inp = input ('  Выбери пункт>>>  ')
     os.system('clear')
     
-    if inp == '1':    
+    if inp == '1':
+        os.system('pkg install nodejs-lts -y')
+        os.system('clear')
+        os.system('npm install ngrok')
+        os.system('clear')
+        os.system('npm install ngrok -g')
+        os.system('clear')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
         os.system('clear')
         print('[напишите команду< ngrok http [порт] >Пример: ngrok http 8080]')
         break
     
     if inp == '2':   
-        os.system('git clone https://github.com/KasRoudra/PyPhisher')
-        os.system('clear')
-        print ('[установка нужных файлов]')
-        time.sleep(3)
-        os.system('clear')
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru == 'y':
+            os.system('git clone https://github.com/KasRoudra/PyPhisher')
+            os.system('clear')
+            print ('[установка нужных файлов]')
+            time.sleep(3)
+            os.system('clear')
             os.system('cd $HOME')
             os.chdir('PyPhisher')
             os.system('python3 pyphisher.py')
@@ -111,11 +103,20 @@ while True:
         os.system('tor')
 
     if inp == '4':   
+        os.system('git clone https://github.com/fuckwbored/termuxman')
+        os.system('clear')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
         os.system('clear') 
         os.chdir('termuxman')
         os.system('python3 termuxman.py')
 
     if inp == '5':    
+        os.system('clear')
+        os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
+        os.system('clear')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
         os.system('clear') 
         os.chdir('Cam-Hackers')
         os.system('python cam-hackers.py')
