@@ -71,8 +71,21 @@ while True:
             time.sleep(3)
             os.system('pkg install openssh -y')
             os.system('clear')
-            print('
-           
+            
+            print('[Перед запуском выберете порт стандартный порт:8080]')
+            tru = input('\n Изменить порт? [y/n] >>> ')
+            if tru == 'y':
+                os.system('clear')
+
+
+
+            if tru == 'n':
+                os.system('clear')
+                os.system('ssh -R 80:localhost:8080 nokey@localhost.run')
+            else:
+                os.system('clear')
+                os.system('ssh -R 80:localhost:8080 nokey@localhost.run')
+
         if tru == 'n':
             os.system('clear')
             pass
