@@ -113,7 +113,7 @@ while True:
     if inp == '5':    
         os.system('clear') 
         os.chdir('Cam-Hackers')
-        os.system('python cam-hackers.py'
+        os.system('python cam-hackers.py')
 
     if inp == '99':    
         os.system('git clone https://github.com/777-FOXik-777/installer')
