@@ -49,9 +49,9 @@ while True:
     
     if inp == '1':    
         time.sleep(1)
-        os.system('cd termux-ngrok')
-        os.system('chmod +x termux-ngrok.sh')
-        os.system('./termux-ngrok.sh')
+        os.chdir('termux-ngrok')
+        os.system("chmod +x termux-ngrok.sh")
+        os.system("./termux-ngrok.sh")
         os.system('y')
         os.system('ngrok http 80')
     
