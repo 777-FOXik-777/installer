@@ -32,10 +32,11 @@ while True:
     time.sleep(2)
     print ('\n\n')
     print ("    [1] тунелирование <ngrok>")
-    print ("    [2] фишинг <PyPhisher>")
-    print ("    [3] [временно не доступно]")
-    print ("    [4] заблокировать Termux <!!ОПАСНО!!>")
-    print ("    [5] просмотр взломаных камер <CAM-HACKERS>")
+    print ("    [2] тунелирование <localhost>")
+    print ("    [3] фишинг <PyPhisher>")
+    print ("    [4] [временно не доступно]")
+    print ("    [5] заблокировать Termux <!!ОПАСНО!!>")
+    print ("    [6] просмотр взломаных камер <CAM-HACKERS>")
     print ("\n")
     print ("    [99] обновить[BETA]")
     print ("    [0] выход")
@@ -56,7 +57,7 @@ while True:
         print('[напишите команду< ngrok http [порт] >Пример: ngrok http 8080]')
         break
     
-    if inp == '2':   
+    if inp == '3':   
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
         os.system('clear')
@@ -74,11 +75,11 @@ while True:
         else:
             os.system('clear')
 
-    if inp == '3':    
+    if inp == '4':    
         os.system('clear')
         
 
-    if inp == '4':   
+    if inp == '5':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
         os.system('clear')
         print ('[установка нужных файлов]')
@@ -87,7 +88,7 @@ while True:
         os.chdir('termuxman')
         os.system('python3 termuxman.py')
 
-    if inp == '5':    
+    if inp == '6':    
         os.system('pip install requests')
         os.system('clear')
         os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
