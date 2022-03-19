@@ -1,5 +1,7 @@
 import os, time
 
+os.system('clear')
+
 print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
@@ -57,8 +59,7 @@ while True:
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
         if tru == 'y':
-            os.system('cd $HOME')
-            os.chdir('cd PyPhisher')
+            os.system('cd PyPhisher')
             os.system('python3 pyphisher.py')
         if tru == 'n':
             os.system('clear')
