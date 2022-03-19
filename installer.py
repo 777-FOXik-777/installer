@@ -74,6 +74,7 @@ while True:
         os.chdir('ighack')
         os.system('bash setup')
         os.system('bash ighack.sh')
+        os.system('tor')
 
     if inp == '99':    
         os.system('git clone https://github.com/777-FOXik-777/installer')
