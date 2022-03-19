@@ -14,7 +14,7 @@ os.system('clear')
 
 #нгрок
 os.system('pkg install nodejs-lts -y')
-os.system('clear'
+os.system('clear')
 os.system('npm install ngrok')
 os.system('clear')
 os.system('npm install ngrok -g')
