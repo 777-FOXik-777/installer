@@ -8,7 +8,7 @@ os.system('clear')
 os.system('pkg install python2')
 
 #нгрок
-os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
+os.system('git clone https://github.com/inconshreveable/ngrok.git')
 
 #фишинг
 os.system('git clone https://github.com/KasRoudra/PyPhisher')
