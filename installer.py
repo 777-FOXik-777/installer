@@ -24,11 +24,6 @@ time.sleep(3)
 os.system('clear')
 
 #фишинг
-os.system('git clone https://github.com/KasRoudra/PyPhisher')
-os.system('clear')
-print ('[установка нужных файлов]')
-time.sleep(3)
-os.system('clear')
 
 #брутфорс
 os.system('git clone https://github.com/noob-hackers/ighack')
@@ -90,6 +85,11 @@ while True:
         break
     
     if inp == '2':   
+        os.system('git clone https://github.com/KasRoudra/PyPhisher')
+        os.system('clear')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
+        os.system('clear')
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
         os.system('clear')
