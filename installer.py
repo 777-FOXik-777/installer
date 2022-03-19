@@ -60,9 +60,9 @@ while True:
     if inp == '2':   
         os.system('clear')
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
-        tru = input('\n Включили? [y/n] >>> ')
+        tru_2 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
-        if tru == 'y':
+        if tru_2 == 'y':
             print ('[установка нужных файлов]')
             time.sleep(3)
             
@@ -73,22 +73,22 @@ while True:
             os.system('clear')
             
             print('[Перед запуском выберете порт стандартный порт:8080]')
-            tru = input('\n Изменить порт? [y/n] >>> ')
-            if tru == 'y':
+            tru_3 = input('\n Изменить порт? [y/n] >>> ')
+            if tru_3 == 'y':
                 os.system('clear')
                 qw = 8080
                 qw = input('Введите порт>>>')
                 os.system('ssh -R 80:localhost:'qw' nokey@localhost.run')
 
 
-            if tru == 'n':
+            if tru_3 == 'n':
                 os.system('clear')
                 os.system('ssh -R 80:localhost:8080 nokey@localhost.run')
             else:
                 os.system('clear')
                 os.system('ssh -R 80:localhost:8080 nokey@localhost.run')
 
-        if tru == 'n':
+        if tru_2 == 'n':
             os.system('clear')
             pass
         else:
