@@ -38,7 +38,7 @@ while True:
     print ('\n\n')
     print ("    [1] тунелирование <ngrok>")
     print ("    [2] фишинг <PyPhisher>")
-    print ("    [3] брутфорс <Instagram> [временно не работает]")
+    print ("    [3] [временно не доступно]")
     print ("    [4] заблокировать Termux <!!ОПАСНО!!>")
     print ("    [5] просмотр взломаных камер <CAM-HACKERS>")
     print ("\n")
@@ -81,10 +81,7 @@ while True:
 
     if inp == '3':    
         os.system('clear')
-        os.chdir('ighack')
-        os.system('bash setup')
-        os.system('bash ighack.sh')
-        os.system('tor')
+        
 
     if inp == '4':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
