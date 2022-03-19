@@ -60,7 +60,7 @@ while True:
         tru = input('\n Включили? [y/n] >>> ')
         if tru == 'y':
             os.system('cd $HOME')
-            os.chdir('cd PyPhisher')
+            os.chdir('PyPhisher')
             os.system('python3 pyphisher.py')
         if tru == 'n':
             os.system('clear')
