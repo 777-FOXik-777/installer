@@ -28,7 +28,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("    [telegram: @SYPEXHACK]                            [v1.0]")
+    print ("[telegram: @SYPEXHACK]                        [v1.0]")
     time.sleep(2)
     print ('\n\n')
     print ("    [1] тунелирование <ngrok>")
