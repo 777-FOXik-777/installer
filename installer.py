@@ -43,6 +43,8 @@ time.sleep(3)
 os.system('clear')
 
 #камера
+os.system('pip install colorama')
+os.system('clear')
 os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
 os.system('clear')
 print ('[установка нужных файлов]')
