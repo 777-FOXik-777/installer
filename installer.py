@@ -88,6 +88,7 @@ while True:
                     os.system('yes')
                 else:
                     os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
+                    os.system('yes')
                     
 
             if tru_3 == 'n':
