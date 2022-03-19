@@ -1,5 +1,6 @@
 import os, time
 
+os.system('clear')
 print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
