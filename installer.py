@@ -14,9 +14,11 @@ os.system('clear')
 
 #нгрок
 os.system('pkg install nodejs-lts -y')
+os.system('clear'
 os.system('npm install ngrok')
 os.system('clear')
 os.system('npm install ngrok -g')
+os.system('clear')
 print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
@@ -67,7 +69,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("    [by @SYPEXHACK]                            [v1.0]")
+    print ("    [telegram: @SYPEXHACK]                            [v1.0]")
     time.sleep(2)
     print ('\n\n')
     print ("    [1] тунелирование <ngrok>")
