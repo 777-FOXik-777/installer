@@ -12,14 +12,9 @@ print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
 
-
-#камера
+#доп.файл
 os.system('pip install colorama')
-
-
 os.system('clear')
-
-
 
 
 print ('\n')
