@@ -12,21 +12,6 @@ print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
 
-#нгрок
-
-
-#фишинг
-
-
-#брутфорс
-os.system('git clone https://github.com/noob-hackers/ighack')
-os.system('clear')
-print ('[установка нужных файлов]')
-time.sleep(3)
-os.system('clear')
-
-#блокировка.тер..
-
 
 #камера
 os.system('pip install colorama')
@@ -86,7 +71,6 @@ while True:
             print ('[установка нужных файлов]')
             time.sleep(3)
             os.system('clear')
-            os.system('cd $HOME')
             os.chdir('PyPhisher')
             os.system('python3 pyphisher.py')
         if tru == 'n':
