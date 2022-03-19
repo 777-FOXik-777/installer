@@ -52,8 +52,7 @@ while True:
         os.chdir('termux-ngrok')
         os.system("chmod +x termux-ngrok.sh")
         os.system("./termux-ngrok.sh")
-        os.system('y')
-        os.system('ngrok http 80')
+
     
     if inp == '2':   
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
