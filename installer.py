@@ -211,7 +211,7 @@ while True:
         os.system('python cam-hackers.py')
 
 
-    if inp == '77'
+    if inp == '77':
         webbrowser.open('https://youtu.be/DKHoHBqK448')
 
 
