@@ -1,5 +1,5 @@
 
-# Установка Termux
+# Установка Installer на Termux
 
 + apt apdate
 
