@@ -18,7 +18,19 @@
 
 # installer
 
-| lol | lol | lol |
-|вшашв|лоо|hil|
+|PC python| ❌ |
 
-Телеграм: @SYPEXHACK
+| Termux | ✅ |
+
+|KaliLinux| ❌ |
+
+#### Telegram
+Первый создатель: @raund_3
+
+Второй создатель: @MR_FOXik
+
+Группа: @SYPEXHACK
+
+#### Поддержка автора
+
+https://www.donationalerts.com/r/legends_never_die
