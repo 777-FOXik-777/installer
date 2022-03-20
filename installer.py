@@ -64,7 +64,7 @@ while True:
             we_2 = input('Введите порт>>> ')
             if we_2 == '':
                 print(' Вы ничего не ввели ')
-                print('\n  Порт '+we+'\n')
+                print('[Порт '+we+']')
                 time.sleep(4)
                 os.system('clear')
                 os.system('ngrok http '+we+' ')
@@ -104,7 +104,7 @@ while True:
                 qw_2 = input('Введите порт>>> ')
                 if qw_2 == '':
                     print(' Вы ничего не ввели ')
-                    print('\n  Порт '+qw+'\n')
+                    print('[Порт '+qw+']')
                     time.sleep(4)
                     os.system('clear')
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
