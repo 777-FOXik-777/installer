@@ -208,7 +208,7 @@ while True:
 
     if inp == '0':
         os.system('clear')
-        print('Спасибо за использование')
+        print('Спасибо за использование [installer]')
         break
         
 
