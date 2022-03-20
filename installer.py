@@ -47,6 +47,8 @@ while True:
     if inp == '1':
         os.system('pkg install nodejs-lts -y')
         os.system('clear')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
         os.system('npm install ngrok')
         os.system('clear')
         os.system('npm install ngrok -g')
@@ -54,9 +56,28 @@ while True:
         print ('[установка нужных файлов]')
         time.sleep(3)
         os.system('clear')
-        print('[напишите команду< ngrok http [порт] >Пример: ngrok http 8080]')
-        break
-    
+        print('[<ngrok> стандартный порт 8080]')
+        tru_5 = input('\n Изменить порт? [y/n] >>> ')
+        if tru_5 == y:
+            os.system('cleae')
+            we  = 8080
+            we = input('Введите порт>>> ')
+                os.system('ngrok http '+we+')
+                if qw_2 == '':
+                    print(' Вы ничего не ввели ')
+                    print('\n  Порт '+qw+'\n')
+                    time.sleep(4)
+                    os.system('clear')
+                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+
+        if tru_5 == n:
+            os.system('clear')
+            os.system('ngrok http 8080')
+        else:
+            os.system('clear')
+            os.system('ngrok http 8080')
+
+
     if inp == '2':   
         os.system('clear')
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
@@ -73,7 +94,7 @@ while True:
             os.system('pkg install openssh -y')
             os.system('clear')
             
-            print('[стандартный порт:8080]')
+            print('[<localhost> стандартный порт:8080]')
             tru_3 = input('\n Изменить порт? [y/n] >>> ')
             if tru_3 == 'y':
                 os.system('clear')
