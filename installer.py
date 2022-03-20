@@ -60,11 +60,11 @@ while True:
         print('[<ngrok> стандартный порт 8080]')
         tru_5 = input('\n Изменить порт? [y/n] >>> ')
         if tru_5 == 'y':
-            os.system('cleae')
+            os.system('clear')
             we_2 = input('Введите порт>>> ')
             if we_2 == '':
                 print(' Вы ничего не ввели ')
-                print('[Порт '+we+']')
+                print('[Порт "we"]')
                 time.sleep(4)
                 os.system('clear')
                 os.system('ngrok http "we" ')
@@ -104,7 +104,7 @@ while True:
                 qw_2 = input('Введите порт>>> ')
                 if qw_2 == '':
                     print(' Вы ничего не ввели ')
-                    print('[Порт '+qw+']')
+                    print('[Порт "+qw+"]')
                     time.sleep(4)
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
