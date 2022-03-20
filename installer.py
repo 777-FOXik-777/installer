@@ -148,7 +148,10 @@ while True:
 
     if inp == '4':    
         os.system('clear')
-        
+        os.system('pkg install openssh -y')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
+        os.system('
 
     if inp == '5':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
