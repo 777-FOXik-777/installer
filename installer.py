@@ -63,12 +63,15 @@ while True:
             we  = 8080
             we = input('Введите порт>>> ')
                 os.system('ngrok http '+we+' ')
-                if qw_2 == '':
+                if we_2 == '':
                     print(' Вы ничего не ввели ')
                     print('\n  Порт '+we+'\n')
                     time.sleep(4)
                     os.system('clear')
                     os.system('ngrok http '+we+' ')
+                else:
+                    os.system('clear')
+                    os.system('ngrok http '+we_2+' ')
 
         if tru_5 == n:
             os.system('clear')
