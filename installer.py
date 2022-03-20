@@ -1,4 +1,4 @@
-import os, time
+import os, time, webbrowser
 
 os.system('clear')
 print ('[установка нужных файлов]')
@@ -209,6 +209,11 @@ while True:
         os.chdir('Cam-Hackers')
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
+
+
+    if inp == '77'
+        webbrowser.open('https://youtu.be/DKHoHBqK448')
+
 
 
     if inp == '99':    
