@@ -109,27 +109,23 @@ while True:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:"+qw+" nokey@localhost.run')
-                    os.system('yes')
+                    os.system('ssh -R 80:localhost:"qw" nokey@localhost.run')
                 else:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:"+qw_2+" nokey@localhost.run')
-                    os.system('yes')
+                    os.system('ssh -R 80:localhost:"qw_2" nokey@localhost.run')
 
             if tru_3 == 'n':
                 os.system('clear')
                 print('[Ваша ссылка находится в самом нижнем ряде]')
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:"+qw+" nokey@localhost.run')
-                os.system('yes')
+                os.system('ssh -R 80:localhost:"qw" nokey@localhost.run')
             else:
                 os.system('clear')
                 print('[Ваша ссылка находится в самом нижнем ряде]')
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:"+qw+" nokey@localhost.run')
-                os.system('yes')
+                os.system('ssh -R 80:localhost:"qw" nokey@localhost.run')
 
         if tru_2 == 'n':
             os.system('clear')
@@ -173,7 +169,7 @@ while True:
         print('[введите ссылку на сайт для ддос атаки]')
         ano = input('введите ссылку>>>')
         os.system('python doser.py')
-        os.system("+ano+")
+        os.system("ano")
         os.system('800')
 
     if inp == '5':   
