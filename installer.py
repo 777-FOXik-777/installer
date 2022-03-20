@@ -226,9 +226,3 @@ while True:
         os.system('clear')
         print('Спасибо за использование [installer]')
         break
-        
-
-    if inp < '0':
-        os.system('clear')
-        pass
-
