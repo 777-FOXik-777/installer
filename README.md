@@ -1,19 +1,19 @@
 
 # Установка Termux
 
-apt apdate
++ apt apdate
 
-apt upgrade
++ apt upgrade
 
-pkg install python
++ pkg install python
 
-pkg install git
++ pkg install git
 
-git clone https://github.com/777-FOXik-777/installer
++ git clone https://github.com/777-FOXik-777/installer
 
-cd installer
++ cd installer
 
-python3 installer.py
++ python3 installer.py
 
 
 # installer
