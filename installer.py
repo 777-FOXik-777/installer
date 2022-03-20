@@ -213,7 +213,7 @@ while True:
 
 
     if inp == '77':
-        os.system('https://www.donationalerts.com/r/legends_never_die')
+        os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
 
 
     if inp == '99':    
