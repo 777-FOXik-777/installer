@@ -58,7 +58,7 @@ while True:
             os.system('npm install ngrok -g')
             os.system('clear')
             print ('[установка нужных файлов]')
-            we  = 8080
+            we  = '8080'
             time.sleep(3)
             os.system('clear')
             print('[<ngrok> стандартный порт 8080]')
@@ -69,10 +69,10 @@ while True:
                 if we_2 == '':
                     os.system('clear')
                     print(' Вы ничего не ввели ')
-                    print('[Порт "+we+"]')
+                    print('[Порт '+we+']')
                     time.sleep(4)
                     os.system('clear')
-                    os.system('ngrok http "we" ')
+                    os.system('ngrok http '+we)
                 else:
                     os.system('clear')
                     os.system('ngrok http '+we_2)
@@ -108,7 +108,7 @@ while True:
             time.sleep(3)
             os.system('pkg install openssh -y')
             os.system('clear')
-            qw = 8080
+            qw = '8080'
             
             print('[<localhost> стандартный порт:8080]')
             tru_3 = input('\n Изменить порт? [y/n] >>> ')
@@ -123,7 +123,7 @@ while True:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:"+qw+" nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 else:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
