@@ -75,23 +75,22 @@ while True:
                     os.system('ngrok http "we" ')
                 else:
                     os.system('clear')
-                    os.system('ngrok http "we_2" ')
+                    os.system('ngrok http '+we_2)
 
             if tru_5 == 'n':
                 os.system('clear')
-                os.system('ngrok http "we" ')
+                os.system('ngrok http '+we)
             else:
                 os.system('clear')
-                os.system('ngrok http "we" ')
+                os.system('ngrok http '+we)
 
         if tru_6 == 'n':
             os.system('clear')
             print('[пожалуйста включите моб. Точку доступа и повторите]')
             time.sleep(3)
-            pass
         else:
             os.system('clear')
-            print('[вы ввели не правильное значение, попробуйте ещё раз]')
+     
 
 
     if inp == '2':   
