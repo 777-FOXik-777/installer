@@ -63,8 +63,9 @@ while True:
             os.system('clear')
             we_2 = input('Введите порт>>> ')
             if we_2 == '':
+                os.system('clear')
                 print(' Вы ничего не ввели ')
-                print('[Порт "we"]')
+                print('[Порт "+we+"]')
                 time.sleep(4)
                 os.system('clear')
                 os.system('ngrok http "we" ')
@@ -103,6 +104,7 @@ while True:
                 os.system('clear')
                 qw_2 = input('Введите порт>>> ')
                 if qw_2 == '':
+                    os.system('clear')
                     print(' Вы ничего не ввели ')
                     print('[Порт "+qw+"]')
                     time.sleep(4)
