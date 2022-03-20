@@ -58,7 +58,7 @@ while True:
         os.system('clear')
         print('[<ngrok> стандартный порт 8080]')
         tru_5 = input('\n Изменить порт? [y/n] >>> ')
-        if tru_5 == y:
+        if tru_5 == 'y':
             os.system('cleae')
             we  = 8080
             we_2 = input('Введите порт>>> ')
@@ -72,7 +72,7 @@ while True:
                 os.system('clear')
                 os.system('ngrok http '+we_2+' ')
 
-        if tru_5 == n:
+        if tru_5 == 'n':
             os.system('clear')
             os.system('ngrok http 8080')
         else:
