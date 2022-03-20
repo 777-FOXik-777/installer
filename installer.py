@@ -39,6 +39,7 @@ while True:
     print ("    [6] просмотр взломаных камер <CAM-HACKERS>")
     print ("\n")
     print ("    [77] поддержка автора")
+    print("     [66] тг канал автора")
     print ("    [99] обновить[BETA]")
     print ("    [00] выход")
     print ("\n\n")
@@ -225,7 +226,9 @@ while True:
         os.system('python3 installer.py')
         os.system('clear')
         
-
+    if inp == '66':
+        os.system('xdg-open https://t.me/SYPEXHACK')
+        os.system('clear')
     if inp == '00':
         os.system('clear')
         print('Спасибо за использование [installer]')
