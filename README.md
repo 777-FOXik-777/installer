@@ -3,11 +3,11 @@
 
 + apt apdate
 
-+ apt upgrade
++ apt upgrade -y
 
-+ pkg install python
++ pkg install python -y
 
-+ pkg install git
++ pkg install git -y
 
 + git clone https://github.com/777-FOXik-777/installer
 
