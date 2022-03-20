@@ -67,17 +67,17 @@ while True:
                 print('[Порт '+we+']')
                 time.sleep(4)
                 os.system('clear')
-                os.system('ngrok http '+we+' ')
+                os.system('ngrok http "we" ')
             else:
                 os.system('clear')
-                os.system('ngrok http '+we_2+' ')
+                os.system('ngrok http "we_2" ')
 
         if tru_5 == 'n':
             os.system('clear')
-            os.system('ngrok http '+we+' ')
+            os.system('ngrok http "we" ')
         else:
             os.system('clear')
-            os.system('ngrok http '+we+' ')
+            os.system('ngrok http "we" ')
 
 
     if inp == '2':   
@@ -109,26 +109,26 @@ while True:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:"+qw+" nokey@localhost.run')
                     os.system('yes')
                 else:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:"+qw_2+" nokey@localhost.run')
                     os.system('yes')
 
             if tru_3 == 'n':
                 os.system('clear')
                 print('[Ваша ссылка находится в самом нижнем ряде]')
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                os.system('ssh -R 80:localhost:"+qw+" nokey@localhost.run')
                 os.system('yes')
             else:
                 os.system('clear')
                 print('[Ваша ссылка находится в самом нижнем ряде]')
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                os.system('ssh -R 80:localhost:"+qw+" nokey@localhost.run')
                 os.system('yes')
 
         if tru_2 == 'n':
@@ -173,7 +173,7 @@ while True:
         print('[введите ссылку на сайт для ддос атаки]')
         ano = input('введите ссылку>>>')
         os.system('python doser.py')
-        os.system('+ano+')
+        os.system("+ano+")
         os.system('800')
 
     if inp == '5':   
