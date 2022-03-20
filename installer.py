@@ -45,40 +45,53 @@ while True:
     os.system('clear')
     
     if inp == '1':
-        os.system('pkg install nodejs-lts -y')
+        print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        tru_6 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
-        print ('[установка нужных файлов]')
-        time.sleep(3)
-        os.system('npm install ngrok')
-        os.system('clear')
-        os.system('npm install ngrok -g')
-        os.system('clear')
-        print ('[установка нужных файлов]')
-        we  = 8080
-        time.sleep(3)
-        os.system('clear')
-        print('[<ngrok> стандартный порт 8080]')
-        tru_5 = input('\n Изменить порт? [y/n] >>> ')
-        if tru_5 == 'y':
+        if tru_6 == 'y':
+            os.system('pkg install nodejs-lts -y')
             os.system('clear')
-            we_2 = input('Введите порт>>> ')
-            if we_2 == '':
+            print ('[установка нужных файлов]')
+            time.sleep(3)
+            os.system('npm install ngrok')
+            os.system('clear')
+            os.system('npm install ngrok -g')
+            os.system('clear')
+            print ('[установка нужных файлов]')
+            we  = 8080
+            time.sleep(3)
+            os.system('clear')
+            print('[<ngrok> стандартный порт 8080]')
+            tru_5 = input('\n Изменить порт? [y/n] >>> ')
+            if tru_5 == 'y':
                 os.system('clear')
-                print(' Вы ничего не ввели ')
-                print('[Порт "+we+"]')
-                time.sleep(4)
+                we_2 = input('Введите порт>>> ')
+                if we_2 == '':
+                    os.system('clear')
+                    print(' Вы ничего не ввели ')
+                    print('[Порт "+we+"]')
+                    time.sleep(4)
+                    os.system('clear')
+                    os.system('ngrok http "we" ')
+                else:
+                    os.system('clear')
+                    os.system('ngrok http "we_2" ')
+
+            if tru_5 == 'n':
                 os.system('clear')
                 os.system('ngrok http "we" ')
             else:
                 os.system('clear')
-                os.system('ngrok http "we_2" ')
+                os.system('ngrok http "we" ')
 
-        if tru_5 == 'n':
+        if tru_6 == 'n':
             os.system('clear')
-            os.system('ngrok http "we" ')
+            print('[пожалуйста включите моб. Точку доступа и повторите]')
+            time.sleep(3)
+            pass
         else:
             os.system('clear')
-            os.system('ngrok http "we" ')
+            print('[вы ввели не правильное значение, попробуйте ещё раз]')
 
 
     if inp == '2':   
@@ -131,9 +144,12 @@ while True:
                 
         if tru_2 == 'n':
             os.system('clear')
+            print('[пожалуйста включите моб. Точку доступа и повторите]')
+            time.sleep(3)
             pass
         else:
             os.system('clear')
+            print('[вы ввели не правильное значение, попробуйте ещё раз]')
 
 
     if inp == '3':   
