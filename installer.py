@@ -149,7 +149,7 @@ while True:
             pass
         else:
             os.system('clear')
-            print('[вы ввели не правильное значение, попробуйте ещё раз]')
+
 
 
     if inp == '3':   
