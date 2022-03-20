@@ -38,6 +38,7 @@ while True:
     print ("    [5] заблокировать Termux <!!ОПАСНО!!>")
     print ("    [6] просмотр взломаных камер <CAM-HACKERS>")
     print ("\n")
+    print ("    [77] поддержка автора")
     print ("    [99] обновить[BETA]")
     print ("    [0] выход")
     print ("\n\n")
@@ -212,8 +213,7 @@ while True:
 
 
     if inp == '77':
-        webbrowser.open_new_tab('https://youtu.be')
-
+        os.system('xdg-open https://t.me/SYPEXHACK')
 
 
     if inp == '99':    
