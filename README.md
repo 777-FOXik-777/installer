@@ -18,11 +18,7 @@
 
 # installer
 
-Termux ✅
-
-PC Python ❌
-
-Kali Linux ❌
-
+| lol | lol | lol |
+|вшашв|лоо|hil|
 
 Телеграм: @SYPEXHACK
