@@ -65,7 +65,7 @@ while True:
                 os.system('ngrok http '+we+' ')
                 if qw_2 == '':
                     print(' Вы ничего не ввели ')
-                    print('\n  Порт '+qw+'\n')
+                    print('\n  Порт '+we+'\n')
                     time.sleep(4)
                     os.system('clear')
                     os.system('ngrok http '+we+' ')
