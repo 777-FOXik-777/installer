@@ -212,7 +212,7 @@ while True:
 
 
     if inp == '77':
-        webbrowser.open_new('https://youtu.be')
+        webbrowser.open_new_tab('https://youtu.be')
 
 
 
