@@ -159,7 +159,7 @@ while True:
     if inp == '4':    
         os.system('clear')
         os.system('pkg install openssh -y')
-        os.system('clear'l
+        os.system('clear')
         print ('[установка нужных файлов]')
         time.sleep(3)
         os.system('git clone https://github.com/lamer112311/Doser')
@@ -170,8 +170,11 @@ while True:
         os.chdir('Doser')
         os.system('bash install.sh')
         os.system('clear')
+        priny('[введите ссылку на сайт для ддос атаки]
+        ano = input('введите ссылку>>>')
         os.system('python doser.py')
-
+        os.system('+ano+')
+        os.system('800')
 
     if inp == '5':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
