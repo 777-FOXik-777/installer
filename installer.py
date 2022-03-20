@@ -28,7 +28,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("[01] telegram: @SYPEXHACK                     [v1.0]")
+    print ("[telegram: @SYPEXHACK]                        [v1.0]")
     time.sleep(2)
     print ('\n\n')
     print ("    [1] тунелирование <ngrok>")
@@ -213,10 +213,6 @@ while True:
 
 
     if inp == '77':
-        os.system('xdg-open https://t.me/SYPEXHACK')
-
-
-    if inp == '01':
         os.system('xdg-open https://t.me/SYPEXHACK')
 
 
