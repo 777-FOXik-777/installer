@@ -170,7 +170,7 @@ while True:
         os.chdir('Doser')
         os.system('bash install.sh')
         os.system('clear')
-        priny('[введите ссылку на сайт для ддос атаки]
+        print('[введите ссылку на сайт для ддос атаки]')
         ano = input('введите ссылку>>>')
         os.system('python doser.py')
         os.system('+ano+')
