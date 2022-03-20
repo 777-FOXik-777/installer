@@ -34,7 +34,7 @@ while True:
     print ("    [1] тунелирование <ngrok>")
     print ("    [2] тунелирование <localhost>")
     print ("    [3] фишинг <PyPhisher>")
-    print ("    [4] [временно не доступно]")
+    print ("    [4] ддос <Doser>")
     print ("    [5] заблокировать Termux <!!ОПАСНО!!>")
     print ("    [6] просмотр взломаных камер <CAM-HACKERS>")
     print ("\n")
@@ -151,7 +151,15 @@ while True:
         os.system('pkg install openssh -y')
         print ('[установка нужных файлов]')
         time.sleep(3)
-        os.system('
+        os.system('git clone https://github.com/lamer112311/Doser')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
+        os.system('clear')
+        os.chdir('Doser')
+        os.system('bash install.sh')
+        os.system('clear')
+        os.system('python doser.py')
+
 
     if inp == '5':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
