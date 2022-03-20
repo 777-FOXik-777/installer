@@ -41,7 +41,7 @@ while True:
     print ("    [99] обновить[BETA]")
     print ("    [0] выход")
     print ("\n\n")
-    inp = input ('  Выбери пункт>>>  ')
+    inp = input ('  Выбери пункт>>> ')
     os.system('clear')
     
     if inp == '1':
@@ -54,13 +54,13 @@ while True:
         os.system('npm install ngrok -g')
         os.system('clear')
         print ('[установка нужных файлов]')
+        we  = 8080
         time.sleep(3)
         os.system('clear')
         print('[<ngrok> стандартный порт 8080]')
         tru_5 = input('\n Изменить порт? [y/n] >>> ')
         if tru_5 == 'y':
             os.system('cleae')
-            we  = 8080
             we_2 = input('Введите порт>>> ')
             if we_2 == '':
                 print(' Вы ничего не ввели ')
@@ -74,10 +74,10 @@ while True:
 
         if tru_5 == 'n':
             os.system('clear')
-            os.system('ngrok http 8080')
+            os.system('ngrok http '+we+' ')
         else:
             os.system('clear')
-            os.system('ngrok http 8080')
+            os.system('ngrok http '+we+' ')
 
 
     if inp == '2':   
