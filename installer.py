@@ -62,13 +62,13 @@ while True:
             os.system('cleae')
             we  = 8080
             we = input('Введите порт>>> ')
-                os.system('ngrok http '+we+')
+                os.system('ngrok http '+we+' ')
                 if qw_2 == '':
                     print(' Вы ничего не ввели ')
                     print('\n  Порт '+qw+'\n')
                     time.sleep(4)
                     os.system('clear')
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                    os.system('ngrok http '+we+' ')
 
         if tru_5 == n:
             os.system('clear')
