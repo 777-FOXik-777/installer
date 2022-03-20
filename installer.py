@@ -151,9 +151,11 @@ while True:
     if inp == '4':    
         os.system('clear')
         os.system('pkg install openssh -y')
+        os.system('clear'l
         print ('[установка нужных файлов]')
         time.sleep(3)
         os.system('git clone https://github.com/lamer112311/Doser')
+        os.system('clear')
         print ('[установка нужных файлов]')
         time.sleep(3)
         os.system('clear')
