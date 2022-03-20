@@ -112,6 +112,7 @@ while True:
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                     os.system('yes')
                 else:
+                    os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
                     os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
@@ -119,8 +120,8 @@ while True:
 
             if tru_3 == 'n':
                 os.system('clear')
-                    print('[Ваша ссылка находится в самом нижнем ряде]')
-                    time.sleep(4)
+                print('[Ваша ссылка находится в самом нижнем ряде]')
+                time.sleep(4)
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 os.system('yes')
             else:
