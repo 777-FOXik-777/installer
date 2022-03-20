@@ -133,6 +133,7 @@ while True:
         else:
             os.system('clear')
 
+
     if inp == '3':   
         os.system('clear')
         print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
@@ -152,6 +153,7 @@ while True:
         else:
             os.system('clear')
 
+
     if inp == '4':    
         os.system('clear')
         os.system('pkg install openssh -y')
@@ -166,11 +168,8 @@ while True:
         os.chdir('Doser')
         os.system('bash install.sh')
         os.system('clear')
-        print('[введите ссылку на сайт для ддос атаки]')
-        ano = input('введите ссылку>>>')
         os.system('python doser.py')
-        os.system("ano")
-        os.system('800')
+
 
     if inp == '5':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
@@ -180,6 +179,7 @@ while True:
         os.system('clear') 
         os.chdir('termuxman')
         os.system('python3 termuxman.py')
+
 
     if inp == '6':    
         os.system('pip install requests')
@@ -193,6 +193,7 @@ while True:
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
 
+
     if inp == '99':    
         os.system('git clone https://github.com/777-FOXik-777/installer')
         os.system('clear')
@@ -202,10 +203,12 @@ while True:
         os.system('python3 installer.py')
         os.system('clear')
         
+
     if inp == '0':
         os.system('clear')
         break
         
+
     if inp < '0':
         os.system('clear')
         pass
