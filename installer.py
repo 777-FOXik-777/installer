@@ -40,7 +40,7 @@ while True:
     print ("\n")
     print ("    [77] поддержка автора")
     print ("    [99] обновить[BETA]")
-    print ("    [0] выход")
+    print ("    [00] выход")
     print ("\n\n")
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
@@ -226,7 +226,7 @@ while True:
         os.system('clear')
         
 
-    if inp == '0':
+    if inp == '00':
         os.system('clear')
         print('Спасибо за использование [installer]')
         break
