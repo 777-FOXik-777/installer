@@ -222,8 +222,8 @@ while True:
         print("\n")
         print('https://bit.ly/3ild93L')
         print("\n")
-        tru_7 = input('нажмите entr чтобы проложить')
-            if tru_7 == 'y':
+        tru_8 = input('нажмите entr чтобы проложить')
+            if tru_8 == 'y':
                 os.system('clear')
                 pass
             else:
