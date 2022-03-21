@@ -238,8 +238,8 @@ while True:
         print('В второй ряд  вводим ссылку которую мы хотим получить,')
         print('пример: https://Instagram.com В третьем ряде нажимаем entr.')
         print('В итоге получаем редирект ссылку, которая выглядит')
-        print('более менее нормально.')
-        time.sleep(8)
+        print('более менее нормально.]')
+        time.sleep(10)
         os.system('bash maskphish.sh')
 
 
