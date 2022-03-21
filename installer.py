@@ -233,8 +233,14 @@ while True:
     if inp == '08':
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
+        os.system('clear')
+        print('[Инструкция:В первый ряд вводим вашу фишинг ссылку.')
+        print('В второй ряд  вводим ссылку которую мы хотим получить, пример: https://Instagram.com')
+        print('В третьем ряде нажимаем entr.')
+        print('В итоге получаем редирект ссылку, которая выглядит более менее нормально.')
+        time.sleep(4)
         os.system('bash maskphish.sh')
-        os.system('https://t.me/SYPEXHACK')
+
 
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
