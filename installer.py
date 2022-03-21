@@ -47,7 +47,7 @@ while True:
     print (Fore.YELLOW+"    [8] замаскировать фишинг <maskphish>")
     print ("\n")
     print (Fore.GREEN+"    [77] поддержка автора")
-    print (Fore.WHITE"    [66] тг канал автора")
+    print (Fore.WHITE+"    [66] тг канал автора")
     print (Fore.CYAN+"    [99] обновить[BETA]")
     print (Fore.WHITE+"    [00] выход")
     res()
