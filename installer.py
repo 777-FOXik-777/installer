@@ -1,5 +1,9 @@
-import os, time, webbrowser
+import os, time, webbrowser, сolorama
+from colorama import Fore, Style
 
+def res():
+    print(Style.RESET_ALL)
+    
 os.system('clear')
 print ('[установка нужных файлов]')
 time.sleep(3)
@@ -18,9 +22,10 @@ os.system('clear')
 
 
 print ('\n')
-
+colorama.init()
 while True:
     print('\n\n')
+    print(colorama.Fore.FREEN+'')
     print (" #                 #          ##    ##              ")
     print ("                   #           #     #              ")
     print ("##   ###    ###   ###    ###   #     #     ##   ### ")
@@ -29,27 +34,29 @@ while True:
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
     print ("[telegram: @SYPEXHACK]                        [v1.5]")
+    res()
     time.sleep(2)
     print ('\n\n')
-    print ("    [1] тунелирование <ngrok>")
-    print ("    [2] тунелирование <localhost>")
-    print ("    [3] фишинг <PyPhisher>")
-    print ("    [4] ддос <Doser>")
-    print ("    [5] заблокировать Termux <!!ОПАСНО!!>")
-    print ("    [6] просмотр взломаных камер <CAM-HACKERS>")
-    print ("    [7] получить вирус ссылку <android>")
-    print ("    [8] замаскировать фишинг <maskphish>")
+    print (Fore.CYAN+"    [1] тунелирование <ngrok>")
+    print (Fore.CYAN+"    [2] тунелирование <localhost>")
+    print (Fore.GREEN+"    [3] фишинг <PyPhisher>")
+    print (Fore.RED+"    [4] ддос <Doser>")
+    print (Fore.RED+"    [5] заблокировать Termux <!!ОПАСНО!!>")
+    print (Fore.WHITE+"    [6] просмотр взломаных камер <CAM-HACKERS>")
+    print (Fore.RED+"    [7] получить вирус ссылку <android>")
+    print (Fore.YELLOW+"    [8] замаскировать фишинг <maskphish>")
     print ("\n")
-    print ("    [77] поддержка автора")
-    print ("    [66] тг канал автора")
-    print ("    [99] обновить[BETA]")
-    print ("    [00] выход")
+    print (Fore.GREEN+"    [77] поддержка автора")
+    print (Fore.WHITE"    [66] тг канал автора")
+    print (Fore.CYAN+"    [99] обновить[BETA]")
+    print (Fore.WHITE+"    [00] выход")
+    res()
     print ("\n\n")
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
     
     if inp == '1':
-        print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_6 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_6 == 'y':
@@ -99,7 +106,7 @@ while True:
 
     if inp == '2':   
         os.system('clear')
-        print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_2 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_2 == 'y':
@@ -157,7 +164,7 @@ while True:
 
     if inp == '3':   
         os.system('clear')
-        print('[ВНИМАНИЕ ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru == 'y':
