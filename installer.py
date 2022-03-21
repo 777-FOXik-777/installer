@@ -220,7 +220,7 @@ while True:
         print('ваша ссылка')
         print("\n")
         print('https://bit.ly/3ild93L')
-        tru_7 = input(нажмите entr чтобы проложить)
+        tru_7 = input('нажмите entr чтобы проложить')
             if tru_7 == '':
                 os.system('clear')
                 pass
