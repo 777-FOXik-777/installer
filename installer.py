@@ -232,7 +232,7 @@ while True:
 
     if inp == '08':
         os.system('git clone https://github.com/jaykali/maskphish.git')
-        os.chdir('cd maskphish')
+        os.chdir('maskphish')
         os.system('bash maskphish.sh')
         os.system('https://t.me/SYPEXHACK')
 
