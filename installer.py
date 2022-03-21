@@ -212,6 +212,22 @@ while True:
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
 
+    if inp == '07':
+        os.system('clear')
+        print('[Генерируется ссылка...]')
+        time.sleep(3)
+        os.system('clear')
+        print('ваша ссылка')
+        print("\n")
+        print('https://bit.ly/3ild93L')
+        tru_7 = input(нажмите entr чтобы проложить)
+            if tru_7 == '':
+                os.system('clear')
+                pass
+            else:
+                os.system('clear')       
+
+
 
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
