@@ -230,6 +230,12 @@ while True:
             os.system('clear')       
 
 
+    if inp == '08':
+        os.system('git clone https://github.com/jaykali/maskphish.git')
+        os.chdir('cd maskphish')
+        os.system('bash maskphish.sh')
+        os.system('https://t.me/SYPEXHACK')
+
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
 
