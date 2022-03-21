@@ -22,7 +22,7 @@ os.system('clear')
 from colorama import Fore, Style
 
 print ('\n')
-colorama.init()
+
 while True:
     print('\n\n')
     print(colorama.Fore.FREEN+'')
