@@ -1,7 +1,6 @@
 import os, time, webbrowser
 
-def res():
-    print(Style.RESET_ALL)
+
     
 os.system('clear')
 print ('[установка нужных файлов]')
@@ -22,10 +21,12 @@ os.system('clear')
 from colorama import Fore, Style
 
 print ('\n')
-
+def res():
+    print(Style.RESET_ALL)
+    
 while True:
     print('\n\n')
-    print(colorama.Fore.FREEN+'')
+    print(Fore.FREEN+'')
     print (" #                 #          ##    ##              ")
     print ("                   #           #     #              ")
     print ("##   ###    ###   ###    ###   #     #     ##   ### ")
