@@ -26,7 +26,7 @@ def res():
     
 while True:
     print('\n\n')
-    print(Fore.FREEN+'')
+    print(Fore.GREEN+'')
     print (" #                 #          ##    ##              ")
     print ("                   #           #     #              ")
     print ("##   ###    ###   ###    ###   #     #     ##   ### ")
