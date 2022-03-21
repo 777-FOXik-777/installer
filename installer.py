@@ -212,6 +212,7 @@ while True:
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
 
+
     if inp == '07':
         os.system('clear')
         print('[Генерируется ссылка...]')
@@ -222,12 +223,11 @@ while True:
         print('https://bit.ly/3ild93L')
         print("\n")
         tru_7 = input('нажмите entr чтобы проложить')
-            if tru_7 == 'ok':
+            if tru_7 == 'y':
                 os.system('clear')
                 pass
             else:
                 os.system('clear')       
-
 
 
     if inp == '77':
