@@ -19,7 +19,6 @@ os.system('clear')
 os.system('pip install colorama')
 os.system('clear')
 
-import сolorama
 from colorama import Fore, Style
 
 print ('\n')
