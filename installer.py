@@ -223,11 +223,11 @@ while True:
         print('https://bit.ly/3ild93L')
         print("\n")
         tru_8 = input('нажмите entr чтобы проложить')
-            if tru_8 == 'y':
-                os.system('clear')
-                pass
-            else:
-                os.system('clear')       
+        if tru_8 == 'y':
+            os.system('clear')
+            pass
+        else:
+            os.system('clear')       
 
 
     if inp == '77':
