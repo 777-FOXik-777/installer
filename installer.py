@@ -1,5 +1,4 @@
-import os, time, webbrowser, сolorama
-from colorama import Fore, Style
+import os, time, webbrowser
 
 def res():
     print(Style.RESET_ALL)
@@ -20,6 +19,8 @@ os.system('clear')
 os.system('pip install colorama')
 os.system('clear')
 
+import сolorama
+from colorama import Fore, Style
 
 print ('\n')
 colorama.init()
