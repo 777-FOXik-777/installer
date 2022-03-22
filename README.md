@@ -17,7 +17,7 @@
 
 
 # installer 
-###[v1.7.3]
+--[v1.7.3]--
 
 |PC python| ❌ |
 
