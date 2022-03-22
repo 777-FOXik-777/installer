@@ -104,7 +104,7 @@ while True:
             time.sleep(3)
 
         if inp_2 =='92':
-            
+            os.system('clear')
 
 
 
