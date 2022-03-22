@@ -34,7 +34,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("[telegram: @SYPEXHACK]                        [v1.5]")
+    print ("[telegram: @SYPEXHACK]                      [v1.7.3]")
     res()
     time.sleep(2)
     print ('\n\n')
@@ -46,6 +46,8 @@ while True:
     print (Fore.YELLOW+"    [6] просмотр взломаных камер <CAM-HACKERS>")
     print (Fore.YELLOW+"    [7] получить вирус ссылку <android>")
     print (Fore.YELLOW+"    [8] замаскировать фишинг <maskphish>")
+    print (Fore.YELLOW+"    [9] пробив по номеру <phoneinfoga>
+    print (Fore.YELLOW+"    [10] пробив по ip <Uti-lite>
     print ("\n")
     print (Fore.CYAN+"    [77] поддержка автора")
     print (Fore.CYAN+"    [66] тг канал автора")
@@ -251,8 +253,14 @@ while True:
         print('более менее нормально.]')
         time.sleep(10)
         os.system('bash maskphish.sh')
+        tsu_14 = input('нажмите entr чтобы выйти>>>')
+        if tsu_14 =='':
+            os.system('clear')
+        else:
+            os.system('clear')
 
-    if inp == '09':
+
+    if inp == '9':
         at = '1'
         print('[установка нужных файлов]')
         time.sleep(3)
@@ -261,7 +269,7 @@ while True:
         os.chdir('PhoneInfoga')
         os.system('pip install -r requirements.txt')
         os.system('clear')
-        print('[Введите номер телефона в формате: +(код)##########')
+        print('[Введите номер телефона в формате: +(код)##########]')
         print('[Пример: +71237689098]')
         at = input('\n Введите номер >>> ')
         if at == '':
