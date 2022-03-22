@@ -68,17 +68,17 @@ while True:
 
 
     if inp == '1':
-        os.system(sl)
+        os.system(cmatrix)
 
 
     if inp == '2':
         os.system(sl)
 
     if inp == '3':
-        os.system(sl)
+        os.system(telnet mapscii.me)
 
     if inp == '4':
-        os.system(sl)
+        os.system(cacafire)
 
 
     if inp == '77':
