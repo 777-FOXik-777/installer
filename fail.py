@@ -1,6 +1,6 @@
 import os, time, webbrowser
 
-we = '<не установлен>'
+we = '<НЕ установлен>'
     
 os.system('clear')
 
@@ -62,7 +62,7 @@ while True:
     if inp == '1':
         os.system('pkg install php -y')
         os.system('pkg install php7 -y')
-        we = 'установлен'
+        we = '<установлен>'
         os.system('clear')
 
 
