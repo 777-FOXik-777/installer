@@ -265,10 +265,17 @@ while True:
         print('[Пример: +71237689098')
         at = input('\n Введите номер >>> ')
         if at == '':
+            os.system('clear')
             print('вы ничего не вывели')
             time.sleep(3)
         else:
+            os.system('clear')
             os.system('python phoneinfoga.py -n '+at)
+            tsu_14 = input('нажмите entr чтобы выйти>>>')
+            if tsu_14 =='':
+                os.system('clear')
+            else:
+                os.system('clear')
 
 
 
