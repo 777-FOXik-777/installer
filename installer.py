@@ -1,4 +1,4 @@
-import os, time, webbrowser
+import os, time, webbrowser, sys
     
 os.system('clear')
 print ('[установка нужных файлов]')
@@ -70,6 +70,7 @@ while True:
         time.sleep(3)
         os.system('python3 zabava.py')
         res()
+        sys.exit()
         
 
     if inp == '93':
