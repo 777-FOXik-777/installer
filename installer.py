@@ -61,12 +61,13 @@ while True:
         time.sleep(3)
         print('\n')
 
-
     if inp == '92':
         os.system('clear')
         print(Fore.RED+'[меню <забавы>]')
         time.sleep(3)
+        break
         os.system('python te.py')
+        res()
         
         
     if inp == '1':
