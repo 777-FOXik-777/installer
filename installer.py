@@ -57,7 +57,7 @@ while True:
 
     if inp == '91':
         os.system('clear')
-        print('+Fore.RED+'[меню <утилиты>]')
+        print(+Fore.RED+'[меню <утилиты>]')
         time.sleep(3)
 
     
