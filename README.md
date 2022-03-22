@@ -16,7 +16,7 @@
 + python3 installer.py
 
 
-# installer
+# installer [v1.7.3]
 
 |PC python| ❌ |
 
