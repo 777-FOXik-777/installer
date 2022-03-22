@@ -26,7 +26,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("[telegram: @SYPEXHACK]                      [v1.7.5]")
+    print ("[telegram: @SYPEXHACK]                      [v2.0.3]")
     res()
     time.sleep(1)
     print ('\n')
