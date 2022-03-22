@@ -1,5 +1,19 @@
 import os, time, webbrowser
 
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
+os.system('pkg install cmatrix')
+
+os.system('pkg install sl')
+
+print ('[установка нужных файлов]')
+time.sleep(3)
+os.system('clear')
+
+os.system('pkg install libcaca')
+
+
 from colorama import Fore, Style
 
 print ('\n')
