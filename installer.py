@@ -92,9 +92,9 @@ while True:
         os.system('clear')
 
         if inp_2 == '92':
-        os.system('clear')
-        print(Fore.RED+'[меню <забавы>]')
-        time.sleep(3)
+            os.system('clear')
+            print(Fore.RED+'[меню <забавы>]')
+            time.sleep(3)
 
 
 
