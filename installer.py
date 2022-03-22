@@ -68,9 +68,17 @@ while True:
         os.system('clear')
         print(Fore.RED+'[меню <забавы>]')
         time.sleep(3)
-        os.system('python te.py')
+        os.system('python3 zabava.py')
         res()
         
+
+    if inp == '93':
+        os.system('clear')
+        print(Fore.RED+'[меню <файлы>]')
+        time.sleep(3)
+        os.system('python3 fail.py')
+        res()
+
         
     if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
