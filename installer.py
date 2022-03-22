@@ -57,7 +57,7 @@ while True:
 
     if inp == '91':
         os.system('clear')
-        print(+Fore.RED+'[меню <утилиты>]')
+        print(Fore.RED+'[меню <утилиты>]')
         time.sleep(3)
 
     
@@ -324,8 +324,3 @@ while True:
         os.system('clear')
         print('Спасибо за использование [installer]')
         break
-    else:
-        os.system('clear')
-        print('[вы ввели не существующий номер]')
-        time.sleep(3.5)
-        os.system('clear')
