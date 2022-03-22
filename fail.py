@@ -48,7 +48,7 @@ while True:
         os.system('clear')
         print(Fore.RED+'[меню <утилиты>]')
         time.sleep(3)
-        os.system('python3 install.py')
+        os.system('python3 installer.py')
         res()
 
     if inp == '92':
