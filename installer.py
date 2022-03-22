@@ -1,6 +1,4 @@
 import os, time, webbrowser
-
-
     
 os.system('clear')
 print ('[установка нужных файлов]')
@@ -54,7 +52,7 @@ while True:
     print (Fore.CYAN+"    [99] обновить[BETA]")
     print (Fore.CYAN+"    [00] выход")
     res()
-    print ("\n\n")
+    print ("\n")
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
     
