@@ -1,3 +1,5 @@
+import os, time, webbrowser
+
 from colorama import Fore, Style
 
 print ('\n')
