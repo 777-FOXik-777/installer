@@ -2,6 +2,10 @@ import os, time, webbrowser
 
 we = '<НЕ установлен>'
     
+re = '<НЕ установлен>'
+
+de = '<НЕ установлен>'
+
 os.system('clear')
 
 from colorama import Fore, Style
@@ -29,13 +33,6 @@ while True:
     print (Fore.YELLOW+'    [1] установить php '+we)
     print (Fore.YELLOW+"    [2] ")
     print (Fore.YELLOW+"    [3] ")
-    print (Fore.YELLOW+"    [4] ")
-    print (Fore.YELLOW+"    [5] ")
-    print (Fore.YELLOW+"    [6] ")
-    print (Fore.YELLOW+"    [7] ")
-    print (Fore.YELLOW+"    [8] ")
-    print (Fore.YELLOW+"    [9] ")
-    print (Fore.YELLOW+"    [10] ")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.YELLOW+' утилиты'+Fore.CYAN+'[91] ║')
     print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.YELLOW+' забавы ' +Fore.CYAN+'[92] ║')
