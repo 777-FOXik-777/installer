@@ -324,3 +324,5 @@ while True:
     else:
         os.system('clear')
         print('[вы ввели не существующий номер]')
+        time.sleep(3.5)
+        os.system('clear')
