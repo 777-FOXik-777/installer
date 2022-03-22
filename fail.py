@@ -11,7 +11,6 @@ def res():
 while True:
     os.system('clear')
     print(Fore.RED+'[меню <файлы>]')
-    time.sleep(3)
     print('\n')
     print(Fore.GREEN+'')
     print (" #                 #          ##    ##              ")
