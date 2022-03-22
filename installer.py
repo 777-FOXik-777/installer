@@ -60,6 +60,14 @@ while True:
         print(Fore.RED+'[меню <утилиты>]')
         time.sleep(3)
         print('\n')
+
+
+
+    if inp == '92':
+        os.system('clear')
+        print(Fore.RED+'[меню <забавы>]')
+        time.sleep(3)
+        print('\n')
         print(Fore.GREEN+'')
         print (" #                 #          ##    ##              ")
         print ("                   #           #     #              ")
