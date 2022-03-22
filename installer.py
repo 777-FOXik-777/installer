@@ -252,6 +252,28 @@ while True:
         time.sleep(10)
         os.system('bash maskphish.sh')
 
+    if inp == '09':
+        print('[установка нужных файлов]')
+        time.sleep(3)
+        os.system('clear')
+        os.system('git clone https://github.com/Wes974/PhoneInfoga')
+        os.chdir('PhoneInfoga')
+        os.system('pip install -r requirements.txt')
+        os.system('clear')
+        print('
+
+
+
+    if inp == '10':
+        os.system('pip install requests')
+        print('[установка нужных файлов]')
+        time.sleep(3)
+        os.system('clear')
+        os.system('git clone https://github.com/MrProCatYT/Uti-lite')
+        os.chdir('Uti-lite')
+        os.system('clear')
+        os.system('python Uti-lite.py')
+
 
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
