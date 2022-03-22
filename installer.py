@@ -262,7 +262,7 @@ while True:
         os.system('pip install -r requirements.txt')
         os.system('clear')
         print('[Введите номер телефона в формате: +(код)##########')
-        print('[Пример: +71237689098')
+        print('[Пример: +71237689098]')
         at = input('\n Введите номер >>> ')
         if at == '':
             os.system('clear')
@@ -282,6 +282,7 @@ while True:
 
     if inp == '10':
         os.system('pip install requests')
+        os.system('clear')
         print('[установка нужных файлов]')
         time.sleep(3)
         os.system('clear')
@@ -289,6 +290,7 @@ while True:
         os.chdir('Uti-lite')
         os.system('clear')
         os.system('python Uti-lite.py')
+        os.system('clear')
 
 
     if inp == '77':
