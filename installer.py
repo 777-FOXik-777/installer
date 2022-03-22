@@ -54,6 +54,19 @@ while True:
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
+
+    if inp == '01':
+        os.system('clear')
+
+
+
+
+
+
+
+
+
+
     
     if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
