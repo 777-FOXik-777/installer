@@ -23,6 +23,9 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
+    os.system('clear')
+    print(Fore.RED+'[меню <утилиты>]')
+    time.sleep(3)
     print('\n')
     print(Fore.GREEN+'')
     print (" #                 #          ##    ##              ")
