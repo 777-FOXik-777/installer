@@ -253,7 +253,7 @@ while True:
         print('более менее нормально.]')
         time.sleep(10)
         os.system('bash maskphish.sh')
-        tsu_14 = input('нажмите entr чтобы выйти>>>')
+        tsu_14 = input('[нажмите entr чтобы выйти]')
         if tsu_14 =='':
             os.system('clear')
         else:
@@ -274,12 +274,12 @@ while True:
         at = input('\n Введите номер >>> ')
         if at == '':
             os.system('clear')
-            print('вы ничего не вывели')
+            print('[вы ничего не ввели]')
             time.sleep(3)
         else:
             os.system('clear')
             os.system('python phoneinfoga.py -n '+at)
-            tsu_14 = input('нажмите entr чтобы выйти>>>')
+            tsu_14 = input('[нажмите entr чтобы выйти]')
             if tsu_14 =='':
                 os.system('clear')
             else:
