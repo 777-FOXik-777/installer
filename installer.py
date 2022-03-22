@@ -47,15 +47,15 @@ while True:
     print (Fore.YELLOW+"    [9] пробив по номеру <phoneinfoga>")
     print (Fore.YELLOW+"    [10] пробив по ip <Uti-lite>")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
-    print (Fore.CYAN+"    [77] поддержка автора            ║>утилиты<[01]║")
-    print (Fore.CYAN+"    [66] тг канал автора             ║ забавы  [02]║")
-    print (Fore.CYAN+"    [99] обновить[BETA]              ║ файлы   [03]║")
+    print (Fore.CYAN+"    [77] поддержка автора            ║>утилиты<[91]║")
+    print (Fore.CYAN+"    [66] тг канал автора             ║ забавы  [92]║")
+    print (Fore.CYAN+"    [99] обновить[BETA]              ║ файлы   [93]║")
     print (Fore.CYAN+"    [00] выход                       ╚═════════════╝")
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
-    if inp == '01':
+    if inp == '91':
         os.system('clear')
 
     
