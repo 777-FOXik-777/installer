@@ -253,6 +253,7 @@ while True:
         os.system('bash maskphish.sh')
 
     if inp == '09':
+        at = '1'
         print('[установка нужных файлов]')
         time.sleep(3)
         os.system('clear')
@@ -260,7 +261,15 @@ while True:
         os.chdir('PhoneInfoga')
         os.system('pip install -r requirements.txt')
         os.system('clear')
-        print('
+        print('[Введите номер телефона в формате: +(код)##########')
+        print('[Пример: +71237689098')
+        at = input('\n Введите номер >>> ')
+        if at == '':
+            print('вы ничего не вывели')
+            time.sleep(3)
+        else:
+            os.system('python phoneinfoga.py -n '+at)
+
 
 
 
