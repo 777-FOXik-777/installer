@@ -65,7 +65,6 @@ while True:
         os.system('clear')
         print(Fore.RED+'[меню <забавы>]')
         time.sleep(3)
-        break
         os.system('python te.py')
         res()
         
