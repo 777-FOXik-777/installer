@@ -1,8 +1,5 @@
 import os, time, webbrowser
 
-we = "['+Fore.RED+'не установлен]"
-
-
     
 os.system('clear')
 
@@ -28,7 +25,7 @@ while True:
     res()
     time.sleep(1)
     print ('\n')
-    print (Fore.YELLOW+'    [1] установить php '+we+')
+    print (Fore.YELLOW+'    [1] установить php')
     print (Fore.YELLOW+"    [2] ")
     print (Fore.YELLOW+"    [3] ")
     print (Fore.YELLOW+"    [4] ")
@@ -59,6 +56,15 @@ while True:
 
     if inp == '93':
         os.system('clear')
+
+
+    if inp == '1':
+        os.system('pkg install php -y')
+        os.system('pkg install php7 -y')
+        os.system('clear')
+
+
+
 
 
 
