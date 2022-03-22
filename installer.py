@@ -50,7 +50,7 @@ while True:
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.GREEN+'>утилиты<'+Fore.CYAN+'[91]║')
     print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.RED+' забавы '+Fore.CYAN+' [92]║')
     print (Fore.CYAN+'    [99] обновить[BETA]              ║'+Fore.RED+' файлы  '+Fore.CYAN+' [93]║')
-    print (Fore.CYAN+'    [00] выход                       ╚═════════════╝")
+    print (Fore.CYAN+'    [00] выход                       ╚═════════════╝')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
