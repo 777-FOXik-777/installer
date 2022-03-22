@@ -56,3 +56,26 @@ while True:
 
     if inp == '93':
         os.system('clear')
+
+
+
+    if inp == '77':
+        os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
+
+
+    if inp == '99':    
+        os.system('git clone https://github.com/777-FOXik-777/installer')
+        os.system('clear')
+        print ("Загрузка...")
+        time.sleep(3)
+        os.chdir('installer')
+        os.system('python3 fail.py')
+        os.system('clear')
+        
+    if inp == '66':
+        os.system('xdg-open https://t.me/SYPEXHACK')
+        os.system('clear')
+    if inp == '00':
+        os.system('clear')
+        print('Спасибо за использование [installer]')
+        break
