@@ -35,7 +35,7 @@ while True:
     print ("[telegram: @SYPEXHACK]                      [v1.7.5]")
     res()
     time.sleep(1)
-    print ('\n\n')
+    print ('\n')
     print (Fore.YELLOW+"    [1] тунелирование <ngrok>")
     print (Fore.YELLOW+"    [2] тунелирование <localhost>")
     print (Fore.YELLOW+"    [3] фишинг <PyPhisher>")
