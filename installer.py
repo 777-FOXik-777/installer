@@ -34,7 +34,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("[telegram: @SYPEXHACK]                      [v1.7.5]")
+    print ("[telegram: @SYPEXHACK]                      [v2.0.3]")
     res()
     time.sleep(1)
     print ('\n')
@@ -201,6 +201,10 @@ while True:
 
     if inp == '4':    
         os.system('clear')
+        os.system('pkg install dropbear -y')
+        os.system('clear')
+        print ('[установка нужных файлов]')
+        time.sleep(3)
         os.system('pkg install openssh -y')
         os.system('clear')
         print ('[установка нужных файлов]')
