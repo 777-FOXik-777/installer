@@ -1,6 +1,6 @@
 import os, time, webbrowser
 
-we = ''+Fore.RED+'не установлен'
+we = "'+Fore.RED+'не установлен"
 
 
     
