@@ -66,16 +66,17 @@ while True:
 
 
     if inp == '1':
+        os.system(sl)
 
 
     if inp == '2':
-
+        os.system(sl)
 
     if inp == '3':
-
+        os.system(sl)
 
     if inp == '4':
-
+        os.system(sl)
 
 
     if inp == '77':
