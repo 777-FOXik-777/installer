@@ -46,12 +46,20 @@ while True:
         os.system('clear')
         print(Fore.RED+'[меню <утилиты>]')
         time.sleep(3)
-        print('\n')
+        os.system('python3 installer.py')
+        res()
+        sys.exit()
 
     if inp == '92':
         os.system('clear')
-        print(Fore.RED+'[меню <забавы>]')
+        print(Fore.RED+'[меню <утилиты>]')
         time.sleep(3)
-        os.system('python3 zabava.py')
+        print('\n')
+
+    if inp == '93':
+        os.system('clear')
+        print(Fore.RED+'[меню <файлы>]')
+        time.sleep(3)
+        os.system('python3 fail.py')
         res()
         sys.exit()
