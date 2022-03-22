@@ -31,7 +31,7 @@ while True:
     time.sleep(1)
     print ('\n')
     print (Fore.YELLOW+'    [1] установить php '+we)
-    print (Fore.YELLOW+"    [2] ")
+    print (Fore.YELLOW+'    [2] установить ssh '+re)
     print (Fore.YELLOW+"    [3] ")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.YELLOW+' утилиты'+Fore.CYAN+'[91] ║')
@@ -60,6 +60,12 @@ while True:
         os.system('pkg install php -y')
         os.system('pkg install php7 -y')
         we = '<установлен>'
+        os.system('clear')
+
+    if inp == '2':
+        os.system('pkg install dropbear -y')
+        os.system('pkg install openssh -y')
+        re = '<установлен>'
         os.system('clear')
 
 
