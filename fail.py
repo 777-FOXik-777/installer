@@ -70,7 +70,7 @@ while True:
         time.sleep(3)
         os.chdir('installer')
         os.system('python3 fail.py')
-        os.system('clear')
+
         
     if inp == '66':
         os.system('xdg-open https://t.me/SYPEXHACK')
