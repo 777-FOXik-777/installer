@@ -91,7 +91,7 @@ while True:
         inp_2 = input ('  Выбери пункт>>> ')
         os.system('clear')
 
-        if inp == '92':
+        if inp_2 == '92':
         os.system('clear')
         print(Fore.RED+'[меню <забавы>]')
         time.sleep(3)
