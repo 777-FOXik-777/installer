@@ -1,5 +1,6 @@
 import os, time, webbrowser
 
+os.system('clear')
 print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
@@ -11,7 +12,7 @@ print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
 
-os.system('pkg install libcaca')
+os.system('pkg install libcaca -y')
 
 
 from colorama import Fore, Style
