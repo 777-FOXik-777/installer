@@ -32,7 +32,7 @@ while True:
     print ('\n')
     print (Fore.YELLOW+'    [1] установить php '+we)
     print (Fore.YELLOW+'    [2] установить ssh '+re)
-    print (Fore.YELLOW+"    [3] ")
+    print (Fore.YELLOW+'    [3] установить requests '+de)
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.YELLOW+' утилиты'+Fore.CYAN+'[91] ║')
     print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.YELLOW+' забавы ' +Fore.CYAN+'[92] ║')
@@ -50,7 +50,7 @@ while True:
     if inp == '92':
         os.system('clear')
         os.system('python3 zabava.py')
-        
+
 
     if inp == '93':
         os.system('clear')
@@ -69,6 +69,10 @@ while True:
         os.system('clear')
 
 
+    if inp == '3':
+        os.system('pip install requests')
+        de = '<установлен>'
+        os.system('clear')
 
 
 
