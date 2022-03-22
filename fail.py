@@ -58,7 +58,7 @@ while True:
         os.system('python3 zabava.py')
         res()
 
-     if inp == '00':
+    if inp == '00':
         os.system('clear')
         print('Спасибо за использование [installer]')
         break
