@@ -69,16 +69,6 @@ while True:
         os.system('python te.py')
         
         
-        if inp_2 == '91':
-            os.system('clear')
-            print(Fore.RED+'[меню <утилиты>]')
-            time.sleep(3)
-
-
-
-
-
-
     if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_6 = input('\n Включили? [y/n] >>> ')
