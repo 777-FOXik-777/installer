@@ -46,7 +46,7 @@ while True:
     print (Fore.YELLOW+"    [8] замаскировать фишинг <maskphish>")
     print (Fore.YELLOW+"    [9] пробив по номеру <phoneinfoga>")
     print (Fore.YELLOW+"    [10] пробив по ip <Uti-lite>")
-    print ("\n                                             ╔═══════╗")
+    print (Fore.CYAN+"\n                                   ╔═══════╗")
     print (Fore.CYAN+"    [77] поддержка автора            ║           ║")
     print (Fore.CYAN+"    [66] тг канал автора             ║           ║")
     print (Fore.CYAN+"    [99] обновить[BETA]              ║           ║")
