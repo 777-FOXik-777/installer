@@ -60,24 +60,17 @@ while True:
 
     if inp == '91':
         os.system('clear')
-        print(Fore.RED+'[меню <утилиты>]')
-        time.sleep(3)
-        print('\n')
+        
 
     if inp == '92':
         os.system('clear')
-        print(Fore.RED+'[меню <забавы>]')
-        time.sleep(3)
         os.system('python3 zabava.py')
-        res()
         
 
     if inp == '93':
         os.system('clear')
-        print(Fore.RED+'[меню <файлы>]')
-        time.sleep(3)
         os.system('python3 fail.py')
-        res()
+       
 
         
     if inp == '1':
