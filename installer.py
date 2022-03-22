@@ -34,7 +34,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("[telegram: @SYPEXHACK]                      [v1.7.3]")
+    print ("[telegram: @SYPEXHACK]                      [v1.7.4]")
     res()
     time.sleep(2)
     print ('\n\n')
@@ -321,3 +321,6 @@ while True:
         os.system('clear')
         print('Спасибо за использование [installer]')
         break
+    else:
+        os.system('clear')
+        print('[вы ввели не существующий номер]')
