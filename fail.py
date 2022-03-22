@@ -1,6 +1,6 @@
 import os, time, webbrowser
 
-we = '❌'
+we = ''+Fore.RED+'не установлен'
 
 
     
@@ -28,7 +28,7 @@ while True:
     res()
     time.sleep(1)
     print ('\n')
-    print (Fore.YELLOW+'    [1] установить php ['+we)
+    print (Fore.YELLOW+'    [1] установить php '+we)
     print (Fore.YELLOW+"    [2] ")
     print (Fore.YELLOW+"    [3] ")
     print (Fore.YELLOW+"    [4] ")
