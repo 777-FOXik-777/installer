@@ -38,7 +38,7 @@ while True:
 
     if inp == '91':
         os.system('clear')
-        os.system('python3 installer.py')
+        os.system('python3 tool.py')
 
 
     if inp == '92':
