@@ -7,6 +7,7 @@ os.system('clear')
 os.system('pkg install cmatrix')
 
 os.system('pkg install sl')
+os.system('pkg install tty-clock')
 
 os.system('clear')
 print ('[установка нужных файлов]')
@@ -14,7 +15,7 @@ time.sleep(3)
 os.system('clear')
 
 os.system('pkg install libcaca -y')
-
+os.system('pkg install toilet')
 
 from colorama import Fore, Style
 
@@ -78,6 +79,25 @@ while True:
 
     if inp == '4':
         os.system('cacafire')
+
+
+    if inp == '5':
+        os.system('tty-clock')
+
+
+    if inp == '6':
+        os.system('clear')
+        print(Fore.YELLOW+'[выберете стиль]')
+        print('[1] метал')
+        print('[2] радуга')
+        inp_2 = input ('  Выбери пункт>>> ')
+        os.system('clear')
+        if inp_2 == '1'
+            
+
+
+        if inp_2 == '2'
+ 
 
 
     if inp == '77':
