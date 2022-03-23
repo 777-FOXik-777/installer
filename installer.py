@@ -1,3 +1,5 @@
+
+
 os.system('clear')
 print ('[установка нужных файлов]')
 time.sleep(3)
