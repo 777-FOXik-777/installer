@@ -6,6 +6,12 @@ re = '<НЕ установлен>'
 
 de = '<НЕ установлен>'
 
+ke = '<НЕ установлен>'
+
+te = '<НЕ установлен>'
+
+le = '<НЕ установлен>'
+
 os.system('clear')
 
 from colorama import Fore, Style
@@ -74,7 +80,20 @@ while True:
         de = '<установлен>'
         os.system('clear')
 
+    if inp == '4':
+        os.system('pip install lolcat')
+        ke = '<установлен>'
+        os.system('clear')
 
+    if inp == '5':
+        os.system('pkg install proot')
+        te = '<установлен>'
+        os.system('clear')
+
+    if inp == '6':
+        os.system('pkg install nano')
+        le = '<установлен>'
+        os.system('clear')
 
 
     if inp == '77':
