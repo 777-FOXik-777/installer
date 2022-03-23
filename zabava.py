@@ -102,7 +102,7 @@ while True:
         inp_2 = input ('Выбери пункт>>> ')
         os.system('clear')
         if inp_2 == '1':
-            print(Fore.YELLOW+'[напишите текст <на английском>]')
+            print(Fore.YELLOW+'[напишите текст]')
             res()
             lo = input ('>>>')
             os.system('clear')
@@ -115,7 +115,7 @@ while True:
 
 
         if inp_2 == '2':
-            print(Fore.YELLOW+'[напишите текст <на английском>]')
+            print(Fore.YELLOW+'[напишите текст]')
             res()
             lo = input ('>>>')
             os.system('clear')
