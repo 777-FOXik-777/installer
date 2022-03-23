@@ -85,7 +85,11 @@ while True:
 
     if inp == '5':
         os.system('tty-clock')
-
+        inp_5 = input ('нажмите entr чтобы выйти')
+        if inp_5 == '':
+            os.system('clear')
+        else:
+            os.system('clear')
 
     if inp == '6':
         lo = 'SYPEXHACK'
