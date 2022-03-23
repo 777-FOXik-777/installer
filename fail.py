@@ -32,7 +32,7 @@ while True:
     print (" #   #  #    ##    #    # ##   #     #    ##    #   ")
     print ("###  #  #  ###      ##   # #  ###   ###    ##   #   ")
     print ('\n')
-    print ("[telegram: @SYPEXHACK]                      [v2.0.3]")
+    print ("[telegram: @SYPEXHACK]                      [v2.1.0]")
     res()
     time.sleep(1)
     print ('\n')
