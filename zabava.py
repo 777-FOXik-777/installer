@@ -43,6 +43,8 @@ while True:
     print (Fore.YELLOW+"    [2] паравозик")
     print (Fore.YELLOW+"    [3] карта мира")
     print (Fore.YELLOW+"    [4] огонь")
+    print (Fore.YELLOW+"    [5] часы")
+    print (Fore.YELLOW+"    [6] красивый текст")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.YELLOW+' утилиты '+Fore.CYAN+'[91]║')
     print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.GREEN+'>забавы<'+Fore.CYAN+' [92]║')
