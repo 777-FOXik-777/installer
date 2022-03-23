@@ -103,7 +103,7 @@ while True:
             print(Fore.YELLOW+'[напишите текст <на английском>]')
             lo = input ('>>>')
             os.system('toilet -f mono9 -F gay'+lo)
-        else
+        else:
             os.system('clear')
 
 
