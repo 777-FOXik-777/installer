@@ -86,18 +86,25 @@ while True:
 
 
     if inp == '6':
+        lo = 'SYPEXHACK'
         os.system('clear')
         print(Fore.YELLOW+'[выберете стиль]')
         print('[1] метал')
         print('[2] радуга')
         inp_2 = input ('  Выбери пункт>>> ')
         os.system('clear')
-        if inp_2 == '1'
-            
+        if inp_2 == '1':
+            print(Fore.YELLOW+'[напишите текст <на английском>]')
+            lo = input ('>>>')
+            os.system('toilet -f mono9 -F metal'+lo)
 
 
-        if inp_2 == '2'
- 
+        if inp_2 == '2':
+            print(Fore.YELLOW+'[напишите текст <на английском>]')
+            lo = input ('>>>')
+            os.system('toilet -f mono9 -F gay'+lo)
+        else
+            os.system('clear')
 
 
     if inp == '77':
