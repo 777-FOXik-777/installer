@@ -17,7 +17,7 @@
 
 
 # installer 
--[v1.7.5]-
+-[v2.0.3]-
 
 |PC python| ❌ |
 
