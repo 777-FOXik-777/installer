@@ -96,9 +96,9 @@ while True:
         os.system('clear')
         print(Fore.YELLOW+'[выберете стиль]')
         res()
-        print('[1] метал')
-        print('[2] радуга')
-        print('\n')
+        print(Fore.CYAN+'[1] метал')
+        print(Fore.CYAN+'[2] радуга')
+        res()
         inp_2 = input ('Выбери пункт>>> ')
         os.system('clear')
         if inp_2 == '1':
