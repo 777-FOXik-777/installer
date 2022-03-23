@@ -94,7 +94,7 @@ while True:
     if inp == '6':
         lo = 'SYPEXHACK'
         os.system('clear')
-        print(Fore.YELLOW+'[выберете стиль]')
+        print(Fore.YELLOW+'[стили текста]')
         res()
         print(Fore.CYAN+'[1] метал')
         print(Fore.CYAN+'[2] радуга')
