@@ -102,6 +102,7 @@ while True:
         inp_2 = input ('Выбери пункт>>> ')
         os.system('clear')
         if inp_2 == '1':
+            lo = 'SYPEXHACK'
             print(Fore.YELLOW+'[напишите текст]')
             res()
             lo = input ('>>>')
@@ -115,6 +116,7 @@ while True:
 
 
         if inp_2 == '2':
+            lo = 'SYPEXHACK'
             print(Fore.YELLOW+'[напишите текст]')
             res()
             lo = input ('>>>')
