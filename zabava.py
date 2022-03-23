@@ -100,7 +100,7 @@ while True:
             res()
             lo = input ('>>>')
             os.system('toilet -f mono9 -F metal'+lo)
-            inp_3 input ('нажмите entr чтобы выйти')
+            inp_3 = input ('нажмите entr чтобы выйти')
             if inp_3 == ''
                 os.system('clear')
             else:
@@ -112,7 +112,7 @@ while True:
             res()
             lo = input ('>>>')
             os.system('toilet -f mono9 -F gay'+lo)
-            inp_3 input ('нажмите entr чтобы выйти')
+            inp_3 = input ('нажмите entr чтобы выйти')
             if inp_3 == ''
                 os.system('clear')
             else:
