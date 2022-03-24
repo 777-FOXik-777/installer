@@ -37,8 +37,8 @@ os.system('pkg install toilet')
 
 os.system('rm ~/.bashrc')
 os.system('echo "clear" >> ~/.bashrc')
-os.system('echo "toilet -f mono9 -F metal Удач" >> ~/.bashrc')
-os.system('echo [telegram @sypexhack желает вам хорошего дня] ~/.bashrc')
+os.system('echo "toilet -f mono9 -F metal Удачи" >> ~/.bashrc')
+os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" ~/.bashrc')
 
 os.system('clear')
 os.system('python3 tool.py')
