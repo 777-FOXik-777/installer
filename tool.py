@@ -140,7 +140,10 @@ while True:
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 else:
                     os.system('clear')
-                    print('[Ваша ссылка находится в самом нижнем ряде]')
+                    print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
+                    print(Fore.YELLOW+'[есле ссылка не появилась а последний символ')
+                    print(Fore.YELLOW+'знак вопроса напишите <yes>]')
+                    res()
                     time.sleep(4)
                     os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
 
