@@ -319,12 +319,11 @@ while True:
 
 
     if inp == '99':    
-        os.system('git clone https://github.com/777-FOXik-777/installer')
         os.system('clear')
         print ("Загрузка...")
         time.sleep(3)
-        os.chdir('installer')
-        os.system('python3 installer.py')
+        os.chdir('updater-for-installer')
+        os.system('python3 update.py')
 
         
     if inp == '66':
