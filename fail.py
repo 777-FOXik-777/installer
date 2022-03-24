@@ -1,17 +1,5 @@
 import os, time, webbrowser
 
-we = '<НЕ установлен>'
-    
-re = '<НЕ установлен>'
-
-de = '<НЕ утсановлен>'
-
-ke = '<НЕ установлен>'
-
-te = '<НЕ установлен>'
-
-le = '<НЕ установлен>'
-
 os.system('clear')
 
 from colorama import Fore, Style
@@ -23,21 +11,21 @@ def res():
 while True:
     os.system('clear')
     print(Fore.RED+'[меню <файлы>]')
-    print('\n')
     print(Fore.GREEN+'')
     print (" _                 _             _   _               ")
     print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
     print ("| | | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
     print ("| | | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|_| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    print ("\n")
     print ("[telegram: @SYPEXHACK]                       [v2.3.1]")
     res()
-    print (Fore.YELLOW+'    [1] установить php '+we)
-    print (Fore.YELLOW+'    [2] установить ssh '+re)
-    print (Fore.YELLOW+'    [3] установить requests '+de)
-    print (Fore.YELLOW+'    [4] установить lolcat '+ke)
-    print (Fore.YELLOW+'    [5] установить proot '+te)
-    print (Fore.YELLOW+'    [6] установить nano '+le)
+    print (Fore.YELLOW+'    [1] установить php ')
+    print (Fore.YELLOW+'    [2] установить ssh ')
+    print (Fore.YELLOW+'    [3] установить requests ')
+    print (Fore.YELLOW+'    [4] установить lolcat ')
+    print (Fore.YELLOW+'    [5] установить proot ')
+    print (Fore.YELLOW+'    [6] установить nano ')
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.YELLOW+' утилиты'+Fore.CYAN+'[91] ║')
     print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.YELLOW+' забавы ' +Fore.CYAN+'[92] ║')
@@ -64,34 +52,28 @@ while True:
     if inp == '1':
         os.system('pkg install php -y')
         os.system('pkg install php7 -y')
-        we = '<установлен>'
         os.system('clear')
 
     if inp == '2':
         os.system('pkg install dropbear -y')
         os.system('pkg install openssh -y')
-        re = '<установлен>'
         os.system('clear')
 
 
     if inp == '3':
         os.system('pip install requests')
-        de = '<установлен>'
         os.system('clear')
 
     if inp == '4':
         os.system('pip install lolcat')
-        ke = '<установлен>'
         os.system('clear')
 
     if inp == '5':
         os.system('pkg install proot')
-        te = '<установлен>'
         os.system('clear')
 
     if inp == '6':
         os.system('pkg install nano')
-        le = '<установлен>'
         os.system('clear')
 
 
