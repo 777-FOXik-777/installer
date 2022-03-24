@@ -97,7 +97,7 @@ while True:
 
         if tru_6 == 'n':
             os.system('clear')
-            print('[пожалуйста включите моб. Точку доступа и повторите]')
+            print(Fore.RED+'[пожалуйста включите моб. Точку доступа и повторите]')
             time.sleep(3)
         else:
             os.system('clear')
@@ -132,9 +132,9 @@ while True:
                     print('[Порт '+qw+']')
                     time.sleep(4)
                     os.system('clear')
-                    print('[ваша ссылка находится в самом нижнем ряде]')
-                    print('[есле ссылка не появилась а последний символ')
-                    print('знак вопроса напишите <yes>]')
+                    print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
+                    print(Fore.RED+'[есле ссылка не появилась а последний символ')
+                    print(Fore.RED+'знак вопроса напишите <yes>]')
                     time.sleep(4)
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 else:
@@ -145,20 +145,22 @@ while True:
 
             if tru_3 == 'n':
                 os.system('clear')
-                print('[Ваша ссылка находится в самом нижнем ряде]')
-                print('[есле ссылка не появилась а последний символ')
-                print('знак вопроса напишите <yes>]')
+                print(Fore.GREEN+'[Ваша ссылка находится в самом нижнем ряде]')
+                print(Fore.RED+'[есле ссылка не появилась а последний символ')
+                print(Fore.RED+'знак вопроса напишите <yes>]')
                 time.sleep(4)
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
             else:
                 os.system('clear')
-                print('[Ваша ссылка находится в самом нижнем ряде]')
+                print(Fore.GREEN+'[Ваша ссылка находится в самом нижнем ряде]')
+                print(Fore.RED+'[есле ссылка не появилась а последний символ')
+                print(Fore.RED+'знак вопроса напишите <yes>]')
                 time.sleep(4)
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 
         if tru_2 == 'n':
             os.system('clear')
-            print('[пожалуйста включите моб. Точку доступа и повторите]')
+            print(Fore.RED+'[пожалуйста включите моб. Точку доступа и повторите]')
             time.sleep(3)
             pass
         else:
