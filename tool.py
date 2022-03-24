@@ -134,23 +134,23 @@ while True:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run -yes')
                 else:
                     os.system('clear')
                     print('[Ваша ссылка находится в самом нижнем ряде]')
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run -yes')
 
             if tru_3 == 'n':
                 os.system('clear')
                 print('[Ваша ссылка находится в самом нижнем ряде]')
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run -yes')
             else:
                 os.system('clear')
                 print('[Ваша ссылка находится в самом нижнем ряде]')
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run -yes')
                 
         if tru_2 == 'n':
             os.system('clear')
