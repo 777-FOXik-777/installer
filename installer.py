@@ -35,8 +35,9 @@ os.system('clear')
 os.system('pkg install libcaca -y')
 os.system('pkg install toilet')
 
+os.system('rm ~/.bashrc')
 os.system('echo "clear" >> ~/.bashrc')
-os.system('echo "" >> ~/.bashrc')
+os.system('echo "toilet -f mono9 -F metal Удач" >> ~/.bashrc')
 os.system('echo [telegram @sypexhack желает вам хорошего дня] ~/.bashrc')
 
 os.system('clear')
