@@ -133,8 +133,9 @@ while True:
                     time.sleep(4)
                     os.system('clear')
                     print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
-                    print(Fore.RED+'[есле ссылка не появилась а последний символ')
-                    print(Fore.RED+'знак вопроса напишите <yes>]')
+                    print(Fore.YELLOW+'[есле ссылка не появилась а последний символ')
+                    print(Fore.YELLOW+'знак вопроса напишите <yes>]')
+                    res()
                     time.sleep(4)
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 else:
@@ -146,8 +147,9 @@ while True:
             if tru_3 == 'n':
                 os.system('clear')
                 print(Fore.GREEN+'[Ваша ссылка находится в самом нижнем ряде]')
-                print(Fore.RED+'[есле ссылка не появилась а последний символ')
-                print(Fore.RED+'знак вопроса напишите <yes>]')
+                print(Fore.YELLOW+'[есле ссылка не появилась а последний символ')
+                print(Fore.YELLOW+'знак вопроса напишите <yes>]')
+                res()
                 time.sleep(4)
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
             else:
@@ -155,6 +157,7 @@ while True:
                 print(Fore.GREEN+'[Ваша ссылка находится в самом нижнем ряде]')
                 print(Fore.RED+'[есле ссылка не появилась а последний символ')
                 print(Fore.RED+'знак вопроса напишите <yes>]')
+                res()
                 time.sleep(4)
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 
