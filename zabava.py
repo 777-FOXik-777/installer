@@ -30,7 +30,7 @@ while True:
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.YELLOW+' утилиты '+Fore.CYAN+'[91]║')
     print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.GREEN+'>забавы<'+Fore.CYAN+' [92]║')
-    print (Fore.CYAN+'    [99] обновить[BETA]              ║'+Fore.YELLOW+' файлы  '+Fore.CYAN+' [93]║')
+    print (Fore.CYAN+'    [99] обновить                    ║'+Fore.YELLOW+' файлы  '+Fore.CYAN+' [93]║')
     print (Fore.CYAN+'    [00] выход                       ╚═════════════╝')
     res()
     inp = input ('  Выбери пункт>>> ')
