@@ -328,6 +328,7 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
+            os.system('cd $HOME')
             os.chdir('installer')
             os.system('python3 tool.py')
         else:
@@ -335,9 +336,11 @@ while True:
             os.system('python3 main.py -u '+aa)
             tsu_24 = input('[нажмите entr чтобы выйти]')
             if tsu_24 =='':
+                os.system('cd $HOME')
                 os.chdir('installer')
                 os.system('python3 tool.py')
             else:
+                os.system('cd $HOME')
                 os.chdir('installer')
                 os.system('python3 tool.py')
 
