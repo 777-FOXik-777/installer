@@ -212,6 +212,11 @@ while True:
         os.system('python doser.py')
 
 
+    if inp == '05':   
+        os.system('clear')
+        
+
+
     if inp == '5':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
         os.system('clear')
