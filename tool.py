@@ -377,9 +377,7 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
-            os.system('cd $HOME')
-            os.chdir('updater-for-installer')
-            os.system('python3 update.py')
+            os.system('clear')
         else:
             os.system('clear')
             os.system('python3 main.py -u '+aa)
