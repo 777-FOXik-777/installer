@@ -309,7 +309,7 @@ while True:
         os.system('clear')
 
 
-    if inp == '11'
+    if inp == '11':
         aa = 'ververa'
         os.system('clear')
         print('[установка нужных файлов]')
@@ -335,10 +335,6 @@ while True:
                 os.system('clear')
             else:
                 os.system('clear')
-
-
-
-
 
 
     if inp == '77':
