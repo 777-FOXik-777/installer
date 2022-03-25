@@ -323,7 +323,7 @@ while True:
         print(Fore.GREEN+'[Введите ник в инстаграм]')
         print(Fore.CYAN+'[Пример: ververa]')
         res()
-        aa = input('Введите номер >>> ')
+        aa = input('Введите ник>>> ')
         if aa == '':
             os.system('clear')
             print('[вы ничего не ввели]')
