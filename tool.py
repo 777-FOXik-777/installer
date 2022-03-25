@@ -296,8 +296,6 @@ while True:
                 os.system('clear')
 
 
-
-
     if inp == '10':
         os.system('pip install requests')
         os.system('clear')
@@ -309,6 +307,38 @@ while True:
         os.system('clear')
         os.system('python Uti-lite.py')
         os.system('clear')
+
+
+    if inp == '11'
+        aa = 'ververa'
+        os.system('clear')
+        print('[установка нужных файлов]')
+        time.sleep(3)
+        os.system('clear')
+        os.system('git clone https://github.com/th3unkn0n/osi.ig')
+        os.chdir('osi.ig')
+        os.system('clear')
+        os.system('python3 -m pip install -r requirements.txt')
+        os.system('clear') 
+        print('[Введите ник в инстаграм]')
+        print('[Пример: ververa]')
+        aa = input('\n Введите номер >>> ')
+        if at == '':
+            os.system('clear')
+            print('[вы ничего не ввели]')
+            time.sleep(3)
+        else:
+            os.system('clear')
+            os.system('python3 main.py -u '+aa)
+            tsu_24 = input('[нажмите entr чтобы выйти]')
+            if tsu_24 =='':
+                os.system('clear')
+            else:
+                os.system('clear')
+
+
+
+
 
 
     if inp == '77':
@@ -326,6 +356,8 @@ while True:
     if inp == '66':
         os.system('xdg-open https://t.me/SYPEXHACK')
         os.system('clear')
+
+
     if inp == '00':
         os.system('clear')
         print('Спасибо за использование [installer]')
