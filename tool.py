@@ -224,7 +224,7 @@ while True:
         res()
         inp_32 = input ('Выбери пункт>>> ')
         os.system('clear')
-        if inp_2 == '1':
+        if inp_32 == '1':
             print(Fore.YELLOW+'[напишите текст]')
             res()
             tt = input ('>>>')
