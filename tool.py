@@ -216,12 +216,34 @@ while True:
         tt = 'привет'
         os.system('clear')
         os.system('rm ~/.bashrc')
+        os.system('clear')
+        print(Fore.YELLOW+'[стили текста]')
+        res()
+        print(Fore.CYAN+'[1] метал')
+        print(Fore.CYAN+'[2] радуга')
+        res()
+        inp_32 = input ('Выбери пункт>>> ')
+        os.system('clear')
+        if inp_2 == '1':
+            print(Fore.YELLOW+'[напишите текст]')
+            res()
+            tt = input ('>>>')
+            os.system('clear')
+            os.system('echo "clear" >> ~/.bashrc')
+            os.system('echo "toilet -f mono9 -F metal '+tt+'" >> ~/.bashrc')
+            os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
 
 
-
-os.system('echo "clear" >> ~/.bashrc')
-os.system('echo "toilet -f mono9 -F metal Удачи" >> ~/.bashrc')
-os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
+        if inp_32 == '2':
+            print(Fore.YELLOW+'[напишите текст]')
+            res()
+            tt = input ('>>>')
+            os.system('clear')
+            os.system('echo "clear" >> ~/.bashrc')
+            os.system('echo "toilet -f mono9 -F gay '+tt+'" >> ~/.bashrc')
+            os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
+        else:
+            os.system('clear')
 
 
     if inp == '5':   
