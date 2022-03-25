@@ -226,22 +226,30 @@ while True:
         os.system('clear')
         if inp_32 == '1':
             print(Fore.YELLOW+'[напишите текст]')
+            print('[совет: используйте не более 8 символов]')
             res()
             tt = input ('>>>')
             os.system('clear')
             os.system('echo "clear" >> ~/.bashrc')
             os.system('echo "toilet -f mono9 -F metal '+tt+'" >> ~/.bashrc')
             os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
+            os.system('clear')
+            print('[готово]')
+            time.sleep(3)
 
 
         if inp_32 == '2':
             print(Fore.YELLOW+'[напишите текст]')
+            print('[совет: используйте не более 8 символов]')
             res()
             tt = input ('>>>')
             os.system('clear')
             os.system('echo "clear" >> ~/.bashrc')
             os.system('echo "toilet -f mono9 -F gay '+tt+'" >> ~/.bashrc')
             os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
+            os.system('clear')
+            print('[готово]')
+            time.sleep(3)
         else:
             os.system('clear')
 
@@ -267,6 +275,11 @@ while True:
         os.chdir('Cam-Hackers')
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
+        tsu_44 = input('[нажмите entr чтобы выйти]')
+        if tsu_44 =='':
+            os.system('clear')
+        else:
+            os.system('clear')
 
 
     if inp == '7':
