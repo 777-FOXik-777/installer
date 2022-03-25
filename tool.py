@@ -320,10 +320,11 @@ while True:
         os.system('clear')
         os.system('python3 -m pip install -r requirements.txt')
         os.system('clear') 
-        print('[Введите ник в инстаграм]')
-        print('[Пример: ververa]')
-        aa = input('\n Введите номер >>> ')
-        if at == '':
+        print(Fore.GREEN+'[Введите ник в инстаграм]')
+        print(Fore.CYAN+'[Пример: ververa]')
+        res()
+        aa = input('Введите номер >>> ')
+        if aa == '':
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
