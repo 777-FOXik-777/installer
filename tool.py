@@ -361,9 +361,7 @@ while True:
     if inp == '12':
         aa = 'ververa'
         os.system('clear')
-        print('[установка нужных файлов]')
-        time.sleep(3)
-        os.chdir('osi.ig')
+        os.system('cd osi.ig')
         os.system('clear')
         print(Fore.GREEN+'[Введите ник в инстаграм]')
         print(Fore.CYAN+'[Пример: ververa]')
