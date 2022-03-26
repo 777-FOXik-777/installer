@@ -10,12 +10,12 @@ def res():
     print(Style.RESET_ALL)
 
 os.system('clear')
-print ("[~] Установка питон'v2'...")
+print (Fore.YELLOW+'[~] Установка питон'v2'...')
 os.system('pkg install python2')
 os.system('clear')
 
 
-print ('[~] Установка забав...')
+print (Fore.YELLOW+'[~] Установка забав...')
 os.system('pkg install cmatrix')
 
 os.system('pkg install sl')
@@ -25,16 +25,17 @@ os.system('pkg install libcaca -y')
 
 
 os.system('clear')
-print('[~] Установка приветствия...')
+print(Fore.YELLOW+-[~] Установка приветствия...')
 os.system('pkg install toilet')
 
 os.system('rm ~/.bashrc')
 os.system('echo "clear" >> ~/.bashrc')
 os.system('echo "toilet -f mono9 -F metal hello" >> ~/.bashrc')
 os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
-os.system?'echo "echo изменить приветствие можно в installer пункт [5]" >> ~/.bashrc')
+os.system('echo "echo изменить приветствие можно в installer пункт [5]" >> ~/.bashrc')
+
 
 os.system('clear')
-print('[Запуск installer]')
+print(Fore.GREEN+'[Запуск installer]')
 time.sleep(3)
 os.system('python3 tool.py')
