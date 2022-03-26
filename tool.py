@@ -29,7 +29,7 @@ while True:
     print (Fore.YELLOW+"    [9] замаскировать фишинг")
     print (Fore.YELLOW+"    [10] пробив по номеру")
     print (Fore.YELLOW+"    [11] пробив по ip")
-    print (Fore.YELLOW+"    [12] пробив инстаграм [BETA] ")
+    print (Fore.YELLOW+"    [12] пробив инстаграм")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.GREEN+'>утилиты<'+Fore.CYAN+'[91]║')
     print (Fore.CYAN+'    [88] тг канал автора             ║'+Fore.YELLOW+' забавы '+Fore.CYAN+' [92]║')
