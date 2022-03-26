@@ -377,15 +377,15 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
-            os.system('python3 tool.py')
+            os.system('python3 installer.py')
         else:
             os.system('clear')
             os.system('python3 main.py -u '+aa)
             tsu_24 = input('[нажмите entr чтобы выйти]')
             if tsu_24 =='':
-                os.system('python3 tool.py')
+                os.system('python3 installer.py')
             else:
-                os.system('python3 tool.py')
+                os.system('python3 installer.py')
             
 
 
