@@ -16,7 +16,7 @@ while True:
     print ("| | | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|_| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print ("\n")
-    print ("[telegram: @SYPEXHACK]                       [v2.4.0]")
+    print ("[telegram: @SYPEXHACK]                       [v2.4.3]")
     res()
     print (Fore.YELLOW+"    [1] тунелирование <ngrok>")
     print (Fore.YELLOW+"    [2] тунелирование <localhost>")
@@ -268,14 +268,15 @@ while True:
 
     if inp == '8':
         os.system('clear')
-        print('[Генерируется ссылка...]')
+        print(Fore.GREEN+'[Генерируется ссылка...]')
+        res()
         time.sleep(3)
         os.system('clear')
         print('ваша ссылка')
         print("\n")
-        print('https://bit.ly/3ild93L')
-        print("\n")
-        tru_8 = input('нажмите entr чтобы проложить')
+        print(Fore.GREEN+'https://bit.ly/3ild93L')
+        res()
+        tru_8 = input('нажмите entr чтобы выйти ')
         if tru_8 == 'y':
             os.system('clear')
             pass
