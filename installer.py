@@ -11,11 +11,13 @@ def res():
 
 os.system('clear')
 print (Fore.YELLOW+"[~] Установка питон'v2'...")
+res()
 os.system('pkg install python2')
 os.system('clear')
 
 
 print (Fore.YELLOW+'[~] Установка забав...')
+res()
 os.system('pkg install cmatrix')
 
 os.system('pkg install sl')
@@ -26,6 +28,7 @@ os.system('pkg install libcaca -y')
 
 os.system('clear')
 print(Fore.YELLOW+'[~] Установка приветствия...')
+res()
 os.system('pkg install toilet')
 
 os.system('rm ~/.bashrc')
@@ -37,5 +40,6 @@ os.system('echo "echo изменить приветствие можно в inst
 
 os.system('clear')
 print(Fore.GREEN+'[Запуск installer]')
+res()
 time.sleep(3)
 os.system('python3 tool.py')
