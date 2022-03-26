@@ -361,6 +361,8 @@ while True:
     if inp == '12':
         aa = 'ververa'
         os.system('clear')
+        print('[установка нужных файлов]')
+        time.sleep(3)
         os.system('git clone https://github.com/th3unkn0n/osi.ig')
         os.chdir('osi.ig')
         os.system('python3 -m pip install -r requirements.txt')
@@ -373,6 +375,7 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
+            os.system('clear')
             os.system('git clone https://github.com/777-FOXik-777/installer')
             os.chdir('installer')
             os.system('python3 tool.py')
@@ -381,10 +384,12 @@ while True:
             os.system('python3 main.py -u '+aa)
             tsu_24 = input('[нажмите entr чтобы выйти]')
             if tsu_24 =='':
+                os.system('clear')
                 os.system('git clone https://github.com/777-FOXik-777/installer')
                 os.chdir('installer')
                 os.system('python3 tool.py')
             else:
+                os.system('clear')
                 os.system('git clone https://github.com/777-FOXik-777/installer')
                 os.chdir('installer')
                 os.system('python3 tool.py')
