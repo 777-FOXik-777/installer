@@ -361,8 +361,9 @@ while True:
     if inp == '12':
         aa = 'ververa'
         os.system('clear')
-        os.system('cd $HOME')
-        os.system('cd osi.ig')
+        os.system('git clone https://github.com/th3unkn0n/osi.ig')
+        os.chdir('osi.ig')
+        os.system('python3 -m pip install -r requirements.txt')
         os.system('clear')
         print(Fore.GREEN+'[Введите ник в инстаграм]')
         print(Fore.CYAN+'[Пример: ververa]')
@@ -372,17 +373,22 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
-            os.system('python3 installer.py')
+            os.system('git clone https://github.com/777-FOXik-777/installer')
+            os.chdir('instaler')
+            os.system('python3 tool.py')
         else:
             os.system('clear')
             os.system('python3 main.py -u '+aa)
             tsu_24 = input('[нажмите entr чтобы выйти]')
             if tsu_24 =='':
-                os.system('python3 installer.py')
+                os.system('git clone https://github.com/777-FOXik-777/installer')
+                os.chdir('instaler')
+                os.system('python3 tool.py')
             else:
-                os.system('python3 installer.py')
+                os.system('git clone https://github.com/777-FOXik-777/installer')
+                os.chdir('instaler')
+                os.system('python3 tool.py')
             
-
 
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
