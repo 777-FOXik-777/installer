@@ -10,7 +10,7 @@ def res():
     print(Style.RESET_ALL)
 
 os.system('clear')
-print (Fore.YELLOW+'[~] Установка питон'v2'...')
+print (Fore.YELLOW+"[~] Установка питон'v2'...")
 os.system('pkg install python2')
 os.system('clear')
 
