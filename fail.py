@@ -18,7 +18,7 @@ while True:
     print ("| | | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|_| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print ("\n")
-    print ("[telegram: @SYPEXHACK]                       [v2.4.0]")
+    print ("[telegram: @SYPEXHACK]                       [v2.4.3]")
     res()
     print (Fore.YELLOW+'    [1] установить php ')
     print (Fore.YELLOW+'    [2] установить ssh ')
