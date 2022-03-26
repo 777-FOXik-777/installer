@@ -361,7 +361,7 @@ while True:
     if inp == '12':
         aa = 'ververa'
         os.system('clear')
-        os.system('cd')
+        os.system('cd $HOME')
         os.system('cd osi.ig')
         os.system('clear')
         print(Fore.GREEN+'[Введите ник в инстаграм]')
