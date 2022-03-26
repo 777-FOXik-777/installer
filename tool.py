@@ -377,21 +377,16 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
-            os.system('cd $HOME')
-            os.chdir('updater-for-installer')           
-            os.system('python3 update.py')
+            os.system('python3 tool.py')
         else:
             os.system('clear')
             os.system('python3 main.py -u '+aa)
             tsu_24 = input('[нажмите entr чтобы выйти]')
             if tsu_24 =='':
-                os.system('cd $HOME')
-                os.chdir('updater-for-installer')
-                os.system('python3 update.py')
+                os.system('python3 tool.py')
             else:
-                os.system('cd $HOME')
-                os.chdir('updater-for-installer')
-                os.system('python3 update.py')
+                os.system('python3 tool.py')
+            
 
 
     if inp == '77':
