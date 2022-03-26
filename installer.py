@@ -2,7 +2,7 @@ import os, time, webbrowser
 
 os.system('pip install colorama')
 os.system('clear')
-    
+
 from colorama import Fore, Style
 
 print ('\n')
@@ -25,7 +25,7 @@ os.system('pkg install libcaca -y')
 
 
 os.system('clear')
-print(Fore.YELLOW+-[~] Установка приветствия...')
+print(Fore.YELLOW+'[~] Установка приветствия...')
 os.system('pkg install toilet')
 
 os.system('rm ~/.bashrc')
