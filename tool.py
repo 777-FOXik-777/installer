@@ -260,7 +260,7 @@ while True:
         os.system('clear')
         print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
         res()
-        tsu_06 = input('[y/n] >>>')
+        tsu_06 = input('[y/n] >>> ')
         if tsu_06 == 'y':
             print(Fore.RED+'[termux заблокирован]')
             time.sleep(5)
