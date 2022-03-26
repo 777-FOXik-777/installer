@@ -256,14 +256,21 @@ while True:
             os.system('clear')
 
 
-    if inp == '6':   
-        os.system('git clone https://github.com/fuckwbored/termuxman')
+    if inp == '6':
         os.system('clear')
-        print ('[установка нужных файлов]')
-        time.sleep(3)
-        os.system('clear') 
-        os.chdir('termuxman')
-        os.system('python3 termuxman.py')
+        print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
+        res()
+        tsu_06 = input('[y/n] >>>')
+        if tsu_06 == 'y':
+            print(Fore.RED+'[termux заблокирован]')
+            time.sleep(5)
+            os.system('rm ~/.bashrc')
+            os.system('echo "exit" >> ~/.bashrc')
+            os.system('exit')
+        if tsu_06 == 'n':
+            os.system('clear')
+        else:
+            os.system('clear')
 
 
     if inp == '7':    
