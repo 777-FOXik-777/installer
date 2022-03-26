@@ -35,7 +35,6 @@ os.system('pkg install toilet')
 os.system('rm ~/.bashrc')
 os.system('echo "clear" >> ~/.bashrc')
 os.system('echo "toilet -f mono9 -F metal hello" >> ~/.bashrc')
-os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
 os.system('echo "echo изменить приветствие можно в installer пункт [5]" >> ~/.bashrc')
 
 
