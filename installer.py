@@ -9,15 +9,6 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
-os.system('clear')
-print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка утилит...")
-res()
-os.system('git clone https://github.com/th3unkn0n/osi.ig')
-os.chdir('osi.ig')
-os.system('python3 -m pip install -r requirements.txt')
-
-os.system('git clone https://github.com/777-FOXik-777/installer')
-
 
 os.system('clear')
 print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон'v2'...")
