@@ -59,17 +59,12 @@ while True:
         tru_6 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_6 == 'y':
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
+            res()
             os.system('pkg install nodejs-lts -y')
-            os.system('clear')
-            print ('[установка нужных файлов]')
-            time.sleep(3)
             os.system('npm install ngrok')
-            os.system('clear')
             os.system('npm install ngrok -g')
-            os.system('clear')
-            print ('[установка нужных файлов]')
             we  = '8080'
-            time.sleep(3)
             os.system('clear')
             print('[<ngrok> стандартный порт 8080]')
             tru_5 = input('\n Изменить порт? [y/n] >>> ')
@@ -109,17 +104,12 @@ while True:
         tru_2 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_2 == 'y':
-            print ('[установка нужных файлов]')
-            time.sleep(3)
-            
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка localhost...")
+            res()
             os.system('pkg install dropbear -y')
-            os.system('clear')
-            print ('[установка нужных файлов]')
-            time.sleep(3)
             os.system('pkg install openssh -y')
-            os.system('clear')
             qw = '8080'
-            
+            os.system('clear')
             print('[<localhost> стандартный порт:8080]')
             tru_3 = input('\n Изменить порт? [y/n] >>> ')
             if tru_3 == 'y':
@@ -179,11 +169,9 @@ while True:
         tru = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru == 'y':
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка фишинг...")
+            res()
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
-            os.system('clear')
-            print ('[установка нужных файлов]')
-            time.sleep(3)
-            os.system('clear')
             os.chdir('PyPhisher')
             os.system('python3 pyphisher.py')
         if tru == 'n':
@@ -194,23 +182,13 @@ while True:
 
 
     if inp == '4':    
-        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ддос...")
+        res()
         os.system('pkg install dropbear -y')
-        os.system('clear')
-        print ('[установка нужных файлов]')
-        time.sleep(3)
         os.system('pkg install openssh -y')
-        os.system('clear')
-        print ('[установка нужных файлов]')
-        time.sleep(3)
         os.system('git clone https://github.com/lamer112311/Doser')
-        os.system('clear')
-        print ('[установка нужных файлов]')
-        time.sleep(3)
-        os.system('clear')
         os.chdir('Doser')
         os.system('bash install.sh')
-        os.system('clear')
         os.system('python doser.py')
 
 
@@ -274,13 +252,10 @@ while True:
 
 
     if inp == '7':    
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взлом. камер...")
+        res()
         os.system('pip install requests')
-        os.system('clear')
-        os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers')
-        os.system('clear')
-        print ('[установка нужных файлов]')
-        time.sleep(3)
-        os.system('clear') 
+        os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers') 
         os.chdir('Cam-Hackers')
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
@@ -309,9 +284,10 @@ while True:
 
 
     if inp == '9':
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка маск. фишинг...")
+        res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
-        os.system('clear')
         print('[Инструкция:В первый ряд вводим вашу фишинг ссылку.')
         print('В второй ряд  вводим ссылку которую мы хотим получить,')
         print('пример: https://Instagram.com В третьем ряде нажимаем entr.')
@@ -328,9 +304,8 @@ while True:
 
     if inp == '10':
         at = '1'
-        print('[установка нужных файлов]')
-        time.sleep(3)
-        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив телефона...")
+        res()
         os.system('git clone https://github.com/Wes974/PhoneInfoga')
         os.chdir('PhoneInfoga')
         os.system('pip install -r requirements.txt')
@@ -353,23 +328,18 @@ while True:
 
 
     if inp == '11':
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив ip...")
+        res()
         os.system('pip install requests')
-        os.system('clear')
-        print('[установка нужных файлов]')
-        time.sleep(3)
-        os.system('clear')
         os.system('git clone https://github.com/MrProCatYT/Uti-lite')
         os.chdir('Uti-lite')
-        os.system('clear')
         os.system('python Uti-lite.py')
-        os.system('clear')
 
 
     if inp == '12':
         aa = 'ververa'
-        os.system('clear')
-        print('[установка нужных файлов]')
-        time.sleep(3)
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив Instagram...")
+        res()
         os.system('git clone https://github.com/th3unkn0n/osi.ig')
         os.chdir('osi.ig')
         os.system('python3 -m pip install -r requirements.txt')
