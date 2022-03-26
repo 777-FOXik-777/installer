@@ -5,16 +5,12 @@ print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
 
-os.system('git clone https://github.com/777-FOXik-777/updater-for-installer')
-
-#питон2
 os.system('pkg install python2')
 os.system('clear')
 print ('[установка нужных файлов]')
 time.sleep(3)
 os.system('clear')
 
-#доп.файл
 os.system('pip install colorama')
 os.system('clear')
 
