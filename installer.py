@@ -10,13 +10,13 @@ def res():
     print(Style.RESET_ALL)
 
 os.system('clear')
-print ("+Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон'v2'...")
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон'v2'...")
 res()
 os.system('pkg install python2')
 os.system('clear')
 
 
-print ("+Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка забав...")
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка забав...")
 res()
 os.system('pkg install cmatrix')
 
@@ -27,7 +27,7 @@ os.system('pkg install libcaca -y')
 
 
 os.system('clear')
-print("+Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка приветствия...')
+print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка приветствия...')
 res()
 os.system('pkg install toilet')
 
