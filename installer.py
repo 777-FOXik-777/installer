@@ -15,6 +15,7 @@ res()
 os.system('git clone https://github.com/th3unkn0n/osi.ig')
 os.chdir('osi.ig')
 os.system('python3 -m pip install -r requirements.txt')
+os.system('git clone https://github.com/777-FOXik-777/installer')
 
 
 os.system('clear')
