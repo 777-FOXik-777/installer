@@ -374,7 +374,7 @@ while True:
             print('[вы ничего не ввели]')
             time.sleep(3)
             os.system('git clone https://github.com/777-FOXik-777/installer')
-            os.chdir('instaler')
+            os.chdir('installer')
             os.system('python3 tool.py')
         else:
             os.system('clear')
@@ -382,11 +382,11 @@ while True:
             tsu_24 = input('[нажмите entr чтобы выйти]')
             if tsu_24 =='':
                 os.system('git clone https://github.com/777-FOXik-777/installer')
-                os.chdir('instaler')
+                os.chdir('installer')
                 os.system('python3 tool.py')
             else:
                 os.system('git clone https://github.com/777-FOXik-777/installer')
-                os.chdir('instaler')
+                os.chdir('installer')
                 os.system('python3 tool.py')
             
 
