@@ -26,8 +26,8 @@ while True:
     print (Fore.YELLOW+"    [6] красивый текст")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.YELLOW+' утилиты '+Fore.CYAN+'[91]║')
-    print (Fore.CYAN+'    [66] тг канал автора             ║'+Fore.GREEN+'>забавы<'+Fore.CYAN+' [92]║')
-    print (Fore.CYAN+'    [99] обновить                    ║'+Fore.YELLOW+' файлы  '+Fore.CYAN+' [93]║')
+    print (Fore.CYAN+'    [88] тг канал автора             ║'+Fore.GREEN+'>забавы<'+Fore.CYAN+' [92]║')
+    print (Fore.CYAN+'    [99] тех поддержка               ║'+Fore.YELLOW+' файлы  '+Fore.CYAN+' [93]║')
     print (Fore.CYAN+'    [00] выход                       ╚═════════════╝')
     res()
     inp = input ('  Выбери пункт>>> ')
@@ -115,19 +115,16 @@ while True:
 
 
     if inp == '99':    
+        os.system('xdg-open https://t.me/MR_FOXik')
         os.system('clear')
-        print ("Загрузка...")
-        time.sleep(3)
-        os.chdir('updater-for-installer')
-        os.system('python3 update.py')
-
         
-    if inp == '66':
+
+    if inp == '88':
         os.system('xdg-open https://t.me/SYPEXHACK')
         os.system('clear')
+
+
     if inp == '00':
         os.system('clear')
         print('Спасибо за использование [installer]')
         break
-
-
