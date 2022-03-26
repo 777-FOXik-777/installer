@@ -27,7 +27,7 @@ os.system('pkg install libcaca -y')
 
 
 os.system('clear')
-print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка приветствия...')
+print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка приветствия...")
 res()
 os.system('pkg install toilet')
 
