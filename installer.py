@@ -10,6 +10,11 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
+os.system('clear')
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка утилит...")
+res()
+os.system('pip install db0mb3r')
+
 
 os.system('clear')
 print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон'v2'...")
