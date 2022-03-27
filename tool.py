@@ -376,7 +376,9 @@ while True:
             
     if inp == '07':
         os.system('clear')
+        os.system('pip install db0mb3r')
         os.system('bomber')
+
 
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
