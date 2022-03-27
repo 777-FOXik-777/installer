@@ -395,6 +395,7 @@ while True:
         os.system('clear')
         os.system('chmod +x userrecon.sh')
         os.system('bash userrecon.sh')
+        res()
         tru_08 = input('нажмите entr чтобы выйти ')
         if tru_08 == '':
             os.system('clear')
