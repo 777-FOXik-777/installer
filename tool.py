@@ -275,6 +275,7 @@ while True:
         time.sleep(3)
         os.system('clear')
         print('ваша ссылка')
+        res()
         print(Fore.GREEN+'https://bit.ly/3ild93L')
         res()
         tru_8 = input('нажмите entr чтобы выйти ')
