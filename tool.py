@@ -380,7 +380,8 @@ while True:
         res()
         os.system('pip install db0mb3r')
         os.system('clear')
-        print (Fore.YELLOW+"["+Fore.GREEN+"ВНИМАНИЕ"+Fore.YELLOW+"] вас будет переброшено на сайт просто подождите")
+        print (Fore.YELLOW+"["+Fore.GREEN+"ВНИМАНИЕ"+Fore.YELLOW+"] вас будет переброшено на сайт просто подождите 5-10сек.")
+        res()
         time.sleep(5)
         os.system('bomber')
 
