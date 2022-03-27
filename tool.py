@@ -391,7 +391,7 @@ while True:
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка соц.-ник...")
         res()
         os.system('git clone https://github.com/issamelferkh/userrecon.git')
-        os.chdir('cd userrecon')
+        os.chdir('userrecon')
         os.system('chmod +x userrecon.sh')
         os.system('bash userrecon.sh')
 
