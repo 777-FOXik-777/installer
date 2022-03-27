@@ -376,7 +376,12 @@ while True:
             
     if inp == '07':
         os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка бомбер...")
+        res()
         os.system('pip install db0mb3r')
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.GREEN+"ВНИМАНИЕ"+Fore.YELLOW+"] вас будет переброшено на сайт просто подождите")
+        time.sleep(5)
         os.system('bomber')
 
 
