@@ -1,4 +1,4 @@
-import os, time, webbrowser
+import os, time, webbrowser, sys
 
 os.system('clear')
 
@@ -94,4 +94,4 @@ while True:
     if inp == '00':
         os.system('clear')
         print('Спасибо за использование [installer]')
-        break
+        sys.exit()
