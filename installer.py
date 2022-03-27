@@ -23,6 +23,7 @@ print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон
 res()
 time.sleep(1.5)
 os.system('pkg install python2')
+os.system('pkg install python3')
 os.system('clear')
 
 
