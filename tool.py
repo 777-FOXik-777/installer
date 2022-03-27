@@ -374,6 +374,9 @@ while True:
                 os.chdir('installer')
                 os.system('python3 tool.py')
             
+    if inp == '07':
+        os.system('clear')
+        os.system('bomber')
 
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
