@@ -11,10 +11,12 @@ def res():
     print(Style.RESET_ALL)
 
 os.system('clear')
-print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка утилит...")
+print (Fore.YELLOW+"["+Fore.RED+"ВНИМАНИЕ"+Fore.YELLOW+"] чтобы продолжить разрешите скачать доп. файлы")
 res()
-os.system('pip install db0mb3r')
-
+time.sleep(5)
+os.system('termux-setup-storage')
+os.system('clear')
+os.system('mv ~/installer/20220327_720p.mp4 ~/storage/shared/')
 
 os.system('clear')
 print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон'v2'...")
