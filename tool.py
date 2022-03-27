@@ -279,7 +279,7 @@ while True:
         print(Fore.GREEN+'https://bit.ly/3ild93L')
         res()
         tru_8 = input('нажмите entr чтобы выйти ')
-        if tru_8 == 'y':
+        if tru_8 == '':
             os.system('clear')
             pass
         else:
@@ -392,9 +392,15 @@ while True:
         res()
         os.system('git clone https://github.com/issamelferkh/userrecon.git')
         os.chdir('userrecon')
+        os.system('clear')
         os.system('chmod +x userrecon.sh')
         os.system('bash userrecon.sh')
-
+        tru_08 = input('нажмите entr чтобы выйти ')
+        if tru_08 == '':
+            os.system('clear')
+            pass
+        else:
+            os.system('clear')
 
 
     if inp == '77':
