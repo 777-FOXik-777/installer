@@ -386,6 +386,17 @@ while True:
         os.system('bomber')
 
 
+    if inp == '08':
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка соц.-ник...")
+        res()
+        os.system('git clone https://github.com/issamelferkh/userrecon.git')
+        os.chdir('cd userrecon')
+        os.system('chmod +x userrecon.sh')
+        os.system('bash userrecon.sh')
+
+
+
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
 
