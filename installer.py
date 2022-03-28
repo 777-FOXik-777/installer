@@ -41,11 +41,6 @@ res()
 time.sleep(1.5)
 os.system('pkg install toilet')
 
-os.system('rm ~/.bashrc')
-os.system('echo "clear" >> ~/.bashrc')
-os.system('echo "toilet -f mono9 -F metal hello" >> ~/.bashrc')
-os.system('echo "echo изменить приветствие можно в installer пункт [5]" >> ~/.bashrc')
-
 
 os.system('clear')
 print(Fore.GREEN+'[Запуск installer]')
