@@ -10,6 +10,8 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
+print('Back.YELLOW')
+
 os.system('clear')
 print (Fore.YELLOW+"["+Fore.RED+"ВНИМАНИЕ"+Fore.YELLOW+"] чтобы продолжить разрешите скачать доп. файлы")
 res()
