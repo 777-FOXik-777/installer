@@ -238,6 +238,7 @@ while True:
         if inp_32 == '0':
             os.system('clear')
             os.system('rm ~/.bashrc')
+            os.system('clear')
             print('[готово]')
             time.sleep(3)
         else:
