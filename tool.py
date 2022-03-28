@@ -213,6 +213,7 @@ while True:
             res()
             tt = input ('>>>')
             os.system('clear')
+            os.system('rm ~/.bashrc')
             os.system('echo "clear" >> ~/.bashrc')
             os.system('echo "toilet -f mono9 -F metal '+tt+'" >> ~/.bashrc')
             os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
@@ -226,6 +227,7 @@ while True:
             res()
             tt = input ('>>>')
             os.system('clear')
+            os.system('rm ~/.bashrc')
             os.system('echo "clear" >> ~/.bashrc')
             os.system('echo "toilet -f mono9 -F gay '+tt+'" >> ~/.bashrc')
             os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
@@ -235,7 +237,7 @@ while True:
 
         if inp_32 == '0':
             os.system('clear')
-            os.system('echo "clear" >> ~/.bashrc')
+            os.system('rm ~/.bashrc')
             print('[готово]')
             time.sleep(3)
         else:
