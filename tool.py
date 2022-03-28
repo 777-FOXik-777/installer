@@ -239,7 +239,7 @@ while True:
             os.system('clear')
             print('[готово]')
             time.sleep(3)
-       else:
+        else:
             os.system('clear')
 
 
