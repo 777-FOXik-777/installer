@@ -203,6 +203,7 @@ while True:
         res()
         print(Fore.CYAN+'[1] метал')
         print(Fore.CYAN+'[2] радуга')
+        print(Fore.YELLOW+'[0] удалить приветствие')
         res()
         inp_32 = input ('Выбери пункт>>> ')
         os.system('clear')
@@ -219,7 +220,6 @@ while True:
             print('[готово]')
             time.sleep(3)
 
-
         if inp_32 == '2':
             print(Fore.YELLOW+'[напишите текст]')
             print('[совет: используйте не более 8 символов]')
@@ -232,7 +232,14 @@ while True:
             os.system('clear')
             print('[готово]')
             time.sleep(3)
-        else:
+
+        if inp_32 == '0':
+            os.system('clear')
+            os.system('echo "clear" >> ~/.bashrc')
+            os.system('clear')
+            print('[готово]')
+            time.sleep(3)
+       else:
             os.system('clear')
 
 
