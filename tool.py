@@ -235,8 +235,7 @@ while True:
 
         if inp_32 == '0':
             os.system('clear')
-            os.system('echo "xdg-open https://t.me/SYPEXHACK" >> ~/.bashrc')
-            os.system('clear')
+            os.system('echo "clear" >> ~/.bashrc')
             print('[готово]')
             time.sleep(3)
         else:
