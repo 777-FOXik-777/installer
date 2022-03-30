@@ -1,4 +1,4 @@
-import os, time, webbrowser
+import os, time
 
 os.system('clear')
 os.system('pip install colorama')
