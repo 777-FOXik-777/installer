@@ -11,7 +11,7 @@ def res():
 while True:
     os.system('clear')
     print(Fore.RED+'[меню <файлы>]')
-    print(Fore.GREEN+'')
+    print(Fore.GREEN+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
     print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
     print ("| | | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
