@@ -11,6 +11,7 @@ print('Добро пожаловать в..')
 time.sleep(3)
 
 while True:
+    os.system('clear')
     print(Back.RED)
     print(Fore.BLACK+'АДСКИЙ TERMUX')
     res()
