@@ -8,5 +8,12 @@ def res():
     
 while True:
     os.system('clear')
+    print('Добро пожаловать в..')
+    time.sleep(3)
     print(Back.RED)
-    print(Fore.BLACK + 'тест')
+    print(Fore.BLACK + 'АДСКИЙ TERMUX')
+    tsu input('выберете пункт>>> ')
+    if tsu ='1':
+        os.system
+    else:
+        os.system
