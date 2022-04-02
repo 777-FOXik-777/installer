@@ -11,7 +11,10 @@ while True:
     print('Добро пожаловать в..')
     time.sleep(3)
     print(Back.RED)
-    print(Fore.BLACK + 'АДСКИЙ TERMUX')
+    print(Fore.BLACK+'АДСКИЙ TERMUX')
+    res()
+    print(FORE.YELLOW+'[1] сыграть')
+    print(FORE.YELLOW+'[0] выйти')
     tsu = input('выберете пункт>>> ')
     if tsu == '1':
         os.system
