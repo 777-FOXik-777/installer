@@ -17,8 +17,12 @@ while True:
     res()
     print(Fore.YELLOW+'[1] сыграть')
     print(Fore.YELLOW+'[0] выйти')
+    res()
     tsu = input('выберете пункт>>> ')
     if tsu == '1':
         os.system
+
+    if tsu == '0':
+        os.system('python3 tool.py')
     else:
-        os.system
+        os.system('clear')
