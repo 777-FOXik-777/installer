@@ -13,7 +13,7 @@ while True:
     print(Back.RED)
     print(Fore.BLACK + 'АДСКИЙ TERMUX')
     tsu = input('выберете пункт>>> ')
-    if tsu ='1':
+    if tsu == '1':
         os.system
     else:
         os.system
