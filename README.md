@@ -4,7 +4,7 @@ installer - утилита в которой находятся самые кр�
 
 # Установка Installer на Termux
 
-+ apt apdate
++ apt update
 
 + apt upgrade -y
 
