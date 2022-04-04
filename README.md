@@ -38,5 +38,3 @@ installer - утилита в которой находятся самые кр�
 #### Поддержка автора
 
 https://www.donationalerts.com/r/legends_never_die
- 
- ​![​Screenshot​](Screenshot.png "Screenshot")
