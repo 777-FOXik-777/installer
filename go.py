@@ -8,39 +8,39 @@ def res():
 
 os.system('clear')
 print('GOOGLE》 ')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》к')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》кр')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》кру')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》крут')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》круто')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》крутой')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》крутой T')
-time.sleep(0.2)
+time.sleep(0.4)
 
 os.system('clear')
 print('GOOGLE》крутой TG')
-time.sleep(0.2)
+time.sleep(3)
 
 os.system('clear')
 print(Fore.YELLOW+'[GOOGLE]')
