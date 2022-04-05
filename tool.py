@@ -415,6 +415,23 @@ while True:
             os.system('clear')
 
 
+    if inp == '44':
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка seeker...")
+        res()
+        os.system('pkg install dropbear -y')
+        os.system('pkg install openssh -y')
+        os.system('pkg install php -y')
+        os.system('pkg install php7 -y')
+        os.system('git clone https://github.com/thewhiteh4t/seeker.git')
+        os.chdir('seeker')
+        os.system('chmod 777 install.sh')
+        os.system('./install.sh')
+        os.system('clear')
+        os.system('python seeker.py')
+
+
+
     if inp == '77':
         os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
 
