@@ -11,14 +11,6 @@ def res():
     print(Style.RESET_ALL)
 
 os.system('clear')
-print (Fore.YELLOW+"["+Fore.RED+"ВНИМАНИЕ"+Fore.YELLOW+"] чтобы продолжить разрешите скачать доп. файлы")
-res()
-time.sleep(5)
-os.system('termux-setup-storage')
-os.system('clear')
-os.system('mv ~/installer/20220327_720p.mp4 ~/storage/shared/')
-
-os.system('clear')
 print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон'v2'...")
 res()
 time.sleep(1.5)
