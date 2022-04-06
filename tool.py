@@ -428,6 +428,8 @@ while True:
         os.system('chmod 777 install.sh')
         os.system('./install.sh')
         os.system('clear')
+        print('[включите моб. точку доступа]')
+        print('чтоб получить ссылку создайте второй сезон')
         os.system('python seeker.py')
 
 
