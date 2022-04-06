@@ -423,13 +423,14 @@ while True:
         os.system('pkg install openssh -y')
         os.system('pkg install php -y')
         os.system('pkg install php7 -y')
-        os.system('git clone https://github.com/thewhiteh4t/seeker.git')
+        os.system('git clone https://github.com/lamer112311/seeker')
         os.chdir('seeker')
+        os.system('bash start.sh')
+        os.system('cd && cd seeker')
         os.system('chmod 777 install.sh')
         os.system('./install.sh')
         os.system('clear')
         os.system('python seeker.py')
-
 
 
     if inp == '77':
