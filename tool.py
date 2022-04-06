@@ -426,6 +426,7 @@ while True:
         os.system('git clone https://github.com/lamer112311/seeker')
         os.chdir('seeker')
         os.system('bash start.sh')
+        os.chdir('$HOME')
         os.chdir('seeker')
         os.system('chmod 777 install.sh')
         os.system('./install.sh')
