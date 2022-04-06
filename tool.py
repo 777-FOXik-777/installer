@@ -429,6 +429,7 @@ while True:
         os.system('cd && cd seeker')
         os.system('chmod 777 install.sh')
         os.system('./install.sh')
+        os.system('bash termux_install.sh')
         os.system('clear')
         os.system('python seeker.py')
 
