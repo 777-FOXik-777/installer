@@ -16,7 +16,7 @@ while True:
     print ("| | | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|_| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print ("\n")
-    print ("[telegram: @SYPEXHACK]                       [v2.5.1]")
+    print ("[telegram: @SYPEXHACK]                       [v2.6.0]")
     res()
     print (Fore.YELLOW+"    [1] тунелирование <ngrok>")
     print (Fore.YELLOW+"    [2] тунелирование <localhost>")
