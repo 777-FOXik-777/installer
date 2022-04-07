@@ -435,7 +435,7 @@ while True:
             os.system('clear')
             os.system('trace -m')
         if tru_008 == '2':
-            os.system('clear')
+            os.system('exit')
         else:
             os.system('git clone https://github.com/777-FOXik-777/installer')
             os.chdir('installer')
