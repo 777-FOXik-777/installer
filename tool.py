@@ -415,6 +415,29 @@ while True:
             os.system('clear')
 
 
+    if inp == '54':
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
+        res()
+        os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git
+        os.chdir('IP-Tracer')
+        os.system('chmod +x install')
+        os.system('sh install')
+        os.system('clear')
+        print(Fore.YELLOW+" ")
+        print('[1] пробить свой ip')
+        print('[2] пробить чужой ip')
+        print('[0] выход')
+        res()
+        tru_008 = input('Выбери пункт>>> ')
+        if tru_008 == '1':
+            os.system('clear')
+
+        if tru_008 == '2':
+            os.system('clear')
+        else:
+            os.system('clear')
+
     if inp == '44':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка seeker...")
@@ -432,6 +455,7 @@ while True:
         print(FORE.YELLOW+'[включите моб. точку доступа]')
         time.sleep(4)
         print(Fore.GREEN+'чтоб получить ссылку создайте второй сезон')
+        time.sleep(2)
         res()
         os.system('python seeker.py')
 
