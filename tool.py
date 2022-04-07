@@ -419,7 +419,7 @@ while True:
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
         res()
-        os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git
+        os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
         os.chdir('IP-Tracer')
         os.system('chmod +x install')
         os.system('sh install')
