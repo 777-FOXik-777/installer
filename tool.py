@@ -437,7 +437,7 @@ while True:
         if tru_008 == '2':
             os.system('clear')
         else:
-            os.system('exit')
+            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
 
     if inp == '44':
