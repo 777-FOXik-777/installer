@@ -438,7 +438,10 @@ while True:
         if tru_008 == '2':
             os.system('clear')
             print('Пример IP [33.73.133.137]
+            res()
             tsu_808 = input('введите ip >>> ')
+            os.system('trace -t '+tsu_808)
+            tsu_800 = input('[нажмите entr чтобы выйти]')
         else:
             os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
