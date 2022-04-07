@@ -433,11 +433,14 @@ while True:
         tru_008 = input('Выбери пункт>>> ')
         if tru_008 == '1':
             os.system('clear')
-
+            os.system('trace -m')
         if tru_008 == '2':
             os.system('clear')
         else:
-            os.system('clear')
+            os.system('git clone https://github.com/777-FOXik-777/installer')
+            os.chdir('installer')
+            os.system('python3 tool.py')
+
 
     if inp == '44':
         os.system('clear')
