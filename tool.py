@@ -436,8 +436,7 @@ while True:
         if tru_008 == '2':
             os.system('clear')
         else:
-            os.chdir('installer')
-            os.system('clear')
+            os.system('python3 tool.py')
 
     if inp == '44':
         os.system('clear')
