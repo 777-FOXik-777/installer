@@ -32,6 +32,7 @@ while True:
     print (Fore.YELLOW+"    [12] пробив по ip")
     print (Fore.YELLOW+"    [13] пробив инстаграм")
     print (Fore.YELLOW+"    [14] соц-сети по нику")
+    print (Fore.YELLOW+"    [15] местоположения по ссылке")
     print (Fore.CYAN+"\n                                     ╔═════════════╗")
     print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.GREEN+'>утилиты<'+Fore.CYAN+'[91]║')
     print (Fore.CYAN+'    [88] тг канал автора             ║'+Fore.YELLOW+' забавы '+Fore.CYAN+' [92]║')
@@ -341,15 +342,6 @@ while True:
                 os.system('clear')
 
 
-    if inp == '12':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив ip...")
-        res()
-        os.system('pip install requests')
-        os.system('git clone https://github.com/MrProCatYT/Uti-lite')
-        os.chdir('Uti-lite')
-        os.system('python Uti-lite.py')
-
-
     if inp == '13':
         aa = 'ververa'
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив Instagram...")
@@ -415,7 +407,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '54':
+    if inp == '12':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
         res()
@@ -448,7 +440,7 @@ while True:
             os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
 
-    if inp == '44':
+    if inp == '15':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка seeker...")
         res()
