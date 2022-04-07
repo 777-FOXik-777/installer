@@ -423,7 +423,7 @@ while True:
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
         os.chdir('IP-Tracer')
         os.system('chmod +x install')
-        os.system('sh install')
+        os.system('./install')
         os.system('clear')
         print(Fore.YELLOW+" ")
         print('[1] пробить свой ip')
@@ -435,11 +435,9 @@ while True:
             os.system('clear')
             os.system('trace -m')
         if tru_008 == '2':
-            os.system('exit')
+            os.system('clear')
         else:
-            os.system('git clone https://github.com/777-FOXik-777/installer')
-            os.chdir('installer')
-            os.system('python3 tool.py')
+            os.system('exit')
 
 
     if inp == '44':
