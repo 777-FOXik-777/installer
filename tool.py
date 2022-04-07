@@ -419,6 +419,7 @@ while True:
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
         res()
+        os.system('rm -fr IP-Tracer')
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
         os.chdir('IP-Tracer')
         os.system('chmod +x install')
@@ -436,7 +437,7 @@ while True:
         if tru_008 == '2':
             os.system('clear')
         else:
-            os.system('python3 tool.py')
+            os.system('clear')
 
     if inp == '44':
         os.system('clear')
