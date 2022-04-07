@@ -436,6 +436,7 @@ while True:
         if tru_008 == '2':
             os.system('clear')
         else:
+            os.chdir('installer')
             os.system('clear')
 
     if inp == '44':
