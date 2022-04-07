@@ -434,6 +434,7 @@ while True:
         if tru_008 == '1':
             os.system('clear')
             os.system('trace -m')
+            tsu_800 = input('[нажмите entr чтобы выйти]')
         if tru_008 == '2':
             os.system('clear')
         else:
