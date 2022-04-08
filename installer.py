@@ -31,7 +31,7 @@ os.system('clear')
 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка приветствия...")
 res()
 time.sleep(1.5)
-os.system('pkg install toilet')
+os.system('pkg install toilet -y')
 
 
 os.system('clear')
