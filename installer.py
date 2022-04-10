@@ -10,32 +10,51 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
+
+#питон
+
 os.system('clear')
-print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка питон'v2'...")
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
 res()
 time.sleep(1.5)
 os.system('pkg install python2')
-os.system('pkg install python3')
 os.system('clear')
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python3...")
+res()
+time.sleep(1.5)
+os.system('pkg install python3')
 
+#забавы
 
-print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка забав...")
+os.system('clear')
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка cmatrix...")
 res()
 time.sleep(1.5)
 os.system('pkg install cmatrix')
+os.system('clear')
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка sl...")
+res()
+time.sleep(1.5)
 os.system('pkg install sl')
+os.system('clear')
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tty-clock...")
+res()
+time.sleep(1.5)
 os.system('pkg install tty-clock')
+os.system('clear')
+print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка libcaca...")
+res()
+time.sleep(1.5)
 os.system('pkg install libcaca -y')
 
+
 os.system('clear')
-print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка приветствия...")
+print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка toilet...")
 res()
 time.sleep(1.5)
 os.system('pkg install toilet -y')
 
+#запуск
 
 os.system('clear')
-print(Fore.GREEN+'[Запуск installer]')
-res()
-time.sleep(3)
 os.system('python3 start.py')
