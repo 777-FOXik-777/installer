@@ -177,6 +177,7 @@ while True:
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
             os.system('python3 pyphisher.py')
+            os.system('clear')
 
         if tru_301 == 'n':
             os.system('clear')
