@@ -6,7 +6,7 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
-
+res()
 os.system('clear')
 print("                              ,:',:`,:'           ")
 print('                           __||_||_||_||__        ')
