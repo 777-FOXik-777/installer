@@ -169,16 +169,16 @@ while True:
     if inp == '3':   
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
-        tru = input('\n Включили? [y/n] >>> ')
+        tru_301 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
-        if tru == 'y':
+        if tru_301 == 'y':
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка фишинг...")
             res()
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
             os.system('python3 pyphisher.py')
 
-        if tru == 'n':
+        if tru_301 == 'n':
             os.system('clear')
 
         else:
@@ -265,13 +265,14 @@ while True:
         print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
         res()
         tsu_701 = input('[y/n] >>> ')
-        if tsu_06 == 'y':
+        if tsu_701 == 'y':
             os.system('clear')
             print(Fore.RED+'[termux заблокирован]')
             time.sleep(5)
             os.system('rm ~/.bashrc')
             os.system('echo "exit" >> ~/.bashrc')
             break
+
         if tsu_701 == 'n':
             os.system('clear')
 
@@ -328,15 +329,15 @@ while True:
         os.system('clear')
         print('[Введите номер телефона в формате: +(код)##########]')
         print('[Пример: +71237689098]')
-        at = input('\n Введите номер >>> ')
-        if at == '':
+        tsu_1101 = input('\n Введите номер >>> ')
+        if 1101 == '':
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
 
         else:
             os.system('clear')
-            os.system('python phoneinfoga.py -n '+at)
+            os.system('python phoneinfoga.py -n '+tsu_1101)
             tsu_14 = input('[нажмите entr чтобы выйти]')
 
 
@@ -387,8 +388,8 @@ while True:
         print(Fore.GREEN+'[Введите ник в инстаграм]')
         print(Fore.CYAN+'[Пример: ververa]')
         res()
-        aa = input('Введите ник>>> ')
-        if aa == '':
+        tsu_1301 = input('Введите ник>>> ')
+        if tsu_1301 == '':
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
@@ -396,9 +397,10 @@ while True:
             os.system('git clone https://github.com/777-FOXik-777/installer')
             os.chdir('installer')
             os.system('python3 tool.py')
+
         else:
             os.system('clear')
-            os.system('python3 main.py -u '+aa)
+            os.system('python3 main.py -u '+tsu_1301)
             tsu_1302 = input('[нажмите entr чтобы выйти]')
             if tsu_1302 =='':
                 os.system('clear')
