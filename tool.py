@@ -176,8 +176,7 @@ while True:
             res()
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
-            os.system('python3 pyphisher.py')
-            os.system('clear')
+            os.system('python3 pyphisher.py && python3 tool.py')
 
         if tru_301 == 'n':
             os.system('clear')
