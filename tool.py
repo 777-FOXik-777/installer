@@ -235,7 +235,7 @@ while True:
             print('[готово]')
             time.sleep(3)
 
-        if inp_602 == '2':
+        if inp_601 == '2':
             print(Fore.YELLOW+'[напишите текст]')
             print('[совет: используйте не более 8 символов]')
             res()
@@ -249,7 +249,7 @@ while True:
             print('[готово]')
             time.sleep(3)
 
-        if inp_602 == '0':
+        if inp_601== '0':
             os.system('clear')
             os.system('rm ~/.bashrc')
             os.system('clear')
