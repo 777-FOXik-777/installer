@@ -42,6 +42,7 @@ while True:
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
+
     if inp == '91':
         os.system('clear')
         
@@ -55,13 +56,12 @@ while True:
         os.system('clear')
         os.system('python3 fail.py')
        
-
-        
+       
     if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
-        tru_6 = input('\n Включили? [y/n] >>> ')
+        tru_101 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
-        if tru_6 == 'y':
+        if tru_101 == 'y':
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
             res()
             os.system('pkg install nodejs-lts -y')
@@ -70,8 +70,8 @@ while True:
             we  = '8080'
             os.system('clear')
             print('[<ngrok> стандартный порт 8080]')
-            tru_5 = input('\n Изменить порт? [y/n] >>> ')
-            if tru_5 == 'y':
+            tru_102 = input('\n Изменить порт? [y/n] >>> ')
+            if tru_102 == 'y':
                 os.system('clear')
                 we_2 = input('Введите порт>>> ')
                 if we_2 == '':
@@ -85,17 +85,18 @@ while True:
                     os.system('clear')
                     os.system('ngrok http '+we_2)
 
-            if tru_5 == 'n':
+            if tru_102 == 'n':
                 os.system('clear')
                 os.system('ngrok http '+we)
             else:
                 os.system('clear')
                 os.system('ngrok http '+we)
 
-        if tru_6 == 'n':
+        if tru_101 == 'n':
             os.system('clear')
             print(Fore.RED+'[пожалуйста включите моб. точку доступа и повторите]')
             time.sleep(3)
+
         else:
             os.system('clear')
      
@@ -103,9 +104,9 @@ while True:
     if inp == '2':   
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
-        tru_2 = input('\n Включили? [y/n] >>> ')
+        tru_201 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
-        if tru_2 == 'y':
+        if tru_201 == 'y':
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка localhost...")
             res()
             os.system('pkg install dropbear -y')
@@ -113,8 +114,8 @@ while True:
             qw = '8080'
             os.system('clear')
             print('[<localhost> стандартный порт:8080]')
-            tru_3 = input('\n Изменить порт? [y/n] >>> ')
-            if tru_3 == 'y':
+            tru_202 = input('\n Изменить порт? [y/n] >>> ')
+            if tru_202 == 'y':
                 os.system('clear')
                 qw_2 = input('Введите порт>>> ')
                 if qw_2 == '':
@@ -138,7 +139,7 @@ while True:
                     time.sleep(4)
                     os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
 
-            if tru_3 == 'n':
+            if tru_202 == 'n':
                 os.system('clear')
                 print(Fore.GREEN+'[Ваша ссылка находится в самом нижнем ряде]')
                 print(Fore.YELLOW+'[если ссылка не появилась, а последний символ')
@@ -155,11 +156,11 @@ while True:
                 time.sleep(4)
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
                 
-        if tru_2 == 'n':
+        if tru_201 == 'n':
             os.system('clear')
             print(Fore.RED+'[пожалуйста включите моб. Точку доступа и повторите]')
             time.sleep(3)
-            pass
+
         else:
             os.system('clear')
 
@@ -176,9 +177,10 @@ while True:
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
             os.system('python3 pyphisher.py')
+
         if tru == 'n':
             os.system('clear')
-            pass
+
         else:
             os.system('clear')
 
@@ -217,9 +219,9 @@ while True:
         print(Fore.CYAN+'[2] радуга')
         print(Fore.YELLOW+'[0] удалить приветствие')
         res()
-        inp_32 = input ('Выбери пункт>>> ')
+        inp_601 = input ('Выбери пункт>>> ')
         os.system('clear')
-        if inp_32 == '1':
+        if inp_601 == '1':
             print(Fore.YELLOW+'[напишите текст]')
             print('[совет: используйте не более 8 символов]')
             res()
@@ -233,7 +235,7 @@ while True:
             print('[готово]')
             time.sleep(3)
 
-        if inp_32 == '2':
+        if inp_602 == '2':
             print(Fore.YELLOW+'[напишите текст]')
             print('[совет: используйте не более 8 символов]')
             res()
@@ -247,12 +249,13 @@ while True:
             print('[готово]')
             time.sleep(3)
 
-        if inp_32 == '0':
+        if inp_602 == '0':
             os.system('clear')
             os.system('rm ~/.bashrc')
             os.system('clear')
             print('[готово]')
             time.sleep(3)
+
         else:
             os.system('clear')
 
@@ -261,7 +264,7 @@ while True:
         os.system('clear')
         print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
         res()
-        tsu_06 = input('[y/n] >>> ')
+        tsu_701 = input('[y/n] >>> ')
         if tsu_06 == 'y':
             os.system('clear')
             print(Fore.RED+'[termux заблокирован]')
@@ -269,7 +272,7 @@ while True:
             os.system('rm ~/.bashrc')
             os.system('echo "exit" >> ~/.bashrc')
             break
-        if tsu_06 == 'n':
+        if tsu_701 == 'n':
             os.system('clear')
 
         else:
@@ -285,7 +288,7 @@ while True:
         os.system('clear')
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
-        tsu_44 = input('[нажмите entr чтобы выйти]')
+        tsu_801 = input('[нажмите entr чтобы выйти]')
 
 
     if inp == '9':
@@ -298,7 +301,7 @@ while True:
         res()
         print(Fore.GREEN+'https://bit.ly/3ild93L')
         res()
-        tru_8 = input('[нажмите entr чтобы выйти]')
+        tru_901 = input('[нажмите entr чтобы выйти]')
 
 
     if inp == '10':
@@ -313,11 +316,10 @@ while True:
         print('более менее нормально.]')
         time.sleep(10)
         os.system('bash maskphish.sh')
-        tsu_14 = input('[нажмите entr чтобы выйти]')
+        tsu_1001 = input('[нажмите entr чтобы выйти]')
 
 
     if inp == '11':
-        at = '1'
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив телефона...")
         res()
         os.system('git clone https://github.com/Wes974/PhoneInfoga')
@@ -331,6 +333,7 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
+
         else:
             os.system('clear')
             os.system('python phoneinfoga.py -n '+at)
@@ -352,26 +355,29 @@ while True:
         print('[2] пробить чужой ip')
         print('[0] выход')
         res()
-        tru_008 = input('Выбери пункт>>> ')
-        if tru_008 == '1':
+        tru_1201 = input('Выбери пункт>>> ')
+
+        if tru_1201 == '1':
             os.system('clear')
             os.system('trace -m')
             tsu_800 = input('[нажмите entr чтобы выйти]')
             os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-        if tru_008 == '2':
+
+        if tru_1201 == '2':
             os.system('clear')
             print(Fore.YELLOW+'Пример IP 33.73.133.137')
             res()
-            tsu_808 = input('введите ip >>> ')
-            os.system('trace -t '+tsu_808)
-            tsu_888 = input('[нажмите entr чтобы выйти]')
+            tsu_1202 = input('введите ip >>> ')
+            os.system('trace -t '+tsu_1202)
+
+            tsu_1203 = input('[нажмите entr чтобы выйти]')
             os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
+
         else:
             os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
 
     if inp == '13':
-        aa = 'ververa'
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив Instagram...")
         res()
         os.system('git clone https://github.com/th3unkn0n/osi.ig')
@@ -393,12 +399,13 @@ while True:
         else:
             os.system('clear')
             os.system('python3 main.py -u '+aa)
-            tsu_24 = input('[нажмите entr чтобы выйти]')
-            if tsu_24 =='':
+            tsu_1302 = input('[нажмите entr чтобы выйти]')
+            if tsu_1302 =='':
                 os.system('clear')
                 os.system('git clone https://github.com/777-FOXik-777/installer')
                 os.chdir('installer')
                 os.system('python3 tool.py')
+
             else:
                 os.system('clear')
                 os.system('git clone https://github.com/777-FOXik-777/installer')
@@ -416,7 +423,7 @@ while True:
         os.system('chmod +x userrecon.sh')
         os.system('bash userrecon.sh')
         res()
-        tru_08 = input('[нажмите entr чтобы выйти]')
+        tru_1401 = input('[нажмите entr чтобы выйти]')
 
 
     if inp == '15':
