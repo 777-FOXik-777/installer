@@ -462,13 +462,13 @@ while True:
         os.system('chmod 777 install.sh')
         os.system('./install.sh')
         os.system('clear')
-        os.system('echo "clear" >> ~/.bashrc && echo "echo [ваша ссылка находится в самом нижнем ряде]" >> ~/.bashrc && echo "echo [если ссылка не появилась, а последний символ" >> ~/.bashrc && echo "echo знак вопроса напишите [yes]" >> ~/.bashrc && echo "rm ~/.bashrc" >> ~/.bashrc && echo "ssh -R 80:localhost:8080 nokey@localhost.run" >> ~/.bashrc')
+        os.system('echo "clear" >> ~/.bashrc && echo "echo [ваша ссылка находится в самом нижнем ряде]" >> ~/.bashrc && echo "echo [если ссылка не появилась, а последний символ" >> ~/.bashrc && echo "echo знак вопроса напишите [yes]" >> ~/.bashrc && echo "rm ~/.bashrc" >> ~/.bashrc && echo "ssh -R 80:localhost:8080 nokey@localhost.run && cd && cd installer && python3 tool.py" >> ~/.bashrc')
         print(Fore.YELLOW+'[включите моб. точку доступа]')
         time.sleep(4)
-        print(Fore.GREEN+'чтоб получить ссылку создайте второй сезон')
+        print(Fore.GREEN+'[чтоб получить ссылку создайте второй сезон]')
         print(' ')
         time.sleep(2)
-        os.system('python seeker.py && python3 tool.py')
+        os.system('python seeker.py && cd installer && python3 tool.py')
 
 
     if inp == '77':
