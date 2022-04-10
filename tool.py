@@ -194,6 +194,18 @@ while True:
         os.system('python doser.py')
 
 
+    if inp == '5':
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка бомбер...")
+        res()
+        os.system('pip install db0mb3r')
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.GREEN+"ВНИМАНИЕ"+Fore.YELLOW+"] вас будет переброшено на сайт просто подождите 5-10сек.")
+        res()
+        time.sleep(5)
+        os.system('bomber')
+
+
     if inp == '6':   
         tt = 'привет'
         os.system('clear')
@@ -325,6 +337,39 @@ while True:
             tsu_14 = input('[нажмите entr чтобы выйти]')
 
 
+    if inp == '12':
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
+        res()
+        os.system('rm -fr IP-Tracer')
+        os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
+        os.chdir('IP-Tracer')
+        os.system('chmod +x install')
+        os.system('./install')
+        os.system('clear')
+        print(Fore.YELLOW+" ")
+        print('[1] пробить свой ip')
+        print('[2] пробить чужой ip')
+        print('[0] выход')
+        res()
+        tru_008 = input('Выбери пункт>>> ')
+        if tru_008 == '1':
+            os.system('clear')
+            os.system('trace -m')
+            tsu_800 = input('[нажмите entr чтобы выйти]')
+            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
+        if tru_008 == '2':
+            os.system('clear')
+            print(Fore.YELLOW+'Пример IP 33.73.133.137')
+            res()
+            tsu_808 = input('введите ip >>> ')
+            os.system('trace -t '+tsu_808)
+            tsu_888 = input('[нажмите entr чтобы выйти]')
+            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
+        else:
+            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
+
+
     if inp == '13':
         aa = 'ververa'
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив Instagram...")
@@ -360,17 +405,6 @@ while True:
                 os.chdir('installer')
                 os.system('python3 tool.py')
             
-    if inp == '5':
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка бомбер...")
-        res()
-        os.system('pip install db0mb3r')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.GREEN+"ВНИМАНИЕ"+Fore.YELLOW+"] вас будет переброшено на сайт просто подождите 5-10сек.")
-        res()
-        time.sleep(5)
-        os.system('bomber')
-
 
     if inp == '14':
         os.system('clear')
@@ -383,39 +417,6 @@ while True:
         os.system('bash userrecon.sh')
         res()
         tru_08 = input('[нажмите entr чтобы выйти]')
-
-
-    if inp == '12':
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
-        res()
-        os.system('rm -fr IP-Tracer')
-        os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
-        os.chdir('IP-Tracer')
-        os.system('chmod +x install')
-        os.system('./install')
-        os.system('clear')
-        print(Fore.YELLOW+" ")
-        print('[1] пробить свой ip')
-        print('[2] пробить чужой ip')
-        print('[0] выход')
-        res()
-        tru_008 = input('Выбери пункт>>> ')
-        if tru_008 == '1':
-            os.system('clear')
-            os.system('trace -m')
-            tsu_800 = input('[нажмите entr чтобы выйти]')
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-        if tru_008 == '2':
-            os.system('clear')
-            print(Fore.YELLOW+'Пример IP 33.73.133.137')
-            res()
-            tsu_808 = input('введите ip >>> ')
-            os.system('trace -t '+tsu_808)
-            tsu_888 = input('[нажмите entr чтобы выйти]')
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-        else:
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
 
     if inp == '15':
