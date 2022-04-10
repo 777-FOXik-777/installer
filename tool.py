@@ -286,7 +286,11 @@ while True:
 
 
     if inp == '8':    
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взлом. камер...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взломаных камер...")
+        res()
+        time.sleep(1.5)
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
         res()
         os.system('pip install requests')
         os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers') 
@@ -315,12 +319,9 @@ while True:
         res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
-        print('[Инструкция: В первый ряд вводим вашу фишинг ссылку.')
-        print('В второй ряд  вводим ссылку которую мы хотим получить,')
-        print('пример: https://instagram.com В третьем ряде нажимаем entr.')
-        print('В итоге получаем редирект ссылку, которая выглядит')
-        print('более менее нормально.]')
-        time.sleep(10)
+        print('Инструкция находиться по ссылке:')
+        print(Fore.GREEN+'https://telegra.ph/maskphish-04-08')
+        time.sleep(4)
         os.system('bash maskphish.sh')
         tsu_1001 = input('[нажмите entr чтобы выйти]')
 
@@ -334,6 +335,9 @@ while True:
         res()
         os.system('git clone https://github.com/Wes974/PhoneInfoga')
         os.chdir('PhoneInfoga')
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка доп. файлов...")
+        res()
         os.system('pip install -r requirements.txt')
         os.system('clear')
         print('[Введите номер телефона в формате: +(код)##########]')
@@ -344,7 +348,6 @@ while True:
             print('[вы ничего не ввели]')
             res()
             tsu_1103 = input('[нажмите entr чтобы выйти]')
-
 
         else:
             os.system('clear')
@@ -422,10 +425,6 @@ while True:
             os.system('python3 main.py -u '+tsu_1301)
             tsu_1303 = input('[нажмите entr чтобы выйти]')
             os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-
-            else:
-                os.system('clear')
-                os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
 
     if inp == '14':
