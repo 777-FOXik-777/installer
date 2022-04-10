@@ -7,6 +7,6 @@ def res():
     print(Style.RESET_ALL)
 
 os.system('clear')
-pritn(Fore.YELLOW+'Спасибо за использование installer')
+print(Fore.YELLOW+'Спасибо за использование installer')
 res()
-pritn(Fore.YELLOW+'подпишись на наш телеграм: @SYPEXHACK')
+print(Fore.MAGENTA+'подпишись на наш телеграм: @SYPEXHACK')
