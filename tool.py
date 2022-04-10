@@ -286,7 +286,7 @@ while True:
         res()
         print(Fore.GREEN+'https://bit.ly/3ild93L')
         res()
-        tru_8 = input('нажмите entr чтобы выйти ')
+        tru_8 = input('[нажмите entr чтобы выйти]')
 
 
     if inp == '10':
@@ -382,7 +382,7 @@ while True:
         os.system('chmod +x userrecon.sh')
         os.system('bash userrecon.sh')
         res()
-        tru_08 = input('нажмите entr чтобы выйти ')
+        tru_08 = input('[нажмите entr чтобы выйти]')
 
 
     if inp == '12':
