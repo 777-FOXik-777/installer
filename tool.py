@@ -232,8 +232,9 @@ while True:
             os.system('echo "toilet -f mono9 -F metal '+tt+'" >> ~/.bashrc')
             os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
             os.system('clear')
-            print('[готово]')
-            time.sleep(3)
+            print(Fore.GREEN+'[готово]')
+            res()
+            tsu_603 = input('[нажмите entr чтобы выйти]')
 
         if inp_601 == '2':
             print(Fore.YELLOW+'[напишите текст]')
@@ -246,15 +247,18 @@ while True:
             os.system('echo "toilet -f mono9 -F gay '+tt+'" >> ~/.bashrc')
             os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
             os.system('clear')
-            print('[готово]')
-            time.sleep(3)
+            print(Fore.GREEN+'[готово]')
+            res()
+            tsu_604 = input('[нажмите entr чтобы выйти]')
+
 
         if inp_601== '0':
             os.system('clear')
             os.system('rm ~/.bashrc')
             os.system('clear')
-            print('[готово]')
-            time.sleep(3)
+            print(Fore.GREEN+'[готово]')
+            res()
+            tsu_605 = input('[нажмите entr чтобы выйти]')
 
         else:
             os.system('clear')
