@@ -80,17 +80,18 @@ while True:
                     print('[Порт '+we+']')
                     time.sleep(4)
                     os.system('clear')
-                    os.system('ngrok http '+we)
+                    os.system('ngrok http '+we+' && python3 tool.py')
                 else:
                     os.system('clear')
-                    os.system('ngrok http '+we_2)
+                    os.system('ngrok http '+we_2+' && python3 tool.py')
 
             if tru_102 == 'n':
                 os.system('clear')
-                os.system('ngrok http '+we)
+                os.system('ngrok http '+we+'&& python3 tool.py')
+
             else:
                 os.system('clear')
-                os.system('ngrok http '+we)
+                os.system('ngrok http '+we+' && python3 tool.py')
 
         if tru_101 == 'n':
             os.system('clear')
@@ -129,7 +130,7 @@ while True:
                     print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                     res()
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && python3 tool.py')
                 else:
                     os.system('clear')
                     print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
@@ -137,7 +138,7 @@ while True:
                     print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                     res()
                     time.sleep(4)
-                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run')
+                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && python3 tool.py')
 
             if tru_202 == 'n':
                 os.system('clear')
@@ -146,7 +147,7 @@ while True:
                 print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                 res()
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && python3 tool.py')
             else:
                 os.system('clear')
                 print(Fore.GREEN+'[ваша ссылка находится в самом нижнем ряде]')
@@ -154,7 +155,7 @@ while True:
                 print(Fore.YELLOW+'знак вопроса напишите <yes>]')
                 res()
                 time.sleep(4)
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run')
+                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && python3 tool.py')
                 
         if tru_201 == 'n':
             os.system('clear')
@@ -193,7 +194,7 @@ while True:
         os.system('git clone https://github.com/lamer112311/Doser')
         os.chdir('Doser')
         os.system('bash install.sh')
-        os.system('python doser.py')
+        os.system('python doser.py && python3 tool.py')
 
 
     if inp == '5':
@@ -451,7 +452,7 @@ while True:
         print(Fore.GREEN+'чтоб получить ссылку создайте второй сезон')
         print(' ')
         time.sleep(2)
-        os.system('python seeker.py')
+        os.system('python seeker.py && python3 tool.py')
 
 
     if inp == '77':
