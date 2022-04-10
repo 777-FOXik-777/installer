@@ -386,8 +386,15 @@ while True:
     if inp == '13':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив Instagram...")
         res()
+        time.sleep(1.5)
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
+        res()
         os.system('git clone https://github.com/th3unkn0n/osi.ig')
         os.chdir('osi.ig')
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка доп. файлов...")
+        res()
         os.system('python3 -m pip install -r requirements.txt')
         os.system('clear')
         print(Fore.GREEN+'[Введите ник в инстаграм]')
@@ -398,10 +405,7 @@ while True:
             os.system('clear')
             print('[вы ничего не ввели]')
             time.sleep(3)
-            os.system('clear')
-            os.system('git clone https://github.com/777-FOXik-777/installer')
-            os.chdir('installer')
-            os.system('python3 tool.py')
+            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
         else:
             os.system('clear')
@@ -409,20 +413,20 @@ while True:
             tsu_1302 = input('[нажмите entr чтобы выйти]')
             if tsu_1302 =='':
                 os.system('clear')
-                os.system('git clone https://github.com/777-FOXik-777/installer')
-                os.chdir('installer')
-                os.system('python3 tool.py')
+                os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
             else:
                 os.system('clear')
-                os.system('git clone https://github.com/777-FOXik-777/installer')
-                os.chdir('installer')
-                os.system('python3 tool.py')
-            
+                os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
+
 
     if inp == '14':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка соц.-ник...")
+        res()
+        time.sleep(1.5)
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
         res()
         os.system('git clone https://github.com/issamelferkh/userrecon.git')
         os.chdir('userrecon')
