@@ -100,7 +100,6 @@ while True:
             os.system('clear')
      
 
-
     if inp == '2':   
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
@@ -260,6 +259,7 @@ while True:
             break
         if tsu_06 == 'n':
             os.system('clear')
+
         else:
             os.system('clear')
 
@@ -274,10 +274,6 @@ while True:
         os.system('chmod +x *')
         os.system('python cam-hackers.py')
         tsu_44 = input('[нажмите entr чтобы выйти]')
-        if tsu_44 =='':
-            os.system('clear')
-        else:
-            os.system('clear')
 
 
     if inp == '9':
@@ -291,11 +287,6 @@ while True:
         print(Fore.GREEN+'https://bit.ly/3ild93L')
         res()
         tru_8 = input('нажмите entr чтобы выйти ')
-        if tru_8 == '':
-            os.system('clear')
-            pass
-        else:
-            os.system('clear')       
 
 
     if inp == '10':
@@ -311,10 +302,6 @@ while True:
         time.sleep(10)
         os.system('bash maskphish.sh')
         tsu_14 = input('[нажмите entr чтобы выйти]')
-        if tsu_14 =='':
-            os.system('clear')
-        else:
-            os.system('clear')
 
 
     if inp == '11':
@@ -336,10 +323,6 @@ while True:
             os.system('clear')
             os.system('python phoneinfoga.py -n '+at)
             tsu_14 = input('[нажмите entr чтобы выйти]')
-            if tsu_14 =='':
-                os.system('clear')
-            else:
-                os.system('clear')
 
 
     if inp == '13':
@@ -400,11 +383,6 @@ while True:
         os.system('bash userrecon.sh')
         res()
         tru_08 = input('нажмите entr чтобы выйти ')
-        if tru_08 == '':
-            os.system('clear')
-            pass
-        else:
-            os.system('clear')
 
 
     if inp == '12':
