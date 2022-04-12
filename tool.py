@@ -57,7 +57,7 @@ while True:
         os.system('python3 fail.py')
        
        
-    if inp == '1':
+    if inp == '1' or '01':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_101 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
