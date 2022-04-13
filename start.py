@@ -270,4 +270,4 @@ print(Fore.YELLOW+'               telegram')
 print("  ")
 time.sleep(3)
 
-os.system('cd && cd installer && python3 tool.py && python3 exit.py')
+os.system(' python3 tool.py')
