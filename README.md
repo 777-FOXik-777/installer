@@ -10,7 +10,7 @@ installer - утилита в которой находятся самые кр�
 
 + pkg install python -y
 
-+ pkg install git -y
++ pkg install git
 
 + git clone https://github.com/777-FOXik-777/installer
 
