@@ -115,7 +115,7 @@ while True:
 
 
     if inp == '99':    
-        os.system('xdg-open https://t.me/MR_FOXik')
+        os.system('xdg-open https://t.me/perehodos')
         os.system('clear')
         
 
