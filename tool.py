@@ -83,13 +83,12 @@ while True:
             print('[Пожалуйста включите мобильную точку доступа и повторите]')
             time.sleep(3)
             os.system('clear')
-            print('\n')
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа")
-            print('\n')
             
         else:
             os.system('clear')
-
+            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Вы не дали ответ")
+            
     if inp == '2':
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ!'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
