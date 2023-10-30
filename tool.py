@@ -10,13 +10,14 @@ while True:
     os.system('clear')
     print(Fore.RED+'[меню <утилиты>]')
     print(Fore.GREEN+'', Style.BRIGHT)
-    print (" _                 _             _   _               ")
-    print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
-    print ("| | | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
-    print ("| | | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
-    print ("|_| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    print ("██╗███╗░░██╗░██████╗████████╗░█████╗░██╗░░░░░██╗░░░░░███████╗██████╗░")
+    print ("██║████╗░██║██╔════╝╚══██╔══╝██╔══██╗██║░░░░░██║░░░░░██╔════╝██╔══██╗")
+    print ("██║██╔██╗██║╚█████╗░░░░██║░░░███████║██║░░░░░██║░░░░░█████╗░░██████╔╝")
+    print ("██║██║╚████║░╚═══██╗░░░██║░░░██╔══██║██║░░░░░██║░░░░░██╔══╝░░██╔══██╗")
+    print ("██║██║░╚███║██████╔╝░░░██║░░░██║░░██║███████╗███████╗███████╗██║░░██║")
+    print ("╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝╚══════╝╚═╝░░╚═╝")
     print ("\n")
-    print ("[telegram: @SYPEXHACK]                       [v2.6.0]")
+    print ("[Telegram: @SYPEXHACK]                       [v2.6.0]")
     res()
     print (Fore.YELLOW+"    [1] тунелирование <ngrok>")
     print (Fore.YELLOW+"    [2] тунелирование <localhost>")
@@ -33,29 +34,14 @@ while True:
     print (Fore.YELLOW+"    [13] пробив инстаграм")
     print (Fore.YELLOW+"    [14] соц-сети по нику")
     print (Fore.YELLOW+"    [15] местоположения по ссылке")
-    print (Fore.CYAN+"\n                                     ╔═════════════╗")
-    print (Fore.CYAN+'    [77] поддержка автора            ║'+Fore.GREEN+'>утилиты<'+Fore.CYAN+'[91]║')
-    print (Fore.CYAN+'    [88] тг канал автора             ║'+Fore.YELLOW+' забавы '+Fore.CYAN+' [92]║')
-    print (Fore.CYAN+'    [99] тех поддержка               ║'+Fore.YELLOW+' файлы  '+Fore.CYAN+' [93]║')
-    print (Fore.CYAN+'    [00] выход                       ╚═════════════╝')
+    print (Fore.CYAN+"\n")
+    print (Fore.CYAN+'    [88] тг канал автора')
+    print (Fore.CYAN+'    [99] тех поддержка')
+    print (Fore.CYAN+'    [00] выход')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
-
-    if inp == '91':
-        os.system('clear')
-        
-
-    if inp == '92':
-        os.system('clear')
-        os.system('python3 zabava.py')
-        
-
-    if inp == '93':
-        os.system('clear')
-        os.system('python3 fail.py')
-       
        
     if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
@@ -495,11 +481,6 @@ while True:
         print(' ')
         time.sleep(2)
         os.system('python seeker.py && cd installer && python3 tool.py')
-
-
-    if inp == '77':
-        os.system('xdg-open https://www.donationalerts.com/r/legends_never_die')
-
 
     if inp == '99':    
         os.system('xdg-open https://t.me/perehodos')
