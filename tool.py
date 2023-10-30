@@ -67,12 +67,9 @@ while True:
                     os.system('clear')
                     os.system('ngrok http '+we+' && python3 tool.py')
                 else:
-                    os.system('clear')
-                    print('Вы ничего не ввели!')
-                    print('\n''Использую стандартный порт ['+we+']')
-                    time.sleep(7)
-                    os.system('clear')
-                    os.system('ngrok http '+we+' && clear')
+                   os.system('clear')
+                   print('\n')
+                   print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Не пропускайте вопросы заданые вам")
 
             if tru_102 == 'n':
                 os.system('clear')
@@ -80,16 +77,10 @@ while True:
 
             else:
                 os.system('clear')
-                print('Вы ничего не выбрали!')
-                print('\n''Использую стандартный порт ['+we+']')
-                time.sleep(7)
-                os.system('clear')
-                os.system('ngrok http '+we+' && clear')
+                print('\n')
+                print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Не пропускайте вопросы заданые вам"))
 
         if tru_101 == 'n':
-            os.system('clear')
-            print('[Пожалуйста включите мобильную точку доступа и повторите]')
-            time.sleep(3)
             os.system('clear')
             print('\n')
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа")
