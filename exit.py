@@ -8,3 +8,4 @@ def res():
 
 os.system('clear')
 print(Fore.YELLOW+'Спасибо за использование Installer')
+break
