@@ -81,10 +81,9 @@ while True:
 
         if tru_101 == 'n':
             os.system('clear')
-            print('[Пожалуйста включите мобильную точку доступа и повторите')
+            print('[Пожалуйста включите мобильную точку доступа и повторите]')
             time.sleep(3)
             os.system('clear')
-            os.system('python3 tool.py')
             print ('\n')
             print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа!")
 
