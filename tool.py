@@ -47,7 +47,7 @@ while True:
         tru_101 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
         if tru_101 == 'y':
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
             res()
             os.system('pkg install nodejs-lts -y')
             os.system('npm install ngrok')
@@ -92,10 +92,62 @@ while True:
         if tru_101 == 'n':
             os.system('clear')
             print('\n')
-            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа")
+            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать Ngrok включите точку доступа")
             
-            
-    if inp == '2':
+
+        if inp == '2':
+        print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
+        tru_201 = input('\n'' Включили? [y/n] >>> ')
+        os.system('clear')
+        if tru_101 == 'y':
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
+            res()
+            os.system('pkg install dropbear -y')
+            os.system('pkg install openssh -y')
+            qw  = '8080'
+            os.system('clear')
+            print('\n')
+            print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+            print(Fore.WHITE+'')
+            tru_202 = input('\n'' Изменить порт? [y/n] >>> ')
+            if tru_202 == 'y':
+                os.system('clear')
+                qw_2 = input('\n'' Введите порт>>> ')
+                if qw_2 == '':
+                    os.system('clear')
+                    print('\n')
+                    print(Fore.YELLOW+' Вы ничего не ввели!')
+                    print('\n'+Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                    time.sleep(7)
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск...")
+                    time.sleep(3)
+                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run' && clear')
+                    os.system('clear')
+                    
+                else:
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск...")
+                    time.sleep(3)
+                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run' && clear')
+                    os.system('clear')
+
+            if tru_202 == 'n':
+                os.system('clear')
+                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run' && clear')
+                os.system('clear')
+                
+            else:
+                os.system('clear')
+                print('\n')
+                    
+        if tru_201 == 'n':
+            os.system('clear')
+            print('\n')
+            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать Localhost включите точку доступа")
+
+    
+    if inp == '20':
         os.system('clear')
         print('['+Fore.RED+'ВНИМАНИЕ!'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_201 = input('\n Включили? [y/n] >>> ')
