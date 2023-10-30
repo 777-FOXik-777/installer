@@ -2,6 +2,7 @@ import os, time, webbrowser
 
 from colorama import Fore, Style
 
+os.system('clear')
 print ('\n')
 def res():
     print(Style.RESET_ALL)
@@ -80,6 +81,8 @@ while True:
             os.system('clear')
             print(Fore.RED+'[пожалуйста включите моб. точку доступа и повторите]')
             time.sleep(3)
+            os.system('clear')
+            os.system('python3 tool.py')
 
         else:
             os.system('clear')
