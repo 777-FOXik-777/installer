@@ -40,7 +40,10 @@ while True:
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
-       
+    
+    if inp == 'u':
+         os.system(' git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
+        
     if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_101 = input('\n Включили? [y/n] >>> ')
@@ -485,11 +488,12 @@ while True:
     if inp == '99':    
         os.system('xdg-open https://t.me/SYPEXHACK_chat')
         os.system('clear')
-        
+        os.system('python3 tool.py')
 
     if inp == '88':
         os.system('xdg-open https://t.me/SYPEXHACK')
         os.system('clear')
+        os.system('python3 tool.py')
 
 
     if inp == '00':
