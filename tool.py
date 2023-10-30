@@ -7,7 +7,6 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
-    print ("\n")
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
     print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
@@ -495,4 +494,6 @@ while True:
         break
 
     else:
+        os.system('clear')
+        print ('\n')
         print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Выбран не существующий пункт!")
