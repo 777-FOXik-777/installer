@@ -44,8 +44,8 @@ while True:
          os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
         
     if inp == '1':
-        print('['+Fore.RED+'ВНИМАНИЕ!]'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
-        tru_101 = input('\n Включили? [y/n] >>> ')
+        print('['+Fore.RED+'ВНИМАНИЕ!'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
+        tru_101 = input('\n''Включили? [y/n] >>> ')
         os.system('clear')
         if tru_101 == 'y':
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
@@ -92,7 +92,7 @@ while True:
 
     if inp == '2':
         os.system('clear')
-        print('['+Fore.RED+'ВНИМАНИЕ!]'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
+        print('['+Fore.RED+'ВНИМАНИЕ!'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_201 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_201 == 'y':
