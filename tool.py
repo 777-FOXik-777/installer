@@ -65,15 +65,17 @@ while True:
                     print('\n''Использую стандартный порт ['+we+']')
                     time.sleep(7)
                     os.system('clear')
-                    os.system('ngrok http '+we+' && python3 tool.py')
+                    os.system('ngrok http '+we+' && clear')
+                    os.system('clear')
+                    
                 else:
                    os.system('clear')
                    print('\n')
-                   print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Пример стандартного порта: 8080")
 
             if tru_102 == 'n':
                 os.system('clear')
                 os.system('ngrok http '+we+' && clear')
+                os.system('clear')
                 
             else:
                 os.system('clear')
