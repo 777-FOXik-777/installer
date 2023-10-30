@@ -2,7 +2,6 @@ import os, time, webbrowser
 
 from colorama import Fore, Style
 
-os.system('clear')
 print ('\n')
 def res():
     print(Style.RESET_ALL)
