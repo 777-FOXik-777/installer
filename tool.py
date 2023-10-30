@@ -26,7 +26,6 @@ while True:
     print (Fore.GREEN+"    [6] Пробив по IP >> IP-Tracer")
     print (Fore.GREEN+"    [7] Узнать местоположения >> Seeker")
     print (Fore.CYAN+"")
-    print (Fore.YELLOW+'    [s] Подписатся на Telegram')
     print (Fore.YELLOW+'    [c] Официальный чат')
     print (Fore.YELLOW+'    [e] Выход')
     res()
