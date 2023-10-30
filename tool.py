@@ -48,7 +48,7 @@ while True:
         tru_101 = input('\n''Включили? [y/n] >>> ')
         os.system('clear')
         if tru_101 == 'y':
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
             res()
             os.system('pkg install nodejs-lts -y')
             os.system('npm install ngrok')
@@ -84,8 +84,11 @@ while True:
             print('[Пожалуйста включите мобильную точку доступа и повторите]')
             time.sleep(3)
             os.system('clear')
-            print ('\n')
-            print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа!")
+            print('\n')
+            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа!")
+            print('\n')
+            os.system('python3 tool.py')
+            
 
         else:
             os.system('clear')
