@@ -81,7 +81,7 @@ while True:
 
         if tru_101 == 'n':
             os.system('clear')
-            print('['Fore.RED+'Пожалуйста включите мобильную точку доступа и повторите'']')
+            print('['+'Fore.RED+'Пожалуйста включите мобильную точку доступа и повторите'+']')
             time.sleep(3)
             os.system('clear')
             os.system('python3 tool.py')
