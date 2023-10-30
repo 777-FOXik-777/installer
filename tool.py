@@ -16,8 +16,8 @@ while True:
     print ("\n")
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [01] Тунелирование <ngrok>")
-    print (Fore.GREEN+"    [02] тунелирование <localhost>")
+    print (Fore.GREEN+"    [01] Тунелирование >>Ngrok")
+    print (Fore.GREEN+"    [02] тунелирование >>Localhost")
     print (Fore.GREEN+"    [03] фишинг")
     print (Fore.GREEN+"    [04] ддос")
     print (Fore.GREEN+"    [05] бомбер <мини>")
@@ -86,7 +86,7 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа")
             
         else:
-            os.system('clear')
+            os.system('')
             
     if inp == '2':
         os.system('clear')
