@@ -2,6 +2,8 @@ import os, time, webbrowser
 
 from colorama import Fore, Style
 
+os.system('clear')
+
 print ('\n')
 def res():
     print(Style.RESET_ALL)
@@ -16,8 +18,8 @@ while True:
     print ("\n")
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [01] Тунелирование >>Ngrok")
-    print (Fore.GREEN+"    [02] тунелирование >>Localhost")
+    print (Fore.GREEN+"    [01] Тунелирование >> Ngrok")
+    print (Fore.GREEN+"    [02] тунелирование >> Localhost")
     print (Fore.GREEN+"    [03] фишинг")
     print (Fore.GREEN+"    [04] ддос")
     print (Fore.GREEN+"    [05] бомбер <мини>")
