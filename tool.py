@@ -84,12 +84,11 @@ while True:
             time.sleep(3)
             os.system('clear')
             print('\n')
-            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа!")
+            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа")
             print('\n')
             
         else:
             os.system('clear')
-            os.system('python3 tool.py')
 
     if inp == '2':
         os.system('clear')
@@ -485,5 +484,3 @@ while True:
 
     else:
         os.system('clear')
-        print ('\n')
-        print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Выбран не существующий пункт!")
