@@ -78,7 +78,7 @@ while True:
             else:
                 os.system('clear')
                 print('\n')
-                print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Не пропускайте вопросы заданые вам"))
+                print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Не пропускайте вопросы заданые вам")
 
         if tru_101 == 'n':
             os.system('clear')
