@@ -44,7 +44,7 @@ while True:
          os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
         
     if inp == '1':
-        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        print('['+Fore.RED+'ВНИМАНИЕ!]'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_101 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_101 == 'y':
@@ -56,15 +56,15 @@ while True:
             we  = '8080'
             os.system('clear')
             print('[Стандартный порт 8080]')
-            tru_102 = input('\n Изменить порт? [y/n] >>> ')
+            tru_102 = input('\n''Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
                 we_2 = input('Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
-                    print(' Вы ничего не ввели ')
-                    print('Использую стандартный порт ['+we+']')
-                    time.sleep(5)
+                    print('Вы ничего не ввели!')
+                    print('\n''Использую стандартный порт ['+we+']')
+                    time.sleep(7)
                     os.system('clear')
                     os.system('ngrok http '+we+' && python3 tool.py')
                 else:
@@ -92,7 +92,7 @@ while True:
 
     if inp == '2':
         os.system('clear')
-        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        print('['+Fore.RED+'ВНИМАНИЕ!]'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_201 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_201 == 'y':
