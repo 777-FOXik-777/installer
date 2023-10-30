@@ -266,7 +266,7 @@ while True:
         os.system('clear')
 
     
-    if inp == 'с':    
+    if inp == 'c':    
         os.system('xdg-open https://t.me/SYPEXHACK_chat')
         os.system('clear')
         os.system('python3 tool.py')
