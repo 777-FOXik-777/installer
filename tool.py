@@ -33,9 +33,9 @@ while True:
     print (Fore.GREEN+"    [14] соц-сети по нику")
     print (Fore.GREEN+"    [15] местоположения по ссылке")
     print (Fore.CYAN+"\n")
-    print (Fore.YELLOW+'    [88] Подписатся на Telegram')
-    print (Fore.YELLOW+'    [99] Официальный чат')
-    print (Fore.YELLOW+'    [00] Выход')
+    print (Fore.YELLOW+'    [s] Подписатся на Telegram')
+    print (Fore.YELLOW+'    [c] Официальный чат')
+    print (Fore.YELLOW+'    [e] Выход')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
@@ -485,21 +485,20 @@ while True:
         time.sleep(2)
         os.system('python seeker.py && cd installer && python3 tool.py')
 
-    if inp == '99':    
+    if inp == 's':    
         os.system('xdg-open https://t.me/SYPEXHACK_chat')
         os.system('clear')
         os.system('python3 tool.py')
 
-    if inp == '88':
+    if inp == 'c':
         os.system('xdg-open https://t.me/SYPEXHACK')
         os.system('clear')
         os.system('python3 tool.py')
 
 
-    if inp == '00':
+    if inp == 'e':
         os.system('clear')
         os.system('python exit.py')
-        break
 
     else:
         os.system('clear')
