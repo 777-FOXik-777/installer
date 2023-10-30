@@ -30,7 +30,7 @@ while True:
     print (Fore.GREEN+"    [13] пробив инстаграм")
     print (Fore.GREEN+"    [14] соц-сети по нику")
     print (Fore.GREEN+"    [15] местоположения по ссылке")
-    print (Fore.CYAN+"\n")
+    print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [s] Подписатся на Telegram')
     print (Fore.YELLOW+'    [c] Официальный чат')
     print (Fore.YELLOW+'    [e] Выход')
@@ -68,15 +68,19 @@ while True:
                     os.system('ngrok http '+we+' && python3 tool.py')
                 else:
                     os.system('clear')
-                    os.system('ngrok http '+we_2+' && python3 tool.py')
+                    print('Вы ничего не ввели!')
+                    print('\n''Использую стандартный порт ['+we+']')
+                    time.sleep(7)
+                    os.system('clear')
+                    os.system('ngrok http '+we+)
 
             if tru_102 == 'n':
                 os.system('clear')
-                os.system('ngrok http '+we+'&& python3 tool.py')
+                os.system('ngrok http '+we+)
 
             else:
                 os.system('clear')
-                os.system('ngrok http '+we+' && python3 tool.py')
+                os.system('ngrok http '+we+)
 
         if tru_101 == 'n':
             os.system('clear')
