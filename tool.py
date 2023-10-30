@@ -75,11 +75,6 @@ while True:
                 os.system('clear')
                 os.system('ngrok http '+we+' && clear')
 
-            else:
-                os.system('clear')
-                print('\n')
-                print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Не пропускайте вопросы заданые вам")
-
         if tru_101 == 'n':
             os.system('clear')
             print('\n')
