@@ -479,7 +479,8 @@ while True:
 
     if inp == 'e':
         os.system('clear')
-        os.system('python exit.py')
+        print(Fore.YELLOW+'Спасибо за использование Installer')
+        break
 
     else:
         os.system('clear')
