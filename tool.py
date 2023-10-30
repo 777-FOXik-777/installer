@@ -43,7 +43,7 @@ while True:
          os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
         
     if inp == '1':
-        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
+        print('\n''['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_101 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
         if tru_101 == 'y':
@@ -54,6 +54,7 @@ while True:
             os.system('npm install ngrok -g')
             we  = '8080'
             os.system('clear')
+            print('\n')
             print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
             print(Fore.WHITE+'')
             tru_102 = input('\n'' Изменить порт? [y/n] >>> ')
@@ -62,6 +63,7 @@ while True:
                 we_2 = input('\n'' Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
+                    print('\n')
                     print(Fore.YELLOW+' Вы ничего не ввели!')
                     print('\n'+Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
                     time.sleep(7)
