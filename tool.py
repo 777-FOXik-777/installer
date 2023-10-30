@@ -7,7 +7,7 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
-    os.system('clear')
+    print ("\n")
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
     print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
@@ -41,7 +41,7 @@ while True:
     os.system('clear')
 
        
-    if inp == '1' or '01':
+    if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_101 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
@@ -493,3 +493,7 @@ while True:
     if inp == '00':
         os.system('clear')
         break
+
+    else:
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Выбран не существующий пункт!")
