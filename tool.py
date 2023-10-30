@@ -95,7 +95,7 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать Ngrok включите точку доступа")
             
 
-        if inp == '2':
+    if inp == '2':
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_201 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
