@@ -498,6 +498,7 @@ while True:
 
     if inp == '00':
         os.system('clear')
+        os.system('python exit.py')
         break
 
     else:
