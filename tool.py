@@ -83,7 +83,7 @@ while True:
 
         else:
             os.system('clear')
-     
+            os.system('python3 tool.py')
 
     if inp == '2':
         os.system('clear')
