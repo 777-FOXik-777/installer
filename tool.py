@@ -23,7 +23,7 @@ while True:
     print (Fore.GREEN+"    [03] Фишинг >> PyPhiser")
     print (Fore.GREEN+"    [09] Вирус ссылка >> Android")
     print (Fore.GREEN+"    [10] Замаскировать фишинг >> Maskphish")
-    print (Fore.GREEN+"    [12] Пробив по ip >> IP-Tracer")
+    print (Fore.GREEN+"    [12] Пробив по IP >> IP-Tracer")
     print (Fore.GREEN+"    [14] соц-сети по нику")
     print (Fore.GREEN+"    [15] местоположения по ссылке")
     print (Fore.CYAN+"")
@@ -252,7 +252,6 @@ while True:
         tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
 
 
-
     if inp == '12':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
         res()
@@ -264,28 +263,32 @@ while True:
         os.system('./install')
         os.system('clear')
         print(Fore.YELLOW+" ")
-        print('[1] пробить свой ip')
-        print('[2] пробить чужой ip')
-        print('[0] выход')
+        print('[1] пробить свой IP')
+        print('[2] пробить чужой IP')
+        print('[e] выход')
         res()
         tru_1201 = input('Выбери пункт>>> ')
 
         if tru_1201 == '1':
             os.system('clear')
             os.system('trace -m')
-            tsu_800 = input('[нажмите entr чтобы выйти]')
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-
+            tsu_800 = input(' [Нажмите enter чтобы выйти]')
+            os.system('clear')
+            
         if tru_1201 == '2':
             os.system('clear')
-            print(Fore.YELLOW+'Пример IP 33.73.133.137')
+            print(Fore.YELLOW+'Пример IP'+Fore.CYAN+' 33.73.133.137')
             res()
-            tsu_1202 = input('введите ip >>> ')
+            tsu_1202 = input('Введите IP >>> ')
             os.system('trace -t '+tsu_1202)
 
-            tsu_1203 = input('[нажмите entr чтобы выйти]')
+            tsu_1203 = input(' [Нажмите enter чтобы выйти]')
+            os.system('clear')
+            
+        else:
+            os.system('clear')
 
-
+    
     if inp == '14':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка соц.-ник...")
