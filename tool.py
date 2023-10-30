@@ -72,15 +72,15 @@ while True:
                     print('\n''Использую стандартный порт ['+we+']')
                     time.sleep(7)
                     os.system('clear')
-                    os.system('ngrok http '+we+)
+                    os.system('ngrok http '+we+' && clear')
 
             if tru_102 == 'n':
                 os.system('clear')
-                os.system('ngrok http '+we+)
+                os.system('ngrok http '+we+' && clear')
 
             else:
                 os.system('clear')
-                os.system('ngrok http '+we+)
+                os.system('ngrok http '+we+' && clear')
 
         if tru_101 == 'n':
             os.system('clear')
