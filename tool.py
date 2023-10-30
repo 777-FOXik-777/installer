@@ -17,15 +17,15 @@ while True:
     print ("\n")
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
-    print (Fore.YELLOW+"    [1] тунелирование <ngrok>")
-    print (Fore.YELLOW+"    [2] тунелирование <localhost>")
-    print (Fore.YELLOW+"    [3] фишинг")
-    print (Fore.YELLOW+"    [4] ддос")
-    print (Fore.YELLOW+"    [5] бомбер <мини>")
-    print (Fore.YELLOW+"    [6] приветствие")
-    print (Fore.YELLOW+"    [7] заблокировать Termux")
-    print (Fore.YELLOW+"    [8] просмотр взломаных камер")
-    print (Fore.YELLOW+"    [9] вирус ссылка")
+    print (Fore.YELLOW+"    [01] тунелирование <ngrok>")
+    print (Fore.YELLOW+"    [02] тунелирование <localhost>")
+    print (Fore.YELLOW+"    [03] фишинг")
+    print (Fore.YELLOW+"    [04] ддос")
+    print (Fore.YELLOW+"    [05] бомбер <мини>")
+    print (Fore.YELLOW+"    [06] приветствие")
+    print (Fore.YELLOW+"    [07] заблокировать Termux")
+    print (Fore.YELLOW+"    [08] просмотр взломаных камер")
+    print (Fore.YELLOW+"    [09] вирус ссылка")
     print (Fore.YELLOW+"    [10] замаскировать фишинг")
     print (Fore.YELLOW+"    [11] пробив по номеру")
     print (Fore.YELLOW+"    [12] пробив по ip")
@@ -33,15 +33,15 @@ while True:
     print (Fore.YELLOW+"    [14] соц-сети по нику")
     print (Fore.YELLOW+"    [15] местоположения по ссылке")
     print (Fore.CYAN+"\n")
-    print (Fore.CYAN+'    [88] тг канал автора')
-    print (Fore.CYAN+'    [99] тех поддержка')
-    print (Fore.CYAN+'    [00] выход')
+    print (Fore.CYAN+'    [88] Подписатся на Telegram')
+    print (Fore.CYAN+'    [99] Официальный чат')
+    print (Fore.CYAN+'    [00] Выход')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
        
-    if inp == '1':
+    if inp == '1 or 01':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
         tru_101 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
@@ -481,7 +481,7 @@ while True:
         os.system('python seeker.py && cd installer && python3 tool.py')
 
     if inp == '99':    
-        os.system('xdg-open https://t.me/perehodos')
+        os.system('xdg-open https://t.me/SYPEXHACK_chat')
         os.system('clear')
         
 
