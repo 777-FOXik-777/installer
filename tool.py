@@ -8,11 +8,11 @@ def res():
     
 while True:
     print(Fore.CYAN+'', Style.BRIGHT)
-    print (" _                 _             _   _               ")
-    print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
-    print ("| | | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
-    print ("| | | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
-    print ("|_| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    print (" ___                 _             _   _               ")
+    print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
+    print (" | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
+    print (" | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
+    print ("|___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print ("\n")
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
@@ -83,10 +83,12 @@ while True:
             print('[Пожалуйста включите мобильную точку доступа и повторите]')
             time.sleep(3)
             os.system('clear')
+            print('\n')
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа")
             
         else:
             os.system('clear')
+            print('\n')
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Вы не дали ответ")
             
     if inp == '2':
