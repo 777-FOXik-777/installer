@@ -495,5 +495,4 @@ while True:
         break
 
     else:
-        os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Выбран не существующий пункт!")
