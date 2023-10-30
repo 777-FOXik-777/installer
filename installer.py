@@ -1,7 +1,5 @@
 import os, time
 
-from colorama import Fore, Style
-
 print ('\n')
 def res():
     print(Style.RESET_ALL)
@@ -13,6 +11,8 @@ print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка colorama..
 res()
 time.sleep(1.5)
 os.system('pip install colorama')
+
+from colorama import Fore, Style
 
 #питон
 
