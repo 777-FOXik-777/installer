@@ -68,6 +68,8 @@ while True:
                     print('\n'+Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
                     time.sleep(7)
                     os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск...")
+                    time.sleep(3)
                     os.system('ngrok http '+we+' && clear')
                     os.system('clear')
                     
