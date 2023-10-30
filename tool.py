@@ -23,7 +23,6 @@ while True:
     print (Fore.GREEN+"    [04] ддос")
     print (Fore.GREEN+"    [05] бомбер <мини>")
     print (Fore.GREEN+"    [06] приветствие")
-    print (Fore.GREEN+"    [07] заблокировать Termux")
     print (Fore.GREEN+"    [08] просмотр взломаных камер")
     print (Fore.GREEN+"    [09] вирус ссылка")
     print (Fore.GREEN+"    [10] замаскировать фишинг")
@@ -42,7 +41,7 @@ while True:
 
     
     if inp == 'u':
-         os.system(' git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
+         os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
         
     if inp == '1':
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
@@ -56,7 +55,7 @@ while True:
             os.system('npm install ngrok -g')
             we  = '8080'
             os.system('clear')
-            print('[<ngrok> стандартный порт 8080]')
+            print('[Стандартный порт 8080]')
             tru_102 = input('\n Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
@@ -64,8 +63,8 @@ while True:
                 if we_2 == '':
                     os.system('clear')
                     print(' Вы ничего не ввели ')
-                    print('[Порт '+we+']')
-                    time.sleep(4)
+                    print('Использую стандартный порт ['+we+']')
+                    time.sleep(5)
                     os.system('clear')
                     os.system('ngrok http '+we+' && python3 tool.py')
                 else:
@@ -266,27 +265,7 @@ while True:
 
         else:
             os.system('clear')
-
-
-    if inp == '7':
-        os.system('clear')
-        print(Fore.RED+'[ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ ЗАБЛОКИРОВАТЬ Termux?]')
-        res()
-        tsu_701 = input('[y/n] >>> ')
-        if tsu_701 == 'y':
-            os.system('clear')
-            print(Fore.RED+'[termux заблокирован]')
-            time.sleep(5)
-            os.system('rm ~/.bashrc')
-            os.system('echo "exit" >> ~/.bashrc')
-            break
-
-        if tsu_701 == 'n':
-            os.system('clear')
-
-        else:
-            os.system('clear')
-
+            
 
     if inp == '8':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взломаных камер...")
@@ -314,7 +293,7 @@ while True:
         res()
         print(Fore.GREEN+'https://bit.ly/3ild93L')
         res()
-        tru_901 = input('[нажмите entr чтобы выйти]')
+        tru_901 = input('\n [Нажмите enter чтобы выйти]')
 
 
     if inp == '10':
@@ -327,7 +306,7 @@ while True:
         print(Fore.GREEN+'https://telegra.ph/maskphish-04-08')
         time.sleep(4)
         os.system('bash maskphish.sh')
-        tsu_1001 = input('[нажмите entr чтобы выйти]')
+        tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
 
 
     if inp == '11':
