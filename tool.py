@@ -82,6 +82,9 @@ while True:
 
             if tru_102 == 'n':
                 os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(3)
+                os.system('clear')
                 os.system('ngrok http '+we+' && clear')
                 os.system('clear')
                 
@@ -133,6 +136,9 @@ while True:
                     os.system('clear')
 
             if tru_202 == 'n':
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(3)
                 os.system('clear')
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
                 os.system('clear')
