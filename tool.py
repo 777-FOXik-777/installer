@@ -69,7 +69,7 @@ while True:
                 else:
                    os.system('clear')
                    print('\n')
-                   print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Не пропускайте вопросы заданые вам")
+                   print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Пример стандартного порта: 8080")
 
             if tru_102 == 'n':
                 os.system('clear')
@@ -85,8 +85,6 @@ while True:
             print('\n')
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа")
             
-        else:
-            os.system('')
             
     if inp == '2':
         os.system('clear')
