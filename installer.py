@@ -27,4 +27,5 @@ os.system('pkg install python3')
 #запуск
 
 os.system('clear')
+os.system('xdg-open https://t.me/SYPEXHACK')
 os.system('python3 tool.py')
