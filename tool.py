@@ -99,7 +99,7 @@ while True:
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_201 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
-        if tru_101 == 'y':
+        if tru_201 == 'y':
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
             res()
             os.system('pkg install dropbear -y')
