@@ -19,7 +19,7 @@ while True:
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
     print (Fore.GREEN+"    [1] Тунелирование >> Ngrok")
-    print (Fore.GREEN+"    [2] тунелирование >> Localhost")
+    print (Fore.GREEN+"    [2] Тунелирование >> Localhost")
     print (Fore.GREEN+"    [3] Фишинг >> PyPhiser")
     print (Fore.GREEN+"    [4] Вирус ссылка >> Android")
     print (Fore.GREEN+"    [5] Замаскировать фишинг >> Maskphish")
