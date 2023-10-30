@@ -262,12 +262,13 @@ while True:
         os.system('chmod +x install')
         os.system('./install')
         os.system('clear')
-        print(Fore.YELLOW+" ")
-        print('[1] пробить свой IP')
-        print('[2] пробить чужой IP')
-        print('[e] выход')
+        print(Fore.GREEN+"\n")
+        print(' [1] пробить свой IP')
+        print(' [2] пробить чужой IP')
+        print(Fore.YELLOW+'')
+        print(' [e] выход')
         res()
-        tru_1201 = input('Выбери пункт>>> ')
+        tru_1201 = input(' Выбери пункт>>> ')
 
         if tru_1201 == '1':
             os.system('clear')
