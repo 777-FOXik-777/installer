@@ -17,7 +17,7 @@ while True:
     print ("\n")
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [01] тунелирование <ngrok>")
+    print (Fore.GREEN+"    [01] Тунелирование <ngrok>")
     print (Fore.GREEN+"    [02] тунелирование <localhost>")
     print (Fore.GREEN+"    [03] фишинг")
     print (Fore.GREEN+"    [04] ддос")
@@ -44,7 +44,7 @@ while True:
          os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
         
     if inp == '1':
-        print('['+Fore.RED+'ВНИМАНИЕ!'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
+        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_101 = input('\n''Включили? [y/n] >>> ')
         os.system('clear')
         if tru_101 == 'y':
@@ -81,10 +81,12 @@ while True:
 
         if tru_101 == 'n':
             os.system('clear')
-            print(Fore.RED+'[пожалуйста включите моб. точку доступа и повторите]')
+            print('['Fore.RED+'Пожалуйста включите мобильную точку доступа и повторите'']')
             time.sleep(3)
             os.system('clear')
             os.system('python3 tool.py')
+            print ('\n')
+            print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Выбран не существующий пункт!")
 
         else:
             os.system('clear')
