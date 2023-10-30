@@ -321,13 +321,9 @@ while True:
         os.system('python seeker.py && clear')
         os.system('clear')
 
-    if inp == 's':    
+    
+    if inp == 'с':    
         os.system('xdg-open https://t.me/SYPEXHACK_chat')
-        os.system('clear')
-        os.system('python3 tool.py')
-
-    if inp == 'c':
-        os.system('xdg-open https://t.me/SYPEXHACK')
         os.system('clear')
         os.system('python3 tool.py')
 
@@ -339,5 +335,6 @@ while True:
         print(Fore.WHITE+'')
         break
 
+    
     else:
         print('')
