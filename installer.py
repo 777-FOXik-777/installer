@@ -1,9 +1,5 @@
 import os, time
 
-print ('\n')
-def res():
-    print(Style.RESET_ALL)
-
 #колорам
 
 os.system('clear')
@@ -13,6 +9,10 @@ time.sleep(1.5)
 os.system('pip install colorama')
 
 from colorama import Fore, Style
+
+print ('\n')
+def res():
+    print(Style.RESET_ALL)
 
 #питон
 
