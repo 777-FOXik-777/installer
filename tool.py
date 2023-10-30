@@ -54,15 +54,15 @@ while True:
             os.system('npm install ngrok -g')
             we  = '8080'
             os.system('clear')
-            print('[Стандартный порт 8080]')
+            print(Fore.CYAN+'Стандартный порт['+Fore.YELLOW+'8080'+Fore.CYAN+']')
             tru_102 = input('\n''Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
                 we_2 = input('Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
-                    print('Вы ничего не ввели!')
-                    print('\n''Использую стандартный порт ['+we+']')
+                    print(Fore.YELLOW+'Вы ничего не ввели!')
+                    print('\n'+Fore.CYAN+'Использую стандартный порт ['+Fore.YELLOW+'+we+'+Fore.CYAN+']')
                     time.sleep(7)
                     os.system('clear')
                     os.system('ngrok http '+we+' && clear')
