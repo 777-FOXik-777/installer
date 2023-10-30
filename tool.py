@@ -80,6 +80,10 @@ while True:
 
             else:
                 os.system('clear')
+                print('Вы ничего не выбрали!')
+                print('\n''Использую стандартный порт ['+we+']')
+                time.sleep(7)
+                os.system('clear')
                 os.system('ngrok http '+we+' && clear')
 
         if tru_101 == 'n':
@@ -92,8 +96,6 @@ while True:
             
         else:
             os.system('clear')
-            print('\n')
-            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Вы не дали ответ")
             
     if inp == '2':
         os.system('clear')
