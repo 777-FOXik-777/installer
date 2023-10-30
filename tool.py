@@ -232,11 +232,12 @@ while True:
         res()
         time.sleep(3)
         os.system('clear')
-        print(' Ваша ссылка''\n')
+        print(Fore.CYAN+' Ваша ссылка''\n')
         res()
         print(Fore.GREEN+' https://bit.ly/3ild93L')
         res()
         tru_901 = input('\n [Нажмите enter чтобы выйти]')
+        os.system('clear')
 
 
     if inp == '5':
