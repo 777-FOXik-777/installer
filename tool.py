@@ -170,62 +170,6 @@ while True:
             os.system('clear')
 
 
-    if inp == '6':
-        tt = 'привет'
-        os.system('clear')
-        os.system('rm ~/.bashrc')
-        os.system('clear')
-        print(Fore.YELLOW+'[стили текста]')
-        res()
-        print(Fore.CYAN+'[1] метал')
-        print(Fore.CYAN+'[2] радуга')
-        print(Fore.YELLOW+'[0] удалить приветствие')
-        res()
-        inp_601 = input ('Выбери пункт>>> ')
-        os.system('clear')
-        if inp_601 == '1':
-            print(Fore.YELLOW+'[напишите текст]')
-            print('[совет: используйте не более 8 символов]')
-            res()
-            tt = input ('>>>')
-            os.system('clear')
-            os.system('rm ~/.bashrc')
-            os.system('echo "clear" >> ~/.bashrc')
-            os.system('echo "toilet -f mono9 -F metal '+tt+'" >> ~/.bashrc')
-            os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
-            os.system('clear')
-            print(Fore.GREEN+'[готово]')
-            res()
-            tsu_603 = input('[нажмите entr чтобы выйти]')
-
-        if inp_601 == '2':
-            print(Fore.YELLOW+'[напишите текст]')
-            print('[совет: используйте не более 8 символов]')
-            res()
-            tt = input ('>>>')
-            os.system('clear')
-            os.system('rm ~/.bashrc')
-            os.system('echo "clear" >> ~/.bashrc')
-            os.system('echo "toilet -f mono9 -F gay '+tt+'" >> ~/.bashrc')
-            os.system('echo "echo [telegram @sypexhack желает вам хорошего дня]" >> ~/.bashrc')
-            os.system('clear')
-            print(Fore.GREEN+'[готово]')
-            res()
-            tsu_604 = input('[нажмите entr чтобы выйти]')
-
-
-        if inp_601== '0':
-            os.system('clear')
-            os.system('rm ~/.bashrc')
-            os.system('clear')
-            print(Fore.GREEN+'[готово]')
-            res()
-            tsu_605 = input('[нажмите entr чтобы выйти]')
-
-        else:
-            os.system('clear')
-            
-
     if inp == '4':
         os.system('clear')
         print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получам ссылку...")
