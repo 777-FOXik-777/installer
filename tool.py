@@ -74,7 +74,11 @@ while True:
             if tru_102 == 'n':
                 os.system('clear')
                 os.system('ngrok http '+we+' && clear')
-
+                
+            else:
+                os.system('clear')
+                print('\n')
+                    
         if tru_101 == 'n':
             os.system('clear')
             print('\n')
