@@ -20,16 +20,10 @@ while True:
     res()
     print (Fore.GREEN+"    [01] Тунелирование >> Ngrok")
     print (Fore.GREEN+"    [02] тунелирование >> Localhost")
-    print (Fore.GREEN+"    [03] фишинг")
-    print (Fore.GREEN+"    [04] ддос")
-    print (Fore.GREEN+"    [05] бомбер <мини>")
-    print (Fore.GREEN+"    [06] приветствие")
-    print (Fore.GREEN+"    [08] просмотр взломаных камер")
-    print (Fore.GREEN+"    [09] вирус ссылка")
-    print (Fore.GREEN+"    [10] замаскировать фишинг")
-    print (Fore.GREEN+"    [11] пробив по номеру")
-    print (Fore.GREEN+"    [12] пробив по ip")
-    print (Fore.GREEN+"    [13] пробив инстаграм")
+    print (Fore.GREEN+"    [03] Фишинг >> PyPhiser")
+    print (Fore.GREEN+"    [09] Вирус ссылка >> Android")
+    print (Fore.GREEN+"    [10] Замаскировать фишинг >> Maskphish")
+    print (Fore.GREEN+"    [12] Пробив по ip >> IP-Tracer")
     print (Fore.GREEN+"    [14] соц-сети по нику")
     print (Fore.GREEN+"    [15] местоположения по ссылке")
     print (Fore.CYAN+"")
@@ -161,7 +155,7 @@ while True:
         tru_301 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_301 == 'y':
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка фишинг...")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
             res()
             time.sleep(1.5)
             os.system('clear')
@@ -176,39 +170,6 @@ while True:
 
         else:
             os.system('clear')
-
-
-    if inp == '4':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ддос...")
-        res()
-        time.sleep(1.5)
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
-        res()
-        os.system('pkg install dropbear -y')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-        res()
-        os.system('pkg install openssh -y')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
-        res()
-        os.system('git clone https://github.com/lamer112311/Doser')
-        os.chdir('Doser')
-        os.system('bash install.sh')
-        os.system('python doser.py && python3 tool.py')
-
-
-    if inp == '5':
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка бомбер...")
-        res()
-        os.system('pip install db0mb3r')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.GREEN+"ВНИМАНИЕ"+Fore.YELLOW+"] вас будет переброшено на сайт просто подождите 5-10сек.")
-        res()
-        time.sleep(5)
-        os.system('bomber')
 
 
     if inp == '6':
@@ -267,84 +228,35 @@ while True:
             os.system('clear')
             
 
-    if inp == '8':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка взломаных камер...")
-        res()
-        time.sleep(1.5)
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
-        res()
-        os.system('pip install requests')
-        os.system('git clone https://github.com/AngelSecurityTeam/Cam-Hackers') 
-        os.chdir('Cam-Hackers')
-        os.system('clear')
-        os.system('chmod +x *')
-        os.system('python cam-hackers.py')
-        tsu_801 = input('[нажмите entr чтобы выйти]')
-
-
     if inp == '9':
         os.system('clear')
-        print(Fore.GREEN+'[Генерируется ссылка...]')
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получам ссылку...")
         res()
         time.sleep(3)
         os.system('clear')
-        print('ваша ссылка')
+        print(' Ваша ссылка')
         res()
-        print(Fore.GREEN+'https://bit.ly/3ild93L')
+        print(Fore.GREEN+' https://bit.ly/3ild93L')
         res()
         tru_901 = input('\n [Нажмите enter чтобы выйти]')
 
 
     if inp == '10':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка маск. фишинг...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
         res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
         os.system('clear')
-        print('Инструкция находиться по ссылке:')
-        print(Fore.GREEN+'https://telegra.ph/maskphish-04-08')
         time.sleep(4)
         os.system('bash maskphish.sh')
         tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
 
 
-    if inp == '11':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив телефона...")
-        res()
-        time.sleep(1.5)
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
-        res()
-        os.system('git clone https://github.com/Wes974/PhoneInfoga')
-        os.chdir('PhoneInfoga')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка доп. файлов...")
-        res()
-        os.system('pip install -r requirements.txt')
-        os.system('clear')
-        print('[Введите номер телефона в формате: +(код)##########]')
-        print('[Пример: +71237689098]')
-        tsu_1101 = input('\n Введите номер >>> ')
-        if 1101 == '':
-            os.system('clear')
-            print('[вы ничего не ввели]')
-            res()
-            tsu_1103 = input('[нажмите entr чтобы выйти]')
-
-        else:
-            os.system('clear')
-            os.system('python phoneinfoga.py -n '+tsu_1101)
-            tsu_1103 = input('[нажмите entr чтобы выйти]')
-
 
     if inp == '12':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив по ip...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
         res()
         time.sleep(1.5)
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
-        res()
         os.system('rm -fr IP-Tracer')
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
         os.chdir('IP-Tracer')
@@ -372,42 +284,6 @@ while True:
             os.system('trace -t '+tsu_1202)
 
             tsu_1203 = input('[нажмите entr чтобы выйти]')
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-
-        else:
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-
-
-    if inp == '13':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка пробив Instagram...")
-        res()
-        time.sleep(1.5)
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
-        res()
-        os.system('git clone https://github.com/th3unkn0n/osi.ig')
-        os.chdir('osi.ig')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка доп. файлов...")
-        res()
-        os.system('python3 -m pip install -r requirements.txt')
-        os.system('clear')
-        print(Fore.GREEN+'[Введите ник в инстаграм]')
-        print(Fore.CYAN+'[Пример: ververa]')
-        res()
-        tsu_1301 = input('Введите ник>>> ')
-        if tsu_1301 == '':
-            os.system('clear')
-            print('[вы ничего не ввели]')
-            res()
-            tsu_1302 = input('[нажмите entr чтобы выйти]')
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
-
-        else:
-            os.system('clear')
-            os.system('python3 main.py -u '+tsu_1301)
-            tsu_1303 = input('[нажмите entr чтобы выйти]')
-            os.system('cd && rm -fr installer && rm -fr installer.py && rm -fr tool.py && rm -fr fail.py && rm -fr zabava.py && git clone https://github.com/777-FOXik-777/installer && cd installer && python3 tool.py')
 
 
     if inp == '14':
