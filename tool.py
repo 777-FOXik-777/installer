@@ -481,7 +481,7 @@ while True:
 
     if inp == 'e':
         os.system('clear')
-        print(\n)
+        print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
         print(Fore.WHITE+'')
         break
