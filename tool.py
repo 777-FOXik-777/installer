@@ -43,8 +43,8 @@ while True:
          os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
         
     if inp == '1':
-        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
-        tru_101 = input('\n''Включили? [y/n] >>> ')
+        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
+        tru_101 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
         if tru_101 == 'y':
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
@@ -54,11 +54,12 @@ while True:
             os.system('npm install ngrok -g')
             we  = '8080'
             os.system('clear')
-            print(Fore.CYAN+'Стандартный порт['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-            tru_102 = input('\n''Изменить порт? [y/n] >>> ')
+            print(Fore.CYAN+'Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+            print(Fore.WHITE+'')
+            tru_102 = input('\n'' Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
-                we_2 = input('Введите порт>>> ')
+                we_2 = input('\n'' Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
                     print(Fore.YELLOW+'Вы ничего не ввели!')
