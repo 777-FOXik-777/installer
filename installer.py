@@ -7,7 +7,7 @@ def res():
 #колорам
 
 os.system('clear')
-print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка colorama...")
+print ("Установка colorama...")
 res()
 time.sleep(1.5)
 os.system('pip install colorama')
