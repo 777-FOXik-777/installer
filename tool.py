@@ -82,6 +82,7 @@ while True:
             os.system('clear')
             print('[Пожалуйста включите мобильную точку доступа и повторите]')
             time.sleep(3)
+            break
             os.system('clear')
             print('\n')
             print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать ngrok включите точку доступа!")
@@ -480,7 +481,9 @@ while True:
 
     if inp == 'e':
         os.system('clear')
-        print(Fore.YELLOW+'Спасибо за использование Installer')
+        print(\n)
+        print(Fore.CYAN+'Спасибо за использование Installer')
+        print(Fore.WHITE+'')
         break
 
     else:
