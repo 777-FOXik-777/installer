@@ -232,7 +232,7 @@ while True:
         res()
         time.sleep(3)
         os.system('clear')
-        print(' Ваша ссылка')
+        print(' Ваша ссылка''\n')
         res()
         print(Fore.GREEN+' https://bit.ly/3ild93L')
         res()
