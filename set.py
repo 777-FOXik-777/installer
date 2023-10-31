@@ -33,9 +33,9 @@ while True:
         print('')
         os.system('clear')
         print (Fore.CYAN+'\n Запускать Installer вместе с Termux?')
-        print(Fore.GREEN+'\n')
+        res()
         print(Fore.YELLOW+' [1]'+Fore.GREEN+' Включить')
-        print('')
+        res()
         print(Fore.YELLOW+' [2]'+Fore.RED+' Выключить')
         print(Fore.YELLOW+'')
         print(' [e] выход')
@@ -68,7 +68,8 @@ while True:
     if inp == '2':
         os.system('clear')
         print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
-        print(Fore.WHITE+'\n')
+        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все установлинные вами настройки сбросятся')
+        res()
         tru_201 = input(' Начать [y/n] >>> ')
         if inp == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
