@@ -279,6 +279,7 @@ while True:
         os.system('clear')
     
 
+    
     if inp == 's':
         os.system('python set.py')
 
@@ -288,5 +289,5 @@ while True:
         os.system('clear')
         print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
-        print(Fore.WHITE+'')
+        res()
         break
