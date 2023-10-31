@@ -1,6 +1,7 @@
 import os, time
 
 os.system('clear')
+os.system('cd && cd installer')
 
 print ('[~] Установка colorama...')
 time.sleep(1.5)
