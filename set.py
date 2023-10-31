@@ -15,20 +15,19 @@ while True:
     print (" | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print ("\n")
-    print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
+    print ("[Настройки]                                    [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
-    print (Fore.GREEN+"    [2] Localhost  >>  Тунелирование")
-    print (Fore.GREEN+"    [3] PyPhiser   >>  Фишинг")
-    print (Fore.GREEN+"    [4] Android    >>  Вирус ссылка")
-    print (Fore.GREEN+"    [5] Maskphish  >>  Замаскировать ссылку")
-    print (Fore.GREEN+"    [6] IP-Tracer  >>  Пробив по IP")
-    print (Fore.GREEN+"    [7] Seeker     >>  Узнать местоположения")
+    print (Fore.GREEN+"    [1] ")
+    print (Fore.GREEN+"    [2] ")
     print (Fore.CYAN+"")
-    print (Fore.YELLOW+'    [c] Официальный чат')
-    print (Fore.YELLOW+'    [e] Выход')
+    print (Fore.YELLOW+'    [e] Назад')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
     if inp == '1':
+        print('')
+        
+    if inp == 'e':
+        exit
+        
