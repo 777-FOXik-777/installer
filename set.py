@@ -66,10 +66,10 @@ while True:
     if inp == '2':
         os.system('clear')
         os.system('mv update.py /data/data/com.termux/files/home/')
-        os.system('echo "cd && python setup.py" >> ~/.bashrc')
+        os.system('echo "cd && python update.py" >> ~/.bashrc')
         while True:
             print(Fore.YELLOW+'\n Перезапустите Termux или создайте новый сезон!')
-
+            tru_201 = input('')
     
     
     if inp == 'e':
