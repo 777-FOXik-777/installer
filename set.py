@@ -71,10 +71,11 @@ while True:
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все установлинные вами настройки сбросятся')
         res()
         tru_201 = input(' Начать [y/n] >>> ')
-        if inp == 'y':
+        if tru_201 == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
             os.system('echo "cd && python update.py" >> ~/.bashrc')
             while True:
+                os.system('clear')
                 print(Fore.YELLOW+'\n Перезапустите Termux или создайте новый сезон!')
                 tru_202 = input('')
         else:
