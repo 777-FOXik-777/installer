@@ -32,11 +32,11 @@ while True:
     if inp == '1':
         print('')
         os.system('clear')
-        print (Fore.GREEN+'\n Запускать Installer вместе с Termux?')
+        print (Fore.CYAN+'\n Запускать Installer вместе с Termux?')
         print(Fore.GREEN+'\n')
-        print(Fore.YELLOW+' [1]'+Fore.GREEN+'Включить')
+        print(Fore.YELLOW+' [1]'+Fore.GREEN+' Включить')
         print('')
-        print(Fore.YELLOW+' [2]'+Fore.RED+'Выключить')
+        print(Fore.YELLOW+' [2]'+Fore.RED+' Выключить')
         print(Fore.YELLOW+'')
         print(' [e] выход')
         res()
@@ -46,7 +46,7 @@ while True:
             os.system('clear')
             os.system('echo "cd installer && python tool.py" >> ~/.bashrc')
             os.system('clear')
-            print(Fore.GREEN+"\n Включено!")
+            print(Fore.GREEN+"\n  Включено!")
             res()
             tsu_103 = input(' [Нажмите enter чтобы выйти]')
             os.system('clear')
@@ -55,7 +55,7 @@ while True:
             os.system('clear')
             os.system('rm ~/.bashrc')
             os.system('clear')
-            print(Fore.YELLOW+"\n Выключено!")
+            print(Fore.YELLOW+"\n  Выключено!")
             res()
             tsu_103 = input(' [Нажмите enter чтобы выйти]')
             os.system('clear')
@@ -67,16 +67,17 @@ while True:
     
     if inp == '2':
         os.system('clear')
-        print(Fore.GREEN+'\n Вы хотите обновить/проверить обновления Installer?')
+        print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
         print(Fore.WHITE+'\n')
-        tru_201 = input('Начать [y/n] >>> ')
+        tru_201 = input(' Начать [y/n] >>> ')
         if inp == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
             os.system('echo "cd && python update.py" >> ~/.bashrc')
             while True:
                 print(Fore.YELLOW+'\n Перезапустите Termux или создайте новый сезон!')
                 tru_202 = input('')
-    
+        else:
+            os.system('clear')
     
     if inp == 'e':
         os.system('clear')
