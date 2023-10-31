@@ -193,15 +193,16 @@ while True:
         time.sleep(4)
         os.system('bash maskphish.sh')
         tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
+        os.system('clear')
 
-
+    
     if inp == '6':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
         res()
         time.sleep(1.5)
         os.system('rm -fr IP-Tracer')
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
-        os.chdir('IP-Tracer &&  clear')
+        os.system('cd IP-Tracer &&  clear')
         os.system('chmod +x install')
         os.system('./install')
         os.system('clear')
