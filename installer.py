@@ -9,6 +9,10 @@ from colorama import Fore, Style
 print ('\n')
 def res():
     print(Style.RESET_ALL)
+
+#обновление
+
+os.system('rm -fr /data/data/com.termux/files/home/update.py')
   
 #питон
 
