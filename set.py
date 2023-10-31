@@ -8,7 +8,6 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
-    print('')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
@@ -20,7 +19,7 @@ while True:
     res()
     print (Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print (Fore.GREEN+"    [2] Обновить Installer")
-    print (Fore.GREEN+"    [2] ")
+    print (Fore.GREEN+"    [3] ")
     print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [e] Назад')
     res()
