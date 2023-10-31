@@ -19,6 +19,7 @@ while True:
     print ("[Настройки]                                    [v2.7.1]")
     res()
     print (Fore.GREEN+"    [1] Запускать вместе с Termux")
+    print (Fore.GREEN+"    [2] Обновить Installer")
     print (Fore.GREEN+"    [2] ")
     print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [e] Назад')
