@@ -33,7 +33,7 @@ while True:
 
 
     if inp == 's':
-        os.system('python set.py)
+        os.system('python set.py')
 
                   
     
