@@ -8,6 +8,7 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
+    print('')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
@@ -15,7 +16,7 @@ while True:
     print (" | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print ("\n")
-    print ("    [Настройки]                                [v2.7.1]")
+    print ("[Настройки]                                    [v2.7.1]")
     res()
     print (Fore.GREEN+"    [1] Запускать вместе с Termux")
     print (Fore.GREEN+"    [2] ")
