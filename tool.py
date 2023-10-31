@@ -216,7 +216,7 @@ while True:
         if tru_1201 == '1':
             os.system('clear')
             os.system('trace -m')
-            tsu_800 = input(' [Нажмите enter чтобы выйти]')
+            tsu_800 = input('\n [Нажмите enter чтобы выйти]')
             os.system('clear')
             
         if tru_1201 == '2':
@@ -226,7 +226,7 @@ while True:
             tsu_1202 = input('Введите IP >>> ')
             os.system('trace -t '+tsu_1202)
 
-            tsu_1203 = input(' [Нажмите enter чтобы выйти]')
+            tsu_1203 = input('\n [Нажмите enter чтобы выйти]')
             os.system('clear')
             
         else:
