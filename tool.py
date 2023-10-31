@@ -84,11 +84,9 @@ while True:
                 
             else:
                 os.system('clear')
-                print('\n')
                     
         if tru_101 == 'n':
             os.system('clear')
-            print('\n')
             
 
     if inp == '2':
@@ -145,11 +143,9 @@ while True:
                 
             else:
                 os.system('clear')
-                print('\n')
                     
         if tru_201 == 'n':
             os.system('clear')
-            print('\n')
 
 
     if inp == '3':
@@ -163,7 +159,7 @@ while True:
             time.sleep(1.5)
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
-            os.system('clear'
+            os.system('clear')
             os.system('python3 pyphisher.py && clear')
             os.system('clear')
 
