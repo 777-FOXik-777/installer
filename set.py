@@ -43,6 +43,7 @@ while True:
         if tru_101 == '1':
             os.system('clear')
             os.system('echo "cd installer && python tool.py" >> ~/.bashrc')
+            os.system('clear')
             print(Fore.GREEN+"\n Включено!")
             res()
             tsu_103 = input(' [Нажмите enter чтобы выйти]')
@@ -51,6 +52,7 @@ while True:
         if tru_101 == '2':
             os.system('clear')
             os.system('rm ~/.bashrc')
+            os.system('clear')
             print(Fore.YELLOW+"\n Выключено!")
             res()
             tsu_103 = input(' [Нажмите enter чтобы выйти]')
