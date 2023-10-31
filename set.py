@@ -18,7 +18,7 @@ while True:
     print ("\n")
     print ("[Настройки]                                    [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [1] Запускать вместе с Termux")
+    print (Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print (Fore.GREEN+"    [2] Обновить Installer")
     print (Fore.GREEN+"    [2] ")
     print (Fore.CYAN+"")
@@ -27,6 +27,8 @@ while True:
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
+
+    
     if inp == '1':
         print('')
         os.system('clear')
@@ -53,7 +55,12 @@ while True:
             res()
             tsu_103 = input('\n [Нажмите enter чтобы выйти]')
             os.system('clear')
-        
+            
+        else:
+            os.system('clear')
+
+
+    
     if inp == 'e':
         os.system('clear')
         print(Fore.WHITE+'')
