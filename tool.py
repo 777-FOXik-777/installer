@@ -32,11 +32,6 @@ while True:
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
-
-    
-    if inp == 'u':
-         os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
-
     
         
     if inp == '1':
