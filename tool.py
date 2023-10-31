@@ -31,9 +31,16 @@ while True:
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
+
+    if inp == 's':
+        os.system('python set.py)
+
+                  
     
     if inp == 'u':
          os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
+
+    
         
     if inp == '1':
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
