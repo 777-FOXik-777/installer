@@ -34,6 +34,7 @@ while True:
         os.system('clear')
         print(Fore.GREEN+"\n")
         print(Fore.YELLOW+' [1]'+Fore.GREEN+' Включить')
+        print('')
         print(Fore.YELLOW+' [2]'+Fore.RED+' Выключить')
         print(Fore.YELLOW+'')
         print(' [e] выход')
