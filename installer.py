@@ -1,5 +1,7 @@
 import os, time
 
+os.system('clear')
+
 print ('[~] Установка python2...')
 time.sleep(1.5)
 os.system('pip install colorama')
