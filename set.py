@@ -63,7 +63,7 @@ while True:
 
     if inp == '2':
         os.system('clear')
-        os.system('pythin update.py')
+        os.system('python update.py')
         os.system('mv update.py /data/data/com.termux/files/home/')
 
 
