@@ -61,7 +61,12 @@ while True:
         else:
             os.system('clear')
 
+    if inp == '2':
+        os.system('clear')
+        os.system('mv update.py /data/data/com.termux/files/home/')
 
+
+        
     
     if inp == 'e':
         os.system('clear')
