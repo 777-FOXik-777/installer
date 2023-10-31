@@ -18,13 +18,13 @@ while True:
     print ("\n")
     print ("[Telegram: @SYPEXHACK]                       [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [1] Тунелирование >> Ngrok")
-    print (Fore.GREEN+"    [2] Тунелирование >> Localhost")
-    print (Fore.GREEN+"    [3] Фишинг >> PyPhiser")
-    print (Fore.GREEN+"    [4] Вирус ссылка >> Android")
-    print (Fore.GREEN+"    [5] Замаскировать фишинг >> Maskphish")
-    print (Fore.GREEN+"    [6] Пробив по IP >> IP-Tracer")
-    print (Fore.GREEN+"    [7] Узнать местоположения >> Seeker")
+    print (Fore.GREEN+"    [1] Ngrok >> Тунелирование")
+    print (Fore.GREEN+"    [2] Localhost >> Тунелирование")
+    print (Fore.GREEN+"    [3] PyPhiser >> Фишинг")
+    print (Fore.GREEN+"    [4] Android >> Вирус ссылка")
+    print (Fore.GREEN+"    [5] Maskphish >> Замаскировать ссылку")
+    print (Fore.GREEN+"    [6] IP-Tracer >> Пробив по IP")
+    print (Fore.GREEN+"    [7] Seeker >> Узнать местоположения")
     print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [c] Официальный чат')
     print (Fore.YELLOW+'    [e] Выход')
@@ -89,7 +89,6 @@ while True:
         if tru_101 == 'n':
             os.system('clear')
             print('\n')
-            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать Ngrok включите точку доступа")
             
 
     if inp == '2':
@@ -99,7 +98,14 @@ while True:
         if tru_201 == 'y':
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
             res()
+            time.sleep(1.5)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
+            res()
             os.system('pkg install dropbear -y')
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
+            res()
             os.system('pkg install openssh -y')
             qw  = '8080'
             os.system('clear')
@@ -144,7 +150,6 @@ while True:
         if tru_201 == 'n':
             os.system('clear')
             print('\n')
-            print(Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Что бы использовать Localhost включите точку доступа")
 
 
     if inp == '3':
@@ -240,19 +245,19 @@ while True:
         res()
         time.sleep(1.5)
         os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
         res()
         os.system('pkg install dropbear -y')
         os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
         res()
         os.system('pkg install openssh -y')
         os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
         res()
         os.system('pkg install php -y')
         os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php7...")
         res()
         os.system('pkg install php7 -y')
         os.system('clear')
@@ -270,7 +275,6 @@ while True:
     if inp == 'c':    
         os.system('xdg-open https://t.me/SYPEXHACK_chat')
         os.system('clear')
-        os.system('python3 tool.py')
 
 
     if inp == 'e':
