@@ -9,6 +9,6 @@ os.system('cd')
 os.system('rm -fr installer')
 
 print('')
-print(Fore.YELLOW+" ["+Fore.RED+"i"+Fore.YELLOW+"] Установка Localhost...")
+print(Fore.YELLOW+" ["+Fore.RED+"i"+Fore.YELLOW+"] Обновление/Проверка Installer...")
 
 os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python installer.py')
