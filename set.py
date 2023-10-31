@@ -43,7 +43,7 @@ while True:
 
         if tru_101 == '1':
             os.system('clear')
-            os.system('echo "cd installer && python tool.py" >> ~/.bashrc')
+            os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
             os.system('clear')
             print(Fore.GREEN+"\n  Включено!")
             res()
