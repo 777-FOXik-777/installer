@@ -79,6 +79,8 @@ while True:
                 tru_202 = input('')
         else:
             os.system('clear')
+
+
     
     if inp == 'e':
         res()
