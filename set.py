@@ -83,6 +83,6 @@ while True:
     
     if inp == 'e':
         os.system('clear')
-        print(Fore.WHITE+'')
+        res()
         break
         
