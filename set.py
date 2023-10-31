@@ -20,7 +20,7 @@ while True:
     res()
     print (Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print (Fore.GREEN+"    [2] Обновить/Проверить обновления Installer")
-    print (Fore.GREEN+"    [3] ")
+    print (Fore.GREEN+"    [3] Установить последнюю версию Termux")
     print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [e] Назад')
     res()
@@ -79,6 +79,11 @@ while True:
                 tru_202 = input('')
         else:
             os.system('clear')
+
+
+    
+    if inp == '3':
+        os.system('xdg-open https://t.me/SYPEXHACK_fail/51')
 
 
     
