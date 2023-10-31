@@ -29,5 +29,7 @@ while True:
         print('')
         
     if inp == 'e':
-        exit
+        os.system('clear')
+        print(Fore.WHITE+'')
+        break
         
