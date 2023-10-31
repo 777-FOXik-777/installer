@@ -8,6 +8,7 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
+    print('')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
@@ -15,7 +16,7 @@ while True:
     print (" | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     print('\n')
-    print ("[Telegram: @SYPEXHACK]                     [v2.7.1]")
+    print ("[Telegram: @SYPEXHACK]                         [v2.7.1]")
     res()
     print (Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
     print (Fore.GREEN+"    [2] Localhost  >>  Тунелирование")
@@ -25,9 +26,9 @@ while True:
     print (Fore.GREEN+"    [6] IP-Tracer  >>  Пробив по IP")
     print (Fore.GREEN+"    [7] Seeker     >>  Узнать местоположения")
     print (Fore.CYAN+"")
-    print (Fore.YELLOW+'    [c] Официальный чат')
+    print (Fore.CYAN+'    [c] Официальный чат')
     print (Fore.CYAN+'    [s] Настройки')
-    print (Fore.RED+'    [e] Выход')
+    print (Fore.YELLOW+'    [e] Выход')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
@@ -302,7 +303,3 @@ while True:
         print(Fore.CYAN+'Спасибо за использование Installer')
         print(Fore.WHITE+'')
         break
-
-
-    else:
-        print('')
