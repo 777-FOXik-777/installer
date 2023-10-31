@@ -14,6 +14,7 @@ while True:
     print (" | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
     print (" | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print ("|___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    print('\n')
     print ("[Telegram: @SYPEXHACK]                     [v2.7.1]")
     res()
     print (Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
@@ -25,16 +26,13 @@ while True:
     print (Fore.GREEN+"    [7] Seeker     >>  Узнать местоположения")
     print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [c] Официальный чат')
-    print (Fore.YELLOW+'    [e] Выход')
+    print (Fore.CYAN+'    [s] Настройки')
+    print (Fore.RED+'    [e] Выход')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
 
-    if inp == 's':
-        os.system('python set.py')
-
-                  
     
     if inp == 'u':
          os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
@@ -292,6 +290,11 @@ while True:
         os.system('clear')
 
     
+
+    if inp == 's':
+        os.system('python set.py')
+
+
 
     if inp == 'e':
         os.system('clear')
