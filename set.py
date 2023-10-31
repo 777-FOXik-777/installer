@@ -8,6 +8,7 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
+    print('')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
