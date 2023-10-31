@@ -18,11 +18,11 @@ while True:
     print ("\n")
     print ("[Настройки]                                    [v2.7.1]")
     res()
-    print (Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
-    print (Fore.GREEN+"    [2] Обновить/Проверить обновления Installer")
-    print (Fore.GREEN+"    [3] ")
+    print (Fore.GREEN+"  [1] Запускать Installer вместе с Termux")
+    print (Fore.GREEN+"  [2] Обновить/Проверить обновления Installer")
+    print (Fore.GREEN+"  [3] ")
     print (Fore.CYAN+"")
-    print (Fore.YELLOW+'    [e] Назад')
+    print (Fore.YELLOW+'  [e] Назад')
     res()
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
@@ -32,10 +32,11 @@ while True:
     if inp == '1':
         print('')
         os.system('clear')
+       print (Fore.GREEN+"\n Запускать Installer вместе с Termux?")
         print(Fore.GREEN+"\n")
-        print(Fore.YELLOW+' [1]'+Fore.GREEN+' Включить')
+        print(Fore.YELLOW+' [1]'+Fore.GREEN+'Включить')
         print('')
-        print(Fore.YELLOW+' [2]'+Fore.RED+' Выключить')
+        print(Fore.YELLOW+' [2]'+Fore.RED+'Выключить')
         print(Fore.YELLOW+'')
         print(' [e] выход')
         res()
@@ -66,11 +67,15 @@ while True:
     
     if inp == '2':
         os.system('clear')
-        os.system('mv update.py /data/data/com.termux/files/home/')
-        os.system('echo "cd && python update.py" >> ~/.bashrc')
-        while True:
-            print(Fore.YELLOW+'\n Перезапустите Termux или создайте новый сезон!')
-            tru_201 = input('')
+        print(Fore.GREEN+'\n Вы хотите обновить/проверить обновления Installer?')
+        print(Fore.WHITE+'\n')
+        tru_201 = input('Начать [y/n] >>> ')
+        if inp == 'y':
+            os.system('mv update.py /data/data/com.termux/files/home/')
+            os.system('echo "cd && python update.py" >> ~/.bashrc')
+            while True:
+                print(Fore.YELLOW+'\n Перезапустите Termux или создайте новый сезон!')
+                tru_202 = input('')
     
     
     if inp == 'e':
