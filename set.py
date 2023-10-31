@@ -29,6 +29,28 @@ while True:
 
     if inp == '1':
         print('')
+        os.system('clear')
+        print(Fore.GREEN+"\n")
+        print(Fore.YELLOW+' [1]'+Fore.GREEN+' Включить')
+        print(Fore.YELLOW+' [2]'+Fore.RED+' Выключить')
+        print(Fore.YELLOW+'')
+        print(' [e] выход')
+        res()
+        tru_1201 = input(' Выбери пункт>>> ')
+
+        if tru_1201 == '1':
+            os.system('clear')
+            os.system('')
+            print(Fore.GREEN+"\n Включено!")
+            tsu_800 = input('\n [Нажмите enter чтобы выйти]')
+            os.system('clear')
+            
+        if tru_1201 == '2':
+            os.system('clear')
+            os.system('')
+            print(Fore.YELLOW+"\n Выключено!")
+            tsu_800 = input('\n [Нажмите enter чтобы выйти]')
+            os.system('clear')
         
     if inp == 'e':
         os.system('clear')
