@@ -26,7 +26,6 @@ while True:
     print (Fore.GREEN+"    [6] IP-Tracer  >>  Пробив по IP")
     print (Fore.GREEN+"    [7] Seeker     >>  Узнать местоположения")
     print (Fore.CYAN+"")
-    print (Fore.YELLOW+'    [c] Официальный чат')
     print (Fore.YELLOW+'    [s] Настройки')
     print (Fore.YELLOW+'    [e] Выход')
     res()
@@ -283,13 +282,6 @@ while True:
         os.system('clear')
         os.system('python seeker.py && clear')
         os.system('clear')
-
-
-    
-    if inp == 'c':    
-        os.system('xdg-open https://t.me/SYPEXHACK_chat')
-        os.system('clear')
-
     
 
     if inp == 's':
