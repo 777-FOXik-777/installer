@@ -32,8 +32,8 @@ while True:
     if inp == '1':
         print('')
         os.system('clear')
-       print (Fore.GREEN+"\n Запускать Installer вместе с Termux?")
-        print(Fore.GREEN+"\n")
+        print (Fore.GREEN+'\n Запускать Installer вместе с Termux?')
+        print(Fore.GREEN+'\n')
         print(Fore.YELLOW+' [1]'+Fore.GREEN+'Включить')
         print('')
         print(Fore.YELLOW+' [2]'+Fore.RED+'Выключить')
