@@ -161,12 +161,11 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
             res()
             time.sleep(1.5)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
-            res()
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
-            os.system('python3 pyphisher.py && python3 tool.py')
+            os.system('clear'
+            os.system('python3 pyphisher.py && clear')
+            os.system('clear')
 
         if tru_301 == 'n':
             os.system('clear')
