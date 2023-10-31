@@ -44,7 +44,7 @@ while True:
             os.system('echo "cd installer && python tool.py" >> ~/.bashrc')
             print(Fore.GREEN+"\n Включено!")
             res()
-            tsu_103 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_103 = input(' [Нажмите enter чтобы выйти]')
             os.system('clear')
             
         if tru_101 == '2':
@@ -52,7 +52,7 @@ while True:
             os.system('rm ~/.bashrc')
             print(Fore.YELLOW+"\n Выключено!")
             res()
-            tsu_103 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_103 = input(' [Нажмите enter чтобы выйти]')
             os.system('clear')
             
         else:
