@@ -36,20 +36,22 @@ while True:
         print(Fore.YELLOW+'')
         print(' [e] выход')
         res()
-        tru_1201 = input(' Выбери пункт>>> ')
+        tru_101 = input(' Выбери пункт>>> ')
 
-        if tru_1201 == '1':
+        if tru_101 == '1':
             os.system('clear')
-            os.system('')
+            os.system('echo "cd installer && python tool.py" >> ~/.bashrc')
             print(Fore.GREEN+"\n Включено!")
-            tsu_800 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_103 = input('\n [Нажмите enter чтобы выйти]')
             os.system('clear')
             
-        if tru_1201 == '2':
+        if tru_101 == '2':
             os.system('clear')
-            os.system('')
+            os.system('rm ~/.bashrc')
             print(Fore.YELLOW+"\n Выключено!")
-            tsu_800 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_103 = input('\n [Нажмите enter чтобы выйти]')
             os.system('clear')
         
     if inp == 'e':
