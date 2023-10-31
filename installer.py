@@ -3,7 +3,7 @@ import os, time
 os.system('clear')
 os.system('cd && cd installer')
 
-print ('[~] Установка colorama...')
+print ('[~] Установка colorama... \n')
 time.sleep(1.5)
 os.system('pip install colorama')
 os.system('clear')
