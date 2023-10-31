@@ -88,6 +88,7 @@ while True:
             os.system('clear')
             
 
+    
     if inp == '2':
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_201 = input('\n'' Включили? [y/n] >>> ')
@@ -146,6 +147,7 @@ while True:
         if tru_201 == 'n':
             os.system('clear')
 
+    
 
     if inp == '3':
         os.system('clear')
@@ -168,6 +170,7 @@ while True:
         else:
             os.system('clear')
 
+    
 
     if inp == '4':
         os.system('clear')
@@ -182,6 +185,7 @@ while True:
         tru_901 = input('\n [Нажмите enter чтобы выйти]')
         os.system('clear')
 
+    
 
     if inp == '5':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
@@ -189,11 +193,11 @@ while True:
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.chdir('maskphish')
         os.system('clear')
-        time.sleep(4)
         os.system('bash maskphish.sh')
         tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
         os.system('clear')
 
+    
     
     if inp == '6':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
@@ -232,6 +236,7 @@ while True:
         else:
             os.system('clear')
 
+    
 
     if inp == '7':
         os.system('clear')
@@ -265,11 +270,13 @@ while True:
         os.system('python seeker.py && clear')
         os.system('clear')
 
+
     
     if inp == 'c':    
         os.system('xdg-open https://t.me/SYPEXHACK_chat')
         os.system('clear')
 
+    
 
     if inp == 'e':
         os.system('clear')
@@ -278,6 +285,6 @@ while True:
         print(Fore.WHITE+'')
         break
 
-    
+
     else:
         print('')
