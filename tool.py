@@ -68,21 +68,21 @@ while True:
                     time.sleep(7)
                     os.system('clear')
                     print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(3)
+                    time.sleep(2)
                     os.system('ngrok http '+we+' && clear')
                     os.system('clear')
                     
                 else:
                     os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск...")
-                    time.sleep(3)
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(2)
                     os.system('ngrok http '+we_2+' && clear')
                     os.system('clear')
 
             if tru_102 == 'n':
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(3)
+                time.sleep(2)
                 os.system('clear')
                 os.system('ngrok http '+we+' && clear')
                 os.system('clear')
@@ -128,21 +128,21 @@ while True:
                     time.sleep(7)
                     os.system('clear')
                     print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(3)
+                    time.sleep(2)
                     os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
                     os.system('clear')
                     
                 else:
                     os.system('clear')
                     print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(3)
+                    time.sleep(2)
                     os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
                     os.system('clear')
 
             if tru_202 == 'n':
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(3)
+                time.sleep(2)
                 os.system('clear')
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
                 os.system('clear')
