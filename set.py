@@ -23,7 +23,7 @@ while True:
     print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
     print(Fore.GREEN+"    [4] Копировать скачаные директории в /files/home/")
     print(Fore.CYAN+"")
-    print(Fore.YELLOW+'    [e] Назад')
+    print(Fore.YELLOW+"    [e] Назад")
     res()
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
