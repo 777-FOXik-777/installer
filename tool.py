@@ -279,6 +279,7 @@ while True:
 
     
     if inp == 's':
+        os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('python set.py')
 
     
