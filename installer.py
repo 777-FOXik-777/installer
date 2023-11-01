@@ -1,5 +1,12 @@
 import os, time
 
+#обновление
+
+os.system('rm ~/.bashrc')
+os.system('rm -fr /data/data/com.termux/files/home/update.py')
+
+#colorama
+
 os.system('clear')
 os.system('cd && cd installer')
 
@@ -13,11 +20,6 @@ from colorama import Fore, Style
 print ('\n')
 def res():
     print(Style.RESET_ALL)
-
-#обновление
-
-os.system('rm ~/.bashrc')
-os.system('rm -fr /data/data/com.termux/files/home/update.py')
   
 #питон
 
