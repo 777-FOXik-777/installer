@@ -9,14 +9,6 @@ def res():
 
 while True:
     print('')
-
-    
-    txt = 'текст который нужен'
-    for i in txt:
-        time.sleep(0.3)
-        print(i, end='', flush=True)
-
-    
     print(i, end='', flush=True)
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
