@@ -200,6 +200,7 @@ while True:
         os.system('clear')
         os.system('bash maskphish.sh')
         tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
+        os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('clear')
 
 
