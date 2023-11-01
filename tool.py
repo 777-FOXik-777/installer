@@ -8,6 +8,8 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
+    os.system('cd - && cd installer')
+    os.system('clear')
     print('')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
