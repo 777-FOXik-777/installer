@@ -279,10 +279,9 @@ while True:
 
     
     if inp == 's':
+        os.system('python set.py')
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Перезапустите Installer чтобы открыть настройки!")
-        res()
-        os.system('python set.py')
 
     
 
