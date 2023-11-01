@@ -9,8 +9,12 @@ def res():
 
 while True:
     print('')
-    text = "ffffffffffffeeeeeeeeeeeeeeeeeeeeeeeef \n rrrrrrrrrrrwddddddddddgewf \n           ewfdwfegwgeewdggg \n 444444gewgg3ffwgwe"
-    print(text, end='', flush=True)
+    
+    txt = 'текст который нужен'
+    for i in txt:
+    time.sleep(0.3)
+    
+    print(i, end='', flush=True)
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
