@@ -8,8 +8,6 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
-    os.system('cd - && cd installer')
-    os.system('clear')
     print('')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
@@ -202,9 +200,9 @@ while True:
         os.system('clear')
         os.system('bash maskphish.sh')
         tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
-        os.system('clear')
+        os.system('cd - && cd installer && clear')
 
-    
+
     
     if inp == '6':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
