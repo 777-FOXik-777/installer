@@ -279,7 +279,7 @@ while True:
 
     
     if inp == 's':
-        os.system('mv set.py /data/data/com.termux/files/home/installer')
+        os.system('cd - && cd - && cd - && cd - && cd - && cd - && cd installer')
         os.system('python set.py')
 
 
