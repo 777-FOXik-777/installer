@@ -5,7 +5,16 @@ from colorama import Fore, Style
 print ('\n')
 def res():
     print(Style.RESET_ALL)
+
+
     
+    txt = 'текст который нужен'
+    for i in txt:
+        time.sleep(0.3)
+        print(i, end='', flush=True)
+
+
+
 while True:
     os.system('clear')
     print(Fore.RED+'[меню <забавы>]')
