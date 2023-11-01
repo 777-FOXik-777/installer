@@ -21,7 +21,7 @@ while True:
     print (Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print (Fore.GREEN+"    [2] Обновить/Проверить обновления Installer")
     print (Fore.GREEN+"    [3] Установить последнюю версию Termux")
-    print (Fore.GREEN+"    [4] Копировать скачаные директории в files/home/")
+    print (Fore.GREEN+"    [4] Копировать скачаные директории в /files/home/")
     print (Fore.CYAN+"")
     print (Fore.YELLOW+'    [e] Назад')
     res()
