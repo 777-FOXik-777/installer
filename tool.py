@@ -6,10 +6,14 @@ os.system('clear')
 
 def res():
     print(Style.RESET_ALL)
-    
+
+logo = f"""
+efgwveeeeeeeeeeeeeeeeeeeeeeeeeeeeeesssssssssssssssssdddddddddddddddddddd
+"""
+
 while True:
     print('')
-    lolcat('1dwqwfqsfwdfqfsq')
+    lolcat('logo')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
