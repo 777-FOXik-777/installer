@@ -92,4 +92,3 @@ while True:
         res()
         os.system('clear')
         break
-        
