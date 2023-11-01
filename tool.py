@@ -7,11 +7,10 @@ os.system('clear')
 def res():
     print(Style.RESET_ALL)
 
-text = "eeeeeeeeeeeeeeeeeeeggggggggggggggggggdsgrgrgsdffffffffffffffffffffgggggggggggggggggggdsergwsdsgregsgsegesgsdgege"
-print(text, end='', flush=True)
-
 while True:
     print('')
+    text = "ffffffffffffeeeeeeeeeeeeeeeeeeeeeeeef \n rrrrrrrrrrrwddddddddddgewf \n           ewfdwfegwgeewdggg \n 444444gewgg3ffwgwe"
+    print(text, end='', flush=True)
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
