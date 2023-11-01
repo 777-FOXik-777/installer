@@ -8,7 +8,6 @@ def res():
     print(Style.RESET_ALL)
     
 while True:
-    os.system('clear')
     print('')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
@@ -281,8 +280,6 @@ while True:
     
     if inp == 's':
         os.system('python set.py')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Перезапустите Installer чтобы открыть настройки!")
 
     
 
