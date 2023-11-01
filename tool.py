@@ -9,6 +9,7 @@ def res():
     
 while True:
     print('')
+    lolcat('1dwqwfqsfwdfqfsq')
     print(Fore.CYAN+'', Style.BRIGHT)
     print (" ___                 _             _   _               ")
     print ("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
