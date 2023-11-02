@@ -161,28 +161,22 @@ while True:
 
     if inp == '3':
         os.system('clear')
-        baner()
-        print('')
-        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ')
-        tru_301 = input('\n Включили? [y/n] >>> ')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
+        res()
+        time.sleep(1.5)
+        os.system('git clone https://github.com/KasRoudra/PyPhisher')
+        os.chdir('PyPhisher')
         os.system('clear')
-        if tru_301 == 'y':
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
-            res()
-            time.sleep(1.5)
-            os.system('git clone https://github.com/KasRoudra/PyPhisher')
-            os.chdir('PyPhisher')
-            os.system('clear')
-            os.system('python3 pyphisher.py')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+        os.system('python3 pyphisher.py')
+        tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+        os.chdir('/data/data/com.termux/files/home/installer')
+        os.system('clear')
 
-        if tru_301 == 'n':
-            os.system('clear')
+    if tru_301 == 'n':
+        os.system('clear')
 
-        else:
-            os.system('clear')
+    else:
+        os.system('clear')
 
     
 
