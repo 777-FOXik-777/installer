@@ -89,6 +89,23 @@ while True:
 
 
     
+    if inp == '3':
+        os.system('mv PyPhisher /data/data/com.termux/files/home/')
+        os.system('mv maskphish /data/data/com.termux/files/home/')
+        os.system('mv IP-Tracer /data/data/com.termux/files/home/')
+        os.system('mv seeker /data/data/com.termux/files/home/')
+        os.system('mv  /data/data/com.termux/files/home/')
+        os.system('mv  /data/data/com.termux/files/home/')
+        os.system('mv  /data/data/com.termux/files/home/')
+        os.system('mv  /data/data/com.termux/files/home/')
+         os.system('clear')
+        print(Fore.GREEN+"\n Готово!")
+        res()
+        tsu_103 = input(' [Нажмите enter чтобы выйти]')
+        os.system('clear')
+
+    
+    
     if inp == 'e':
         res()
         os.system('clear')
