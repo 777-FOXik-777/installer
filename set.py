@@ -7,7 +7,6 @@ os.system('clear')
 def res():
     print(Style.RESET_ALL)
 
-
 def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
     print('')
