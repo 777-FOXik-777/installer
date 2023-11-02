@@ -17,7 +17,6 @@ def baner():
     print(" |___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     res()
     
-
 while True:
     baner()
     print(Fore.CYAN+" [Telegram: @SYPEXHACK]                        [v2.8.0]", Style.BRIGHT)
