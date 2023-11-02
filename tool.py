@@ -25,10 +25,11 @@ while True:
     print(Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
     print(Fore.GREEN+"    [2] Localhost  >>  Тунелирование")
     print(Fore.GREEN+"    [3] PyPhiser   >>  Фишинг")
-    print(Fore.GREEN+"    [4] Android    >>  Вирус ссылка")
-    print(Fore.GREEN+"    [5] Maskphish  >>  Замаскировать ссылку")
-    print(Fore.GREEN+"    [6] IP-Tracer  >>  Пробив по IP")
-    print(Fore.GREEN+"    [7] Seeker     >>  Узнать местоположения")
+    print(Fore.GREEN+"    [4] Zphisher   >>  Фишинг")
+    print(Fore.GREEN+"    [5] Android    >>  Вирус ссылка")
+    print(Fore.GREEN+"    [6] Maskphish  >>  Замаскировать ссылку")
+    print(Fore.GREEN+"    [7] IP-Tracer  >>  Пробив по IP")
+    print(Fore.GREEN+"    [8] Seeker     >>  Узнать местоположения")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Выход")
@@ -195,7 +196,7 @@ while True:
     
 
     
-    if inp == '4':
+    if inp == '5':
         os.system('clear')
         baner()
         res()
@@ -212,20 +213,20 @@ while True:
 
     
 
-    if inp == '5':
+    if inp == '6':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
         res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
         os.system('clear')
         os.chdir('maskphish')
         os.system('bash maskphish.sh')
-        tsu_501 = input('\n [Нажмите enter чтобы выйти]')
+        tsu_601 = input('\n [Нажмите enter чтобы выйти]')
         os.chdir('/data/data/com.termux/files/home/installer')
         os.system('clear')
 
 
     
-    if inp == '6':
+    if inp == '7':
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
         res()
         time.sleep(1.5)
@@ -240,33 +241,33 @@ while True:
         print(Fore.YELLOW+'')
         print('    [e] выход')
         res()
-        tru_601 = input(' Выбери пункт>>> ')
+        tru_701 = input(' Выбери пункт>>> ')
 
-        if tru_601 == '1':
+        if tru_701 == '1':
             os.system('clear')
             os.system('trace -m')
-            tsu_602 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_702 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
-        if tru_601 == '2':
+        if tru_701 == '2':
             os.system('clear')
             print(Fore.YELLOW+'Пример IP'+Fore.CYAN+' 33.73.133.137')
             res()
-            tsu_602 = input('Введите IP >>> ')
+            tsu_702 = input('Введите IP >>> ')
             os.system('trace -t '+tsu_1202)
-            tsu_603 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_703 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
         else:
-            tsu_603 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_703 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
     
 
-    if inp == '7':
+    if inp == '8':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
         res()
@@ -299,7 +300,7 @@ while True:
         os.system('./install.sh')
         os.system('clear')
         os.system('python seeker.py')
-        tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+        tsu_801 = input('\n [Нажмите enter чтобы выйти]')
         os.chdir('/data/data/com.termux/files/home/installer')
         os.system('clear')
     
