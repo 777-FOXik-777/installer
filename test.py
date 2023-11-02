@@ -6,6 +6,10 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
+print(Back.RED + "Текст на красном фоне")
+print(Back.GREEN + "Текст на зеленом фоне")
+print(Back.BLUE + "Текст на синем фоне")
+
 
 txt = 'текст который нужен'
 for i in txt:
