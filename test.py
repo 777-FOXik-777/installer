@@ -1,4 +1,4 @@
-import os, time, webbrowser
+import os, time, webbrowser, random
 
 from colorama import Fore, Style
 
@@ -9,6 +9,12 @@ def res():
 print(Back.RED + "Текст на красном фоне")
 print(Back.GREEN + "Текст на зеленом фоне")
 print(Back.BLUE + "Текст на синем фоне")
+
+if __name__ == '__main__':
+ 
+    nums = [1, 2, 3, 4, 5]
+ 
+    print(random.choice(nums))
 
 
 txt = 'текст который нужен'
