@@ -219,6 +219,7 @@ while True:
         os.system('cd IP-Tracer')
         os.system('bash ./install')
         os.system('clear')
+        baner()
         print(Fore.GREEN+"\n")
         print(' [1] Пробить свой IP')
         print(' [2] Пробить чужой IP')
