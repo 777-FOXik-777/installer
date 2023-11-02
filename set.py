@@ -22,6 +22,7 @@ while True:
     print(Fore.GREEN+"    [2] Обновить/Проверить обновления Installer")
     print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
     print(Fore.GREEN+"    [4] Копировать скачаные директории в /files/home/")
+    print(Fore.GREEN+"    [5] Удалить скачаные директории")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [e] Назад")
     res()
@@ -94,14 +95,22 @@ while True:
         os.system('mv maskphish /data/data/com.termux/files/home/')
         os.system('mv IP-Tracer /data/data/com.termux/files/home/')
         os.system('mv seeker /data/data/com.termux/files/home/')
-        os.system('mv  /data/data/com.termux/files/home/')
-        os.system('mv  /data/data/com.termux/files/home/')
-        os.system('mv  /data/data/com.termux/files/home/')
-        os.system('mv  /data/data/com.termux/files/home/')
         os.system('clear')
-        print(Fore.GREEN+"\n Все директории успешно перенесены в /files/home/ !")
+        print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в /files/home/ !")
         res()
-        tsu_103 = input(' [Нажмите enter чтобы выйти]')
+        tsu_401 = input(' [Нажмите enter чтобы выйти]')
+        os.system('clear')
+
+
+    
+    if inp == '5':
+        os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher ')
+        os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish ')
+        os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh && rm -fr /data/data/com.termux/files/home/installer/IP-Tracer ')
+        os.system('rm -fr /data/data/com.termux/files/home/seeker && rm -fr /data/data/com.termux/files/home/installer/seeker ')
+        print(Fore.YELLOW+"\n Все директории УСПЕШНО удалены!")
+        res()
+        tsu_501 = input(' [Нажмите enter чтобы выйти]')
         os.system('clear')
 
     
