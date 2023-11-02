@@ -5,7 +5,7 @@ from colorama import Fore, Style
 os.system('clear')
 
 def res():
-    print(Style.RESET_ALL)
+    print(Fore.WHITE+'', Style.BRIGHT)
 
 def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
