@@ -173,12 +173,6 @@ while True:
         os.chdir('/data/data/com.termux/files/home/installer')
         os.system('clear')
 
-    if tru_301 == 'n':
-        os.system('clear')
-
-    else:
-        os.system('clear')
-
     
 
     if inp == '4':
@@ -208,7 +202,7 @@ while True:
         res()
         print(Fore.GREEN+' https://github.com/LOoLzeC/vcrt/raw/master/dendroid.apk')
         res()
-        tru_901 = input('\n [Нажмите enter чтобы выйти]')
+        tru_501 = input('\n [Нажмите enter чтобы выйти]')
         os.system('clear')
 
     
