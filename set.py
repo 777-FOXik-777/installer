@@ -5,7 +5,7 @@ from colorama import Fore, Style
 os.system('clear')
 
 def res():
-    print(Fore.WHITE+'', Style.BRIGHT)
+    print(Style.RESET_ALL)
 
 def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
@@ -15,6 +15,7 @@ def baner():
     print("  | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
     print("  | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print(" |___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    res()
     
 
 while True:
@@ -38,7 +39,6 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print('')
         print (Fore.CYAN+'\n Запускать Installer вместе с Termux?')
         res()
         print(Fore.YELLOW+'    [1]'+Fore.YELLOW+' Включить')
@@ -74,7 +74,6 @@ while True:
     if inp == '2':
         os.system('clear')
         baner()
-        print('')
         print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все установлинные вами данные удаляться')
         res()
@@ -100,7 +99,6 @@ while True:
     if inp == '4':
         os.system('clear')
         baner()
-        print('')
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Переместить скачаные директории в /files/home ?')
         res()
         tru_401 = input(' Выбери пункт [y/n] >>> ')
@@ -123,14 +121,12 @@ while True:
     if inp == '5':
         os.system('clear')
         baner()
-        print('')
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории?')
         res()
         tru_501 = input(' Продолжить [y/n] >>> ')
         if tru_501 == 'y':
             os.system('clear')
             baner()
-            print('')
             print (Fore.CYAN+'\n Где именно удалить директории?')
             res()
             print(Fore.YELLOW+'    [1]'+Fore.YELLOW+' В папке /files/home/')
