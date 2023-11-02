@@ -156,7 +156,7 @@ while True:
 
     if inp == '3':
         os.system('clear')
-        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+' ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ]')
+        print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ')
         tru_301 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
         if tru_301 == 'y':
