@@ -7,17 +7,13 @@ def res():
     print(Style.RESET_ALL)
 
 
-    
-    txt = 'текст который нужен'
-    for i in txt:
-        time.sleep(0.3)
-        print(i, end='', flush=True)
+txt = 'текст который нужен'
+for i in txt:
+    time.sleep(0.3)
+    print(i, end='', flush=True)
 
 
-
-while True:
-    os.system('clear')
-    print(Fore.RED+'[меню <забавы>]')
+def baner():
     print(Fore.GREEN+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
     print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
@@ -27,6 +23,11 @@ while True:
     print ("\n")
     print ("[telegram: @SYPEXHACK]                       [v2.6.0]")
     res()
+
+
+while True:
+    os.system('clear')
+    baner()
     print (Fore.YELLOW+"    [1] матрица ")
     print (Fore.YELLOW+"    [2] паравозик")
     print (Fore.YELLOW+"    [3] карта мира")
@@ -42,6 +43,10 @@ while True:
     inp = input ('  Выбери пункт>>> ')
     os.system('clear')
 
+    if inp == '11':
+        baner()
+        inp = input ('  ttr')
+    
     if inp == '91':
         os.system('clear')
         os.system('python3 tool.py')
