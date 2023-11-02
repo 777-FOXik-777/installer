@@ -182,6 +182,21 @@ while True:
 
     if inp == '4':
         os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
+        res()
+        time.sleep(1.5)
+        os.system('git clone https://github.com/htr-tech/zphisher')
+        os.chdir('zphisher')
+        os.system('clear')
+        os.system('bash zphisher.sh')
+        tsu_401 = input('\n [Нажмите enter чтобы выйти]')
+        os.chdir('/data/data/com.termux/files/home/installer')
+        os.system('clear')
+    
+
+    
+    if inp == '4':
+        os.system('clear')
         baner()
         res()
         print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получаем ссылку...")
