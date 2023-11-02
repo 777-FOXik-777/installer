@@ -99,75 +99,62 @@ while True:
                 
             else:
                 os.system('clear')
-                    
-        if tru_101 == 'n':
-            os.system('clear')
-            
 
     
     if inp == '2':
         os.system('clear')
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
+        res()
+        time.sleep(1.5)
+        os.system('clear')
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
+        res()
+        os.system('pkg install dropbear -y')
+        os.system('clear')
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
+        res()
+        os.system('pkg install openssh -y')
+        qw  = '8080'
+        os.system('clear')
+        print('\n')
         baner()
         print('')
-        print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
-        tru_201 = input('\n'' Включили? [y/n] >>> ')
-        os.system('clear')
-        if tru_201 == 'y':
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
-            res()
-            time.sleep(1.5)
+        print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+        print(Fore.WHITE+'')
+        tru_202 = input('\n'' Изменить порт? [y/n] >>> ')
+        if tru_202 == 'y':
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
-            res()
-            os.system('pkg install dropbear -y')
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-            res()
-            os.system('pkg install openssh -y')
-            qw  = '8080'
-            os.system('clear')
-            print('\n')
             baner()
             print('')
-            print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-            print(Fore.WHITE+'')
-            tru_202 = input('\n'' Изменить порт? [y/n] >>> ')
-            if tru_202 == 'y':
+            qw_2 = input('\n'' Введите порт>>> ')
+            if qw_2 == '':
                 os.system('clear')
-                baner()
-                print('')
-                qw_2 = input('\n'' Введите порт>>> ')
-                if qw_2 == '':
-                    os.system('clear')
-                    print('\n')
-                    print(Fore.YELLOW+' Вы ничего не ввели!')
-                    print('\n'+Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                    time.sleep(7)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(2)
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
-                    os.system('clear')
-                    
-                else:
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(2)
-                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
-                    os.system('clear')
-
-            if tru_202 == 'n':
+                print('\n')
+                print(Fore.YELLOW+' Вы ничего не ввели!')
+                print('\n'+Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                time.sleep(7)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(2)
-                os.system('clear')
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
                 os.system('clear')
                 
             else:
                 os.system('clear')
-                    
-        if tru_201 == 'n':
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(2)
+                os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
+                os.system('clear')
+
+        if tru_202 == 'n':
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(2)
+            os.system('clear')
+            os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
+            os.system('clear')
+            
+        else:
             os.system('clear')
 
     
