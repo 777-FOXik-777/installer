@@ -9,6 +9,7 @@ def res():
 
 def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
+    print('')
     print(" ___                 _             _   _               ")
     print("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
     print(" | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
@@ -17,7 +18,6 @@ def baner():
     
 
 while True:
-    print('')
     baner()
     print("\n")
     print("[Telegram: @SYPEXHACK]                         [v2.8.0]")
@@ -39,6 +39,8 @@ while True:
     
         
     if inp == '1':
+        baner()
+        print('')
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_101 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
@@ -57,11 +59,15 @@ while True:
             we  = '8080'
             os.system('clear')
             print('\n')
+            baner()
+            print('')
             print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
             print(Fore.WHITE+'')
             tru_102 = input('\n'' Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
+                baner()
+                print('')
                 we_2 = input('\n'' Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
@@ -99,6 +105,8 @@ while True:
 
     
     if inp == '2':
+        baner()
+        print('')
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_201 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
@@ -117,11 +125,15 @@ while True:
             qw  = '8080'
             os.system('clear')
             print('\n')
+            baner()
+            print('')
             print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
             print(Fore.WHITE+'')
             tru_202 = input('\n'' Изменить порт? [y/n] >>> ')
             if tru_202 == 'y':
                 os.system('clear')
+                baner()
+                print('')
                 qw_2 = input('\n'' Введите порт>>> ')
                 if qw_2 == '':
                     os.system('clear')
@@ -160,6 +172,8 @@ while True:
 
     if inp == '3':
         os.system('clear')
+        baner()
+        print('')
         print('['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ПЕРЕД ЗАПУСКОМ ВКЛЮИТЕ ТОЧКУ ДОСТУПА И МОБ ИНТЕРНЕТ')
         tru_301 = input('\n Включили? [y/n] >>> ')
         os.system('clear')
@@ -185,6 +199,7 @@ while True:
 
     if inp == '4':
         os.system('clear')
+        baner()
         print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получаем ссылку...")
         res()
         time.sleep(3)
