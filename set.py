@@ -96,7 +96,7 @@ while True:
         os.system('mv IP-Tracer /data/data/com.termux/files/home/')
         os.system('mv seeker /data/data/com.termux/files/home/')
         os.system('clear')
-        print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в /files/home/ !")
+        print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в папку /files/home/")
         res()
         tsu_401 = input(' [Нажмите enter чтобы выйти]')
         os.system('clear')
@@ -105,7 +105,6 @@ while True:
     
     if inp == '5':
         os.system('clear')
-        print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории?')
         res()
         tru_501 = input(' Продолжить [y/n] >>> ')
@@ -113,17 +112,16 @@ while True:
             os.system('clear')
             print (Fore.CYAN+'\n Где именно удалить директории?')
             res()
-            print(Fore.YELLOW+' [1]'+Fore.GREEN+' В папке /files/home/')
-            res()
-            print(Fore.YELLOW+' [2]'+Fore.RED+' В директории installer')
-            res()
-            print(Fore.YELLOW+' [3]'+Fore.RED+' Повсюду')
+            print(Fore.YELLOW+' [1]'+Fore.YELLOW+' В папке /files/home/')
+            print(Fore.YELLOW+' [2]'+Fore.YELLOW+' В директории installer')
+            print(Fore.YELLOW+' [3]'+Fore.YELLOW+' Повсюду')
             print(Fore.YELLOW+'')
             print(' [e] выход')
             res()
             tru_502 = input(' Выбери пункт>>> ')
     
             if tru_502 == '1':
+                os.system('clear')
                 os.system('rm -fr /data/data/com.termux/files/home/PyPhisher')
                 os.system('rm -fr /data/data/com.termux/files/home/maskphish')
                 os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh')
@@ -134,6 +132,7 @@ while True:
                 os.system('clear')
 
             if tru_502 == '2':
+                os.system('clear')
                 os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                 os.system('rm -fr /data/data/com.termux/files/home/installer/maskphish')
                 os.system('rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
@@ -144,6 +143,7 @@ while True:
                 os.system('clear')
                 
             if tru_502 == '3':
+                os.system('clear')
                 os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                 os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish')
                 os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh && rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
