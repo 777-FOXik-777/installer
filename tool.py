@@ -5,7 +5,7 @@ from colorama import Fore, Style
 os.system('clear')
 
 def res():
-    print(Fore.WHITE+'', Style.BRIGHT)
+    print(Style.RESET_ALL)
 
 def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
@@ -15,6 +15,7 @@ def baner():
     print("  | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
     print("  | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print(" |___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    res()
     
 
 while True:
@@ -42,7 +43,6 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print('')
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
         tru_101 = input('\n'' Включили? [y/n] >>> ')
         os.system('clear')
@@ -62,14 +62,12 @@ while True:
             os.system('clear')
             print('\n')
             baner()
-            print('')
             print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
             print(Fore.WHITE+'')
             tru_102 = input('\n'' Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
                 baner()
-                print('')
                 we_2 = input('\n'' Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
@@ -119,14 +117,12 @@ while True:
         os.system('clear')
         print('\n')
         baner()
-        print('')
         print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
         print(Fore.WHITE+'')
         tru_202 = input('\n'' Изменить порт? [y/n] >>> ')
         if tru_202 == 'y':
             os.system('clear')
             baner()
-            print('')
             qw_2 = input('\n'' Введите порт>>> ')
             if qw_2 == '':
                 os.system('clear')
@@ -189,6 +185,36 @@ while True:
         os.system('clear')
     
 
+   if inp == '5':
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
+        res()
+        time.sleep(1.5)
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
+        res()
+        time.sleep(1.5)
+        os.system('pkg install php -y')
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
+        res()
+        time.sleep(1.5)
+        os.system('pkg install openssh -y')
+        os.system('clear')
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
+        res()
+        time.sleep(1.5)
+        os.system('git clone https://github.com/htr-tech/zphisher')
+        os.chdir('zphisher')
+        os.system('clear')
+        os.system('bash zphisher.sh')
+        tsu_401 = input('\n [Нажмите enter чтобы выйти]')
+        os.chdir('/data/data/com.termux/files/home/installer')
+        os.system('clear'
+
+
+
+    
     
     if inp == '5':
         os.system('clear')
@@ -310,5 +336,5 @@ while True:
         os.system('clear')
         print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
-        print(Style.RESET_ALL)
+        res()
         break
