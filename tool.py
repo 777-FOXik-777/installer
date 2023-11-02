@@ -181,7 +181,7 @@ while True:
 
     if inp == '4':
         os.system('clear')
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получам ссылку...")
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получаем ссылку...")
         res()
         time.sleep(3)
         os.system('clear')
