@@ -10,17 +10,17 @@ def res():
 def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
     print('')
-    print(" ___                 _             _   _               ")
-    print("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
-    print(" | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
-    print(" | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
-    print("|___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    print("  ___                 _             _   _               ")
+    print(" |_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
+    print("  | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
+    print("  | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
+    print(" |___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     
 
 while True:
     baner()
     print("\n")
-    print("[Telegram: @SYPEXHACK]                         [v2.8.0]")
+    print(" [Telegram: @SYPEXHACK]                        [v2.8.0]")
     res()
     print(Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
     print(Fore.GREEN+"    [2] Localhost  >>  Тунелирование")
@@ -39,6 +39,7 @@ while True:
     
         
     if inp == '1':
+        os.system('clear')
         baner()
         print('')
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
@@ -105,6 +106,7 @@ while True:
 
     
     if inp == '2':
+        os.system('clear')
         baner()
         print('')
         print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
@@ -236,10 +238,10 @@ while True:
         os.system('clear')
         baner()
         print(Fore.GREEN+"\n")
-        print(' [1] Пробить свой IP')
-        print(' [2] Пробить чужой IP')
+        print('    [1] Пробить свой IP')
+        print('    [2] Пробить чужой IP')
         print(Fore.YELLOW+'')
-        print(' [e] выход')
+        print('    [e] выход')
         res()
         tru_601 = input(' Выбери пункт>>> ')
 
