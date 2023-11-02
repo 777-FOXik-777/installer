@@ -219,25 +219,28 @@ while True:
         print(Fore.YELLOW+'')
         print(' [e] выход')
         res()
-        tru_1201 = input(' Выбери пункт>>> ')
+        tru_601 = input(' Выбери пункт>>> ')
 
-        if tru_1201 == '1':
+        if tru_601 == '1':
             os.system('clear')
             os.system('trace -m')
-            tsu_800 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_602 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
-        if tru_1201 == '2':
+        if tru_601 == '2':
             os.system('clear')
             print(Fore.YELLOW+'Пример IP'+Fore.CYAN+' 33.73.133.137')
             res()
-            tsu_1202 = input('Введите IP >>> ')
+            tsu_602 = input('Введите IP >>> ')
             os.system('trace -t '+tsu_1202)
-
-            tsu_1203 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_603 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
         else:
+            tsu_603 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
     
