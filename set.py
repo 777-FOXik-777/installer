@@ -21,7 +21,7 @@ while True:
     print(Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print(Fore.GREEN+"    [2] Обновить/Проверить обновления Installer")
     print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
-    print(Fore.GREEN+"    [4] Копировать скачаные директории в /files/home/")
+    print(Fore.GREEN+"    [4] Переместить скачаные директории в /files/home/")
     print(Fore.GREEN+"    [5] Удалить скачаные директории")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [e] Назад")
@@ -104,15 +104,60 @@ while True:
 
     
     if inp == '5':
-        os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher ')
-        os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish ')
-        os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh && rm -fr /data/data/com.termux/files/home/installer/IP-Tracer ')
-        os.system('rm -fr /data/data/com.termux/files/home/seeker && rm -fr /data/data/com.termux/files/home/installer/seeker ')
-        print(Fore.YELLOW+"\n Все директории УСПЕШНО удалены!")
-        res()
-        tsu_501 = input(' [Нажмите enter чтобы выйти]')
         os.system('clear')
+        print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
+        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории?')
+        res()
+        tru_501 = input(' Продолжить [y/n] >>> ')
+        if tru_501 == 'y':
+            os.system('clear')
+            print (Fore.CYAN+'\n Где именно удалить директории?')
+            res()
+            print(Fore.YELLOW+' [1]'+Fore.GREEN+' В папке /files/home/')
+            res()
+            print(Fore.YELLOW+' [2]'+Fore.RED+' В директории installer')
+            res()
+            print(Fore.YELLOW+' [3]'+Fore.RED+' Повсюду')
+            print(Fore.YELLOW+'')
+            print(' [e] выход')
+            res()
+            tru_502 = input(' Выбери пункт>>> ')
+    
+            if tru_502 == '1':
+                os.system('rm -fr /data/data/com.termux/files/home/PyPhisher')
+                os.system('rm -fr /data/data/com.termux/files/home/maskphish')
+                os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh')
+                os.system('rm -fr /data/data/com.termux/files/home/seeker')
+                print(Fore.YELLOW+"\n Все директории в папке /files/home/ УСПЕШНО удалены!")
+                res()
+                tsu_503 = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
 
+            if tru_502 == '2':
+                os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
+                os.system('rm -fr /data/data/com.termux/files/home/installer/maskphish')
+                os.system('rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
+                os.system('rm -fr /data/data/com.termux/files/home/installer/seeker')
+                print(Fore.YELLOW+"\n Все директории в директории installer УСПЕШНО удалены!")
+                res()
+                tsu_503 = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
+                
+            if tru_502 == '3':
+                os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
+                os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish')
+                os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh && rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
+                os.system('rm -fr /data/data/com.termux/files/home/seeker && rm -fr /data/data/com.termux/files/home/installer/seeker')
+                print(Fore.YELLOW+"\n Все директории УСПЕШНО удалены!")
+                res()
+                tsu_503 = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
+                
+            else:
+                os.system('clear')
+            
+        else:
+            os.system('clear')
     
     
     if inp == 'e':
