@@ -73,6 +73,7 @@ while True:
         tru_201 = input(' Начать [y/n] >>> ')
         if tru_201 == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
+            os.system('rm ~/.bashrc')
             os.system('echo "cd && python update.py" >> ~/.bashrc')
             while True:
                 os.system('clear')
