@@ -166,7 +166,9 @@ while True:
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
             os.system('clear')
-            os.system('python3 pyphisher.py && clear')
+            os.system('python3 pyphisher.py')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
         if tru_301 == 'n':
