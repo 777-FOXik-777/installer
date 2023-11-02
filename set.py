@@ -91,16 +91,24 @@ while True:
 
     
     if inp == '4':
-        os.system('mv PyPhisher /data/data/com.termux/files/home/')
-        os.system('mv maskphish /data/data/com.termux/files/home/')
-        os.system('mv IP-Tracer /data/data/com.termux/files/home/')
-        os.system('mv seeker /data/data/com.termux/files/home/')
         os.system('clear')
-        print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в папку /files/home/")
+        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Переместить скачаные директории в /files/home ?')
         res()
-        tsu_401 = input(' [Нажмите enter чтобы выйти]')
-        os.system('clear')
+        tru_401 = input(' Выбери пункт [y/n] >>> ')
+        if tru_401 == 'y':
+            os.system('mv PyPhisher /data/data/com.termux/files/home/')
+            os.system('mv maskphish /data/data/com.termux/files/home/')
+            os.system('mv IP-Tracer /data/data/com.termux/files/home/')
+            os.system('mv seeker /data/data/com.termux/files/home/')
+            os.system('clear')
+            print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в папку /files/home/")
+            res()
+            tsu_402 = input(' [Нажмите enter чтобы выйти]')
+            os.system('clear')
 
+        else:
+            os.system('clear')
+            
 
     
     if inp == '5':
