@@ -25,8 +25,9 @@ for i in txt:
     print(i, end='', flush=True)
 
 
+
 def baner():
-    print(Fore.'+(random.choice(nums))+'+'', Style.BRIGHT)
+    print(Fore.RED+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
     print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
     print ("| | | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
