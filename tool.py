@@ -310,5 +310,5 @@ while True:
         os.system('clear')
         print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
-        res()
+        print(Style.RESET_ALL)
         break
