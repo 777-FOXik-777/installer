@@ -187,7 +187,7 @@ while True:
     
 
 
-   if inp == '5':
+    if inp == '5':
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
         res()
