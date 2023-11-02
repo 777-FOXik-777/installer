@@ -274,7 +274,9 @@ while True:
         os.system('chmod 777 install.sh')
         os.system('./install.sh')
         os.system('clear')
-        os.system('python seeker.py && clear')
+        os.system('python seeker.py')
+        tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+        os.chdir('/data/data/com.termux/files/home/installer')
         os.system('clear')
     
 
