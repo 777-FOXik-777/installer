@@ -196,11 +196,11 @@ while True:
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
         res()
         os.system('git clone https://github.com/jaykali/maskphish.git')
-        os.chdir('maskphish')
+        os.system('cd maskphish')
         os.system('clear')
         os.system('bash maskphish.sh')
-        tsu_1001 = input('\n [Нажмите enter чтобы выйти]')
-        os.system('cd /data/data/com.termux/files/home/installer/')
+        tsu_501 = input('\n [Нажмите enter чтобы выйти]')
+        os.system('cd -')
         os.system('clear')
 
 
