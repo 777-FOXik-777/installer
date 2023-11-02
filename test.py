@@ -1,6 +1,6 @@
 import os, time, webbrowser, random
 
-from colorama import Fore, Style
+from colorama import Fore, Style, Back
 
 print ('\n')
 def res():
@@ -10,9 +10,11 @@ print(Back.RED + "Текст на красном фоне")
 print(Back.GREEN + "Текст на зеленом фоне")
 print(Back.BLUE + "Текст на синем фоне")
 
+time.sleep(5)
+
 if __name__ == '__main__':
  
-    nums = [1, 2, 3, 4, 5]
+    nums = [GREEN, YELLOW, CYAN, RED]
  
     print(random.choice(nums))
 
@@ -24,7 +26,7 @@ for i in txt:
 
 
 def baner():
-    print(Fore.GREEN+'', Style.BRIGHT)
+    print(Fore.(random.choice(nums))+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
     print ("(_)  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
     print ("| | | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
