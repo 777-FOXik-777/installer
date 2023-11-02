@@ -7,14 +7,18 @@ os.system('clear')
 def res():
     print(Style.RESET_ALL)
 
-while True:
-    print('')
+def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
     print(" ___                 _             _   _               ")
     print("|_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
     print(" | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
     print(" | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print("|___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
+    
+
+while True:
+    print('')
+    baner()
     print("\n")
     print("[Telegram: @SYPEXHACK]                         [v2.8.0]")
     res()
