@@ -89,7 +89,7 @@ while True:
 
 
     
-    if inp == '3':
+    if inp == '4':
         os.system('mv PyPhisher /data/data/com.termux/files/home/')
         os.system('mv maskphish /data/data/com.termux/files/home/')
         os.system('mv IP-Tracer /data/data/com.termux/files/home/')
