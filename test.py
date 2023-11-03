@@ -59,6 +59,36 @@ while True:
     if inp == '11':
         baner()
         inp = input ('  ttr')
+
+
+
+    if inp == '33':
+        if os.path.exists(files/home/installer/pyphisher.py"): 
+            print ("Файл найден")
+            time.sleep(5)
+                          
+            os.system('clear')
+            os.system('python3 pyphisher.py')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+        else: 
+            print ("Файл не найден")
+            time.sleep(5)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
+            res()
+            time.sleep(1.5)
+            os.system('git clone https://github.com/KasRoudra/PyPhisher')
+            os.chdir('PyPhisher')
+            os.system('clear')
+            os.system('python3 pyphisher.py')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+
     
     if inp == '91':
         os.system('clear')
