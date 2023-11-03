@@ -187,7 +187,7 @@ while True:
 
     if inp == '5':
         os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
         res()
         time.sleep(1.5)
         os.system('clear')
