@@ -7,10 +7,6 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
-print(Back.RED + "Текст на красном фоне")
-print(Back.GREEN + "Текст на зеленом фоне")
-print(Back.BLUE + "Текст на синем фоне")
-
 time.sleep(5)
 
 
@@ -51,7 +47,7 @@ while True:
 
 
     if inp == '33':
-        if os.path.exists("home/installer/PyPhisher/pyphisher.py"): 
+        if os.path.exists(installer/PyPhisher/pyphisher.py): 
             print ("Файл найден")
             time.sleep(5)
                           
