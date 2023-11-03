@@ -47,16 +47,17 @@ while True:
 
 
     if inp == '33':
-        try:
-            file = open('/PyPhisher/pyphisher.py')
-        except IOError as e:
+        os.chdir('PyPhisher')
+        if os.path.exists("pyphisher.py"):
             print('файл есть')
+            time.sleep(3)
                           
             os.system('clear')
             os.system('python3 pyphisher.py')
             tsu_302 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
+
         else:
             print ("Файла не найден")
             time.sleep(3)
