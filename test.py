@@ -51,7 +51,7 @@ while True:
 
 
     if inp == '33':
-        if os.path.exists("files/home/installer/pyphisher.py"): 
+        if os.path.exists("home/installer/PyPhisher/pyphisher.py"): 
             print ("Файл найден")
             time.sleep(5)
                           
