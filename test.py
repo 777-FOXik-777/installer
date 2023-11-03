@@ -7,9 +7,6 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
-time.sleep(5)
-
-
 def baner():
     print(Fore.RED+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
@@ -47,7 +44,7 @@ while True:
 
 
     if inp == '33':
-        os.system('cd PyPhisher')
+        os.chdir('PyPhisher')
         if os.path.isfile("pyphisher.py"):
             os.system('clear')
             print('файл есть')
