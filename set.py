@@ -105,6 +105,8 @@ while True:
             os.system('mv maskphish /data/data/com.termux/files/home/')
             os.system('mv IP-Tracer /data/data/com.termux/files/home/')
             os.system('mv seeker /data/data/com.termux/files/home/')
+            os.system('mv CamPhish /data/data/com.termux/files/home/')
+            os.system('mv zphisher /data/data/com.termux/files/home/')
             os.system('clear')
             print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в папку /files/home/")
             res()
