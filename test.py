@@ -3,6 +3,7 @@ import os, time, webbrowser, random
 from colorama import Fore, Style, Back
 
 print ('\n')
+
 def res():
     print(Style.RESET_ALL)
 
@@ -11,19 +12,6 @@ print(Back.GREEN + "Текст на зеленом фоне")
 print(Back.BLUE + "Текст на синем фоне")
 
 time.sleep(5)
-
-if __name__ == '__main__':
- 
-    nums = [GREEN, YELLOW, CYAN, RED]
- 
-    print(random.choice(nums))
-
-
-txt = 'текст который нужен'
-for i in txt:
-    time.sleep(0.3)
-    print(i, end='', flush=True)
-
 
 
 def baner():
