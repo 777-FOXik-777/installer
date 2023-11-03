@@ -44,33 +44,36 @@ while True:
 
 
     if inp == '33':
-        os.chdir('PyPhisher')
-        if os.path.isfile("pyphisher.py"):
-            os.system('clear')
-            print('файл есть')
-            time.sleep(3)
-                          
-            os.system('clear')
-            os.system('python3 pyphisher.py')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
-
+        os.system('cd PyPhisher')
+        if os.path.exists(test_path):
+            if os.path.isfile(test_path):
+                os.system('clear')
+                print('файл есть')
+                time.sleep(3)
+                              
+                os.system('clear')
+                os.system('python3 pyphisher.py')
+                tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+    
+            elif os.path.isdir(test_path):
+                print ("Файла не найден")
+                time.sleep(3)
+                
+                os.system('clear')
+                print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
+                res()
+                time.sleep(1.5)
+                os.system('git clone https://github.com/KasRoudra/PyPhisher')
+                os.chdir('PyPhisher')
+                os.system('clear')
+                os.system('python3 pyphisher.py')
+                tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
         else:
-            print ("Файла не найден")
-            time.sleep(3)
-            
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
-            res()
-            time.sleep(1.5)
-            os.system('git clone https://github.com/KasRoudra/PyPhisher')
-            os.chdir('PyPhisher')
-            os.system('clear')
-            os.system('python3 pyphisher.py')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            print('Объект не найден')
 
 
     
