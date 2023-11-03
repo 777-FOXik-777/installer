@@ -261,21 +261,24 @@ while True:
         if tru_801 == '1':
             os.system('clear')
             os.system('trace -m')
-            tsu_702 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_803 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
         if tru_801 == '2':
             os.system('clear')
+            baner()
             print(Fore.YELLOW+'Пример IP'+Fore.CYAN+' 33.73.133.137')
             res()
             tsu_802 = input('Введите IP >>> ')
-            os.system('trace -t '+tsu_1202)
-            tsu_803 = input('\n [Нажмите enter чтобы выйти]')
+            os.system('clear')
+            os.system('trace -t '+tsu_802)
+            tsu_804 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
         else:
+            os.system('clear')
             tsu_803 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
