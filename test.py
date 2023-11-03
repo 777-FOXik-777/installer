@@ -47,8 +47,9 @@ while True:
 
 
     if inp == '33':
-        os.chdir('PyPhisher')
-        if os.path.exists("pyphisher.py"):
+        os.system('cd PyPhisher')
+        if os.path.isfile("pyphisher.py"):
+            os.system('clear')
             print('файл есть')
             time.sleep(3)
                           
