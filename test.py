@@ -45,8 +45,8 @@ while True:
 
     if inp == '33':
         os.system('cd PyPhisher')
-        if os.path.exists(test_path):
-            if os.path.isfile(test_path):
+        if os.path.exists('/home/installer/PyPhiser/pyphisher.py'):
+            if os.path.isfile('/home/installer/PyPhiser/pyphisher.py'):
                 os.system('clear')
                 print('файл есть')
                 time.sleep(3)
@@ -57,7 +57,7 @@ while True:
                 os.chdir('/data/data/com.termux/files/home/installer')
                 os.system('clear')
     
-            elif os.path.isdir(test_path):
+            elif os.path.isdir('/home/installer/PyPhiser/pyphisher.py'):
                 print ("Файла не найден")
                 time.sleep(3)
                 
