@@ -47,9 +47,11 @@ while True:
 
 
     if inp == '33':
-        if os.path.exists('/PyPhisher/pyphisher.py'): 
+        file_path = "/PyPhisher/pyphisher.py"
+        
+        if os.path.exists(file_path): 
             print ("Файл найден")
-            time.sleep(5)
+            time.sleep(3)
                           
             os.system('clear')
             os.system('python3 pyphisher.py')
@@ -58,7 +60,7 @@ while True:
             os.system('clear')
         else: 
             print ("Файл не найден")
-            time.sleep(5)
+            time.sleep(3)
             
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
