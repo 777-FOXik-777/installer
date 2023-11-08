@@ -44,7 +44,7 @@ while True:
         print(Fore.YELLOW+'')
         print('    [e] выход')
         res()
-        tru_101 = input(' Выбери пункт>>> ')
+        tru_101 = input('  Выбери пункт>>> ')
 
         if tru_101 == '1':
             os.system('clear')
@@ -75,7 +75,7 @@ while True:
         print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все установлинные вами данные удаляться')
         res()
-        tru_201 = input(' Начать [y/n] >>> ')
+        tru_201 = input('  Начать [y/n] >>> ')
         if tru_201 == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
             os.system('rm ~/.bashrc')
@@ -99,7 +99,7 @@ while True:
         baner()
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Переместить скачаные директории в /files/home ?')
         res()
-        tru_401 = input(' Выбери пункт [y/n] >>> ')
+        tru_401 = input('  Выбери пункт [y/n] >>> ')
         if tru_401 == 'y':
             os.system('mv PyPhisher /data/data/com.termux/files/home/')
             os.system('mv maskphish /data/data/com.termux/files/home/')
@@ -123,7 +123,7 @@ while True:
         baner()
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории?')
         res()
-        tru_501 = input(' Продолжить [y/n] >>> ')
+        tru_501 = input('  Продолжить [y/n] >>> ')
         if tru_501 == 'y':
             os.system('clear')
             baner()
@@ -135,7 +135,7 @@ while True:
             print(Fore.YELLOW+'')
             print('    [e] выход')
             res()
-            tru_502 = input(' Выбери пункт>>> ')
+            tru_502 = input('  Выбери пункт>>> ')
     
             if tru_502 == '1':
                 os.system('clear')
