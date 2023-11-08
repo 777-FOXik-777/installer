@@ -61,7 +61,8 @@ while True:
             we  = '8080'
             os.system('clear')
             baner()
-            print(Fore.CYAN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+            res()
+            print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
             tru_102 = input('  Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
@@ -118,7 +119,8 @@ while True:
         qw  = '8080'
         os.system('clear')
         baner()
-        print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+        res()
+        print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
         res()
         tru_202 = input('  Изменить порт? [y/n] >>> ')
         if tru_202 == 'y':
