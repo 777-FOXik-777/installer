@@ -245,7 +245,7 @@ while True:
         time.sleep(1.5)
         os.system('rm -fr IP-Tracer')
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
-        os.chdir('/data/data/com.termux/files/home/installer/IP-Tracer')
+        os.chdir('IP-Tracer')
         os.system('bash ./install')
         os.system('clear')
         baner()
