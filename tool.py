@@ -278,6 +278,7 @@ while True:
             os.system('clear')
 
         else:
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
     
