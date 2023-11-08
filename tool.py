@@ -59,7 +59,6 @@ while True:
             os.system('npm install ngrok -g')
             we  = '8080'
             os.system('clear')
-            print('\n')
             baner()
             print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
             print(Fore.WHITE+'')
@@ -114,7 +113,6 @@ while True:
         os.system('pkg install openssh -y')
         qw  = '8080'
         os.system('clear')
-        print('\n')
         baner()
         print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
         print(Fore.WHITE+'')
@@ -245,6 +243,7 @@ while True:
         print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
         res()
         time.sleep(1.5)
+        os.system('rm -fr IP-Tracer')
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
         os.system('cd IP-Tracer')
         os.system('bash ./install')
@@ -276,11 +275,8 @@ while True:
             tsu_804 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
-            
+
         else:
-            os.system('clear')
-            tsu_803 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
     
