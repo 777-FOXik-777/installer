@@ -62,11 +62,11 @@ while True:
             baner()
             print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
             print(Fore.WHITE+'')
-            tru_102 = input('\n'' Изменить порт? [y/n] >>> ')
+            tru_102 = input('\n''  Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
                 baner()
-                we_2 = input('\n'' Введите порт>>> ')
+                we_2 = input('\n''  Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
                     print('\n')
@@ -116,11 +116,11 @@ while True:
         baner()
         print(Fore.CYAN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
         print(Fore.WHITE+'')
-        tru_202 = input('\n'' Изменить порт? [y/n] >>> ')
+        tru_202 = input('\n''  Изменить порт? [y/n] >>> ')
         if tru_202 == 'y':
             os.system('clear')
             baner()
-            qw_2 = input('\n'' Введите порт>>> ')
+            qw_2 = input('\n''  Введите порт>>> ')
             if qw_2 == '':
                 os.system('clear')
                 print('\n')
@@ -255,7 +255,7 @@ while True:
         print(Fore.YELLOW+'')
         print('    [e] выход')
         res()
-        tru_801 = input(' Выбери пункт>>> ')
+        tru_801 = input('  Выбери пункт>>> ')
 
         if tru_801 == '1':
             os.system('clear')
@@ -267,9 +267,10 @@ while True:
         if tru_801 == '2':
             os.system('clear')
             baner()
-            print(Fore.YELLOW+'Пример IP'+Fore.CYAN+' 33.73.133.137')
             res()
-            tsu_802 = input('Введите IP >>> ')
+            print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
+            res()
+            tsu_802 = input('  Введите IP >>> ')
             os.system('clear')
             os.system('trace -t '+tsu_802)
             tsu_804 = input('\n [Нажмите enter чтобы выйти]')
