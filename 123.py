@@ -39,7 +39,7 @@ while True:
     
 
     if inp == '9':
-        os.chdir('/data/data/com.termux/files/home/installer/seeker')
+        os.system('cd /data/data/com.termux/files/home/installer/seeker')
         filename = "install.sh"
 
         if os.path.exists(filename):
