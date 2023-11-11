@@ -235,7 +235,8 @@ while True:
     
 
     if inp == '7':
-        filename = "test.py"
+        os.chdir('maskphish')
+        filename = "maskphish.sh"
         
         if os.path.exists(filename):
             
