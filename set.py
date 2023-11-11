@@ -93,6 +93,7 @@ while True:
     
     if inp == '3':
         os.system('xdg-open https://t.me/SYPEXHACK_fail/51')
+        os.system('clear')
 
 
     
