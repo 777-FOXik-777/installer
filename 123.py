@@ -38,8 +38,6 @@ while True:
             time.sleep(1.5)
 
             os.chdir('seeker')
-            os.system('chmod 777 install.sh')
-            os.system('./install.sh')
             os.system('clear')
             os.system('python seeker.py')
             tsu_901 = input('\n [Нажмите enter чтобы выйти]')
