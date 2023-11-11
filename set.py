@@ -209,6 +209,9 @@ while True:
                 else:
                     os.system('clear')
 
+            else:
+                os.system('clear')
+
     
     
     if inp == 'e':
