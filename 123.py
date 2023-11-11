@@ -20,7 +20,7 @@ def baner():
 while True:
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.0]")
-    re()
+    res()
     print(Fore.GREEN+"    [9] Seeker     >>  Узнать местоположения")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
