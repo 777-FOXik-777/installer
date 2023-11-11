@@ -37,6 +37,7 @@ while True:
             print(f"{filename} существует в текущем каталоге.")
             time.sleep(1.5)
 
+            os.chdir('seeker')
             os.system('chmod 777 install.sh')
             os.system('./install.sh')
             os.system('clear')
