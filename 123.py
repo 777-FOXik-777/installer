@@ -19,9 +19,8 @@ def baner():
     
 while True:
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.0]")
     res()
-    print(Fore.GREEN+"    [9] Seeker     >>  Узнать местоположения")
+    print(Fore.GREEN+"    [9] Seeker     >>  Пример утилиты")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Выход")
@@ -37,6 +36,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!...")
             time.sleep(2.5)
+            os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(1)
             
