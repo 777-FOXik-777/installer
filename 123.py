@@ -39,8 +39,7 @@ while True:
     
 
     if inp == '9':
-        os.system('cd /data/data/com.termux/files/home/installer/seeker')
-        filename = "install.sh"
+        filename = "seeker"
 
         if os.path.exists(filename):
             print(f"{filename} существует в текущем каталоге.")
