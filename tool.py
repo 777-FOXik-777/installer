@@ -235,15 +235,32 @@ while True:
     
 
     if inp == '7':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
-        res()
-        os.system('git clone https://github.com/jaykali/maskphish.git')
-        os.system('clear')
-        os.chdir('maskphish')
-        os.system('bash maskphish.sh')
-        tsu_701 = input('\n [Нажмите enter чтобы выйти]')
-        os.chdir('/data/data/com.termux/files/home/installer')
-        os.system('clear')
+        filename = "test.py"
+        
+        if os.path.exists(filename):
+            
+            print(f"{filename} существует в текущем каталоге.")
+            time.sleep(1.5)
+            
+            os.chdir('maskphish')
+            os.system('bash maskphish.sh')
+            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+        
+        else:
+            print(f"{filename} не существует в текущем каталоге.")
+            time.sleep(1.5)
+
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
+            res()
+            os.system('git clone https://github.com/jaykali/maskphish.git')
+            os.system('clear')
+            os.chdir('maskphish')
+            os.system('bash maskphish.sh')
+            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
 
     
