@@ -305,6 +305,7 @@ while True:
         time.sleep(1.5)
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
         os.chdir('IP-Tracer')
+        os.system('bash install')
         os.system('clear')
         baner()
         print(Fore.GREEN+"\n")
