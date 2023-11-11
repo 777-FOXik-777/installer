@@ -35,7 +35,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.Green+"~"+Fore.YELLOW+"] Seeker уже скачан!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!...")
             time.sleep(2.5)
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(1)
@@ -50,7 +50,7 @@ while True:
         
         else:
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще не скачан!")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
             time.sleep(2.5)
             
             os.system('clear')
