@@ -7,6 +7,19 @@ print ('\n')
 def res():
     print(Style.RESET_ALL)
 
+
+import os
+
+filename = "file.txt"
+
+if os.path.exists(filename):
+    print(f"{filename} существует в текущем каталоге.")
+else:
+    print(f"{filename} не существует в текущем каталоге.")
+
+
+
+
 def baner():
     print(Fore.RED+'', Style.BRIGHT)
     print (" _                 _             _   _               ")
