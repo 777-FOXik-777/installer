@@ -241,15 +241,37 @@ while True:
     
 
     if inp == '7':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
-        res()
-        os.system('git clone https://github.com/jaykali/maskphish.git')
-        os.system('clear')
-        os.chdir('maskphish')
-        os.system('bash maskphish.sh')
-        tsu_701 = input('\n [Нажмите enter чтобы выйти]')
-        os.chdir('/data/data/com.termux/files/home/installer')
-        os.system('clear')
+        filename = "seeker"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Maskphish уже установлен!...")
+            time.sleep(2.5)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(1)
+            os.system('clear')
+            os.chdir('maskphish')
+            os.system('bash maskphish.sh')
+            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+            
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Maskphish еще НЕ установлен!")
+            time.sleep(2.5)
+ 
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
+            res()
+            os.system('git clone https://github.com/jaykali/maskphish.git')
+            os.system('clear')
+            os.chdir('maskphish')
+            os.system('bash maskphish.sh')
+            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
 
     
