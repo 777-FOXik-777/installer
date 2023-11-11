@@ -124,13 +124,6 @@ while True:
 
     
     if inp == '5':
-        os.system('clear')
-        baner()
-        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории?')
-        res()
-        tru_501 = input('  Продолжить [y/n] >>> ')
-        if tru_501 == 'y':
-            os.system('clear')
             baner()
             print (Fore.CYAN+'\n Где именно удалить директории?')
             res()
@@ -143,6 +136,13 @@ while True:
             tru_502 = input('  Выбери пункт>>> ')
     
             if tru_502 == '1':
+                os.system('clear')
+                baner()
+                print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории в папке /files/home/?')
+                res()
+                tru_503 = input('  Продолжить [y/n] >>> ')
+                if tru_503 == 'y':
+                os.system('clear')
                 os.system('rm -fr /data/data/com.termux/files/home/PyPhisher')
                 os.system('rm -fr /data/data/com.termux/files/home/maskphish')
                 os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh')
@@ -157,7 +157,16 @@ while True:
                 tsu_503 = input(' [Нажмите enter чтобы выйти]')
                 os.system('clear')
 
+                else:
+                    os.system('clear')
+        
             if tru_502 == '2':
+                os.system('clear')
+                baner()
+                print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории в директории installer?')
+                res()
+                tru_503 = input('  Продолжить [y/n] >>> ')
+                if tru_503 == 'y':
                 os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                 os.system('rm -fr /data/data/com.termux/files/home/installer/maskphish')
                 os.system('rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
@@ -171,8 +180,18 @@ while True:
                 res()
                 tsu_503 = input(' [Нажмите enter чтобы выйти]')
                 os.system('clear')
-                
+
+                else:
+                    os.system('clear')
+
+    
             if tru_502 == '3':
+                os.system('clear')
+                baner()
+                print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить все директории?')
+                res()
+                tru_503 = input('  Продолжить [y/n] >>> ')
+                if tru_503 == 'y':
                 os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                 os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish')
                 os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh && rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
@@ -186,12 +205,13 @@ while True:
                 res()
                 tsu_503 = input(' [Нажмите enter чтобы выйти]')
                 os.system('clear')
-                
-            else:
-                os.system('clear')
-            
+
+                else:
+                    os.system('clear')
+                    
         else:
             os.system('clear')
+
     
     
     if inp == 'e':
