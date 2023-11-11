@@ -332,7 +332,6 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
             res()
             time.sleep(1.5)
-            os.system('rm -fr IP-Tracer')
             os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
             os.chdir('IP-Tracer')
             os.system('bash ./install')
