@@ -42,9 +42,12 @@ while True:
         filename = "seeker"
 
         if os.path.exists(filename):
+            os.system('clear')
             print(f"{filename} существует в текущем каталоге.")
             time.sleep(1.5)
-            
+
+            os.system('chmod 777 install.sh')
+            os.system('./install.sh')
             os.system('clear')
             os.system('python seeker.py')
             tsu_901 = input('\n [Нажмите enter чтобы выйти]')
@@ -53,6 +56,7 @@ while True:
         
         
         else:
+            os.system('clear')
             print(f"{filename} не существует в текущем каталоге.")
             time.sleep(1.5)
             
