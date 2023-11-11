@@ -198,28 +198,47 @@ while True:
 
 
     if inp == '5':
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
-        res()
-        time.sleep(1.5)
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
-        res()
-        os.system('pkg install php -y')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-        res()
-        os.system('pkg install openssh -y')
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
-        res()
-        os.system('git clone https://github.com/techchipnet/CamPhish')
-        os.chdir('CamPhish')
-        os.system('clear')
-        os.system('bash camphish.sh')
-        tsu_501 = input('\n [Нажмите enter чтобы выйти]')
-        os.chdir('/data/data/com.termux/files/home/installer')
-        os.system('clear')
+        filename = "CamPhish"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamPhish уже установлен!...")
+            time.sleep(2.5)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(1)
+
+            os.chdir('CamPhish')
+            os.system('clear')
+            os.system('bash camphish.sh')
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] CamPhish еще НЕ установлен!")
+            time.sleep(2.5)
+        
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
+            res()
+            time.sleep(1.5)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
+            res()
+            os.system('pkg install php -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
+            res()
+            os.system('pkg install openssh -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
+            res()
+            os.system('git clone https://github.com/techchipnet/CamPhish')
+            os.chdir('CamPhish')
+            os.system('clear')
+            os.system('bash camphish.sh')
+            tsu_501 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
     
     
@@ -250,6 +269,7 @@ while True:
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(1)
+            
             os.system('clear')
             os.chdir('maskphish')
             os.system('bash maskphish.sh')
