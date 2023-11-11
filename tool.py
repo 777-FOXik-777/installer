@@ -211,6 +211,9 @@ while True:
             os.chdir('CamPhish')
             os.system('clear')
             os.system('bash camphish.sh')
+            tsu_501 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
         else:
             os.system('clear')
