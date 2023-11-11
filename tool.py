@@ -262,7 +262,8 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Maskphish еще НЕ установлен!")
             time.sleep(2.5)
- 
+
+            os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
             res()
             os.system('git clone https://github.com/jaykali/maskphish.git')
