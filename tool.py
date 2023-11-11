@@ -241,7 +241,7 @@ while True:
     
 
     if inp == '7':
-        filename = "seeker"
+        filename = "maskphish"
 
         if os.path.exists(filename):
             os.system('clear')
