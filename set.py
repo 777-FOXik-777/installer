@@ -51,7 +51,6 @@ while True:
             os.system('clear')
             baner()
             res()
-            os.system('clear')
             print(Fore.GREEN+"\n  Включено!")
             res()
             tsu_103 = input(' [Нажмите enter чтобы выйти]')
