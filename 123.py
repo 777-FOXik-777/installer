@@ -20,6 +20,7 @@ def baner():
 while True:
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.0]")
+    re()
     print(Fore.GREEN+"    [9] Seeker     >>  Узнать местоположения")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
@@ -34,9 +35,11 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print(f"{filename} существует в текущем каталоге.")
-            time.sleep(1.5)
-
+            print (Fore.YELLOW+"["+Fore.Green+"~"+Fore.YELLOW+"] Seeker уже скачан!...")
+            time.sleep(2.5)
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(1)
+            
             os.chdir('seeker')
             os.system('clear')
             os.system('python seeker.py')
@@ -47,8 +50,8 @@ while True:
         
         else:
             os.system('clear')
-            print(f"{filename} не существует в текущем каталоге.")
-            time.sleep(1.5)
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще не скачан!")
+            time.sleep(2.5)
             
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
