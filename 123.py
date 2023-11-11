@@ -39,8 +39,8 @@ while True:
     
 
     if inp == '9':
-        os.system('python seeker.py')
-        filename = "seeker.py"
+        os.chdir('/data/data/com.termux/files/home/installer/seeker')
+        filename = "install.sh"
 
         if os.path.exists(filename):
             print(f"{filename} существует в текущем каталоге.")
