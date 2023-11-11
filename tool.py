@@ -278,7 +278,7 @@ while True:
     if inp == '8':
         filename = "IP-Tracer"
 
-        if os.path.exists(IP-Tracer):
+        if os.path.exists(filename):
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!...")
             time.sleep(2.5)
