@@ -106,7 +106,6 @@ while True:
         if tru_401 == 'y':
             os.system('mv PyPhisher /data/data/com.termux/files/home/')
             os.system('mv maskphish /data/data/com.termux/files/home/')
-            os.system('mv IP-Tracer /data/data/com.termux/files/home/')
             os.system('mv seeker /data/data/com.termux/files/home/')
             os.system('mv CamPhish /data/data/com.termux/files/home/')
             os.system('mv zphisher /data/data/com.termux/files/home/')
@@ -145,7 +144,6 @@ while True:
                     os.system('clear')
                     os.system('rm -fr /data/data/com.termux/files/home/PyPhisher')
                     os.system('rm -fr /data/data/com.termux/files/home/maskphish')
-                    os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh')
                     os.system('rm -fr /data/data/com.termux/files/home/seeker')
                     os.system('rm -fr /data/data/com.termux/files/home/CamPhish')
                     os.system('rm -fr /data/data/com.termux/files/home/zphisher')
@@ -169,7 +167,6 @@ while True:
                 if tru_503 == 'y':
                     os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/maskphish')
-                    os.system('rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/seeker')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/CamPhish')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/zphisher')
@@ -194,7 +191,6 @@ while True:
                 if tru_503 == 'y':
                     os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                     os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish')
-                    os.system('rm -fr /data/data/com.termux/files/home/IP-Tracerh && rm -fr /data/data/com.termux/files/home/installer/IP-Tracer')
                     os.system('rm -fr /data/data/com.termux/files/home/seeker && rm -fr /data/data/com.termux/files/home/installer/seeker')
                     os.system('rm -fr /data/data/com.termux/files/home/CamPhish && rm -fr /data/data/com.termux/files/home/installer/CamPhish')
                     os.system('rm -fr /data/data/com.termux/files/home/zphisher && rm -fr /data/data/com.termux/files/home/installer/zphisher')
