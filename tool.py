@@ -327,7 +327,8 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
             time.sleep(2.5)
-            
+
+            os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
             res()
             time.sleep(1.5)
