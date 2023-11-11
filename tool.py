@@ -257,7 +257,6 @@ while True:
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
-
         else:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Maskphish еще НЕ установлен!")
@@ -277,46 +276,98 @@ while True:
 
     
     if inp == '8':
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
-        res()
-        time.sleep(1.5)
-        os.system('rm -fr IP-Tracer')
-        os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
-        os.chdir('IP-Tracer')
-        os.system('bash ./install')
-        os.system('clear')
-        baner()
-        print(Fore.GREEN+"\n")
-        print('    [1] Пробить свой IP')
-        print('    [2] Пробить чужой IP')
-        print(Fore.YELLOW+'')
-        print('    [e] выход')
-        res()
-        tru_801 = input('  Выбери пункт>>> ')
+        filename = "IP-Tracer"
 
-        if tru_801 == '1':
+        if os.path.exists(IP-Tracer):
             os.system('clear')
-            os.system('trace -m')
-            tsu_803 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!...")
+            time.sleep(2.5)
             os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(1)
             
-        if tru_801 == '2':
+            os.chdir('IP-Tracer')
+            os.system('bash ./install')
             os.system('clear')
             baner()
+            print(Fore.GREEN+"\n")
+            print('    [1] Пробить свой IP')
+            print('    [2] Пробить чужой IP')
+            print(Fore.YELLOW+'')
+            print('    [e] выход')
             res()
-            print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
-            res()
-            tsu_802 = input('  Введите IP >>> ')
-            os.system('clear')
-            os.system('trace -t '+tsu_802)
-            tsu_804 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            tru_801 = input('  Выбери пункт>>> ')
+    
+            if tru_801 == '1':
+                os.system('clear')
+                os.system('trace -m')
+                tsu_803 = input('\n [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+                
+            if tru_801 == '2':
+                os.system('clear')
+                baner()
+                res()
+                print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
+                res()
+                tsu_802 = input('  Введите IP >>> ')
+                os.system('clear')
+                os.system('trace -t '+tsu_802)
+                tsu_804 = input('\n [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+    
+            else:
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+            
 
         else:
-            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
+            time.sleep(2.5)
+            
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
+            res()
+            time.sleep(1.5)
+            os.system('rm -fr IP-Tracer')
+            os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
+            os.chdir('IP-Tracer')
+            os.system('bash ./install')
+            os.system('clear')
+            baner()
+            print(Fore.GREEN+"\n")
+            print('    [1] Пробить свой IP')
+            print('    [2] Пробить чужой IP')
+            print(Fore.YELLOW+'')
+            print('    [e] выход')
+            res()
+            tru_801 = input('  Выбери пункт>>> ')
+    
+            if tru_801 == '1':
+                os.system('clear')
+                os.system('trace -m')
+                tsu_803 = input('\n [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+                
+            if tru_801 == '2':
+                os.system('clear')
+                baner()
+                res()
+                print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
+                res()
+                tsu_802 = input('  Введите IP >>> ')
+                os.system('clear')
+                os.system('trace -t '+tsu_802)
+                tsu_804 = input('\n [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+    
+            else:
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
 
     
 
@@ -337,7 +388,6 @@ while True:
             tsu_901 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
-        
         
         else:
             os.system('clear')
