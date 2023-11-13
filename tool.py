@@ -401,7 +401,13 @@ while True:
             tsu_901 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
+
+
     
+    if inp == 'a':
+        os.system('cd /data/data/com.termux/files/home/installer/')
+        os.system('python tool2.py')
+
 
     
     if inp == 's':
