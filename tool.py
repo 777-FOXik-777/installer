@@ -401,7 +401,7 @@ while True:
 
 
     
-    if inp == 'a':
+    if inp == '20':
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('python tool2.py')
 
@@ -409,6 +409,7 @@ while True:
     
     if inp == 's':
         os.system('cd /data/data/com.termux/files/home/installer/')
+        os.system('clear')
         os.system('python set.py')
 
     
