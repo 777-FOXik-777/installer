@@ -12,6 +12,7 @@ def res():
     print(Style.RESET_ALL)
 
 def baner():
+    os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
     print('')
     print("  ___                 _             _   _               ")
