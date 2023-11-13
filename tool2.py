@@ -21,7 +21,7 @@ def baner():
     
 while True:
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.MAGENTA+"2.9.0"+Fore.CYAN+"]")
+    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.YELLOW+"2.9.0"+Fore.CYAN+"]")
     res()
     print(Fore.GREEN+"    [1] Тест      >>  Тест")
     print(Fore.CYAN+"")
