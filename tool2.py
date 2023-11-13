@@ -36,6 +36,11 @@ while True:
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
 
+    
+
+    if inp == 'a':
+        os.system('cd /data/data/com.termux/files/home/installer/')
+        os.system('python tool.py')
 
     
     if inp == 's':
