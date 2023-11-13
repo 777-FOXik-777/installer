@@ -38,7 +38,6 @@ res()
 time.sleep(1.5)
 os.system('termux-setup-storage')
 tsu = input('\n[Нажмите enter чтобы продолжить]')
-os.chdir('/data/data/com.termux/files/home/installer')
 os.system('clear')
             
 #запуск
