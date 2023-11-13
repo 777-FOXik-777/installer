@@ -25,25 +25,18 @@ while True:
     print(Fore.GREEN+"    [1] Тест      >>  Тест")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
-    print(Fore.YELLOW+"    [e] На главную")
     res()
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
 
     
 
-    if inp == 'a':
+    if inp == '10':
         os.system('cd /data/data/com.termux/files/home/installer/')
-        os.system('python tool.py')
+        os.system('clear')
+        break
 
     
     if inp == 's':
         os.system('cd /data/data/com.termux/files/home/installer/')
-        os.system('python set.py')
-
-    
-
-    if inp == 'e':
-        os.system('clear')
-        break
         os.system('python set.py')
