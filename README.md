@@ -18,3 +18,6 @@ Installer - утилита в которой находятся самые кр�
  - `git clone https://github.com/777-FOXik-777/installer`
  - `cd installer`
  - `python3 installer.py`
+
+
+### [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
