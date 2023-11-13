@@ -5,6 +5,7 @@
 
 ***Installer - поможет тебе найти самые лучшие утилиты в Termux,
 с полностью автоматизированной установкой.***
+<br>
 
 ## [+] Установка для Termux:
 
@@ -29,13 +30,16 @@ iPhone     | Никогда не тестировался
 MacOS      | Никогда не тестировался
 Windows    | Никогда не тестировался
 BSD        | Никогда не тестировался
+<br>
 
 ## [!] Внимание
 
 ***Этот инструмент разработан в образовательных целях. Автор не несет ответственности за любое неправомерное использование Installer !***
+<br>
 
 ## [~] Подпишись на:
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
+<br>
 
 ### [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
