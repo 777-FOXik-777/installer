@@ -20,4 +20,7 @@ Installer - утилита в которой находятся самые кр�
  - `python3 installer.py`
 
 
+- [![Telegram](https://img.shields.io/badge/Telegram-KasRoudra-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi))
+
+
 ### [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
