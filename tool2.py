@@ -9,6 +9,7 @@ def res():
     print(Style.RESET_ALL)
 
 def baner():
+    os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
     print('')
     print("  ___                 _             _   _               ")
@@ -25,6 +26,7 @@ while True:
     print(Fore.GREEN+"    [1] Тест      >>  Тест")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
+    print(Fore.YELLOW+"    [e] Выход")
     res()
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
@@ -37,6 +39,16 @@ while True:
         break
 
     
+    
     if inp == 's':
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('python set.py')
+
+
+    
+    if inp == 'e':
+        os.system('clear')
+        print('\n')
+        print(Fore.CYAN+'Спасибо за использование Installer')
+        res()
+        break
