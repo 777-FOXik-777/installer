@@ -1,7 +1,5 @@
 <h1 align="center">Installer</h1>
 
-[![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
-
 
 ### [√] Описание:
 
@@ -34,4 +32,7 @@ BSD        | Никогда не тестировался
 
 ## [~] Find Me on :
 
- - [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
+- [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
+
+
+ ## [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
