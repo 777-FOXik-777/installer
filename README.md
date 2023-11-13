@@ -21,7 +21,7 @@
  - ```pkg install git```
  - ```pkg install python``` 
 
-### Установить Installer для Termux
+### Установка Installer
 
  - `git clone https://github.com/777-FOXik-777/installer`
  - `cd installer`
@@ -50,7 +50,7 @@ BSD        | Никогда не тестировался
 
 ## [~] Подпишись на:
 
-- [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
+[![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 <br>
 
 ## [~] Полезное:
