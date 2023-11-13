@@ -30,9 +30,8 @@ MacOS      | Никогда не тестировался
 Windows    | Никогда не тестировался
 BSD        | Никогда не тестировался
 
-## [~] Find Me on :
+## [~]Подпишись:
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 
-
- ## [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
+## [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
