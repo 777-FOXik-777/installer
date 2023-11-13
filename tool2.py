@@ -2,13 +2,7 @@ import os, time
 
 from colorama import Fore, Style
 
-
-#обновление
-
-os.system('rm -fr /data/data/com.termux/files/home/update.py')
 os.system('cd /data/data/com.termux/files/home/installer/')
-
-
 os.system('clear')
 
 def res():
