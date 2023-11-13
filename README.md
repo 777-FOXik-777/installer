@@ -3,8 +3,10 @@
 [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 
 
-Installer - утилита в которой находятся самые крутые
-Инструменты в термукс, с полностью автоматизированной установкой.
+### [√] Описание:
+
+***Installer - поможет тебе найти самые лучшие утилиты в Termux,
+с полностью автоматизированной установкой.***
 
 ### [+] Установка для Termux
 
