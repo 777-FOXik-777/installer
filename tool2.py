@@ -1,4 +1,4 @@
-import os, time, sys
+import os, time
 
 from colorama import Fore, Style
 
@@ -31,7 +31,7 @@ while True:
     print(Fore.GREEN+"    [1] Тест      >>  Тест")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
-    print(Fore.YELLOW+"    [e] Выход")
+    print(Fore.YELLOW+"    [e] На главную")
     res()
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
@@ -51,7 +51,5 @@ while True:
 
     if inp == 'e':
         os.system('clear')
-        print('\n')
-        print(Fore.CYAN+'Спасибо за использование Installer')
-        res()
-        sys.exit(1)
+        break
+        break
