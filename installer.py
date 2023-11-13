@@ -33,12 +33,14 @@ os.system('pkg install python3')
 #доступ к файлам
 
 os.system('clear')
-print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к фалам")
+print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
 res()
 time.sleep(1.5)
 os.system('termux-setup-storage')
-
-
+tsu = input('\n[Нажмите enter чтобы продолжить]')
+os.chdir('/data/data/com.termux/files/home/installer')
+os.system('clear')
+            
 #запуск
 
 os.system('clear')
