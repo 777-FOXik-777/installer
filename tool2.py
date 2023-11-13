@@ -46,4 +46,4 @@ while True:
     if inp == 'e':
         os.system('clear')
         break
-        break
+        os.system('python set.py')
