@@ -1,4 +1,4 @@
-import os, time, webbrowser
+import os, time, sys
 
 from colorama import Fore, Style
 
@@ -54,4 +54,4 @@ while True:
         print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
         res()
-        break
+        sys.exit(1)
