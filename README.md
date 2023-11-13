@@ -1,5 +1,12 @@
 <h1 align="center">Installer</h1>
 
+<p align="center">
+<br>
+  <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
+</p>
 
 ## [√] Описание:
 
@@ -39,6 +46,7 @@ BSD        | Никогда не тестировался
 ## [!] Внимание
 
 ***Этот инструмент разработан в образовательных целях. Автор не несет ответственности за любое неправомерное использование Installer !***
+
 <br>
 
 ## [~] Подпишись на:
