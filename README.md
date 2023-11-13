@@ -21,7 +21,7 @@
  - `cd installer`
  - `python3 installer.py`
 
-### Support
+### Поддержка
 
 ОС         | Уровень поддержки
 -----------|--------------
@@ -32,4 +32,6 @@ MacOS      | Никогда не тестировался
 Windows    | Никогда не тестировался
 BSD        | Никогда не тестировался
 
-### [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
+## [~] Find Me on :
+
+ - [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
