@@ -1,6 +1,6 @@
 <h1 align="center">Installer</h1>
-<p align="center">
-  <img src="[![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)">
+
+[![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 
 
 Installer - утилита в которой находятся самые крутые
