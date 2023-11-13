@@ -2,7 +2,7 @@
 
 <p align="center">
 <br>
-  <img src="https://img.shields.io/badge/Author-777-FOXik-777-purple?style=flat-square">
+  <img src="https://img.shields.io/badge/Author-FOXik-purple?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
 </p>
