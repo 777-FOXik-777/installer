@@ -30,6 +30,9 @@ MacOS      | Никогда не тестировался
 Windows    | Никогда не тестировался
 BSD        | Никогда не тестировался
 
+## [!] Внимание
+***Этот инструмент разработан в образовательных целях. Автор не несет ответственности за любое неправомерное использование Installer***
+
 ## [~]Подпишись:
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
