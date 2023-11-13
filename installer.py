@@ -37,8 +37,7 @@ print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите дост�
 res()
 time.sleep(1.5)
 os.system('termux-setup-storage')
-print('')
-tsu = input(' [Нажмите enter чтобы продолжить]')
+
 
 #запуск
 
