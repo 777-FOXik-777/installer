@@ -2,9 +2,9 @@
 
 <p align="center">
 <br>
-  <img src="https://img.shields.io/badge/Author-FOXik-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Автор-FOXik-purple?style=flat-square">
+  <img src="https://img.shields.io/badge/Открытый%20код-Да-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
 </p>
 
 ## [√] Описание:
