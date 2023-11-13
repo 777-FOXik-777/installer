@@ -244,20 +244,39 @@ while True:
 
     
     
-    if inp == '6':
-        os.system('clear')
-        baner()
-        res()
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Получаем ссылку...")
-        res()
-        time.sleep(3)
-        os.system('clear')
-        print(Fore.CYAN+' Ваша ссылка''\n')
-        res()
-        print(Fore.GREEN+' https://github.com/LOoLzeC/vcrt/raw/master/dendroid.apk')
-        res()
-        tru_601 = input('\n [Нажмите enter чтобы выйти]')
-        os.system('clear')
+    if inp == '7':
+        filename = "TigerVirus"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Maskphish уже установлен!...")
+            time.sleep(2.5)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(1)
+            
+            os.system('clear')
+            os.chdir('TigerVirus')
+            os.system('bash TigerVirus.sh')
+            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+            
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Maskphish еще НЕ установлен!")
+            time.sleep(2.5)
+
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
+            res()
+            os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
+            os.system('clear')
+            os.chdir('TigerVirus')
+            os.system('bash TigerVirus.sh')
+            tsu_701 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
     
 
