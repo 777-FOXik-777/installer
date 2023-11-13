@@ -6,20 +6,20 @@
 ***Installer - поможет тебе найти самые лучшие утилиты в Termux,
 с полностью автоматизированной установкой.***
 
-### [+] Установка для Termux
+## [+] Установка для Termux
 
-#### Установка зависимостей
+### Установка зависимостей
 
  - ```pkg install git```
  - ```pkg install python``` 
 
-#### Установить Installer для Termux
+### Установить Installer для Termux
 
  - `git clone https://github.com/777-FOXik-777/installer`
  - `cd installer`
  - `python3 installer.py`
 
-### Поддержка
+## Поддержка
 
 ОС         | Уровень поддержки
 -----------|--------------
