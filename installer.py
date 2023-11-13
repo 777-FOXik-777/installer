@@ -30,6 +30,16 @@ res()
 time.sleep(1.5)
 os.system('pkg install python3')
 
+#доступ к файлам
+
+os.system('clear')
+print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к фалам")
+res()
+time.sleep(1.5)
+os.system('termux-setup-storage')
+print('')
+tsu = input(' [Нажмите enter чтобы продолжить]')
+
 #запуск
 
 os.system('clear')
