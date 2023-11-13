@@ -47,8 +47,7 @@ while True:
 
     
     if inp == 'e':
-        os.system('clear')
-        print('\n')
-        print(Fore.CYAN+'Спасибо за использование Installer')
+        os.system('cd /data/data/com.termux/files/home/installer/')
         res()
+        os.system('clear')
         break
