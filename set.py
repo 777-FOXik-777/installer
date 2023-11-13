@@ -20,7 +20,7 @@ def baner():
     
 while True:
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Настройки]                                    [v2.8.1]")
+    print(Style.BRIGHT, Fore.CYAN+"[Настройки]                                    [v2.8.2]")
     res()
     print(Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print(Fore.GREEN+"    [2] Обновить/Проверить обновления Installer")
