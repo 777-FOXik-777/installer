@@ -244,7 +244,7 @@ while True:
 
     
     
-    if inp == '7':
+    if inp == '6':
         filename = "TigerVirus"
 
         if os.path.exists(filename):
