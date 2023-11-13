@@ -212,5 +212,6 @@ while True:
     
     if inp == 'e':
         res()
+        os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('clear')
         break
