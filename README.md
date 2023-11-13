@@ -46,4 +46,6 @@ BSD        | Никогда не тестировался
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 <br>
 
+## [~] Полезное:
+
 ### [Все версии Installer](https://github.com/777-FOXik-777/installer/releases)
