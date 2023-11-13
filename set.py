@@ -75,7 +75,7 @@ while True:
         os.system('clear')
         baner()
         print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
-        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все установлинные вами данные удаляться')
+        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все скачаные файлы удалятся а настройки сбросятся!')
         res()
         tru_201 = input('  Продолжить? [y/n] >>> ')
         if tru_201 == 'y':
