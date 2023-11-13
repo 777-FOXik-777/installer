@@ -26,7 +26,7 @@ while True:
     print(Fore.GREEN+"    [1] Тест      >>  Тест")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
-    print(Fore.YELLOW+"    [e] Выход")
+    print(Fore.YELLOW+"    [e] Назад")
     res()
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
