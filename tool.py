@@ -110,61 +110,120 @@ while True:
 
     
     if inp == '2':
-        os.system('clear')
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
-        res()
-        time.sleep(1)
-        os.system('clear')
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
-        res()
-        os.system('pkg install dropbear -y')
-        os.system('clear')
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-        res()
-        os.system('pkg install openssh -y')
-        qw  = '8080'
-        os.system('clear')
-        baner()
-        res()
-        print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
-        res()
-        tru_202 = input('  Изменить порт? [y/n] >>> ')
-        if tru_202 == 'y':
+        filename = "lochost"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Localhost уже установлен!...")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            qw  = '8080'
             os.system('clear')
             baner()
             res()
-            qw_2 = input('  Введите порт>>> ')
-            if qw_2 == '':
+            print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            res()
+            tru_202 = input('  Изменить порт? [y/n] >>> ')
+            if tru_202 == 'y':
                 os.system('clear')
-                print('\n')
-                print(Fore.YELLOW+' Вы ничего не ввели!')
+                baner()
                 res()
-                print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                time.sleep(7)
+                qw_2 = input('  Введите порт>>> ')
+                if qw_2 == '':
+                    os.system('clear')
+                    print('\n')
+                    print(Fore.YELLOW+' Вы ничего не ввели!')
+                    res()
+                    print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                    time.sleep(7)
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
+                    os.system('clear')
+                    
+                else:
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
+                    os.system('clear')
+    
+            if tru_202 == 'n':
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
+                os.system('clear')
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
                 os.system('clear')
                 
             else:
                 os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
-                os.system('clear')
-
-        if tru_202 == 'n':
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(1)
-            os.system('clear')
-            os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
-            os.system('clear')
-            
+                
         else:
             os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
+            time.sleep(2) 
 
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
+            res()
+            time.sleep(1)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
+            res()
+            os.system('pkg install dropbear -y')
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
+            res()
+            os.system('pkg install openssh -y')
+            qw  = '8080'
+            os.system('rm -fr lochost')
+            os.system('clear')
+            baner()
+            res()
+            print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            res()
+            tru_202 = input('  Изменить порт? [y/n] >>> ')
+            if tru_202 == 'y':
+                os.system('clear')
+                baner()
+                res()
+                qw_2 = input('  Введите порт>>> ')
+                if qw_2 == '':
+                    os.system('clear')
+                    print('\n')
+                    print(Fore.YELLOW+' Вы ничего не ввели!')
+                    res()
+                    print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                    time.sleep(7)
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
+                    os.system('clear')
+                    
+                else:
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
+                    os.system('clear')
+    
+            if tru_202 == 'n':
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
+                os.system('clear')
+                
+            else:
+                os.system('clear')
+                
     
 
     if inp == '3':
