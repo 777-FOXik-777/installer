@@ -488,7 +488,7 @@ while True:
             os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
             os.chdir('IP-Tracer')
             os.system('bash install')
-            os.system('cd /data/data/com.termux/files/home/installer/installer/')
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('rm -fr IP')
             os.system('clear')
             baner()
