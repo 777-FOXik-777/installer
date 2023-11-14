@@ -23,7 +23,7 @@ while True:
     print(Style.BRIGHT, Fore.CYAN+"[Настройки]                                    [v2.8.2]")
     res()
     print(Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
-    print(Fore.GREEN+"    [2] Обновить/Проверить обновления Installer")
+    print(Fore.GREEN+"    [2] Обновить/Переустановить Installer")
     print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
     print(Fore.GREEN+"    [4] Переместить скачаные директории в /files/home/")
     print(Fore.GREEN+"    [5] Удалить скачаные директории")
@@ -75,7 +75,7 @@ while True:
     if inp == '2':
         os.system('clear')
         baner()
-        print(Fore.CYAN+'\n Вы хотите обновить/проверить обновления Installer?')
+        print(Fore.CYAN+'\n Вы хотите Обновить/Переустановить Installer?')
         print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все файлы в директории Installer удалятся!')
         res()
         tru_201 = input('  Продолжить? [y/n] >>> ')
