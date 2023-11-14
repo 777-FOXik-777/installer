@@ -24,7 +24,7 @@ def baner():
     
 while True:
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.2]")
+    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.3]")
     res()
     print(Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
     print(Fore.GREEN+"    [2] Localhost  >>  Тунелирование")
