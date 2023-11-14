@@ -20,7 +20,7 @@ def baner():
     
 while True:
     baner()
-    print(Style.BRIGHT,Fore.CYAN+"[GitHub:   "+Style.RESET_ALL,Fore.YELLOW+"https://github.com/777-FOXik-777/installer"+Fore.CYAN,Style.BRIGHT+"]")
+    print(Style.BRIGHT,Fore.CYAN+"[GitHub:  "+Style.RESET_ALL,Fore.YELLOW+"https://github.com/777-FOXik-777/installer"+Fore.CYAN,Style.BRIGHT+"]")
     print(Fore.GREEN+"\n    [Настройки]")
     res()
     print(Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
