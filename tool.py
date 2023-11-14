@@ -130,6 +130,7 @@ while True:
             res()
             os.system('pkg install openssh -y')
             qw  = '8080'
+            os.system('rm -fr lochost')
             os.system('clear')
             baner()
             res()
@@ -181,7 +182,6 @@ while True:
             time.sleep(0.5)
             
             qw  = '8080'
-            os.system('rm -fr lochost')
             os.system('clear')
             baner()
             res()
