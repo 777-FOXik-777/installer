@@ -70,7 +70,7 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Ngrok]")
             res()
-            print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
             tru_102 = input('  Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
@@ -123,7 +123,7 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Ngrok]")
             res()
-            print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
             tru_102 = input('  Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
@@ -191,7 +191,7 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Localhost]")
             res()
-            print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
             tru_202 = input('  Изменить порт? [y/n] >>> ')
             if tru_202 == 'y':
@@ -243,7 +243,7 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Localhost]")
             res()
-            print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
             tru_202 = input('  Изменить порт? [y/n] >>> ')
             if tru_202 == 'y':
