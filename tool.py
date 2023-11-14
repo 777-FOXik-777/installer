@@ -46,66 +46,60 @@ while True:
         
     if inp == '1':
         os.system('clear')
-        baner()
-        print('\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] ВКЛЮЧИТЕ ТОЧКУ ДОСТУПА И МОБИЛЬНЫЙ ИНТЕРНЕТ')
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
         res()
-        tru_101 = input('  Включили? [y/n] >>> ')
+        os.system('pkg install nodejs-lts -y')
         os.system('clear')
-        if tru_101 == 'y':
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
-            res()
-            os.system('pkg install nodejs-lts -y')
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
-            res()
-            os.system('npm install ngrok')
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
-            res()
-            os.system('npm install ngrok -g')
-            we  = '8080'
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+        res()
+        os.system('npm install ngrok')
+        os.system('clear')
+        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+        res()
+        os.system('npm install ngrok -g')
+        we  = '8080'
+        os.system('clear')
+        baner()
+        res()
+        print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+        res()
+        tru_102 = input('  Изменить порт? [y/n] >>> ')
+        if tru_102 == 'y':
             os.system('clear')
             baner()
             res()
-            print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
-            res()
-            tru_102 = input('  Изменить порт? [y/n] >>> ')
-            if tru_102 == 'y':
+            we_2 = input('  Введите порт>>> ')
+            if we_2 == '':
                 os.system('clear')
                 baner()
                 res()
-                we_2 = input('  Введите порт>>> ')
-                if we_2 == '':
-                    os.system('clear')
-                    baner()
-                    res()
-                    print(Fore.YELLOW+' Вы ничего не ввели!')
-                    res()
-                    print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                    time.sleep(7)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ngrok http '+we+' && clear')
-                    os.system('clear')
-                    
-                else:
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ngrok http '+we_2+' && clear')
-                    os.system('clear')
-
-            if tru_102 == 'n':
+                print(Fore.YELLOW+' Вы ничего не ввели!')
+                res()
+                print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                time.sleep(7)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
-                os.system('clear')
                 os.system('ngrok http '+we+' && clear')
                 os.system('clear')
                 
             else:
                 os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('ngrok http '+we_2+' && clear')
+                os.system('clear')
+
+        if tru_102 == 'n':
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(1)
+            os.system('clear')
+            os.system('ngrok http '+we+' && clear')
+            os.system('clear')
+            
+        else:
+            os.system('clear')
 
 
     
