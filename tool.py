@@ -45,61 +45,121 @@ while True:
     
         
     if inp == '1':
-        os.system('clear')
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
-        res()
-        os.system('pkg install nodejs-lts -y')
-        os.system('clear')
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
-        res()
-        os.system('npm install ngrok')
-        os.system('clear')
-        print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
-        res()
-        os.system('npm install ngrok -g')
-        we  = '8080'
-        os.system('clear')
-        baner()
-        res()
-        print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
-        res()
-        tru_102 = input('  Изменить порт? [y/n] >>> ')
-        if tru_102 == 'y':
+        filename = "ngrok"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
+            time.sleep(2) 
+            
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+            res()
+            os.system('pkg install nodejs-lts -y')
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+            res()
+            os.system('npm install ngrok')
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+            res()
+            os.system('npm install ngrok -g')
+            we  = '8080'
+            os.system('rm -fr ngrok')
             os.system('clear')
             baner()
             res()
-            we_2 = input('  Введите порт>>> ')
-            if we_2 == '':
+            print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            res()
+            tru_102 = input('  Изменить порт? [y/n] >>> ')
+            if tru_102 == 'y':
                 os.system('clear')
                 baner()
                 res()
-                print(Fore.YELLOW+' Вы ничего не ввели!')
-                res()
-                print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                time.sleep(7)
+                we_2 = input('  Введите порт>>> ')
+                if we_2 == '':
+                    os.system('clear')
+                    baner()
+                    res()
+                    print(Fore.YELLOW+' Вы ничего не ввели!')
+                    res()
+                    print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                    time.sleep(7)
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ngrok http '+we+' && clear')
+                    os.system('clear')
+                    
+                else:
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ngrok http '+we_2+' && clear')
+                    os.system('clear')
+    
+            if tru_102 == 'n':
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
+                os.system('clear')
                 os.system('ngrok http '+we+' && clear')
                 os.system('clear')
                 
             else:
                 os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('ngrok http '+we_2+' && clear')
-                os.system('clear')
 
-        if tru_102 == 'n':
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(1)
-            os.system('clear')
-            os.system('ngrok http '+we+' && clear')
-            os.system('clear')
-            
         else:
             os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Localhost уже установлен!...")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            we  = '8080'
+            os.system('clear')
+            baner()
+            res()
+            print(Fore.GREEN+'  Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            res()
+            tru_102 = input('  Изменить порт? [y/n] >>> ')
+            if tru_102 == 'y':
+                os.system('clear')
+                baner()
+                res()
+                we_2 = input('  Введите порт>>> ')
+                if we_2 == '':
+                    os.system('clear')
+                    baner()
+                    res()
+                    print(Fore.YELLOW+' Вы ничего не ввели!')
+                    res()
+                    print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                    time.sleep(7)
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ngrok http '+we+' && clear')
+                    os.system('clear')
+                    
+                else:
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('ngrok http '+we_2+' && clear')
+                    os.system('clear')
+    
+            if tru_102 == 'n':
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ngrok http '+we+' && clear')
+                os.system('clear')
+                
+            else:
+                os.system('clear')
 
 
     
