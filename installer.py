@@ -3,7 +3,7 @@ import os, time
 #colorama
 
 os.system('clear')
-os.system('cd && cd installer')
+os.system('cd /data/data/com.termux/files/home/installer/installer/')
 
 print ('[~] Установка colorama... \n')
 time.sleep(1.5)
