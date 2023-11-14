@@ -28,6 +28,7 @@ while True:
     print(Fore.GREEN+"    [4] Переместить скачаные директории в /files/home/")
     print(Fore.GREEN+"    [5] Удалить скачаные директории")
     print(Fore.CYAN+"")
+    print(Fore.YELLOW+"    [h] Сообщить об ошибке")
     print(Fore.YELLOW+"    [e] Назад")
     res()
     inp = input('  Выбери пункт>>> ')
@@ -208,6 +209,12 @@ while True:
 
             else:
                 os.system('clear')
+
+
+    
+    if inp == 'h':
+        os.system('xdg-open https://t.me/SYPEXHACK_help_bot')
+        os.system('clear')
 
     
     
