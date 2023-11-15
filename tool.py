@@ -636,14 +636,12 @@ while True:
 
     
     if inp == '20':
-        os.chdir('/data/data/com.termux/files/home/installer')
         os.system('cd /data/data/com.termux/files/home/installer')
         os.system('python tool2.py')
 
 
     
     if inp == 's':
-        os.chdir('/data/data/com.termux/files/home/installer')
         os.system('cd /data/data/com.termux/files/home/installer')
         os.system('clear')
         os.system('python set.py')
