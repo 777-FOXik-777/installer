@@ -636,20 +636,20 @@ while True:
 
     
     if inp == '20':
-        os.system('cd /data/data/com.termux/files/home/installer')
+        os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('python tool2.py')
 
 
     
     if inp == 's':
-        os.system('cd /data/data/com.termux/files/home/installer')
+        os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('clear')
         os.system('python set.py')
 
     
 
     if inp == 'e':
-        os.system('cd /data/data/com.termux/files/home')
+        os.system('cd /data/data/com.termux/files/home/')
         os.system('clear')
         print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
