@@ -1,5 +1,11 @@
 import os, time
 
+from colorama import Fore, Style
+
+print ('\n')
+def res():
+    print(Style.RESET_ALL)
+
 os.system('clear')
 
 filename = "tg_SYPEXHACK"
@@ -15,12 +21,6 @@ if os.path.exists(filename):
     time.sleep(1.5)
     os.system('pip install colorama')
     os.system('clear')
-    
-    from colorama import Fore, Style
-
-    print ('\n')
-    def res():
-        print(Style.RESET_ALL)
       
     #питон
     
