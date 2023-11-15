@@ -43,7 +43,7 @@ if os.path.exists(filename):
     res()
     time.sleep(1.5)
     os.system('termux-setup-storage')
-    tsu = input('\n[Нажмите enter чтобы продолжить]')
+    tsu = input('\n \n[Нажмите enter чтобы продолжить]')
     os.system('clear')
 
 
