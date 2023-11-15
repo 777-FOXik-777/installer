@@ -58,7 +58,7 @@ if os.path.exists(filename):
 
 else:
     os.system('clear')
-    print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"]Все зависимости уже установлены!...")
+    print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Все зависимости уже установлены!...")
     time.sleep(2)
     os.system('clear')
     os.system('python3 tool.py')
