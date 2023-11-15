@@ -651,9 +651,7 @@ while True:
     
 
     if inp == 'e':
-        os.chdir('/data/data/com.termux/files/home')
         os.system('cd /data/data/com.termux/files/home')
-        os.system('cd')
         os.system('clear')
         print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
