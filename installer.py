@@ -1,5 +1,7 @@
 import os, time
 
+os.system('clear')
+
 filename = "tg_SYPEXHACK"
 
 if os.path.exists(filename):
