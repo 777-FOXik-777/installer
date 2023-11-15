@@ -3,12 +3,12 @@ import os, time
 filename = "tg_SYPEXHACK"
 
 if os.path.exists(filename):
+
+    print ('[~] Установка зависимостей... \n')
+    time.sleep(2)
+    os.system('clear')
        
     #colorama
-    
-    os.system('clear')
-    os.system('cd /data/data/com.termux/files/home/installer/installer/')
-    
     print ('[~] Установка colorama... \n')
     time.sleep(1.5)
     os.system('pip install colorama')
@@ -26,13 +26,13 @@ if os.path.exists(filename):
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
     res()
     time.sleep(1.5)
-    os.system('pkg install python2')
+    os.system('pkg install python2 -y')
     os.system('clear')
     
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python3...")
     res()
     time.sleep(1.5)
-    os.system('pkg install python3')
+    os.system('pkg install python3 -y')
     
     #доступ к файлам
     
@@ -55,6 +55,9 @@ if os.path.exists(filename):
     
 
 else:
+    os.system('clear')
+    print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"]Все зависимости уже установлены!...")
+    time.sleep(2)
     os.system('clear')
     os.system('python3 tool.py')
         
