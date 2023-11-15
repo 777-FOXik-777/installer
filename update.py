@@ -8,7 +8,6 @@ os.system('cd')
 
 os.system('rm -fr installer')
 
-print('')
 print(Fore.YELLOW+" ["+Fore.RED+"i"+Fore.YELLOW+"] Обновление/Переустановление Installer...")
 time.sleep(1.5)
 print(Fore.WHITE+"")
