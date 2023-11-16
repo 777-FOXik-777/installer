@@ -9,7 +9,7 @@
 
 ## [√] Описание:
 
-***Installer - поможет тебе найти самые лучшие утилиты в Termux,
+***Installer - поможет тебе найти самые лучшие хакерские утилиты в Termux,
 с полностью автоматизированной установкой.***
 
 <br>
@@ -27,9 +27,11 @@ pkg install python
 
 ### Установка Installer
 
- - `git clone https://github.com/777-FOXik-777/installer`
- - `cd installer`
- - `python3 installer.py`
+``` 
+git clone https://github.com/777-FOXik-777/installer
+cd installer
+python3 installer.py
+``` 
 
 <br>
 
