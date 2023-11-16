@@ -13,8 +13,8 @@
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
 <p align="center">
-<a href="https://github.com/777-FOXik-777"><img title="Подпищиков" src="https://img.shields.io/github/followers/777-FOXik-777?color=blue&style=flat-square"></a>
-<a href="https://github.com/777-FOXik-777"><img title="Звезд" src="https://img.shields.io/github/stars/777-FOXik-777/installer?color=red&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Подпищиков" src="https://img.shields.io/github/followers/777-FOXik-777?color=red&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Звезд" src="https://img.shields.io/github/stars/777-FOXik-777/installer?color=yellow&style=flat-square"></a>
 <a href="https://github.com/777-FOXik-777"><img title="Просмотры" src="https://img.shields.io/github/watchers/777-FOXik-777/installer?label=Watchers&color=blue&style=flat-square"></a>
 
 ## [~] Описание:
