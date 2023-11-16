@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
 
-[Installer](https://github.com/777-FOXik-777/installer/blob/main/Installer.jpg)
+![Installer](https://github.com/777-FOXik-777/installer/blob/main/Installer.jpg)
 
 ## [~] Описание:
 
