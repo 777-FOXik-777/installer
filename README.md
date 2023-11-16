@@ -9,6 +9,10 @@
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/logo-installer.jpg)
 
 <p align="center">
+<p align="center">
+<a href="https://github.com/777-FOXik-777"><img title="Подпищиков" src="https://img.shields.io/github/followers/777-FOXik-777?color=red&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Звезд" src="https://img.shields.io/github/stars/777-FOXik-777/installer?color=yellow&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Просмотры" src="https://img.shields.io/github/watchers/777-FOXik-777/installer?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/777-FOXik-777"><img title="Github" src="https://img.shields.io/badge/Github-777%7EFOXik%7E777-indigo?style=for-the-badge&logo=github"></a>
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
