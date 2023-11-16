@@ -33,6 +33,20 @@ cd installer
 python3 installer.py
 ``` 
 
+## Установка на [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
+
+### Установка Installer
+
+```
+git clone https://github.com/777-FOXik-777/installer
+cd installer
+python3 installer.py
+``` 
+
+
+
+
+
 <br>
 
 ## Поддержка
