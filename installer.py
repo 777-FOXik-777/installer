@@ -10,6 +10,8 @@ os.system('clear')
 
 filename = "tg_SYPEXHACK"
 
+os.chdir('/data/data/com.termux/files/home/installer/trash')
+
 if os.path.exists(filename):
 
     print ('[~] Установка зависимостей... \n')
@@ -48,6 +50,7 @@ if os.path.exists(filename):
 
 
     os.system('rm -fr tg_SYPEXHACK')
+    os.chdir('/data/data/com.termux/files/home/installer')
     
     #запуск
     
@@ -57,6 +60,7 @@ if os.path.exists(filename):
     
 
 else:
+    os.chdir('/data/data/com.termux/files/home/installer')
     os.system('clear')
     print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Все зависимости уже установлены!...")
     time.sleep(2)
