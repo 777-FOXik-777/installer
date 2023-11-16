@@ -9,7 +9,7 @@
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/logo-installer.jpg)
 
 <p align="center">
-<a href="https://github.com/777-FOXik-777"><img title="Github" src="https://img.shields.io/badge/Github%7E777%7EFOXik-777-purple?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Github" src="https://img.shields.io/badge/Github%7E777%7EFOXik%7E777-purple?style=for-the-badge&logo=github"></a>
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram"></a>
 </p>
 <p align="center">
