@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
 
-![Installer]([https://github.com/777-FOXik-777/installer/blob/main/Installer.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbsnews.com%2Fnews%2Fcyber-soldiers-cbsn-on-assignment%2F&psig=AOvVaw2PgA8XRmXrX8B6EpdlO6fW&ust=1700241955059000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIC206eFyYIDFQAAAAAdAAAAABAE))
+![Installer]([https://github.com/777-FOXik-777/installer/blob/main/Installer.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbsnews.com%2Fnews%2Fcyber-soldiers-cbsn-on-assignment%2F&psig=AOvVaw2PgA8XRmXrX8B6EpdlO6fW&ust=1700241955059000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIC206eFyYIDFQAAAAAdAAAAABAE)
 
 ## [~] Описание:
 
