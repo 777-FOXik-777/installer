@@ -46,7 +46,7 @@ python installer.py
 
 ## [~] Подпишись на:
 
-- [![Github](https://img.shields.io/badge/Github-FOXik-purple?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
+- [![Github](https://img.shields.io/badge/Github-777-FOXik-777-purple?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
 
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
