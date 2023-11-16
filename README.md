@@ -45,17 +45,17 @@ python installer.py
 ``` 
 
 
+## [~] Подпишись на:
+
+[![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
+
+
+## [~] Полезное:
+
+### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
+
 ## [*] Внимание!
 
 ***Этот инструмент предназначен только для образовательных целей. Если вы используете Installer для других целей, кроме образования, в таких случаях мы не несем ответственности.***
 
 
-## [~] Подпишись на:
-
-[![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
-
-<br>
-
-## [~] Полезное:
-
-### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
