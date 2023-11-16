@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Версия-2.8.3-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-green?style=flat-square">
+  <img src="https://img.shields.io/badgeПоддержка?-Да-green?style=flat-square">
 </p>
 
 
