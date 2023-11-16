@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Версия-2.8.3-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Написано%20на-Python-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Python-cyan?style=flat-square">
 </p>
 
 
