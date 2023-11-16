@@ -18,6 +18,13 @@
  
 Скачиваем [Termux](https://t.me/SYPEXHACK_fail/51)
 
+### Обновление пакетов
+
+```
+apt update
+apt upgrade
+``` 
+
 ### Установка зависимостей
 
 ```
@@ -33,7 +40,14 @@ cd installer
 python3 installer.py
 ``` 
 
-## Установка на [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
+## Установка на [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png) (Альфа)  (https://fr.wikipedia.org/wiki/Linux)
+
+### Обновление пакетов
+
+```
+apt-get update
+apt-get upgrade
+``` 
 
 ### Установка Installer
 
@@ -43,24 +57,6 @@ cd installer
 python3 installer.py
 ``` 
 
-
-
-
-
-<br>
-
-## Поддержка
-
-ОС         | Уровень поддержки
------------|--------------
-Termux     | Отлично
-Linux      | Альфа
-iPhone     | Никогда не тестировался
-MacOS      | Никогда не тестировался
-Windows    | Никогда не тестировался
-BSD        | Никогда не тестировался
-
-<br>
 
 ## [!] Внимание
 
