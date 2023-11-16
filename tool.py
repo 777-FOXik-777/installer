@@ -115,7 +115,7 @@ while True:
         else:
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Ngrok уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Ngrok уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -238,7 +238,7 @@ while True:
         else:
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Localhost уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Localhost уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -295,7 +295,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] PyPhiser уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] PyPhiser уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -332,7 +332,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Zphiser уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Zphiser уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -369,7 +369,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamPhish уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamPhish уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -416,7 +416,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -452,7 +452,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Maskphish уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Maskphish уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -540,7 +540,7 @@ while True:
         else:
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -588,7 +588,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!...")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
