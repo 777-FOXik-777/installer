@@ -45,9 +45,11 @@ while True:
     
         
     if inp == '1':
+        os.chdir('/data/data/com.termux/files/home/installer/trash')
         filename = "ngrok"
 
         if os.path.exists(filename):
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
             time.sleep(2) 
@@ -65,7 +67,7 @@ while True:
             res()
             os.system('npm install ngrok -g')
             we  = '8080'
-            os.system('rm -fr ngrok')
+            os.system('rm -fr /data/data/com.termux/files/home/installer/trash/ngrok')
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Ngrok]")
@@ -111,6 +113,7 @@ while True:
                 os.system('clear')
 
         else:
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Ngrok уже установлен!...")
             time.sleep(2)
