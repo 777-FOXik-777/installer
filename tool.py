@@ -169,9 +169,11 @@ while True:
 
     
     if inp == '2':
+        os.chdir('/data/data/com.termux/files/home/installer/trash')
         filename = "lochost"
 
         if os.path.exists(filename):
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
             time.sleep(2) 
@@ -189,7 +191,7 @@ while True:
             res()
             os.system('pkg install openssh -y')
             qw  = '8080'
-            os.system('rm -fr lochost')
+            os.system('rm -fr /data/data/com.termux/files/home/installer/trash/lochost')
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Localhost]")
@@ -234,6 +236,7 @@ while True:
                 os.system('clear')
                 
         else:
+            os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Localhost уже установлен!...")
             time.sleep(2)
