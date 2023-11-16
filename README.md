@@ -13,10 +13,9 @@
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
 <p align="center">
-<a href="https://github.com/777-FOXik-777"><img title="Followers" src="https://img.shields.io/github/followers/noob-hackers?color=blue&style=flat-square"></a>
-<a href="https://github.com/777-FOXik-777"><img title="Stars" src="https://img.shields.io/github/stars/noob-hackers/hacklock?color=red&style=flat-square"></a>
-<a href="https://github.com/777-FOXik-777"><img title="Forks" src="https://img.shields.io/github/forks/noob-hackers/hacklock?color=red&style=flat-square"></a>
-<a href="https://github.com/777-FOXik-777"><img title="Watching" src="https://img.shields.io/github/watchers/noob-hackers/hacklock?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Подпищиков" src="https://img.shields.io/github/followers/777-FOXik-777?color=blue&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Звезд" src="https://img.shields.io/github/stars/777-FOXik-777/installer?color=red&style=flat-square"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Просмотры" src="https://img.shields.io/github/watchers/777-FOXik-777/installer?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/777-FOXik-777"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 
 ## [~] Описание:
