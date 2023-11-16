@@ -33,7 +33,7 @@ cd installer
 python installer.py
 ``` 
 
-## Установка на [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux) (Альфа)
+## [+] Установка на [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux) (Альфа)
 
 ### Установка Installer
 
