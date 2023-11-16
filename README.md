@@ -30,7 +30,7 @@ pkg install python
 ``` 
 git clone https://github.com/777-FOXik-777/installer
 cd installer
-python3 installer.py
+python installer.py
 ``` 
 
 ## Установка на [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux) (Альфа)
@@ -40,7 +40,7 @@ python3 installer.py
 ```
 git clone https://github.com/777-FOXik-777/installer
 cd installer
-python3 installer.py
+python installer.py
 ``` 
 
 
