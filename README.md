@@ -14,14 +14,16 @@
 
 <br>
 
-## [+] Installation [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
+## [+] Установка на [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
  
-Download [Termux](https://play.google.com/store/apps/details?id=com.termux)
+Скачиваем [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 ### Установка зависимостей
 
- - ```pkg install git```
- - ```pkg install python``` 
+```
+pkg install git
+pkg install python
+``` 
 
 ### Установка Installer
 
