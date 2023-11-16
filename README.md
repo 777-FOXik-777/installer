@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
 
-![Installer](https://pngtree.com/freebackground/abstract-hacker-background-with-digital-number_1177210.html)
+![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/logo-installer.jpg)
 
 ## [~] Описание:
 
