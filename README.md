@@ -16,7 +16,6 @@
 <a href="https://github.com/777-FOXik-777"><img title="Подпищиков" src="https://img.shields.io/github/followers/777-FOXik-777?color=blue&style=flat-square"></a>
 <a href="https://github.com/777-FOXik-777"><img title="Звезд" src="https://img.shields.io/github/stars/777-FOXik-777/installer?color=red&style=flat-square"></a>
 <a href="https://github.com/777-FOXik-777"><img title="Просмотры" src="https://img.shields.io/github/watchers/777-FOXik-777/installer?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/777-FOXik-777"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 
 ## [~] Описание:
 
