@@ -4,7 +4,6 @@ from colorama import Fore, Style
 
 os.system('rm -fr /data/data/com.termux/files/home/installer/trash/tg_SYPEXHACK')
 os.system('rm -fr /data/data/com.termux/files/home/update.py')
-os.system('rm -fr /data/data/com.termux/files/home/installer/tg_SYPEXHACK')
 
 os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
