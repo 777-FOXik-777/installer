@@ -54,7 +54,7 @@ python installer.py
 
 ## [~] Полезное:
 
-### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
+- ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
 
 ## [*] Внимание!
 
