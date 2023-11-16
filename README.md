@@ -8,6 +8,18 @@
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/logo-installer.jpg)
 
+<p align="center">
+[![Github](https://img.shields.io/badge/Github%7E777%7EFOXik-777-purple?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
+[![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
+</p>
+<p align="center">
+<a href="https://github.com/noob-hackers"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103"></a>
+<a href="https://github.com/noob-hackers"><img title="Followers" src="https://img.shields.io/github/followers/noob-hackers?color=blue&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Stars" src="https://img.shields.io/github/stars/noob-hackers/hacklock?color=red&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Forks" src="https://img.shields.io/github/forks/noob-hackers/hacklock?color=red&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Watching" src="https://img.shields.io/github/watchers/noob-hackers/hacklock?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+
 ## [~] Описание:
 
 ***Installer - это скрипт который поможет тебе найти самые лучшие хакерские утилиты в Termux,
