@@ -9,7 +9,7 @@
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/logo-installer.jpg)
 
 <p align="center">
-<a href="https://github.com/777-FOXik-777"><img title="Github" src="https://img.shields.io/badge/Github-777%7EFOXik%7E777-purple?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/777-FOXik-777"><img title="Github" src="https://img.shields.io/badge/Github-777%7EFOXik%7E777-black?style=for-the-badge&logo=github"></a>
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
 <p align="center">
@@ -58,7 +58,7 @@ python installer.py
 
 ## [~] Подпишись на:
 
-- [![Github](https://img.shields.io/badge/Github-777%7EFOXik%7E777-purple?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
+- [![Github](https://img.shields.io/badge/Github-777%7EFOXik%7E777-black?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
 
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
