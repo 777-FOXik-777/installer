@@ -53,6 +53,7 @@ python installer.py
 ## [~] Подпишись на:
 
 [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-indigo?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
+
 <br>
 
 ## [~] Полезное:
