@@ -1,12 +1,10 @@
 <h1 align="center">Installer</h1>
 
 <p align="center">
-<br>
-  <img src="https://img.shields.io/badge/Автор-FOXik-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/Открытый%20код-Да-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
-</p>
-
+<a href="https://bit.ly/3gnUcN3"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-Hacklock-green.svg"></a>
+<a href="https://bit.ly/3gnUcN3"><img title="Version" src="https://img.shields.io/badge/Version-2.0-green.svg?style=flat-square"></a>
+<a href="https://bit.ly/3gnUcN3"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
+  
 ## [√] Описание:
 
 ***Installer - поможет тебе найти самые лучшие хакерские утилиты в Termux,
