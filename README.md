@@ -14,7 +14,7 @@
 
 <br>
 
-## [+] Установка на [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
+## [+] Установка на [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android) (Альфа)
  
 Скачиваем [Termux](https://t.me/SYPEXHACK_fail/51)
 
