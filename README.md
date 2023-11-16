@@ -1,11 +1,11 @@
 <h1 align="center">Installer</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-2.8.3-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Версия-2.8.4-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
-
+![Installer](https://github.com/777-FOXik/installer/raw/main/installer.jpg)
 
 ## [~] Описание:
 
@@ -48,7 +48,6 @@ python installer.py
 
 ***Этот инструмент предназначен только для образовательных целей. Если вы используете Installer для других целей, кроме образования, в таких случаях мы не несем ответственности.***
 
-<br>
 
 ## [~] Подпишись на:
 
