@@ -52,8 +52,7 @@ python installer.py
 git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
-``` 
-
+```
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer1.jpg)
 
