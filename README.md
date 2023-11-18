@@ -63,18 +63,17 @@ python installer.py
 - Некторые утилиты на старых версия Installer могут не коректно работаеть. Обновите Installer до последней версии для более комфортного использования.
 - Termux из Google Play может не коректно работать. Лучше скачать последнюю версию [Termux](https://t.me/SYPEXHACK_fail/51) (0.118)
 
+## [~] Полезное:
+
+- ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
+- ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
+
 ## [~] Подпишись на:
 
 - [![Github](https://img.shields.io/badge/Github-777%7EFOXik%7E777-indigo?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
 
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
-
-
-## [~] Полезное:
-
-- ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
-- ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
 
 ## [!] Внимание!
 
