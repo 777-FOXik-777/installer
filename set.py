@@ -108,6 +108,7 @@ while True:
         tru_401 = input('  Выбери пункт [y/n] >>> ')
         if tru_401 == 'y':
             os.system('mv PyPhisher /data/data/com.termux/files/home/')
+            os.system('mv zphisher /data/data/com.termux/files/home/')
             os.system('mv maskphish /data/data/com.termux/files/home/')
             os.system('mv seeker /data/data/com.termux/files/home/')
             os.system('mv CamPhish /data/data/com.termux/files/home/')
@@ -208,6 +209,7 @@ while True:
                 tru_603 = input('  Продолжить [y/n] >>> ')
                 if tru_603 == 'y':
                     os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
+                    os.system('rm -fr /data/data/com.termux/files/home/zphisher && rm -fr /data/data/com.termux/files/home/installer/zphisher')
                     os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish')
                     os.system('rm -fr /data/data/com.termux/files/home/seeker && rm -fr /data/data/com.termux/files/home/installer/seeker')
                     os.system('rm -fr /data/data/com.termux/files/home/CamPhish && rm -fr /data/data/com.termux/files/home/installer/CamPhish')
