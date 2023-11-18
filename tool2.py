@@ -23,13 +23,56 @@ while True:
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.YELLOW+"2.9.0"+Fore.CYAN+"]")
     res()
-    print(Fore.GREEN+"    [1] Тест      >>  Тест")
+    print(Fore.GREEN+"    [11] CamHacker  >>  Фотофишинг")
+    print(Fore.GREEN+"    [12] VidPhisher >>  Видеофишинг")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Назад")
     res()
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
+
+
+
+    if inp == '11':
+        filename = "CamHacker"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamHacker уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('CamHacker')
+            os.system('clear')
+            os.system('bash ch.sh')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] CamHacker еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
+            res()
+            time.sleep(1.5)
+            os.system('git clone https://github.com/KasRoudra/CamHacker')
+            os.chdir('CamHacker')
+            os.system('clear')
+            os.system('bash ch.sh')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+
+
+
+
 
     
 
