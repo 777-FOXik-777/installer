@@ -26,7 +26,8 @@ while True:
     print(Fore.GREEN+"    [2] Обновить/Переустановить Installer")
     print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
     print(Fore.GREEN+"    [4] Переместить скачаные директории в /files/home/")
-    print(Fore.GREEN+"    [5] Удалить скачаные директории")
+    print(Fore.GREEN+"    [5] Добавить утилиту в Installer")
+    print(Fore.GREEN+"    [6] Удалить скачаные директории")
     print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [h] Сообщить об ошибке")
     print(Fore.YELLOW+"    [e] Назад")
@@ -121,10 +122,17 @@ while True:
 
         else:
             os.system('clear')
-            
+
 
     
     if inp == '5':
+        os.system('https://forms.gle/vMHny8Yp24HQZqLV9')
+        os.system('clear')
+
+
+    
+    
+    if inp == '6':
             baner()
             print (Fore.CYAN+'\n Где именно удалить директории?')
             res()
@@ -134,15 +142,15 @@ while True:
             print(Fore.YELLOW+'')
             print('    [e] выход')
             res()
-            tru_502 = input('  Выбери пункт>>> ')
+            tru_602 = input('  Выбери пункт>>> ')
     
-            if tru_502 == '1':
+            if tru_602 == '1':
                 os.system('clear')
                 baner()
                 print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории в папке /files/home/?')
                 res()
-                tru_503 = input('  Продолжить [y/n] >>> ')
-                if tru_503 == 'y':
+                tru_603 = input('  Продолжить [y/n] >>> ')
+                if tru_603 == 'y':
                     os.system('clear')
                     os.system('rm -fr /data/data/com.termux/files/home/PyPhisher')
                     os.system('rm -fr /data/data/com.termux/files/home/maskphish')
@@ -154,19 +162,19 @@ while True:
                     res()
                     print(Fore.YELLOW+"\n Все директории в папке /files/home/ УСПЕШНО удалены!")
                     res()
-                    tsu_503 = input(' [Нажмите enter чтобы выйти]')
+                    tsu_603 = input(' [Нажмите enter чтобы выйти]')
                     os.system('clear')
 
                 else:
                     os.system('clear')
         
-            if tru_502 == '2':
+            if tru_602 == '2':
                 os.system('clear')
                 baner()
                 print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить директории в директории installer?')
                 res()
-                tru_503 = input('  Продолжить [y/n] >>> ')
-                if tru_503 == 'y':
+                tru_603 = input('  Продолжить [y/n] >>> ')
+                if tru_603 == 'y':
                     os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/maskphish')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/seeker')
@@ -184,13 +192,13 @@ while True:
                     os.system('clear')
 
     
-            if tru_502 == '3':
+            if tru_602 == '3':
                 os.system('clear')
                 baner()
                 print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы уверены что хотите удалить все директории?')
                 res()
-                tru_503 = input('  Продолжить [y/n] >>> ')
-                if tru_503 == 'y':
+                tru_603 = input('  Продолжить [y/n] >>> ')
+                if tru_603 == 'y':
                     os.system('rm -fr /data/data/com.termux/files/home/PyPhisher && rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
                     os.system('rm -fr /data/data/com.termux/files/home/maskphish && rm -fr /data/data/com.termux/files/home/installer/maskphish')
                     os.system('rm -fr /data/data/com.termux/files/home/seeker && rm -fr /data/data/com.termux/files/home/installer/seeker')
