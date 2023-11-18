@@ -54,6 +54,7 @@ cd installer
 python installer.py
 ```
 <h1 align="center">Пример</h1>
+
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer1.jpg)
 
 ## [~] Подпишись на:
