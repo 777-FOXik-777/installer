@@ -57,6 +57,14 @@ python installer.py
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer1.jpg)
 
+## [~] Решение типичных вопросов:
+
+- VPN или прокси препятствуют туннелированию и даже нормальному доступу в Интернет. Отключите их, если у вас возникли проблемы.
+- Termux из Google Play может не коректно работать. Лучше скачать последний Termux
+
+
+
+
 ## [~] Подпишись на:
 
 - [![Github](https://img.shields.io/badge/Github-777%7EFOXik%7E777-indigo?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
@@ -70,7 +78,7 @@ python installer.py
 - ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
 - ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
 
-## [*] Внимание!
+## [!] Внимание!
 
 ***Этот инструмент предназначен только для образовательных целей. Если вы используете Installer для других целей, кроме образования, в таких случаях мы не несем ответственности.***
 
