@@ -31,7 +31,7 @@ while True:
     res()
     inp = input('  Выбери пункт>>> ')
     os.system('clear')
-
+    
 
 
     if inp == '11':
@@ -58,7 +58,7 @@ while True:
             time.sleep(2)
             
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamHacker...")
             res()
             time.sleep(1.5)
             os.system('git clone https://github.com/KasRoudra/CamHacker')
@@ -71,7 +71,45 @@ while True:
 
 
 
+    if inp == '12':
+        filename = "VidPhisher"
 
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] VidPhisher уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('VidPhisher')
+            os.system('clear')
+            os.system('bash vp.sh')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] VidPhisher еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка VidPhisher...")
+            res()
+            time.sleep(1.5)
+            os.system('git clone https://github.com/KasRoudra/VidPhisher')
+            os.chdir('VidPhisher')
+            os.system('clear')
+            os.system('bash vp.sh')
+            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+
+
+
+    
 
 
     
