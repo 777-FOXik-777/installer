@@ -67,6 +67,7 @@ python installer.py
 
 - ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
 - ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
+- ### [Сообщить об ошибке](https://t.me/SYPEXHACK_help_bot)
 
 ## [~] Подпишись на:
 
