@@ -126,7 +126,7 @@ while True:
 
     
     if inp == '5':
-        os.system('https://forms.gle/vMHny8Yp24HQZqLV9')
+        os.system('https://docs.google.com/forms/d/e/1FAIpQLSeePdz30HGlErhTw85RroRo2odr4UGL3wCUjQ4O4aUyphLZBw/viewform')
         os.system('clear')
 
 
