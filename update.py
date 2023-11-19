@@ -24,5 +24,5 @@ else:
   os.system('clear')
   print(Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время обновления Installer!")
   print(Fore.WHITE+" ")
-  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон чтобы повторить")
+  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Создайте новый сезон в Termux чтобы повторить!")
   print(Fore.WHITE+" ")
