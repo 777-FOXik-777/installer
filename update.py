@@ -23,4 +23,4 @@ if os.path.exists(filename):
 else:
   os.system('clear')
   print(Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время обновления!")
-   print(Fore.WHITE+" ")
+  print(Fore.WHITE+" ")
