@@ -18,6 +18,10 @@ filename = "installer"
 
 if os.path.exists(filename):
   os.system('rm ~/.bashrc')
+  print(Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Installer успешно обновлен/переустановлен!")
+  print(Fore.WHITE+" ")
+  tsu = input(' [Нажмите enter чтобы продолжить]')
+  os.system('clear')
   os.system('cd installer && python tool.py')
   
 else:
