@@ -26,6 +26,8 @@ while True:
     print(Fore.GREEN+"    [11] CamHacker  >>  Фотофишинг")
     print(Fore.GREEN+"    [12] VidPhisher >>  Видеофишинг")
     print(Fore.CYAN+"")
+    print(Fore.CYAN+"    [20] Страница (3)")
+    print(Fore.CYAN+"")
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Назад")
     res()
@@ -114,10 +116,12 @@ while True:
 
     
 
-    if inp == '10':
-        os.system('cd /data/data/com.termux/files/home/installer/')
+    
+
+    if inp == '20':
+        os.system('xdg-open https://forms.gle/vMHny8Yp24HQZqLV9')
         os.system('clear')
-        break
+        print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
 
     
     
