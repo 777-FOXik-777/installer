@@ -35,7 +35,7 @@ while True:
     print(Fore.GREEN+"    [7] Maskphish  >>  Замаскировать ссылку")
     print(Fore.GREEN+"    [8] IP-Tracer  >>  Пробив по IP")
     print(Fore.GREEN+"    [9] Seeker     >>  Узнать местоположения")
-    print(Fore.CYAN+"")
+    res()
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Выход")
     res()
