@@ -28,7 +28,7 @@ while True:
     res()
     print(Style.BRIGHT,Fore.CYAN+"   ["+Fore.GREEN+"20"+Fore.CYAN+"] Страница (3)")
     res()
-    print(Fore.YELLOW+"    ["+Fore.GREEN+"s"Fore.YELLOW+"] Настройки")
+    print(Fore.YELLOW+"    ["+Fore.GREEN+"s"+Fore.YELLOW+"] Настройки")
     print(Fore.YELLOW+"    ["+Fore.RED+"e"+Fore.YELLOW+"] Назад")
     res()
     inp = input('  Выбери пункт>>> ')
