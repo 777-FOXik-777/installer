@@ -122,11 +122,12 @@ while True:
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
         res()
-        print (Fore.YELLOW+"[1] Добавьте утилиту в Installer")
         res()
-        print (Fore.YELLOW+"[e] Назад")
+        print (Fore.CYAN+"    [1] Добавьте утилиту в Installer")
         res()
-        tsu_20 = input(' [Нажмите enter чтобы выйти]')
+        print (Fore.YELLOW+"    [e] Назад")
+        res()
+        tsu_20 = input('  Выбери пункт>>> ')
 
         if tsu_20 == '1':
             os.system('xdg-open https://forms.gle/vMHny8Yp24HQZqLV9')
