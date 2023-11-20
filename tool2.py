@@ -120,11 +120,10 @@ while True:
 
     if inp == '20':
         os.system('clear')
+        res()
         print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
         res()
-        res()
         print (Fore.CYAN+"    [1] Добавьте утилиту в Installer")
-        res()
         print (Fore.YELLOW+"    [e] Назад")
         res()
         tsu_20 = input('  Выбери пункт>>> ')
