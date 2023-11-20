@@ -26,7 +26,7 @@ while True:
     print(Fore.GREEN+"    [11] CamHacker  >>  Фотофишинг")
     print(Fore.GREEN+"    [12] VidPhisher >>  Видеофишинг")
     res()
-    print(Style.BRIGHT,Fore.CYAN+"   ["+Fore.GREEN+"20"+Fore.CYAN+"] Страница (3)")
+    print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Назад")
