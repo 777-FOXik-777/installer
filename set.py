@@ -28,7 +28,7 @@ while True:
     print(Fore.GREEN+"    [4] Переместить скачаные директории в /files/home/")
     print(Fore.GREEN+"    [5] Добавить утилиту в Installer")
     print(Fore.GREEN+"    [6] Удалить скачаные директории")
-    print(Fore.CYAN+"")
+    res()
     print(Fore.YELLOW+"    [h] Сообщить об ошибке")
     print(Fore.YELLOW+"    [e] Назад")
     res()
