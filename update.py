@@ -8,7 +8,7 @@ os.system('rm -fr /data/data/com.termux/files/home/installer')
 os.system('rm -fr installer')
 os.chdir('/data/data/com.termux/files/home/')
 
-print(Fore.YELLOW+" ["+Fore.RED+"i"+Fore.YELLOW+"] Обновление/Переустановление Installer...")
+print(Fore.YELLOW+" ["+Fore.RED+"i"+Fore.YELLOW+"] Обновление/Переустановка Installer...")
 time.sleep(1.5)
 print(Fore.WHITE+"")
 
