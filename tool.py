@@ -644,7 +644,7 @@ while True:
 
 
     
-    if inp == '20':
+    if inp == '10':
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('python tool2.py')
 
