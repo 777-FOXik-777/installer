@@ -122,6 +122,8 @@ while True:
         os.system('xdg-open https://forms.gle/vMHny8Yp24HQZqLV9')
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
+        res()
+        tsu_20 = input('\n [Нажмите enter чтобы выйти]')
 
     
     
