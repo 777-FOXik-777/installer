@@ -119,13 +119,23 @@ while True:
     
 
     if inp == '20':
-        os.system('xdg-open https://forms.gle/vMHny8Yp24HQZqLV9')
         os.system('clear')
         print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
         res()
-        tsu_20 = input('\n [Нажмите enter чтобы выйти]')
+        print (Fore.YELLOW+"[1] Добавьте утилиту в Installer")
+        res()
+        print (Fore.YELLOW+"[e] Назад")
+        res()
+        tsu_20 = input(' [Нажмите enter чтобы выйти]')
 
-    
+        if tsu_20 == '1':
+            os.system('xdg-open https://forms.gle/vMHny8Yp24HQZqLV9')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+
+
     
     if inp == 's':
         os.system('cd /data/data/com.termux/files/home/installer/')
