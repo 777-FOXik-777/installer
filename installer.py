@@ -1,3 +1,4 @@
+import os, time
 
 os.system('clear')
 
@@ -18,7 +19,6 @@ if os.path.exists(filename):
     os.system('clear')
       
     #питон
-    import os, time
 
     from colorama import Fore, Style
     
