@@ -1,10 +1,3 @@
-import os, time
-
-from colorama import Fore, Style
-
-print ('\n')
-def res():
-    print(Style.RESET_ALL)
 
 os.system('clear')
 
@@ -25,6 +18,14 @@ if os.path.exists(filename):
     os.system('clear')
       
     #питон
+    import os, time
+
+    from colorama import Fore, Style
+    
+    print ('\n')
+    def res():
+        print(Style.RESET_ALL)
+
     
     os.system('clear')
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
