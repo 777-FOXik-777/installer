@@ -61,6 +61,8 @@ if os.path.exists(filename):
     
 
 else:
+    from colorama import Fore, Style
+
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('clear')
     print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Все зависимости уже установлены!...")
