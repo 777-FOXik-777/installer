@@ -4,6 +4,9 @@ from colorama import Fore, Style
 
 os.system('clear')
 
+print(f'\33]0; Installer настройки\a',
+                  end='', flush=True)
+
 def res():
     print(Style.RESET_ALL)
 
