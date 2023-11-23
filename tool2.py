@@ -25,6 +25,7 @@ while True:
     res()
     print(Fore.GREEN+"    [11] CamHacker  >>  Фотофишинг")
     print(Fore.GREEN+"    [12] VidPhisher >>  Видеофишинг")
+    print(Fore.GREEN+"    [13] Discord    >>  Генератор Nitro")
     res()
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
@@ -116,6 +117,18 @@ while True:
 
     
 
+
+
+
+
+
+
+
+
+
+
+
+    
     
 
     if inp == '20':
