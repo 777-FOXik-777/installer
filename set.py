@@ -88,6 +88,8 @@ while True:
             os.system('mv update.py /data/data/com.termux/files/home/')
             os.system('rm ~/.bashrc')
             os.system('echo "cd && python update.py" >> ~/.bashrc')
+            print(f'\33]0; Создайте новый сезон!\a',
+                    end='', flush=True)  
             while True:
                 os.system('clear')
                 print(Fore.YELLOW+'\n Перезапустите Termux или создайте новый сезон!')
