@@ -1,11 +1,10 @@
 import os, time, webbrowser, ctypes
 
- ctypes.windll.kernel32.SetConsoleTitleW(
-                    f"тест123")
-
 from colorama import Fore, Style
 
 os.system('clear')
+
+ctypes.windll.kernel32.SetConsoleTitleW("oleegwea")
 
 def res():
     print(Style.RESET_ALL)
