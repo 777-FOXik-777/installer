@@ -1,4 +1,7 @@
-import os, time, webbrowser
+import os, time, webbrowser, ctypes
+
+ ctypes.windll.kernel32.SetConsoleTitleW(
+                    f"тест123")
 
 from colorama import Fore, Style
 
