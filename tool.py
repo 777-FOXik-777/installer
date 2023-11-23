@@ -8,7 +8,7 @@ os.system('rm -fr /data/data/com.termux/files/home/update.py')
 os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
-print(f'\33]0;Installer made with love - telegram: @SYPEXHACK\a',
+print(f'\33]0; Installer made with love\a',
                   end='', flush=True)
 
 def res():
