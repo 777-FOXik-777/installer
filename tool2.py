@@ -127,7 +127,7 @@ while True:
             os.system('python3 main.py')
             tsu_302 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
-            print(f'\33]0;Installer made with love - telegram: @SYPEXHACK\a',
+            print(f'\33]0; Installer made with love\a',
                   end='', flush=True)
             os.system('clear')
 
@@ -154,7 +154,7 @@ while True:
             os.system('python3 main.py')
             tsu_302 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
-            print(f'\33]0;Installer made with love - telegram: @SYPEXHACK\a',
+            print(f'\33]0; Installer made with love\a',
                   end='', flush=True)
             os.system('clear')
 
