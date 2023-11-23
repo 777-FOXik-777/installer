@@ -1,4 +1,4 @@
-import os, time, webbrowser, ctypes
+import os, time
 
 from colorama import Fore, Style
 
