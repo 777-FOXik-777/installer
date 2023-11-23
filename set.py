@@ -166,6 +166,7 @@ while True:
                     os.system('rm -fr /data/data/com.termux/files/home/TigerVirus')
                     os.system('rm -fr /data/data/com.termux/files/home/CamHacker')
                     os.system('rm -fr /data/data/com.termux/files/home/VidPhisher')
+                    os.system('rm -fr /data/data/com.termux/files/home/Discord-Nitro-Generator-and-Checker')
                     os.system('clear')
                     baner()
                     res()
@@ -192,6 +193,7 @@ while True:
                     os.system('rm -fr /data/data/com.termux/files/home/installer/TigerVirus')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/CamHacker')
                     os.system('rm -fr /data/data/com.termux/files/home/installer/VidPhisher')
+                    os.system('rm -fr /data/data/com.termux/files/home/installer/Discord-Nitro-Generator-and-Checker')
                     os.system('clear')
                     baner()
                     res()
@@ -219,6 +221,7 @@ while True:
                     os.system('rm -fr /data/data/com.termux/files/home/TigerVirus && rm -fr /data/data/com.termux/files/home/installer/TigerVirus')
                     os.system('rm -fr /data/data/com.termux/files/home/CamHacker && rm -fr /data/data/com.termux/files/home/installer/CamHacker')
                     os.system('rm -fr /data/data/com.termux/files/home/VidPhisher && rm -fr /data/data/com.termux/files/home/installer/VidPhisher')
+                    os.system('rm -fr /data/data/com.termux/files/home/Discord-Nitro-Generator-and-Checker && rm -fr /data/data/com.termux/files/home/installer/Discord-Nitro-Generator-and-Checker')
                     os.system('clear')
                     baner()
                     res()
@@ -242,6 +245,8 @@ while True:
     
     
     if inp == 'e':
+        print(f'\33]0; Installer сделано с любовью\a',
+                          end='', flush=True)
         res()
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('clear')
