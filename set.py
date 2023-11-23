@@ -4,8 +4,8 @@ from colorama import Fore, Style
 
 os.system('clear')
 
-ctypes.windll.kernel32.SetConsoleTitleW("oleegwea")
-
+print(f'\33]0;Nitro Generator and Checker - Made by Drillenissen#4268\a',
+                  end='', flush=True)
 def res():
     print(Style.RESET_ALL)
 
