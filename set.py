@@ -247,7 +247,7 @@ while True:
     
     
     if inp == 'e':
-        print(f'\33]0; Installer сделано с любовью\a',
+        print(f'\33]0; Installer\a',
                           end='', flush=True)
         res()
         os.system('cd /data/data/com.termux/files/home/installer/')
