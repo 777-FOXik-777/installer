@@ -4,7 +4,7 @@ from colorama import Fore, Style
 
 os.system('clear')
 
-print(f'\33]0;Nitro Generator and Checker - Made by Drillenissen#4268\a',
+print(f'\33]0;wofovke\a',
                   end='', flush=True)
 def res():
     print(Style.RESET_ALL)
