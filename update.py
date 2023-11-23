@@ -1,8 +1,11 @@
-import os, time, webbrowser
+import os, time
 
 from colorama import Fore, Style
 
 os.system('clear')
+
+print(f'\33]0;Installer update - telegram: @SYPEXHACK\a',
+                  end='', flush=True)
 
 os.system('rm -fr /data/data/com.termux/files/home/installer')
 os.system('rm -fr installer')
