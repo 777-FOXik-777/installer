@@ -129,7 +129,7 @@ while True:
 
             os.chdir('Telephish')
             os.system('clear')
-            os.system('python build.py')
+            os.system('python builder.py')
             os.system('clear')
             baner()
             os.system('python Instagram.py')
@@ -167,7 +167,7 @@ while True:
           
             os.chdir('Telephish')
             os.system('clear')
-            os.system('python build.py')
+            os.system('python builder.py')
             os.system('clear')
             baner()
             os.system('python Instagram.py')
@@ -200,7 +200,7 @@ while True:
 
             os.chdir('Dnnme2')
             os.system('clear')
-            os.system('python builder.py')
+            os.system('python build.py')
             os.system('clear')
             baner()
             os.system('python probiv.py')
@@ -246,7 +246,7 @@ while True:
           
             os.chdir('Dnnme2')
             os.system('clear')
-            os.system('python builder.py')
+            os.system('python build.py')
             os.system('clear')
             baner()
             os.system('python probiv.py')
@@ -271,7 +271,6 @@ while True:
             tsu_302 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
-
 
 
   
