@@ -167,7 +167,7 @@ while True:
             os.chdir('Telephish')
             os.system('clear')
             os.system('python builder.py')
-           os.system('clear')
+            os.system('clear')
             baner()
             os.system('clear')
             os.system('python Instagram.py')
