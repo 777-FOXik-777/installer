@@ -412,7 +412,43 @@ while True:
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
-    
+
+if inp == '55':
+        filename = "k-fuscator"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] K-fuscator уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            os.chdir('k-fuscator')
+            os.system('clear')
+            os.system('python3 kf.py')
+            tsu_601 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+            
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
+            time.sleep(2)
+
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка K-fuscator...")
+            res()
+            os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
+            os.system('clear')
+            os.chdir('python3 kf.py')
+            os.system('bash TigerVirus.sh')
+            tsu_601 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+
+
     
     if inp == '6':
         filename = "TigerVirus"
