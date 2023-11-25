@@ -4,6 +4,9 @@ os.system('clear')
 
 filename = "tg_SYPEXHACK"
 
+print(f'\33]0; Installer установка...\a',
+                  end='', flush=True)
+
 os.chdir('/data/data/com.termux/files/home/installer/trash')
 
 if os.path.exists(filename):
