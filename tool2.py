@@ -128,7 +128,7 @@ while True:
 
             os.chdir('Telephish')
             os.system('clear')
-            os.system('bash builder.py')
+            os.system('python builder.py')
             tsu_102 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
@@ -152,7 +152,7 @@ while True:
             os.system('git clone https://github.com/lamer112311/Telephish')
             os.chdir('Telephish')
             os.system('clear')
-            os.system('bash builder.py')
+            os.system('python builder.py')
             tsu_102 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
