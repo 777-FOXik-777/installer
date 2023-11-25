@@ -4,7 +4,7 @@ from colorama import Fore, Style
 
 os.system('clear')
 
-print(f'\33]0; Installer установка\a',
+print(f'\33]0; Installer установка...\a',
                   end='', flush=True)
 
 os.system('rm -fr /data/data/com.termux/files/home/installer')
@@ -22,6 +22,8 @@ filename = "installer"
 if os.path.exists(filename):
   
   os.system('rm ~/.bashrc')
+  print(f'\33]0; Installer успешно\a',
+                  end='', flush=True)
   os.system('clear')
   print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Installer успешно обновлен/переустановлен!")
   print(Fore.WHITE+" ")
