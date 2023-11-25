@@ -441,9 +441,9 @@ while True:
             res()
             os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
             os.system('clear')
-            os.chdir('python3 kf.py')
-            os.system('bash TigerVirus.sh')
-            tsu_601 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('k-fuscator')
+            os.system('python3 kf.py')
+            tsu_501 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
