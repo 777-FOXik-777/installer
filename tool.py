@@ -413,7 +413,7 @@ while True:
             os.system('clear')
 
 
-if inp == '55':
+  if inp == '55':
         filename = "k-fuscator"
 
         if os.path.exists(filename):
