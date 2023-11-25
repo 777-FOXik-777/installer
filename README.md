@@ -1,7 +1,7 @@
 <h1 align="center">Installer</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-2.8.4-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Версия-2.9.0-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
@@ -53,7 +53,7 @@ git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
 ```
-<h1 align="center">Пример</h1>
+<h1 align="center">Пример (версия 2.8.4)</h1>
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer1.jpg)
 
