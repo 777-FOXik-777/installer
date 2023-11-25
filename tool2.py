@@ -242,7 +242,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Dnnme2...")
             res()
-            os.system('git clone https://github.com/lamer112311/Telephish')
+            os.system('git clone https://github.com/lamer112311/Dnnme2')
           
             os.chdir('Dnnme2')
             os.system('clear')
