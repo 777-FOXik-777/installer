@@ -27,17 +27,19 @@ def baner():
     
 while True:
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         [v2.8.4]")
+    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.YELLOW+"2.9.0"+Fore.CYAN+"]")
     res()
     print(Fore.GREEN+"    [1] Ngrok      >>  Тунелирование")
     print(Fore.GREEN+"    [2] Localhost  >>  Тунелирование")
     print(Fore.GREEN+"    [3] PyPhiser   >>  Фишинг")
     print(Fore.GREEN+"    [4] Zphisher   >>  Фишинг")
-    print(Fore.GREEN+"    [5] CamPhish   >>  Взлом веб-камеры")
+    print(Fore.GREEN+"    [5] K-fuscator >>  Зашифровать код")
     print(Fore.GREEN+"    [6] TigerVirus >>  Вирусы apk")
     print(Fore.GREEN+"    [7] Maskphish  >>  Замаскировать ссылку")
     print(Fore.GREEN+"    [8] IP-Tracer  >>  Пробив по IP")
     print(Fore.GREEN+"    [9] Seeker     >>  Узнать местоположения")
+    res()
+    print(Style.BRIGHT,Fore.CYAN+"   [10] Страница (2)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Выход")
@@ -364,56 +366,10 @@ while True:
             tsu_401 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
-    
 
+  
 
     if inp == '5':
-        filename = "CamPhish"
-
-        if os.path.exists(filename):
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamPhish уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-
-            os.chdir('CamPhish')
-            os.system('clear')
-            os.system('bash camphish.sh')
-            tsu_501 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
-
-        else:
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] CamPhish еще НЕ установлен!")
-            time.sleep(2)
-        
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
-            res()
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
-            res()
-            os.system('pkg install php -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-            res()
-            os.system('pkg install openssh -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamPhish...")
-            res()
-            os.system('git clone https://github.com/techchipnet/CamPhish')
-            os.chdir('CamPhish')
-            os.system('clear')
-            os.system('bash camphish.sh')
-            tsu_501 = input('\n [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
-
-
-    if inp == '55':
         filename = "k-fuscator"
 
         if os.path.exists(filename):
