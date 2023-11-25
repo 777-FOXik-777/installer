@@ -383,7 +383,8 @@ while True:
             os.chdir('k-fuscator')
             os.system('clear')
             os.system('python3 kf.py')
-            tsu_601 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_601 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
             
@@ -399,7 +400,8 @@ while True:
             os.system('clear')
             os.chdir('k-fuscator')
             os.system('python3 kf.py')
-            tsu_501 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_501 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
