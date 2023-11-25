@@ -53,7 +53,7 @@ git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
 ```
-<h1 align="center">Пример (версия 2.8.4)</h1>
+<h1 align="center">Пример (версия 2.8.3)</h1>
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer1.jpg)
 
