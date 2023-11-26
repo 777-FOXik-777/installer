@@ -332,6 +332,8 @@ while True:
     
 
     if inp == '20':
+        print(f'\33]0; Installer - Страница [3]\a',
+                      end='', flush=True)
         baner()
         print (Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
         res()
