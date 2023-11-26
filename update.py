@@ -40,5 +40,5 @@ else:
   os.system('clear')
   print(Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время обновления Installer!")
   print(Fore.WHITE+" ")
-  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Чтобы повторить используйте команду "+Fore.WHITE+"python update.py "+Fore.YELLOW+"!")
+  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Чтобы повторить используйте команду "+Fore.WHITE+"python update.py"+Fore.YELLOW+" !")
   print(Fore.WHITE+" ")
