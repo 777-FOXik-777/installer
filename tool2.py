@@ -5,7 +5,7 @@ from colorama import Fore, Style
 os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
-def pri()
+def pri():
     print(f'\33]0; Installer\a',
                       end='', flush=True)
 
