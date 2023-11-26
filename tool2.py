@@ -6,7 +6,7 @@ os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
 def pri():
-    print(f'\33]0; Installer\a',
+    print(f'\33]0; Installer - Страница [2]\a',
                       end='', flush=True)
 
 def res():
