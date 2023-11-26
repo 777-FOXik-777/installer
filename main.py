@@ -8,7 +8,7 @@ cf_success = False
 cf_url = ""
 for i in range(10):
     line = p.stdout.readline().decode('utf-8')
-    if "https://)" in line:
+    if line.endswith(".lhr.life\n"):
         cf_url = line.strip()
         cf_success = True
         break
