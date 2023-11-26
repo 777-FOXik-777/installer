@@ -4,7 +4,7 @@ from colorama import Fore, Style
 
 os.system('clear')
 
-print(f'\33]0; Installer установка...\a',
+print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
 os.system('rm -fr /data/data/com.termux/files/home/installer')
