@@ -8,7 +8,7 @@ os.system('rm -fr /data/data/com.termux/files/home/update.py')
 os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
-def pri()
+def pri():
     print(f'\33]0; Installer - Страница [1]\a',
                       end='', flush=True)
 
