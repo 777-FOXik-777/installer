@@ -7,9 +7,11 @@ p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.
 cf_success = False
 cf_url = ""
 for i in range(10):
-    line = p.stdout.readline().decode('utf-8')
-    if line.endswith("https://\n"):
-        cf_url = line.strip()
+    output = p.stdout.read().decode('utf-8')
+    lines = output.split('\n')
+    last_line = lines[-1]
+    if "https://" in last_line:
+        cf_url = last_line.strip()
         cf_success = True
         break
     time.sleep(1)
