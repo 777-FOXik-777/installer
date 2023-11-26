@@ -10,7 +10,7 @@ for i in range(10):
     output = p.stdout.read().decode('utf-8')
     lines = output.split('\n')
     last_line = lines[-1]
-    if "https://" in last_line:
+    if ".lhr.life" in last_line:
         cf_url = last_line.strip()
         cf_success = True
         break
