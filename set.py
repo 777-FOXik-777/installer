@@ -4,7 +4,7 @@ from colorama import Fore, Style
 
 os.system('clear')
 
-print(f'\33]0; Installer настройки\a',
+print(f'\33]0; Installer - Настройки\a',
                   end='', flush=True)
 
 def res():
@@ -247,8 +247,6 @@ while True:
     
     
     if inp == 'e':
-        print(f'\33]0; Installer\a',
-                          end='', flush=True)
         res()
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('clear')
