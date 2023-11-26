@@ -604,7 +604,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
             time.sleep(2)
-            
+            os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
             res()
             os.system('pkg install dropbear -y')
