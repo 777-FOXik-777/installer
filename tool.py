@@ -646,6 +646,8 @@ while True:
     
 
     if inp == 'e':
+        print(f'\33]0; Installer - Спасибо за использование\a',
+                      end='', flush=True)
         os.system('cd /data/data/com.termux/files/home/')
         os.system('clear')
         print('\n')
