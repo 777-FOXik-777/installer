@@ -4,7 +4,7 @@ os.system('clear')
 
 filename = "tg_SYPEXHACK"
 
-print(f'\33]0; Installer установка...\a',
+print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
 os.chdir('/data/data/com.termux/files/home/installer/trash')
@@ -67,8 +67,10 @@ else:
     from colorama import Fore, Style
 
     os.chdir('/data/data/com.termux/files/home/installer')
+    print(f'\33]0; Installer - Зависимости уже установлены!\a',
+                  end='', flush=True)
     os.system('clear')
-    print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Все зависимости уже установлены!...")
+    print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Все зависимости уже установлены!")
     time.sleep(2)
     os.system('clear')
     os.system('python3 tool.py')
