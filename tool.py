@@ -8,8 +8,9 @@ os.system('rm -fr /data/data/com.termux/files/home/update.py')
 os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
-print(f'\33]0; Installer\a',
-                  end='', flush=True)
+def pri()
+    print(f'\33]0; Installer - Страница [1]\a',
+                      end='', flush=True)
 
 def res():
     print(Style.RESET_ALL)
@@ -26,6 +27,7 @@ def baner():
     res()
     
 while True:
+    pri()
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.YELLOW+"2.9.0"+Fore.CYAN+"]")
     res()
