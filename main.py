@@ -10,9 +10,7 @@ def bgtask(command, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, cwd="./")
         print(e)
 
 # Запускаем команду SSH в фоновом режиме
-p = bgtask("ssh -R 80:localhost:8080 localhost.run -T -n")
-
-cf_success = False
+p = bgtask("ssh -R 80:localhost:8080 localhost.run")
 cf_url = ""
 for i in range(10):
     # Читаем вывод команды SSH
