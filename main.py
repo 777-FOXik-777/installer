@@ -1,15 +1,20 @@
-import subprocess
+import os
 import time
+import re
+import subprocess
 
-cmd = "ssh -R 80:localhost:8080 nokey@localhost.run"
-p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+# Запускаем команду SSH в фоновом режиме
+p = subprocess.Popen(["ssh", "-R", "80:localhost:8080", "localhost.run", "-T", "-n"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
 cf_success = False
 cf_url = ""
 for i in range(10):
-    line = p.stdout.readline().decode('utf-8')
-    if line.startswith("https://") and line.endswith(".lhr.life\n"):
-        cf_url = line.strip()
+    # Читаем вывод команды SSH
+    output = p.stdout.read().decode('utf-8')
+    # Ищем URL в выводе
+    match = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
+    if match:
+        cf_url = match.group(0)
         cf_success = True
         break
     time.sleep(1)
