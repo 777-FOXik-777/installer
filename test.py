@@ -11,7 +11,6 @@ def get_url():
         output = process.stdout.readline().decode('utf-8')
         url = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
         if url is not None:
-            process.terminate()
             return url.group(1)
 
 url = get_url()
