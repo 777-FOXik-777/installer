@@ -1,8 +1,6 @@
-import subprocess
-import re
-import time
 import os
 import time
+from colorama import Fore
 from re import search
 from os.path import isfile
 from subprocess import DEVNULL, PIPE, Popen, STDOUT
@@ -33,7 +31,7 @@ def setup():
     bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
     cf_success = False
     for i in range(10):
-        cf_url = grep("(https://[-0-9a-z.]*.lhr.life)")
+        cf_url = grep("https://[-0-9a-z.]*.lhr.life")
         if cf_url != "":
             cf_success = True
             break
