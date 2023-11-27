@@ -12,3 +12,6 @@ def setup(site):
             break
         time.sleep(1)
     print(f'\n[~] Link: {cf_url}')
+
+
+setup(site)
