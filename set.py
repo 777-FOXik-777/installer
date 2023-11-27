@@ -248,6 +248,28 @@ while True:
                 os.system('clear')
 
 
+  
+    if inp == '66':
+        baner()
+        print (Fore.CYAN+'    Какую именно удалить Утилиту?')
+        res()
+        print(Fore.GREEN+"    [1] Ngrok        [11]")
+        print(Fore.GREEN+"    [2] Localhost    [12]")
+        print(Fore.GREEN+"    [3] PyPhiser     [13]")
+        print(Fore.GREEN+"    [4] Zphisher     [14]")
+        print(Fore.GREEN+"    [5] K-fuscator   [15]")
+        print(Fore.GREEN+"    [6] TigerVirus")
+        print(Fore.GREEN+"    [7] Maskphish")
+        print(Fore.GREEN+"    [8] IP-Tracer")
+        print(Fore.GREEN+"    [9] Seeker")
+        res()
+        print(Fore.YELLOW+"    [s] Настройки")
+        print(Fore.YELLOW+"    [e] Выход")
+        res()
+        tsu_601 = input('  Выбери пункт>>> ')
+        os.system('clear')
+
+
     
     if inp == 'h':
         os.system('xdg-open https://t.me/SYPEXHACK_help_bot')
