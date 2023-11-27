@@ -7,6 +7,8 @@ print(f'\33]0; Installer - Установка...\a',
 
 
 
+os.chdir('/data/data/com.termux/files/home')
+
 filename = "Installer_Files"
 
 if os.path.exists(filename):
