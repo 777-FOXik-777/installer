@@ -48,12 +48,14 @@ if os.path.exists(filename):
   
   print(f'\33]0; Installer - Успешно установлен!\a',
                   end='', flush=True)
+
+  
   os.system('clear')
   print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Installer успешно установлен!")
   print(Fore.WHITE+" ")
   tsu = input(' [Нажмите enter чтобы продолжить]')
   os.system('clear')
-  os.system('cd installer && python tool.py')
+  os.system('python tool.py')
 
 
 else:
