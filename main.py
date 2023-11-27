@@ -20,4 +20,4 @@ for i in range(10):
         cf_url = match.group(0)
         break
 
-print(f'\n[~] Link: https://'+cf_url+'.lhr.life')
+print(f'\n[~] Ссылка: {cf_url}')
