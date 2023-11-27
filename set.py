@@ -251,7 +251,7 @@ while True:
   
     if inp == '66':
         baner()
-        print (Fore.CYAN+'    Какую именно удалить Утилиту?')
+        print(Style.BRIGHT, Fore.YELLOW+"   Какую именно удалить Утилиту?")
         res()
         print(Fore.GREEN+"    [1] Ngrok        [11]")
         print(Fore.GREEN+"    [2] Localhost    [12]")
