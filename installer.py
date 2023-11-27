@@ -11,7 +11,7 @@ filename = "Installerfiles"
 
 if os.path.exists(filename):
   
-  os.system('mv Installerfiles /data/data/com.termux/files/home/installer')
+  os.system('mv Installerfiles /data/data/com.termux/files/home')
 
 else:
 
