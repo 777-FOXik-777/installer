@@ -1,16 +1,23 @@
 import subprocess
 import re
 
-def url():
-    # Запускаем команду SSH в фоновом режиме
-    p = subprocess.Popen("ssh -R 80:8080 nokey@localhost.run", shell=True, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+def bgtask(command, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL):
+    try:
+        return subprocess.Popen(command, shell=True, stdout=stdout, stderr=stderr)
+    except Exception as e:
+        print(e)
 
-    # Читаем вывод команды SSH и ищем URL
+# Запускаем команду SSH в фоновом режиме
+p = bgtask("ssh -R 80:8080 nokey@localhost.run -T -n")
+
+cf_url = ""
+for i in range(10):
+    # Читаем вывод команды SSH
     output = p.stdout.read().decode('utf-8')
+    # Ищем URL в выводе
     match = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
+    if match:
+        cf_url = match.group(0)
+        break
 
-    # Возвращаем URL или пустую строку, если URL не найден
-    return match.group(0) if match else ""
-
-print(f'\n[~] Ссылка: ')
-url()
+print(f'\n[~] Ссылка: {cf_url}')
