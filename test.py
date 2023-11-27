@@ -9,8 +9,6 @@ from subprocess import DEVNULL, PIPE, Popen, STDOUT
 
 
 def grep(regex):
-    if isfile(target):
-        content = cat(target)
     else:
         content = target
     results = search(regex, content)
