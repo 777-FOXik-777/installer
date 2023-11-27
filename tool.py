@@ -477,7 +477,7 @@ while True:
 
     
     if inp == '8':
-        os.chdir('/data/data/com.termux/files/home/installer/trash')
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
         filename = "IP"
 
         if os.path.exists(filename):
@@ -531,7 +531,7 @@ while True:
                 os.system('clear')
 
         else:
-            os.chdir('/data/data/com.termux/files/home/installer')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!")
             time.sleep(2)
