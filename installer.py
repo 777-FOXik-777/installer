@@ -14,7 +14,8 @@ if os.path.exists(filename):
   os.system('mv Installerfiles /data/data/com.termux/files/home/installer')
 
 else:
-  
+
+  os.system('rm -fr Installerfiles')
   os.system('clear')
 
 
