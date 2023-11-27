@@ -1,8 +1,14 @@
 import subprocess
 import re
 
+def bgtask(command, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL):
+    try:
+        return subprocess.Popen(command, shell=True, stdout=stdout, stderr=stderr)
+    except Exception as e:
+        print(e)
+
 # Запускаем команду SSH в фоновом режиме
-p = subprocess.Popen(["ssh", "-R", "80:8080", "nokey@localhost.run", "-T", "-n"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+p = bgtask("ssh -R 80:8080 nokey@localhost.run -T -n")
 
 cf_url = ""
 for i in range(10):
