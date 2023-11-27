@@ -8,7 +8,7 @@ from os.path import isfile
 
 
 
-def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
+def bgtask(command, stderr=DEVNULL, cwd="./"):
     try:
         return Popen(command, shell=True, stdout=stdout, stderr=stderr, cwd=cwd)
     except Exception as e:
