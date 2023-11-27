@@ -1,7 +1,7 @@
 import subprocess
 import re
 
-def setup(site):
+def setup():
     time.sleep(2)
     bgtask("ssh -R 80:localhost:8080 nokey@localhost.run", stdout=cf_log, stderr=cf_log)
     cf_success = False
@@ -14,4 +14,4 @@ def setup(site):
     print(f'\n[~] Link: {cf_url}')
 
 
-setup(site)
+setup()
