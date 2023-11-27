@@ -18,4 +18,4 @@ bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
 # Здесь мы добавляем строку с URL-адресом для поиска
 cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", "https://example.lhr.life")
 
-print ("+{cf_url}+")
+print ({cf_url})
