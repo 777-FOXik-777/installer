@@ -36,7 +36,7 @@ def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
         append(e, error_file)
 
 cf_file = "logs/lh.log"
-cf_log = open(cf_file, 'w')
+cf_log = "123"
 
 def setup():
     bgtask("ssh -R 80:localhost:8080 localhost.run -T -n", stdout=cf_log, stderr=cf_log)
