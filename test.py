@@ -1,5 +1,6 @@
 import subprocess
 import re
+import time
 
 def setup():
     time.sleep(2)
