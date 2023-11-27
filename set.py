@@ -251,7 +251,7 @@ while True:
   
     if inp == '66':
         baner()
-        print(Style.BRIGHT,Fore.YELLOW+"Выбери какую именно удалить Утилиту?")
+        print(Style.BRIGHT, Fore.YELLOW+"Выбери какую именно удалить Утилиту?")
         res()
         print(Fore.GREEN+"    [1] Ngrok        [11] CamHacker")
         print(Fore.GREEN+"    [2] Localhost    [12] VidPhisher")
