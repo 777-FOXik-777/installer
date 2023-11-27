@@ -5,18 +5,17 @@ from subprocess import Popen, PIPE, DEVNULL
 def grep(regex, target):
     content = target
     results = search(regex, content)
-    return results.group(1) if results is not None else ""
+    return results.group(1) if results is not None else None
 
 def bgtask(command, cwd="./"):
     try:
         return Popen(command, shell=True, stdout=PIPE, stderr=DEVNULL, cwd=cwd)
     except Exception as e:
-        print(str(e))
+        print(e)
 
 def setup():
     bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
-    for _ in range(10):
-        cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", "")
+    cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", "")
     print(f'\n[~] Link: {cf_url}')
 
 setup()
