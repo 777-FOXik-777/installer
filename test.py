@@ -1,11 +1,15 @@
 import subprocess
 import re
+import os
+
+
 
 def get_url():
     command = "ssh -R 80:localhost:8080 nokey@localhost.run"
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
     output, error = process.communicate()
-
+    os.system('clear')
+    
     if error is not None:
         print(f"Произошла ошибка: {error}")
         return None
