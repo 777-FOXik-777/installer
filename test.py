@@ -31,4 +31,4 @@ url = get_url()
 if url is not None:
     print(f'URL: {url}')
 else:
-    print("URL не найден")
+    print(f'URL: {url}')
