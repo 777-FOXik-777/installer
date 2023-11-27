@@ -31,3 +31,5 @@ def get_url(timeout=10):
     return ""
 
 print(f'\n[~] Ссылка: {get_url()}')
+
+get_url(timeout=10)
