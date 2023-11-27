@@ -12,11 +12,14 @@ os.chdir('/data/data/com.termux/files/home/')
 filename = "Installer_Files"
 
 if os.path.exists(filename):
-
+  
+  os.chdir('/data/data/com.termux/files/home/installer')
   os.system('rm -fr Installer_Files')
   os.system('clear')
 
 else:
+
+  os.chdir('/data/data/com.termux/files/home/installer')
   os.system('mv Installer_Files /data/data/com.termux/files/home')
   
 
