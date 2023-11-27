@@ -1,21 +1,23 @@
-import os
-from re import search
-from subprocess import Popen, PIPE, DEVNULL
+import subprocess
+import re
 
-def grep(regex, target):
-    content = target
-    results = search(regex, content)
-    return results.group(1) if results is not None else None
+def get_url():
+    command = "ssh -R 80:localhost:8080 nokey@localhost.run"
+    process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
+    output, error = process.communicate()
 
-def bgtask(command, cwd="./"):
-    try:
-        return Popen(command, shell=True, stdout=PIPE, stderr=DEVNULL, cwd=cwd)
-    except Exception as e:
-        print(e)
+    if error is not None:
+        print(f"Произошла ошибка: {error}")
+        return None
 
-bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
+    url = re.search("(https://[-0-9a-z.]*.lhr.life)", output.decode('utf-8'))
+    if url is not None:
+        return url.group(1)
 
-# Здесь мы добавляем строку с URL-адресом для поиска
-cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", "https://example.lhr.life")
+    return None
 
-print ({cf_url})
+url = get_url()
+if url is not None:
+    print(f'URL: {url}')
+else:
+    print("URL не найден")
