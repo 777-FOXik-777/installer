@@ -8,7 +8,7 @@ from subprocess import DEVNULL, PIPE, Popen, STDOUT
 
 
 
-def grep(regex, target):
+def grep(regex):
     if isfile(target):
         content = cat(target)
     else:
