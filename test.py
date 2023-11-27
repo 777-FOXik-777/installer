@@ -8,8 +8,8 @@ from subprocess import DEVNULL, PIPE, Popen, STDOUT
 
 
 def grep(regex:
-    if isfile():
-        content = cat()
+    if isfile(''):
+        content = cat('')
     else:
         content = target
     results = search(regex, content)
