@@ -9,6 +9,18 @@ from subprocess import DEVNULL, PIPE, Popen, STDOUT
 
 
 
+
+def grep(regex, target):
+    if isfile(target):
+        content = cat(target)
+    else:
+        content = target
+    results = search(regex, content)
+    if results is not None:
+        return results.group(1)
+    return ""
+
+
 def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
     try:
         return Popen(command, shell=True, stdout=stdout, stderr=stderr, cwd=cwd)
