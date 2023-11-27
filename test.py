@@ -38,10 +38,6 @@ def setup():
     cf_success = False
     for i in range(10):
         cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
-        if cf_url != "":
-            cf_success = True
-            break
-        time.sleep(1)
     print(f'\n[~] Link: {cf_url}')
 
 
