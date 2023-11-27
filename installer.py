@@ -7,15 +7,15 @@ print(f'\33]0; Installer - Установка...\a',
 
 
 
-filename = "InstallerFiles"
+filename = "Installer_Files"
 
 if os.path.exists(filename):
   
-  os.system('mv InstallerFiles /data/data/com.termux/files/home')
+  os.system('mv Installer_Files /data/data/com.termux/files/home')
 
 else:
 
-  os.system('rm -fr Installerfiles')
+  os.system('rm -fr Installer_Files')
   os.system('clear')
 
 
