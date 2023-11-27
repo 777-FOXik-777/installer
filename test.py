@@ -14,6 +14,8 @@ def bgtask(command, cwd="./"):
         print(e)
 
 bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
+
 for i in range(10):
-    cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
+    cf_url = grep("(https://[-0-9a-z.]*.lhr.life)")
+
 print ('{cf_url}')
