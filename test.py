@@ -1,43 +1,29 @@
 import os
-import time
-from colorama import Fore
 from re import search
-from os.path import isfile
-from subprocess import DEVNULL, PIPE, Popen, STDOUT
-
-global site
+from subprocess import Popen, PIPE, DEVNULL
 
 def cat(file):
-    if isfile(file):
+    if os.path.isfile(file):
         with open(file, "r") as filedata:
             return filedata.read()
     return ""
 
-error_file = "logs/error.log"
-
 def grep(regex, target):
-    if isfile(target):
-        content = cat(target)
-    else:
-        content = target
+    content = cat(target) if os.path.isfile(target) else target
     results = search(regex, content)
-    if results is not None:
-        return results.group(1)
-    return ""
+    return results.group(1) if results is not None else ""
 
-def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
+def bgtask(command, cwd="./"):
     try:
-        return Popen(command, shell=True, stdout=stdout, stderr=stderr, cwd=cwd)
+        return Popen(command, shell=True, stdout=PIPE, stderr=DEVNULL, cwd=cwd)
     except Exception as e:
-        append(e, error_file)
-
-cf_file = "logs/lh.log"
+        with open("logs/error.log", "a") as error_file:
+            error_file.write(str(e))
 
 def setup():
     bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
-    cf_success = False
-    for i in range(10):
-        cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
+    for _ in range(10):
+        cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", "logs/lh.log")
     print(f'\n[~] Link: {cf_url}')
 
 
