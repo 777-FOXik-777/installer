@@ -7,14 +7,13 @@ import os
 def get_url():
     command = "ssh -R 80:localhost:8080 nokey@localhost.run"
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
-    os.system('clear')
-    
 
     while True:
         output = process.stdout.readline().decode('utf-8')
         if output == '' and process.poll() is not None:
             break
         if output:
+            os.system('clear')
             url = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
             if url is not None:
                 return url.group(1)
