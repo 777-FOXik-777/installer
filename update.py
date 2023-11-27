@@ -7,6 +7,7 @@ os.system('clear')
 print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
+
 os.system('rm -fr /data/data/com.termux/files/home/installer')
 os.system('rm -fr installer')
 os.chdir('/data/data/com.termux/files/home/')
@@ -21,7 +22,29 @@ os.system('rm ~/.bashrc')
 
 filename = "installer"
 
+
+
 if os.path.exists(filename):
+
+
+  
+  os.chdir('/data/data/com.termux/files/home/')
+
+  filename = "Installer_Files"
+  
+  if os.path.exists(filename):
+    
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('rm -fr Installer_Files')
+    os.system('clear')
+
+  
+  else:
+  
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('mv Installer_Files /data/data/com.termux/files/home')
+
+  
   
   print(f'\33]0; Installer - Успешно установлен!\a',
                   end='', flush=True)
