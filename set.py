@@ -92,7 +92,7 @@ while True:
                     end='', flush=True)  
             while True:
                 os.system('clear')
-                print(Fore.YELLOW+"\n ["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
+                print(Fore.YELLOW+"\n["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                 tru_202 = input('')
         else:
             os.system('clear')
