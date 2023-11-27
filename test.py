@@ -7,16 +7,6 @@ from subprocess import DEVNULL, PIPE, Popen, STDOUT
 
 
 
-
-def grep(regex):
-    else:
-        content = target
-    results = search(regex, content)
-    if results is not None:
-        return results.group(1)
-    return ""
-
-
 def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
     try:
         return Popen(command, shell=True, stdout=stdout, stderr=stderr, cwd=cwd)
@@ -29,7 +19,7 @@ def setup():
     bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
     cf_success = False
     for i in range(10):
-        cf_url = grep("https://[-0-9a-z.]*.lhr.life")
+        cf_url = "https://[-0-9a-z.]*.lhr.life"
         if cf_url != "":
             cf_success = True
             break
