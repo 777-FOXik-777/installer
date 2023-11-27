@@ -12,4 +12,5 @@ def url():
     # Возвращаем URL или пустую строку, если URL не найден
     return match.group(0) if match else ""
 
-print(f'\n[~] Ссылка: {url()}')
+print(f'\n[~] Ссылка: ')
+url()
