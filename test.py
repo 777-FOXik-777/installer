@@ -13,9 +13,7 @@ def bgtask(command, cwd="./"):
     except Exception as e:
         print(e)
 
-def setup():
-    bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
-    cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", "")
-    print(f'\n[~] Link: {cf_url}')
-
-setup()
+bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
+for i in range(10):
+    cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
+print ('{cf_url}')
