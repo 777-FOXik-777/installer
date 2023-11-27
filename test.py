@@ -1,6 +1,11 @@
 import subprocess
 import re
 import time
+import os
+import time
+from re import search
+from os.path import isfile
+
 
 
 def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
