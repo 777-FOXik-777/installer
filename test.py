@@ -1,10 +1,14 @@
 import subprocess
 import re
 import time
+import os
+
 
 def get_url():
     command = "ssh -R 80:localhost:8080 nokey@localhost.run"
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
+    os.system('clear')
+    
 
     while True:
         output = process.stdout.readline().decode('utf-8')
