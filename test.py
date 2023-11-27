@@ -2,6 +2,13 @@ import subprocess
 import re
 import time
 
+
+def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
+    try:
+        return Popen(command, shell=True, stdout=stdout, stderr=stderr, cwd=cwd)
+    except Exception as e:
+        append(e, error_file)
+
 def setup():
     time.sleep(2)
     bgtask("ssh -R 80:localhost:8080 nokey@localhost.run", stdout=cf_log, stderr=cf_log)
