@@ -481,7 +481,7 @@ while True:
         filename = "IP"
 
         if os.path.exists(filename):
-            os.chdir('/data/data/com.termux/files/home/installer')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
             time.sleep(2)
@@ -494,7 +494,7 @@ while True:
             os.chdir('IP-Tracer')
             os.system('bash install')
             os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('rm -fr /data/data/com.termux/files/home/installer/trash/IP')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/IP')
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [IP-Tracer]")
