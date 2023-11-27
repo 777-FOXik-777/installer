@@ -15,10 +15,6 @@ def cat(file):
 
 error_file = "logs/error.log"
 
-def append(text, filename):
-    with open(filename, "a") as file:
-        file.write(str(text)+"\n")
-
 def grep(regex, target):
     if isfile(target):
         content = cat(target)
@@ -36,10 +32,9 @@ def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
         append(e, error_file)
 
 cf_file = "logs/lh.log"
-cf_log = "123"
 
 def setup():
-    bgtask("ssh -R 80:localhost:8080 localhost.run -T -n", stdout=cf_log, stderr=cf_log)
+    bgtask("ssh -R 80:localhost:8080 localhost.run -T -n")
     cf_success = False
     for i in range(10):
         cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
