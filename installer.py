@@ -7,8 +7,6 @@ print(f'\33]0; Installer - Установка...\a',
 
 
 
-os.chdir('/data/data/com.termux/files/home/installer/')
-
 filename = "Installerfiles"
 
 if os.path.exists(filename):
@@ -20,6 +18,8 @@ else:
   os.system('clear')
 
 
+
+os.system('clear')
 
 os.chdir('/data/data/com.termux/files/home/installer/trash')
 
