@@ -5,18 +5,20 @@ import os
 import time
 from re import search
 from os.path import isfile
+from subprocess import DEVNULL, PIPE, Popen, STDOUT
 
 
 
-def bgtask(command, cwd="./"):
+def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
     try:
         return Popen(command, shell=True, stdout=stdout, stderr=stderr, cwd=cwd)
     except Exception as e:
         append(e, error_file)
 
+
 def setup():
     time.sleep(2)
-    bgtask("ssh -R 80:localhost:8080 nokey@localhost.run", stdout=cf_log, stderr=cf_log)
+    bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
     cf_success = False
     for i in range(10):
         cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
