@@ -1,23 +1,33 @@
 import subprocess
 import re
+import select
+import time
 
-def bgtask(command, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL):
+def get_url(timeout=10):
+    # Запускаем команду SSH в фоновом режиме
     try:
-        return subprocess.Popen(command, shell=True, stdout=stdout, stderr=stderr)
+        p = subprocess.Popen("ssh -R 80:8080 nokey@localhost.run -T -n", shell=True, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
     except Exception as e:
-        print(e)
+        print(f"Ошибка при запуске команды SSH: {e}")
+        return ""
 
-# Запускаем команду SSH в фоновом режиме
-p = bgtask("ssh -R 80:8080 nokey@localhost.run -T -n")
+    # Читаем вывод команды SSH и ищем URL
+    start_time = time.time()
+    while True:
+        # Проверяем, не истекло ли время ожидания
+        if time.time() - start_time > timeout:
+            print("Время ожидания истекло")
+            return ""
 
-cf_url = ""
-for i in range(10):
-    # Читаем вывод команды SSH
-    output = p.stdout.read().decode('utf-8')
-    # Ищем URL в выводе
-    match = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
-    if match:
-        cf_url = match.group(0)
-        break
+        # Читаем из stdout, если есть что читать
+        if select.select([p.stdout], [], [], 0.0)[0]:
+            output = p.stdout.read().decode('utf-8')
+            match = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
 
-print(f'\n[~] Ссылка: {cf_url}')
+            # Возвращаем URL или продолжаем ожидание, если URL не найден
+            if match:
+                return match.group(0)
+
+    return ""
+
+print(f'{get_url()}')
