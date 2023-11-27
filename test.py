@@ -1,33 +1,16 @@
-import os
-import signal
 import subprocess
 import re
-import time
-
-def signal_handler(signal, frame):
-    print('Вы нажали Ctrl+C!')
-    if process:
-        process.terminate()
-    sys.exit(0)
-
-signal.signal(signal.SIGINT, signal_handler)
-
-process = None
 
 def get_url():
-    global process
     command = "ssh -R 80:localhost:8080 nokey@localhost.run"
-    process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
+    process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
 
     while True:
         output = process.stdout.readline().decode('utf-8')
-        if output == '' and process.poll() is not None:
-            break
-        if output:
-            os.system('clear')
-            url = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
+        url = re.search("(https://[-0-9a-z.]*.lhr.life)", output)
+        if url is not None:
+            process.terminate()
+            return url.group(1)
 
-            if url is not None:
-                print(f'URL: {url}')
-            else:
-                print("URL не найден")
+url = get_url()
+print(f'URL: {url}' if url else "URL не найден")
