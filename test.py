@@ -2,11 +2,6 @@ import os
 from re import search
 from subprocess import Popen, PIPE, DEVNULL
 
-def grep(regex, target):
-    content = target
-    results = search(regex, content)
-    return results.group(1) if results is not None else None
-
 def bgtask(command, cwd="./"):
     try:
         return Popen(command, shell=True, stdout=PIPE, stderr=DEVNULL, cwd=cwd)
