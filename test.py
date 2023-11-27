@@ -1,10 +1,21 @@
+import os
+import signal
 import subprocess
 import re
 import time
-import os
 
+def signal_handler(signal, frame):
+    print('Вы нажали Ctrl+C!')
+    if process:
+        process.terminate()
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
+
+process = None
 
 def get_url():
+    global process
     command = "ssh -R 80:localhost:8080 nokey@localhost.run"
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE)
 
@@ -26,4 +37,3 @@ if url is not None:
     print(f'URL: {url}')
 else:
     print("URL не найден")
-
