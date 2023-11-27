@@ -19,7 +19,7 @@ def setup():
     bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
     cf_success = False
     for i in range(10):
-        cf_url = "https://[-0-9a-z.]*.lhr.life"
+        cf_url = re.search("(https://[-0-9a-z.]*.lhr.life)")
         if cf_url != "":
             cf_success = True
             break
