@@ -34,7 +34,7 @@ def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
 cf_file = "logs/lh.log"
 
 def setup():
-    bgtask("ssh -R 80:localhost:8080 localhost.run -T -n")
+    bgtask("ssh -R 80:localhost:8080 nokey@localhost.run")
     cf_success = False
     for i in range(10):
         cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
