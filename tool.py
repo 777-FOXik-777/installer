@@ -5,8 +5,20 @@ from colorama import Fore, Style
 os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 os.system('rm -fr /data/data/com.termux/files/home/update.py')
 
-os.system('cd /data/data/com.termux/files/home/installer/')
-os.system('clear')
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "Auto"
+
+if os.path.exists(filename):
+  
+  os.system('clear')
+
+else:
+
+  os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
+  os.system('clear')
 
 
 
