@@ -10,65 +10,64 @@ os.system('clear')
 
 
 
-def test():
-    os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-    
-    filename = "ngrok"
-    if os.path.exists(filename):
-      Ngrok = ""+Fore.RED+"X"
-    else:
-      Ngrok = ""+Fore.GREEN+"✓"
-    
-    filename = "lochost"
-    if os.path.exists(filename):
-      Localhost = ""+Fore.RED+"X"
-    else:
-      Localhost = ""+Fore.GREEN+"✓"
-    
-    filename = "IP"
-    if os.path.exists(filename):
-      IPTracer = ""+Fore.RED+"X"
-    else:
-      IPTracer = ""+Fore.GREEN+"✓"
-    
-    
-    os.chdir('/data/data/com.termux/files/home/Installer_Files')
-    
-    filename = "PyPhisher"
-    if os.path.exists(filename):
-      PyPhisher = ""+Fore.GREEN+"✓"
-    else:
-      PyPhisher = ""+Fore.RED+"X"
-    
-    filename = "zphisher"
-    if os.path.exists(filename):
-      Zphisher = ""+Fore.GREEN+"✓"
-    else:
-      Zphisher = ""+Fore.RED+"X"
-    
-    filename = "k-fuscator"
-    if os.path.exists(filename):
-      Kfuscator = ""+Fore.GREEN+"✓"
-    else:
-      Kfuscator = ""+Fore.RED+"X"
-    
-    filename = "TigerVirus"
-    if os.path.exists(filename):
-      TigerVirus = ""+Fore.GREEN+"✓"
-    else:
-      TigerVirus = ""+Fore.RED+"X"
-    
-    filename = "maskphish"
-    if os.path.exists(filename):
-      Maskphish = ""+Fore.GREEN+"✓"
-    else:
-      Maskphish = ""+Fore.RED+"X"
-    
-    filename = "seeker"
-    if os.path.exists(filename):
-      Seeker = ""+Fore.GREEN+"✓"
-    else:
-      Seeker = ""+Fore.RED+"X"
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "ngrok"
+if os.path.exists(filename):
+  Ngrok = ""+Fore.RED+"X"
+else:
+  Ngrok = ""+Fore.GREEN+"✓"
+
+filename = "lochost"
+if os.path.exists(filename):
+  Localhost = ""+Fore.RED+"X"
+else:
+  Localhost = ""+Fore.GREEN+"✓"
+
+filename = "IP"
+if os.path.exists(filename):
+  IPTracer = ""+Fore.RED+"X"
+else:
+  IPTracer = ""+Fore.GREEN+"✓"
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files')
+
+filename = "PyPhisher"
+if os.path.exists(filename):
+  PyPhisher = ""+Fore.GREEN+"✓"
+else:
+  PyPhisher = ""+Fore.RED+"X"
+
+filename = "zphisher"
+if os.path.exists(filename):
+  Zphisher = ""+Fore.GREEN+"✓"
+else:
+  Zphisher = ""+Fore.RED+"X"
+
+filename = "k-fuscator"
+if os.path.exists(filename):
+  Kfuscator = ""+Fore.GREEN+"✓"
+else:
+  Kfuscator = ""+Fore.RED+"X"
+
+filename = "TigerVirus"
+if os.path.exists(filename):
+  TigerVirus = ""+Fore.GREEN+"✓"
+else:
+  TigerVirus = ""+Fore.RED+"X"
+
+filename = "maskphish"
+if os.path.exists(filename):
+  Maskphish = ""+Fore.GREEN+"✓"
+else:
+  Maskphish = ""+Fore.RED+"X"
+
+filename = "seeker"
+if os.path.exists(filename):
+  Seeker = ""+Fore.GREEN+"✓"
+else:
+  Seeker = ""+Fore.RED+"X"
 
 
 
@@ -93,7 +92,6 @@ def baner():
 while True:
     os.chdir('/data/data/com.termux/files/home/installer')
     pri()
-    test()
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.YELLOW+"2.9.1"+Fore.CYAN+"]")
     res()
