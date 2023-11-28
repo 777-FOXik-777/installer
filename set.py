@@ -442,7 +442,7 @@ while True:
 
           if tsu_501 == '15':
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
-              led = "Discord-Nitro-Generator-and-Checker"
+              led = "Discord"
               Discord = "X"
               delet()
 
@@ -460,6 +460,23 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
+              PyPhisher = "X"
+              Zphisher = "X"
+              Kfuscator = "X"
+              TigerVirus = "X"
+              Maskphish = "X"
+              Seeker = "X"
+              CamHacker = "X"
+              VidPhisher = "X"
+              Telephish = "X"
+              Dnnme2 = "X"
+              Discord = "X"
+
+              baner()
+              print(Fore.YELLOW+" Все Утилиты успешно удалены!")
+              res()
+              del_tool = input(' [Нажмите enter чтобы выйти]')
+              os.system('clear')
 
 
           if tsu_501 == 'e':
