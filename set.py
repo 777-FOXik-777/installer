@@ -77,6 +77,7 @@ while True:
 
         if tru_101 == '1':
             os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
             os.system('clear')
             baner()
             res()
@@ -87,6 +88,7 @@ while True:
             
         if tru_101 == '2':
             os.system('rm ~/.bashrc')
+            os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
             os.system('clear')
             baner()
             res()
