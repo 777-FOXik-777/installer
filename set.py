@@ -7,8 +7,20 @@ os.system('clear')
 print(f'\33]0; Installer - Настройки\a',
                   end='', flush=True)
 
+
+delet = "empty"
+
+def delet():
+    baner()
+    print("Утилита "+delet+" успешно удалена!")
+    del_tool = input('\n [Нажмите enter чтобы выйти]')
+    os.system('clear')
+
+
 def res():
     print(Style.RESET_ALL)
+
+
 
 def baner():
     os.system('clear')
