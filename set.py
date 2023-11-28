@@ -246,7 +246,13 @@ while True:
           Discord = ""+Fore.GREEN+"✓"
         else:
           Discord = ""+Fore.RED+"X"
-      
+
+        filename = "shorturl"
+        if os.path.exists(filename):
+          ShortUrl = ""+Fore.GREEN+"✓"
+        else:
+          ShortUrl = ""+Fore.RED+"X"
+
       
         while True:
           baner()
@@ -257,7 +263,7 @@ while True:
           print(Fore.YELLOW+"    [3] PyPhiser     ("+PyPhisher+""+Fore.YELLOW+")  [13] Telephish      ("+Telephish+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+""+Fore.YELLOW+")  [14] Dnnme2         ("+Dnnme2+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [5] K-fuscator   ("+Kfuscator+""+Fore.YELLOW+")  [15] Discord        ("+Discord+""+Fore.YELLOW+")")
-          print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  ")
+          print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  [16] ShortUrl       ("+ShortUrl+""+Fore.GREEN+")")
           print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [8] IP-Tracer    ("+IPTracer+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [9] Seeker       ("+Seeker+""+Fore.YELLOW+")  ")
@@ -371,7 +377,13 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
               Discord = ""+Fore.RED+"X"
 
-
+          if tsu_501 == '16':
+              filename = "shorturl"
+              led = "ShortUrl"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
+              ShortUrl = ""+Fore.RED+"X"
+            
           
           if tsu_501 == 'a':
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
@@ -386,6 +398,7 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
               PyPhisher = ""+Fore.RED+"X"
               Zphisher = ""+Fore.RED+"X"
               Kfuscator = ""+Fore.RED+"X"
@@ -397,6 +410,7 @@ while True:
               Telephish = ""+Fore.RED+"X"
               Dnnme2 = ""+Fore.RED+"X"
               Discord = ""+Fore.RED+"X"
+              ShortUrl = ""+Fore.RED+"X"
 
               baner()
               print(Fore.YELLOW+" Утилиты успешно удалены! \n (Кроме: Ngrok, Localhost и IP-Tracer)")
