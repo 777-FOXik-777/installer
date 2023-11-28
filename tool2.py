@@ -43,6 +43,12 @@ if os.path.exists(filename):
 else:
   Discord = ""+Fore.RED+"X"
 
+filename = "shorturl"
+if os.path.exists(filename):
+  ShortUrl = ""+Fore.GREEN+"✓"
+else:
+  ShortUrl = ""+Fore.RED+"X"
+
 
 
 def res():
@@ -70,6 +76,7 @@ while True:
     print(Fore.GREEN+"    [13] Telephish  ("+Telephish+""+Fore.GREEN+")  >>  Фишинг в тг (1)")
     print(Fore.GREEN+"    [14] Dnnme2     ("+Dnnme2+""+Fore.GREEN+")  >>  Фишинг в тг (2)")
     print(Fore.GREEN+"    [15] Discord    ("+Discord+""+Fore.GREEN+")  >>  Генератор Nitro")
+    print(Fore.GREEN+"    [16] ShortUrl   ("+ShortUrl+""+Fore.GREEN+")  >>  Сокращение ссылок")
     res()
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
@@ -403,7 +410,7 @@ while True:
             res()
             os.system('git clone https://github.com/htr-tech/shorturl')
             os.chdir('shorturl')
-            CamHacker = ""+Fore.GREEN+"✓"
+            ShortUrl = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('bash setup.sh')
             os.system('ShortUrl')
