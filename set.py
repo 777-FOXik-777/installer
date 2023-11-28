@@ -268,24 +268,24 @@ while True:
         filename = "PyPhisher"
 
         if os.path.exists(filename):
-          PyPhisher = '"+Fore.GREEN+"/'
+          PyPhisher = '+Fore.GREEN+'
 
       
         while True:
           baner()
-          print(Style.BRIGHT, Fore.YELLOW+"Выбери какую именно удалить Утилиту?")
+          print(Style.BRIGHT, Fore.CYAN+"Выбери какую именно удалить Утилиту?")
           res()
-          print(Fore.GREEN+"    [1] Ngrok        ()  [11] CamHacker      ()")
-          print(Fore.GREEN+"    [2] Localhost    ("+PyPhisher+")  [12] VidPhisher     ()")
-          print(Fore.GREEN+"    [3] PyPhiser     ()  [13] Telephish      ()")
-          print(Fore.GREEN+"    [4] Zphisher     ()  [14] Dnnme2         ()")
-          print(Fore.GREEN+"    [5] K-fuscator   ()  [15] Discord        ()")
-          print(Fore.GREEN+"    [6] TigerVirus   ()  ")
-          print(Fore.GREEN+"    [7] Maskphish    ()  ")
-          print(Fore.GREEN+"    [8] IP-Tracer    ()  ")
-          print(Fore.GREEN+"    [9] Seeker")
+          print(Fore.YELLOW+"    [1] Ngrok        ()  [11] CamHacker      ()")
+          print(Fore.YELLOW+"    [2] Localhost    ("+PyPhisher+")  [12] VidPhisher     ()")
+          print(Fore.YELLOW+"    [3] PyPhiser     ()  [13] Telephish      ()")
+          print(Fore.YELLOW+"    [4] Zphisher     ()  [14] Dnnme2         ()")
+          print(Fore.YELLOW+"    [5] K-fuscator   ()  [15] Discord        ()")
+          print(Fore.YELLOW+"    [6] TigerVirus   ()  ")
+          print(Fore.YELLOW+"    [7] Maskphish    ()  ")
+          print(Fore.YELLOW+"    [8] IP-Tracer    ()  ")
+          print(Fore.YELLOW+"    [9] Seeker")
           res()
-          print(Fore.YELLOW+"    [s] Выбрать все утилиты")
+          print(Fore.RED+"    [s] Выбрать все утилиты")
           print(Fore.YELLOW+"    [e] Выход")
           res()
           tsu_501 = input('  Выбери пункт>>> ')
