@@ -275,7 +275,7 @@ while True:
       
         while True:
           baner()
-          print(Style.BRIGHT, Fore.CYAN+"Выбери какую именно удалить Утилиту?")
+          print(Style.BRIGHT, Fore.CYAN+"   Выбери какую именно удалить Утилиту?")
           res()
           print(Fore.YELLOW+"    [1] Ngrok        ()  [11] CamHacker      ()")
           print(Fore.YELLOW+"    [2] Localhost    ()  [12] VidPhisher     ()")
@@ -287,7 +287,8 @@ while True:
           print(Fore.YELLOW+"    [8] IP-Tracer    ()  ")
           print(Fore.YELLOW+"    [9] Seeker")
           res()
-          print(Fore.RED+"    [s] Выбрать все утилиты")
+          print(Fore.RED+"    [a] Выбрать все утилиты")
+          res()
           print(Fore.YELLOW+"    [e] Выход")
           res()
           tsu_501 = input('  Выбери пункт>>> ')
