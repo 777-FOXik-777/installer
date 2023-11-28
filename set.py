@@ -36,6 +36,7 @@ def delet():
 
 
 while True:
+     os.chdir('/data/data/com.termux/files/home/installer')
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Github.com/777-FOXik-777/installer]        ["+Fore.YELLOW+"Настройки"+Fore.CYAN+"]")
     res()
