@@ -27,10 +27,11 @@ def baner():
 
 
 def delet():
-    os.system(f'rm -fr /data/data/com.termux/files/home/installer/{led}')
+    os.system('rm -fr /data/data/com.termux/files/home/installer/'+led+'')
     baner()
     print(Fore.YELLOW+" Утилита "+led+" успешно удалена!")
-    del_tool = input('\n [Нажмите enter чтобы выйти]')
+    res()
+    del_tool = input(' [Нажмите enter чтобы выйти]')
     os.system('clear')
 
 
