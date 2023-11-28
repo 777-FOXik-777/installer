@@ -27,6 +27,7 @@ def baner():
     res()
     
 while True:
+    os.chdir('/data/data/com.termux/files/home/installer')
     pri()
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.YELLOW+"2.9.1"+Fore.CYAN+"]")
@@ -52,11 +53,11 @@ while True:
     
         
     if inp == '1':
-        os.chdir('/data/data/com.termux/files/home/installer/trash')
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
         filename = "ngrok"
 
         if os.path.exists(filename):
-            os.chdir('/data/data/com.termux/files/home/installer')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
             time.sleep(2) 
@@ -120,7 +121,7 @@ while True:
                 os.system('clear')
 
         else:
-            os.chdir('/data/data/com.termux/files/home/installer')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Ngrok уже установлен!")
             time.sleep(2)
@@ -176,11 +177,11 @@ while True:
 
     
     if inp == '2':
-        os.chdir('/data/data/com.termux/files/home/installer/trash')
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
         filename = "lochost"
 
         if os.path.exists(filename):
-            os.chdir('/data/data/com.termux/files/home/installer')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
             time.sleep(2) 
@@ -239,7 +240,7 @@ while True:
                 os.system('clear')
                 
         else:
-            os.chdir('/data/data/com.termux/files/home/installer')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Localhost уже установлен!")
             time.sleep(2)
