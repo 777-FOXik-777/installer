@@ -277,90 +277,90 @@ while True:
 
         filename = "ngrok"
         if os.path.exists(filename):
-          Ngrok = "X"
+          Ngrok = ""+Fore.RED+"X"
         else:
           Ngrok = ""+Fore.GREEN+"✓"
 
         filename = "lochost"
         if os.path.exists(filename):
-          Localhost = "X"
+          Localhost = ""+Fore.RED+"X"
         else:
-          Localhost = "✓"
+          Localhost = ""+Fore.GREEN+"✓"
       
         filename = "IP"
         if os.path.exists(filename):
-          IPTracer = "X"
+          IPTracer = ""+Fore.RED+"X"
         else:
-          IPTracer = "✓"
+          IPTracer = ""+Fore.GREEN+"✓"
 
       
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
       
         filename = "PyPhisher"
         if os.path.exists(filename):
-          PyPhisher = "✓"
+          PyPhisher = ""+Fore.GREEN+"✓"
         else:
-          PyPhisher = "X"
+          PyPhisher = ""+Fore.RED+"X"
 
         filename = "zphisher"
         if os.path.exists(filename):
-          Zphisher = "✓"
+          Zphisher = ""+Fore.GREEN+"✓"
         else:
-          Zphisher = "X"
+          Zphisher = ""+Fore.RED+"X"
 
         filename = "k-fuscator"
         if os.path.exists(filename):
-          Kfuscator = "✓"
+          Kfuscator = ""+Fore.GREEN+"✓"
         else:
-          Kfuscator = "X"
+          Kfuscator = ""+Fore.RED+"X"
 
         filename = "TigerVirus"
         if os.path.exists(filename):
-          TigerVirus = "✓"
+          TigerVirus = ""+Fore.GREEN+"✓"
         else:
-          TigerVirus = "X"
+          TigerVirus = ""+Fore.RED+"X"
 
         filename = "maskphish"
         if os.path.exists(filename):
-          Maskphish = "✓"
+          Maskphish = ""+Fore.GREEN+"✓"
         else:
-          Maskphish = "X"
+          Maskphish = ""+Fore.RED+"X"
 
         filename = "seeker"
         if os.path.exists(filename):
-          Seeker = "✓"
+          Seeker = ""+Fore.GREEN+"✓"
         else:
-          Seeker = "X"
+          Seeker = ""+Fore.RED+"X"
 
         filename = "CamHacker"
         if os.path.exists(filename):
-          CamHacker = "✓"
+          CamHacker = ""+Fore.GREEN+"✓"
         else:
-          CamHacker = "X"
+          CamHacker = ""+Fore.RED+"X"
 
         filename = "VidPhisher"
         if os.path.exists(filename):
-          VidPhisher = "✓"
+          VidPhisher = ""+Fore.GREEN+"✓"
         else:
-          VidPhisher = "X"
+          VidPhisher = ""+Fore.RED+"X"
 
         filename = "Telephish"
         if os.path.exists(filename):
-          Telephish = "✓"
+          Telephish = ""+Fore.GREEN+"✓"
         else:
-          Telephish = "X"
+          Telephish = ""+Fore.RED+"X"
 
         filename = "Dnnme2"
         if os.path.exists(filename):
-          Dnnme2 = "✓"
+          Dnnme2 = ""+Fore.GREEN+"✓"
         else:
-          Dnnme2 = "X"
+          Dnnme2 = ""+Fore.RED+"X"
 
         filename = "Discord-Nitro-Generator-and-Checker"
         if os.path.exists(filename):
-          Discord = "✓"
+          Discord = ""+Fore.GREEN+"✓"
         else:
-          Discord = "X"
+          Discord = ""+Fore.RED+"X"
       
       
         while True:
