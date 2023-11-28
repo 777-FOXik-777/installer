@@ -264,6 +264,27 @@ while True:
 
   
     if inp == '55':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+        filename = "ngrok"
+        if os.path.exists(filename):
+          Ngrok = "✓"
+        else:
+          Ngrok = "X"
+
+        filename = "lochost"
+        if os.path.exists(filename):
+          Localhost = "✓"
+        else:
+          Localhost = "X"
+      
+        filename = "IP"
+        if os.path.exists(filename):
+          IPTracer = "✓"
+        else:
+          IPTracer = "X"
+
+      
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
       
         filename = "PyPhisher"
@@ -337,15 +358,15 @@ while True:
           baner()
           print(Style.BRIGHT, Fore.CYAN+"   Выбери какую именно удалить Утилиту?")
           res()
-          print(Fore.YELLOW+"    [1] Ngrok        ("+Fore.YELLOW+")  [11] CamHacker      ("+CamHacker+""+Fore.YELLOW+")")
-          print(Fore.YELLOW+"    [2] Localhost    ("+Fore.YELLOW+")  [12] VidPhisher     ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Fore.YELLOW+"    [3] PyPhiser     ("+PyPhisher+""+Fore.YELLOW+")  [13] Telephish      ("+Telephish+""+Fore.YELLOW+"")
+          print(Fore.YELLOW+"    [1] Ngrok        ("+Ngrok+""+Fore.YELLOW+")  [11] CamHacker      ("+CamHacker+""+Fore.YELLOW+")")
+          print(Fore.YELLOW+"    [2] Localhost    ("+Localhost+""+Fore.YELLOW+")  [12] VidPhisher     ("+VidPhisher+""+Fore.YELLOW+")")
+          print(Fore.YELLOW+"    [3] PyPhiser     ("+PyPhisher+""+Fore.YELLOW+")  [13] Telephish      ("+Telephish+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+""+Fore.YELLOW+")  [14] Dnnme2         ("+Dnnme2+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [5] K-fuscator   ("+Kfuscator+""+Fore.YELLOW+")  [15] Discord        ("+Discord+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  ")
-          print(Fore.YELLOW+"    [8] IP-Tracer    ("+Seeker+""+Fore.YELLOW+")  ")
-          print(Fore.YELLOW+"    [9] Seeker")
+          print(Fore.YELLOW+"    [8] IP-Tracer    ("+IPTracer+""+Fore.YELLOW+")  ")
+          print(Fore.YELLOW+"    [9] Seeker    ("+Seeker+""+Fore.YELLOW+")  ")
           res()
           print(Fore.RED+"    [a] Выбрать все утилиты")
           res()
