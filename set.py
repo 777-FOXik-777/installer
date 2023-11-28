@@ -28,7 +28,7 @@ def baner():
 
 def delet():
     baner()
-    print(Fore.YELLOW+" Утилита "Fore.CYAN+""+led+""+Fore.YELLOW+" успешно удалена!")
+    print(Fore.YELLOW+" Утилита "+led+" успешно удалена!")
     res()
     del_tool = input(' [Нажмите enter чтобы выйти]')
     os.system('clear')
