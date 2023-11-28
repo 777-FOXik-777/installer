@@ -45,6 +45,7 @@ while True:
 
 
     if inp == '11':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "CamHacker"
 
         if os.path.exists(filename):
@@ -81,6 +82,7 @@ while True:
 
 
     if inp == '12':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "VidPhisher"
 
         if os.path.exists(filename):
@@ -117,6 +119,7 @@ while True:
 
 
     if inp == '13':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "Telephish"
 
         if os.path.exists(filename):
@@ -182,6 +185,7 @@ while True:
 
 
     if inp == '14':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "Dnnme2"
 
         if os.path.exists(filename):
@@ -263,6 +267,7 @@ while True:
 
   
     if inp == '15':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "Discord-Nitro-Generator-and-Checker"
 
         if os.path.exists(filename):
