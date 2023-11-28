@@ -367,7 +367,7 @@ while True:
           print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [8] IP-Tracer    ("+IPTracer+""+Fore.YELLOW+")  ")
-          print(Fore.YELLOW+"    [9] Seeker    ("+Seeker+""+Fore.YELLOW+")  ")
+          print(Fore.YELLOW+"    [9] Seeker       ("+Seeker+""+Fore.YELLOW+")  ")
           res()
           print(Fore.RED+"    [a] Выбрать все утилиты")
           res()
