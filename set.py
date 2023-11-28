@@ -11,7 +11,7 @@ print(f'\33]0; Installer - Настройки\a',
 delet = "empty"
 
 def delet():
-    os.system("rm -fr /data/data/com.termux/files/home/{delet}")
+    os.system(f'rm -fr /data/data/com.termux/files/home/{delet}')
     baner()
     print("Утилита "+delet+" успешно удалена!")
     del_tool = input('\n [Нажмите enter чтобы выйти]')
