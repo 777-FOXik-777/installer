@@ -268,9 +268,9 @@ while True:
         filename = "PyPhisher"
 
         if os.path.exists(filename):
-          PyPhisher = "?"
+          PyPhisher = "✓"
         else:
-          PyPhisher = "/"
+          PyPhisher = "X"
 
       
         while True:
@@ -294,12 +294,17 @@ while True:
           tsu_501 = input('  Выбери пункт>>> ')
           os.system('clear')
 
+
+
+          
           
           if tsu_501 == '3':
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
               led = "PyPhish"
+              PyPhisher = "X"
               delet()
 
+          
 
 
           
