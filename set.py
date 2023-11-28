@@ -400,7 +400,7 @@ while True:
               del_tool = input(' [Нажмите enter чтобы выйти]')
               os.system('clear')
 
-          if tsu_501 == '3':
+          if tsu_501 == '8':
               baner()
               print(Fore.YELLOW+" Не возмжно удалить IP-Tracer! \n (Так как он устанавливается напримую в Termux)")
               res()
