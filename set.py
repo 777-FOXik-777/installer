@@ -396,17 +396,17 @@ while True:
 
           
           if tsu_501 == 'a':
-              os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/maskphish')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/seeker')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/CamPhish')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/zphisher')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/TigerVirus')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/CamHacker')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/VidPhisher')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/Telephish')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/Dnnme2')
-              os.system('rm -fr /data/data/com.termux/files/home/installer/Discord-Nitro-Generator-and-Checker')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamPhish')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
 
 
           if tsu_501 == 'e':
