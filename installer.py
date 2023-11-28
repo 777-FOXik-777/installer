@@ -26,7 +26,7 @@ else:
 
 os.system('clear')
 
-os.chdir('/data/data/com.termux/files/home/installer/trash')
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
 filename = "tg_SYPEXHACK"
 
