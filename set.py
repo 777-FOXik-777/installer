@@ -264,12 +264,19 @@ while True:
 
   
     if inp == '55':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "PyPhisher"
+
+        if os.path.exists(filename):
+          PyPhisher = '"+Fore.GREEN+"/'
+
+      
         while True:
           baner()
           print(Style.BRIGHT, Fore.YELLOW+"Выбери какую именно удалить Утилиту?")
           res()
           print(Fore.GREEN+"    [1] Ngrok        ()  [11] CamHacker      ()")
-          print(Fore.GREEN+"    [2] Localhost    ()  [12] VidPhisher     ()")
+          print(Fore.GREEN+"    [2] Localhost    ("+PyPhisher+")  [12] VidPhisher     ()")
           print(Fore.GREEN+"    [3] PyPhiser     ()  [13] Telephish      ()")
           print(Fore.GREEN+"    [4] Zphisher     ()  [14] Dnnme2         ()")
           print(Fore.GREEN+"    [5] K-fuscator   ()  [15] Discord        ()")
