@@ -285,7 +285,8 @@ while True:
 
           
           if tsu_501 == '3':
-
+              delet = "PyPhiser"
+              delet()
 
 
           
