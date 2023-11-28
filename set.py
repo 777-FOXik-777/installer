@@ -414,77 +414,77 @@ while True:
               led = "PyPhish"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
-              PyPhisher = "X"
+              PyPhisher = ""+Fore.RED+"X"
 
           if tsu_501 == '4':
               filename = "zphisher"
               led = "Zphisher"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
-              Zphisher = "X"
+              Zphisher = ""+Fore.RED+"X"
 
           if tsu_501 == '5':
               filename = "k-fuscator"
               led = "K-fuscator"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
-              Kfuscator = "X"
+              Kfuscator = ""+Fore.RED+"X"
 
           if tsu_501 == '6':
               filename = "TigerVirus"
               led = "TigerVirus"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
-              TigerVirus = "X"
+              TigerVirus = ""+Fore.RED+"X"
 
           if tsu_501 == '7':
               filename = "maskphish"
               led = "Maskphish"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
-              Maskphish = "X"
+              Maskphish = ""+Fore.RED+"X"
 
           if tsu_501 == '9':
               filename = "seeker"
               led = "Seeker"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
-              Seeker = "X"
+              Seeker = ""+Fore.RED+"X"
 
           if tsu_501 == '11':
               filename = "CamHacker"
               led = "CamHacker"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
-              CamHacker = "X"
+              CamHacker = ""+Fore.RED+"X"
 
           if tsu_501 == '12':
               filename = "VidPhisher"
               led = "VidPhisher"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
-              VidPhisher = "X"
+              VidPhisher = ""+Fore.RED+"X"
 
           if tsu_501 == '13':
               filename = "Telephish"
               led = "Telephish"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
-              Telephish = "X"
+              Telephish = ""+Fore.RED+"X"
 
           if tsu_501 == '14':
               filename = "Dnnme2"
               led = "Dnnme2"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
-              Dnnme2 = "X"
+              Dnnme2 = ""+Fore.RED+"X"
 
           if tsu_501 == '15':
               filename = "Discord-Nitro-Generator-and-Checker"
               led = "Discord"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
-              Discord = "X"
+              Discord = ""+Fore.RED+"X"
 
 
           
