@@ -9,10 +9,10 @@ os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
 
-os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
 
 def test():
+    os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+    
     filename = "ngrok"
     if os.path.exists(filename):
       Ngrok = ""+Fore.RED+"X"
