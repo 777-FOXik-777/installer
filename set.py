@@ -268,21 +268,21 @@ while True:
 
         filename = "ngrok"
         if os.path.exists(filename):
-          Ngrok = "✓"
-        else:
           Ngrok = "X"
+        else:
+          Ngrok = "✓"
 
         filename = "lochost"
         if os.path.exists(filename):
-          Localhost = "✓"
-        else:
           Localhost = "X"
+        else:
+          Localhost = "✓"
       
         filename = "IP"
         if os.path.exists(filename):
-          IPTracer = "✓"
-        else:
           IPTracer = "X"
+        else:
+          IPTracer = "✓"
 
       
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
