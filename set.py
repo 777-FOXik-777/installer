@@ -378,6 +378,27 @@ while True:
 
 
 
+          if tsu_501 == '1':
+              baner()
+              print(Fore.YELLOW+" Не возмжно удалить Ngrok! \n (Так как он устанавливается напримую в Termux)")
+              res()
+              del_tool = input(' [Нажмите enter чтобы выйти]')
+              os.system('clear')
+          
+          if tsu_501 == '2':
+              baner()
+              print(Fore.YELLOW+" Не возмжно удалить Localhost! \n (Так как он устанавливается напримую в Termux)")
+              res()
+              del_tool = input(' [Нажмите enter чтобы выйти]')
+              os.system('clear')
+
+          if tsu_501 == '3':
+              baner()
+              print(Fore.YELLOW+" Не возмжно удалить IP-Tracer! \n (Так как он устанавливается напримую в Termux)")
+              res()
+              del_tool = input(' [Нажмите enter чтобы выйти]')
+              os.system('clear')
+
           
           
           if tsu_501 == '3':
