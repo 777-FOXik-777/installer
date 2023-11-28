@@ -8,16 +8,6 @@ print(f'\33]0; Installer - Настройки\a',
                   end='', flush=True)
 
 
-delet = "empty"
-
-def delet():
-    os.system(f'rm -fr /data/data/com.termux/files/home/installer/{delet}')
-    baner()
-    print(Fore.YELLOW+"Утилита "+delet+" успешно удалена!")
-    del_tool = input('\n [Нажмите enter чтобы выйти]')
-    os.system('clear')
-
-
 def res():
     print(Style.RESET_ALL)
 
@@ -33,7 +23,20 @@ def baner():
     print("  | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
     print(" |___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     res()
-    
+
+
+
+delet = "empty"
+
+def delet():
+    os.system(f'rm -fr /data/data/com.termux/files/home/installer/{delet}')
+    baner()
+    print(Fore.YELLOW+"Утилита "+delet+" успешно удалена!")
+    del_tool = input('\n [Нажмите enter чтобы выйти]')
+    os.system('clear')
+
+
+
 while True:
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Github.com/777-FOXik-777/installer]        ["+Fore.YELLOW+"Настройки"+Fore.CYAN+"]")
