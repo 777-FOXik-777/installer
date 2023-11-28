@@ -9,6 +9,42 @@ def pri():
     print(f'\33]0; Installer - Страница [2]\a',
                       end='', flush=True)
 
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files')
+
+filename = "CamHacker"
+if os.path.exists(filename):
+  CamHacker = ""+Fore.GREEN+"✓"
+else:
+  CamHacker = ""+Fore.RED+"X"
+
+filename = "VidPhisher"
+if os.path.exists(filename):
+  VidPhisher = ""+Fore.GREEN+"✓"
+else:
+  VidPhisher = ""+Fore.RED+"X"
+
+filename = "Telephish"
+if os.path.exists(filename):
+  Telephish = ""+Fore.GREEN+"✓"
+else:
+  Telephish = ""+Fore.RED+"X"
+
+filename = "Dnnme2"
+if os.path.exists(filename):
+  Dnnme2 = ""+Fore.GREEN+"✓"
+else:
+  Dnnme2 = ""+Fore.RED+"X"
+
+filename = "Discord-Nitro-Generator-and-Checker"
+if os.path.exists(filename):
+  Discord = ""+Fore.GREEN+"✓"
+else:
+  Discord = ""+Fore.RED+"X"
+
+
+
 def res():
     print(Style.RESET_ALL)
 
