@@ -289,7 +289,7 @@ while True:
           res()
           print(Fore.RED+"    [a] Выбрать все утилиты")
           res()
-          print(Fore.YELLOW+"    [e] Выход")
+          print(Fore.YELLOW+"    [e] Назад")
           res()
           tsu_501 = input('  Выбери пункт>>> ')
           os.system('clear')
