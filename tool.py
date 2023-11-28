@@ -8,6 +8,100 @@ os.system('rm -fr /data/data/com.termux/files/home/update.py')
 os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+
+
+filename = "ngrok"
+if os.path.exists(filename):
+  Ngrok = ""+Fore.RED+"X"
+else:
+  Ngrok = ""+Fore.GREEN+"✓"
+
+filename = "lochost"
+if os.path.exists(filename):
+  Localhost = ""+Fore.RED+"X"
+else:
+  Localhost = ""+Fore.GREEN+"✓"
+
+filename = "IP"
+if os.path.exists(filename):
+  IPTracer = ""+Fore.RED+"X"
+else:
+  IPTracer = ""+Fore.GREEN+"✓"
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files')
+
+filename = "PyPhisher"
+if os.path.exists(filename):
+  PyPhisher = ""+Fore.GREEN+"✓"
+else:
+  PyPhisher = ""+Fore.RED+"X"
+
+filename = "zphisher"
+if os.path.exists(filename):
+  Zphisher = ""+Fore.GREEN+"✓"
+else:
+  Zphisher = ""+Fore.RED+"X"
+
+filename = "k-fuscator"
+if os.path.exists(filename):
+  Kfuscator = ""+Fore.GREEN+"✓"
+else:
+  Kfuscator = ""+Fore.RED+"X"
+
+filename = "TigerVirus"
+if os.path.exists(filename):
+  TigerVirus = ""+Fore.GREEN+"✓"
+else:
+  TigerVirus = ""+Fore.RED+"X"
+
+filename = "maskphish"
+if os.path.exists(filename):
+  Maskphish = ""+Fore.GREEN+"✓"
+else:
+  Maskphish = ""+Fore.RED+"X"
+
+filename = "seeker"
+if os.path.exists(filename):
+  Seeker = ""+Fore.GREEN+"✓"
+else:
+  Seeker = ""+Fore.RED+"X"
+
+filename = "CamHacker"
+if os.path.exists(filename):
+  CamHacker = ""+Fore.GREEN+"✓"
+else:
+  CamHacker = ""+Fore.RED+"X"
+
+filename = "VidPhisher"
+if os.path.exists(filename):
+  VidPhisher = ""+Fore.GREEN+"✓"
+else:
+  VidPhisher = ""+Fore.RED+"X"
+
+filename = "Telephish"
+if os.path.exists(filename):
+  Telephish = ""+Fore.GREEN+"✓"
+else:
+  Telephish = ""+Fore.RED+"X"
+
+filename = "Dnnme2"
+if os.path.exists(filename):
+  Dnnme2 = ""+Fore.GREEN+"✓"
+else:
+  Dnnme2 = ""+Fore.RED+"X"
+
+filename = "Discord-Nitro-Generator-and-Checker"
+if os.path.exists(filename):
+  Discord = ""+Fore.GREEN+"✓"
+else:
+  Discord = ""+Fore.RED+"X"
+
+
+
 def pri():
     print(f'\33]0; Installer - Страница [1]\a',
                       end='', flush=True)
