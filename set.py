@@ -392,6 +392,59 @@ while True:
               Zphisher = "X"
               delet()
 
+          if tsu_501 == '5':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
+              led = "K-fuscator"
+              Kfuscator = "X"
+              delet()
+
+          if tsu_501 == '6':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
+              led = "TigerVirus"
+              TigerVirus = "X"
+              delet()
+
+          if tsu_501 == '7':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
+              led = "Maskphish"
+              Maskphish = "X"
+              delet()
+
+          if tsu_501 == '9':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
+              led = "Seeker"
+              Seeker = "X"
+              delet()
+
+          if tsu_501 == '11':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
+              led = "CamHacker"
+              CamHacker = "X"
+              delet()
+
+          if tsu_501 == '12':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
+              led = "VidPhisher"
+              VidPhisher = "X"
+              delet()
+
+          if tsu_501 == '13':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
+              led = "Telephish"
+              Telephish = "X"
+              delet()
+
+          if tsu_501 == '14':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
+              led = "Dnnme2"
+              Dnnme2 = "X"
+              delet()
+
+          if tsu_501 == '15':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
+              led = "Discord-Nitro-Generator-and-Checker"
+              Discord = "X"
+              delet()
 
 
           
