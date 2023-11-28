@@ -290,21 +290,61 @@ while True:
         else:
           TigerVirus = "X"
 
+        filename = "maskphish"
+        if os.path.exists(filename):
+          Maskphish = "✓"
+        else:
+          Maskphish = "X"
 
+        filename = "seeker"
+        if os.path.exists(filename):
+          Seeker = "✓"
+        else:
+          Seeker = "X"
+
+        filename = "CamHacker"
+        if os.path.exists(filename):
+          CamHacker = "✓"
+        else:
+          CamHacker = "X"
+
+        filename = "VidPhisher"
+        if os.path.exists(filename):
+          VidPhisher = "✓"
+        else:
+          VidPhisher = "X"
+
+        filename = "Telephish"
+        if os.path.exists(filename):
+          Telephish = "✓"
+        else:
+          Telephish = "X"
+
+        filename = "Dnnme2"
+        if os.path.exists(filename):
+          Dnnme2 = "✓"
+        else:
+          Dnnme2 = "X"
+
+        filename = "Discord-Nitro-Generator-and-Checker"
+        if os.path.exists(filename):
+          Discord = "✓"
+        else:
+          Discord = "X"
       
       
         while True:
           baner()
           print(Style.BRIGHT, Fore.CYAN+"   Выбери какую именно удалить Утилиту?")
           res()
-          print(Fore.YELLOW+"    [1] Ngrok        ()  [11] CamHacker      ()")
-          print(Fore.YELLOW+"    [2] Localhost    ()  [12] VidPhisher     ()")
-          print(Fore.YELLOW+"    [3] PyPhiser     ("+PyPhisher+")  [13] Telephish      ()")
-          print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+")  [14] Dnnme2         ()")
-          print(Fore.YELLOW+"    [5] K-fuscator   ("+Kfuscator+")  [15] Discord        ()")
-          print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+")  ")
-          print(Fore.YELLOW+"    [7] Maskphish    ()  ")
-          print(Fore.YELLOW+"    [8] IP-Tracer    ()  ")
+          print(Fore.YELLOW+"    [1] Ngrok        ("+Fore.YELLOW+")  [11] CamHacker      ("+CamHacker+""+Fore.YELLOW+")")
+          print(Fore.YELLOW+"    [2] Localhost    ("+Fore.YELLOW+")  [12] VidPhisher     ("+VidPhisher+""+Fore.YELLOW+")")
+          print(Fore.YELLOW+"    [3] PyPhiser     ("+PyPhisher+""+Fore.YELLOW+")  [13] Telephish      ("+Telephish+""+Fore.YELLOW+"")
+          print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+""+Fore.YELLOW+")  [14] Dnnme2         ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Fore.YELLOW+"    [5] K-fuscator   ("+Kfuscator+""+Fore.YELLOW+")  [15] Discord        ("+Discord+""+Fore.YELLOW+")")
+          print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  ")
+          print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  ")
+          print(Fore.YELLOW+"    [8] IP-Tracer    ("+Seeker+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [9] Seeker")
           res()
           print(Fore.RED+"    [a] Выбрать все утилиты")
@@ -331,7 +371,22 @@ while True:
               delet()
 
 
+
           
+          if tsu_501 == 'a':
+              os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/maskphish')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/seeker')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/CamPhish')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/zphisher')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/TigerVirus')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/CamHacker')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/VidPhisher')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/Telephish')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/Dnnme2')
+              os.system('rm -fr /data/data/com.termux/files/home/installer/Discord-Nitro-Generator-and-Checker')
+
+
           if tsu_501 == 'e':
               break
 
