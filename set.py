@@ -473,7 +473,7 @@ while True:
               Discord = "X"
 
               baner()
-              print(Fore.YELLOW+" Все Утилиты успешно удалены!")
+              print(Fore.YELLOW+" Утилиты успешно удалены! (Кроме: Ngrok, Localhost и IP-Tracer)")
               res()
               del_tool = input(' [Нажмите enter чтобы выйти]')
               os.system('clear')
