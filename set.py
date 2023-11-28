@@ -33,7 +33,6 @@ def delet():
       res()
       del_tool = input(' [Нажмите enter чтобы выйти]')
       os.system('clear')
-      break
 
     else:
       baner()
