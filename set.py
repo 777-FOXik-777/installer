@@ -27,7 +27,6 @@ def baner():
 
 
 def delet():
-    os.system('rm -fr /data/data/com.termux/files/home/installer/'+led+'')
     baner()
     print(Fore.YELLOW+" Утилита "+led+" успешно удалена!")
     res()
@@ -287,6 +286,7 @@ while True:
 
           
           if tsu_501 == '3':
+              os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
               led = "PyPhish"
               delet()
 
