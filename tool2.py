@@ -60,7 +60,8 @@ while True:
             os.chdir('CamHacker')
             os.system('clear')
             os.system('bash ch.sh')
-            tsu_102 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_102 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -76,7 +77,8 @@ while True:
             os.chdir('CamHacker')
             os.system('clear')
             os.system('bash ch.sh')
-            tsu_102 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_102 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -97,7 +99,8 @@ while True:
             os.chdir('VidPhisher')
             os.system('clear')
             os.system('bash vp.sh')
-            tsu_202 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_202 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -113,7 +116,8 @@ while True:
             os.chdir('VidPhisher')
             os.system('clear')
             os.system('bash vp.sh')
-            tsu_202 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_202 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -147,7 +151,8 @@ while True:
             os.system('rm -fr vk.py.py')
             os.system('rm -fr tiktok.py')
             os.system('clear')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_302 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -181,7 +186,8 @@ while True:
             os.system('rm -fr vk.py.py')
             os.system('rm -fr tiktok.py')
             os.system('clear')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_302 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -223,7 +229,8 @@ while True:
             os.system('rm -fr znak.py')
             os.system('rm -fr btc.py')
             os.system('clear')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_302 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -265,7 +272,8 @@ while True:
             os.system('rm -fr znak.py')
             os.system('rm -fr btc.py')
             os.system('clear')
-            tsu_302 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_302 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -286,7 +294,8 @@ while True:
             os.chdir('Discord-Nitro-Generator-and-Checker')
             os.system('clear')
             os.system('python3 main.py')
-            tsu_502 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_502 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
@@ -318,7 +327,8 @@ while True:
             os.chdir('Discord-Nitro-Generator-and-Checker')
             os.system('clear')
             os.system('python3 main.py')
-            tsu_502 = input('\n [Нажмите enter чтобы выйти]')
+            res()
+            tsu_502 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
 
