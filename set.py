@@ -280,15 +280,15 @@ while True:
 
         filename = "k-fuscator"
         if os.path.exists(filename):
-          K-fuscator = "✓"
+          K-fuscator == "✓"
         else:
-          K-fuscator = "X"
+          K-fuscator == "X"
 
         filename = "TigerVirus"
         if os.path.exists(filename):
-          TigerVirus = "✓"
+          TigerVirus == "✓"
         else:
-          TigerVirus = "X"
+          TigerVirus == "X"
 
 
       
