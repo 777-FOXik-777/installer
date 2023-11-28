@@ -279,7 +279,7 @@ while True:
         if os.path.exists(filename):
           Ngrok = "X"
         else:
-          Ngrok = "✓"
+          Ngrok = ""+Fore.GREEN+"✓"
 
         filename = "lochost"
         if os.path.exists(filename):
