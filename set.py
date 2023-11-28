@@ -11,6 +11,7 @@ print(f'\33]0; Installer - Настройки\a',
 delet = "empty"
 
 def delet():
+    os.system("rm -fr /data/data/com.termux/files/home/{delet}")
     baner()
     print("Утилита "+delet+" успешно удалена!")
     del_tool = input('\n [Нажмите enter чтобы выйти]')
@@ -261,28 +262,53 @@ while True:
 
 
   
-    if inp == '66':
-        baner()
-        print(Style.BRIGHT, Fore.YELLOW+"Выбери какую именно удалить Утилиту?")
-        res()
-        print(Fore.GREEN+"    [1] Ngrok        [11] CamHacker")
-        print(Fore.GREEN+"    [2] Localhost    [12] VidPhisher")
-        print(Fore.GREEN+"    [3] PyPhiser     [13] Telephish")
-        print(Fore.GREEN+"    [4] Zphisher     [14] Dnnme2")
-        print(Fore.GREEN+"    [5] K-fuscator   [15] Discord")
-        print(Fore.GREEN+"    [6] TigerVirus")
-        print(Fore.GREEN+"    [7] Maskphish")
-        print(Fore.GREEN+"    [8] IP-Tracer")
-        print(Fore.GREEN+"    [9] Seeker")
-        res()
-        print(Fore.YELLOW+"    [s] Выбрать все утилиты")
-        print(Fore.YELLOW+"    [e] Выход")
-        res()
-        tsu_601 = input('  Выбери пункт>>> ')
-        os.system('clear')
+    if inp == '55':
+        while True:
+          baner()
+          print(Style.BRIGHT, Fore.YELLOW+"Выбери какую именно удалить Утилиту?")
+          res()
+          print(Fore.GREEN+"    [1] Ngrok        [11] CamHacker")
+          print(Fore.GREEN+"    [2] Localhost    [12] VidPhisher")
+          print(Fore.GREEN+"    [3] PyPhiser     [13] Telephish")
+          print(Fore.GREEN+"    [4] Zphisher     [14] Dnnme2")
+          print(Fore.GREEN+"    [5] K-fuscator   [15] Discord")
+          print(Fore.GREEN+"    [6] TigerVirus")
+          print(Fore.GREEN+"    [7] Maskphish")
+          print(Fore.GREEN+"    [8] IP-Tracer")
+          print(Fore.GREEN+"    [9] Seeker")
+          res()
+          print(Fore.YELLOW+"    [s] Выбрать все утилиты")
+          print(Fore.YELLOW+"    [e] Выход")
+          res()
+          tsu_501 = input('  Выбери пункт>>> ')
+          os.system('clear')
+
+          
+          if tsu_501 == '3':
 
 
-    
+
+          
+          if tsu_501 == 'e':
+              break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     if inp == 'h':
         os.system('xdg-open https://t.me/SYPEXHACK_help_bot')
         os.system('clear')
