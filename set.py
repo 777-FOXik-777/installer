@@ -265,12 +265,20 @@ while True:
   
     if inp == '55':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
+      
         filename = "PyPhisher"
-
         if os.path.exists(filename):
           PyPhisher = "✓"
         else:
           PyPhisher = "X"
+
+        filename = "zphisher"
+        if os.path.exists(filename):
+          Zphisher = "✓"
+        else:
+          Zphisher = "X"
+
+      
 
       
         while True:
@@ -280,7 +288,7 @@ while True:
           print(Fore.YELLOW+"    [1] Ngrok        ()  [11] CamHacker      ()")
           print(Fore.YELLOW+"    [2] Localhost    ()  [12] VidPhisher     ()")
           print(Fore.YELLOW+"    [3] PyPhiser     ("+PyPhisher+")  [13] Telephish      ()")
-          print(Fore.YELLOW+"    [4] Zphisher     ()  [14] Dnnme2         ()")
+          print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+")  [14] Dnnme2         ()")
           print(Fore.YELLOW+"    [5] K-fuscator   ()  [15] Discord        ()")
           print(Fore.YELLOW+"    [6] TigerVirus   ()  ")
           print(Fore.YELLOW+"    [7] Maskphish    ()  ")
@@ -304,7 +312,11 @@ while True:
               PyPhisher = "X"
               delet()
 
-          
+          if tsu_501 == '4':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
+              led = "Zphisher"
+              Zphisher = "X"
+              delet()
 
 
           
