@@ -75,7 +75,7 @@ while True:
             res()
             os.system('npm install ngrok -g')
             we  = '8080'
-            os.system('rm -fr /data/data/com.termux/files/home/installer/trash/ngrok')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/ngrok')
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Ngrok]")
@@ -195,7 +195,7 @@ while True:
             res()
             os.system('pkg install openssh -y')
             qw  = '8080'
-            os.system('rm -fr /data/data/com.termux/files/home/installer/trash/lochost')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n    [Localhost]")
