@@ -294,6 +294,7 @@ while True:
     
 
     if inp == '3':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "PyPhisher"
 
         if os.path.exists(filename):
