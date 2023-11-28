@@ -288,8 +288,12 @@ while True:
 
           
           if tsu_501 == '3':
-              delet = "PyPhiser"
-              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/installer/PyPhisher')
+              baner()
+              print(Fore.YELLOW+"Утилита PyPhisher успешно удалена!")
+              del_tool = input('\n [Нажмите enter чтобы выйти]')
+              os.system('clear')
+
 
 
           
