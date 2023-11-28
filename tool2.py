@@ -24,6 +24,7 @@ def baner():
     res()
     
 while True:
+    os.chdir('/data/data/com.termux/files/home/installer')
     pri()
     baner()
     print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                          ["+Fore.YELLOW+"2.9.1"+Fore.CYAN+"]")
