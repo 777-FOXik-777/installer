@@ -331,6 +331,7 @@ while True:
     
 
     if inp == '4':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "zphisher"
 
         if os.path.exists(filename):
@@ -367,6 +368,7 @@ while True:
   
 
     if inp == '5':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "k-fuscator"
 
         if os.path.exists(filename):
@@ -406,6 +408,7 @@ while True:
 
     
     if inp == '6':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "TigerVirus"
 
         if os.path.exists(filename):
@@ -442,6 +445,7 @@ while True:
     
 
     if inp == '7':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "maskphish"
 
         if os.path.exists(filename):
@@ -578,6 +582,7 @@ while True:
 
 
     if inp == '9':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "seeker"
 
         if os.path.exists(filename):
