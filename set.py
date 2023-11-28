@@ -105,8 +105,6 @@ while True:
         baner()
         print(Fore.CYAN+'\n  Вы хотите Обновить/Переустановить Installer?')
         res()
-        print(Fore.YELLOW+"  [e] Выход")
-        res()
         tru_201 = input('  Продолжить? [y/n] >>> ')
         if tru_201 == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
