@@ -497,6 +497,7 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
               PyPhisher = ""+Fore.RED+"X"
