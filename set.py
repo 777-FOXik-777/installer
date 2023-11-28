@@ -278,8 +278,20 @@ while True:
         else:
           Zphisher = "X"
 
-      
+        filename = "k-fuscator"
+        if os.path.exists(filename):
+          K-fuscator = "✓"
+        else:
+          K-fuscator = "X"
 
+        filename = "TigerVirus"
+        if os.path.exists(filename):
+          TigerVirus = "✓"
+        else:
+          TigerVirus = "X"
+
+
+      
       
         while True:
           baner()
@@ -289,8 +301,8 @@ while True:
           print(Fore.YELLOW+"    [2] Localhost    ()  [12] VidPhisher     ()")
           print(Fore.YELLOW+"    [3] PyPhiser     ("+PyPhisher+")  [13] Telephish      ()")
           print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+")  [14] Dnnme2         ()")
-          print(Fore.YELLOW+"    [5] K-fuscator   ()  [15] Discord        ()")
-          print(Fore.YELLOW+"    [6] TigerVirus   ()  ")
+          print(Fore.YELLOW+"    [5] K-fuscator   ("+K-fuscator+")  [15] Discord        ()")
+          print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+")  ")
           print(Fore.YELLOW+"    [7] Maskphish    ()  ")
           print(Fore.YELLOW+"    [8] IP-Tracer    ()  ")
           print(Fore.YELLOW+"    [9] Seeker")
