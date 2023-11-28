@@ -27,7 +27,7 @@ def baner():
 
 
 def delet():
-    if os.path.exists(filename):
+    if os.path.exists(led):
       baner()
       print(Fore.YELLOW+" Утилита "+led+" успешно удалена!")
       res()
