@@ -501,17 +501,17 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
-              PyPhisher = "X"
-              Zphisher = "X"
-              Kfuscator = "X"
-              TigerVirus = "X"
-              Maskphish = "X"
-              Seeker = "X"
-              CamHacker = "X"
-              VidPhisher = "X"
-              Telephish = "X"
-              Dnnme2 = "X"
-              Discord = "X"
+              PyPhisher = ""+Fore.RED+"X"
+              Zphisher = ""+Fore.RED+"X"
+              Kfuscator = ""+Fore.RED+"X"
+              TigerVirus = ""+Fore.RED+"X"
+              Maskphish = ""+Fore.RED+"X"
+              Seeker = ""+Fore.RED+"X"
+              CamHacker = ""+Fore.RED+"X"
+              VidPhisher = ""+Fore.RED+"X"
+              Telephish = ""+Fore.RED+"X"
+              Dnnme2 = ""+Fore.RED+"X"
+              Discord = ""+Fore.RED+"X"
 
               baner()
               print(Fore.YELLOW+" Утилиты успешно удалены! \n (Кроме: Ngrok, Localhost и IP-Tracer)")
