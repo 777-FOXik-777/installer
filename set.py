@@ -104,7 +104,8 @@ while True:
         os.system('clear')
         baner()
         print(Fore.CYAN+'\n Вы хотите Обновить/Переустановить Installer?')
-        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Все файлы в директории Installer удалятся!')
+        res()
+        print(Fore.YELLOW+"    [e] Выход")
         res()
         tru_201 = input('  Продолжить? [y/n] >>> ')
         if tru_201 == 'y':
