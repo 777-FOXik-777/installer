@@ -82,6 +82,8 @@ while True:
             res()
             print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
+            print(Fore.YELLOW+"    [e] Выход")
+            res()
             tru_102 = input('  Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
                 os.system('clear')
@@ -135,6 +137,8 @@ while True:
             print(Style.BRIGHT,Fore.CYAN+"\n    [Ngrok]")
             res()
             print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            res()
+            print(Fore.YELLOW+"    [e] Выход")
             res()
             tru_102 = input('  Изменить порт? [y/n] >>> ')
             if tru_102 == 'y':
@@ -202,6 +206,8 @@ while True:
             res()
             print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
+            print(Fore.YELLOW+"    [e] Выход")
+            res()
             tru_202 = input('  Изменить порт? [y/n] >>> ')
             if tru_202 == 'y':
                 os.system('clear')
@@ -254,6 +260,8 @@ while True:
             print(Style.BRIGHT,Fore.CYAN+"\n    [Localhost]")
             res()
             print(Fore.GREEN+'    Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            res()
+            print(Fore.YELLOW+"    [e] Выход")
             res()
             tru_202 = input('  Изменить порт? [y/n] >>> ')
             if tru_202 == 'y':
