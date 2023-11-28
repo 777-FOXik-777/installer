@@ -268,7 +268,9 @@ while True:
         filename = "PyPhisher"
 
         if os.path.exists(filename):
-          PyPhisher = '+Fore.GREEN+'
+          PyPhisher = "?"
+        else:
+          PyPhisher = "/"
 
       
         while True:
