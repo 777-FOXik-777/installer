@@ -79,7 +79,7 @@ while True:
     print(Fore.GREEN+"    [14] Dnnme2     ("+Dnnme2+""+Fore.GREEN+")  >>  Фишинг в тг (2)")
     print(Fore.GREEN+"    [15] Discord    ("+Discord+""+Fore.GREEN+")  >>  Генератор Nitro")
     print(Fore.GREEN+"    [16] ShortUrl   ("+ShortUrl+""+Fore.GREEN+")  >>  Сокращение ссылок")
-    print(Fore.GREEN+"    [17] PhoneInfoga   ("+PhoneInfoga+""+Fore.GREEN+")  >>  Инфо о номере")
+    print(Fore.GREEN+"    [17] PhoneInfo  ("+PhoneInfoga+""+Fore.GREEN+")  >>  Инфо о номере")
     res()
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
