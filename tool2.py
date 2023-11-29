@@ -423,7 +423,7 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
 
-            os.chdir('Phoneinfoga')
+            os.chdir('/data/data/com.termux/files/home/Installer_FilesPhoneinfoga')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n  [Phoneinfoga]")
             res()
@@ -471,9 +471,11 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Phoneinfoga...")
             res()
-            os.system('git clone https://github.com/la-deep-web/Phoneinfoga.git')
-            
+            os.system('git clone https://github.com/ExpertAnonymous/PhoneInfoga.git')
             os.chdir('Phoneinfoga')
+            os.system('bash phoneinfoga.sh')
+            
+            os.chdir('/data/data/com.termux/files/home/Installer_FilesPhoneinfoga')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n  [Phoneinfoga]")
             res()
