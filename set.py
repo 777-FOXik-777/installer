@@ -129,7 +129,7 @@ while True:
     if inp == '4':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
-        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Переместить скачаные директории в '+Fore.YELLOW+'/files/home'+Fore.WHITE+' ?')
+        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.WHITE+' ?')
         res()
         tru_401 = input('  Выбери пункт [y/n] >>> ')
         if tru_401 == 'y':
