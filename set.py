@@ -270,7 +270,7 @@ while True:
           print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+""+Fore.YELLOW+")  [14] Dnnme2         ("+Dnnme2+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [5] K-fuscator   ("+Kfuscator+""+Fore.YELLOW+")  [15] Discord        ("+Discord+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  [16] ShortUrl       ("+ShortUrl+""+Fore.YELLOW+")")
-          print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  [17] PhoneInfoga   ("+PhoneInfoga+""+Fore.GREEN+")")
+          print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  [17] PhoneInfo  ("+PhoneInfoga+""+Fore.GREEN+")")
           print(Fore.YELLOW+"    [8] IP-Tracer    ("+IPTracer+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [9] Seeker       ("+Seeker+""+Fore.YELLOW+")  ")
           res()
@@ -396,7 +396,7 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
               ShortUrl = ""+Fore.RED+"X"
 
-              if tsu_501 == '16':
+          if tsu_501 == '16':
               filename = "PhoneInfoga"
               led = "PhoneInfoga"
               delet()
