@@ -389,7 +389,7 @@ while True:
               baner()
               print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить все директории?')
               res()
-              tru_401 = input('  Выбери пункт [y/n] >>> ')
+              tru_502 = input('  Выбери пункт [y/n] >>> ')
               if tru_502 == 'y':
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
