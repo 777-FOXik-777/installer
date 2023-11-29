@@ -50,7 +50,7 @@ while True:
     print(Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print(Fore.GREEN+"    [2] Обновить/Переустановить Installer")
     print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
-    print(Fore.GREEN+"    [4] Переместить скачаные директории в "+Fore.YELLOW+"/files/home/")
+    print(Fore.GREEN+"    [4] Переместить скачаные утилиты в "+Fore.YELLOW+"/files/home/")
     print(Fore.GREEN+"    [5] Удалить скачаные директории")
     res()
     print(Fore.YELLOW+"    [h] Сообщить об ошибке")
