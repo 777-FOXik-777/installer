@@ -61,7 +61,13 @@ while True:
       ShortUrl = ""+Fore.GREEN+"✓"
     else:
       ShortUrl = ""+Fore.RED+"X"
-        
+
+    filename = "PhoneInfoga"
+    if os.path.exists(filename):
+      PhoneInfoga = ""+Fore.GREEN+"✓"
+    else:
+      PhoneInfoga = ""+Fore.RED+"X"
+    
     os.chdir('/data/data/com.termux/files/home/installer')
     pri()
     baner()
@@ -73,6 +79,7 @@ while True:
     print(Fore.GREEN+"    [14] Dnnme2     ("+Dnnme2+""+Fore.GREEN+")  >>  Фишинг в тг (2)")
     print(Fore.GREEN+"    [15] Discord    ("+Discord+""+Fore.GREEN+")  >>  Генератор Nitro")
     print(Fore.GREEN+"    [16] ShortUrl   ("+ShortUrl+""+Fore.GREEN+")  >>  Сокращение ссылок")
+    print(Fore.GREEN+"    [17] PhoneInfoga   ("+PhoneInfoga+""+Fore.GREEN+")  >>  Инфо о номере")
     res()
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
@@ -435,6 +442,7 @@ while True:
             os.system('clear')
             os.system('python phoneinfoga.py -n '+tru_601+'')
             res()
+            os.system('clear')
             tsu_602 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
@@ -487,6 +495,7 @@ while True:
             os.system('clear')
             os.system('python phoneinfoga.py -n '+tru_601+'')
             res()
+            os.system('clear')
             tsu_602 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('clear')
