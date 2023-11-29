@@ -97,7 +97,7 @@ else:
 
 
 
-os.chdir('/data/data/com.termux/files/home/storage')
+os.chdir('/data/data/com.termux/files/home')
 
 filename = "storage"
 
