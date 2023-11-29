@@ -54,8 +54,13 @@ if os.path.exists(filename):
   print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Installer успешно установлен!")
   print(Fore.WHITE+" ")
   tsu = input(' [Нажмите enter чтобы продолжить]')
+  os.chdir('/data/data/com.termux/files/home/installer')
+  print(Style.RESET_ALL)
   os.system('clear')
-  os.system('python tool.py')
+  print(' Этот инструмент предназначен только для образовательных\n целей. Если вы используете Installer для других целей,\n кроме образования, в таких случаях мы не несем\n ответственности. Все утилиты и файлы взяты из открытых\n источников. Утилиты, фото, видео и прочие файлы\n принадлежат их законным авторам.')
+  time.sleep(2)
+  os.system('python3 tool.py')
+        
 
 
 else:
