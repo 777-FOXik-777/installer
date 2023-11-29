@@ -413,7 +413,7 @@ while True:
     
     if inp == '17':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "Phoneinfoga"
+        filename = "PhoneInfoga"
 
         if os.path.exists(filename):
             os.system('clear')
@@ -423,9 +423,9 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
 
-            os.chdir('Phoneinfoga')
+            os.chdir('PhoneInfoga')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n  [Phoneinfoga]")
+            print(Style.BRIGHT,Fore.CYAN+"\n  [PhoneInfoga]")
             res()
             print(Fore.GREEN+'  Введите телефон в формате E164 пример: +3396360XXXX')
             res()
@@ -433,7 +433,7 @@ while True:
             res()
             tru_601 = input('  Введите номер>>> ')
             os.system('clear')
-            os.system('python3 phoneinfoga.py -n '+tru_601+'')
+            os.system('python phoneinfoga.py -n '+tru_601+'')
             res()
             tsu_602 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
@@ -472,10 +472,10 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Phoneinfoga...")
             res()
             os.system('git clone https://github.com/ExpertAnonymous/PhoneInfoga')
-            os.chdir('Phoneinfoga')
+            os.chdir('PhoneInfoga')
             os.system('bash phoneinfoga.sh')
             
-            os.chdir('Phoneinfoga')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n  [Phoneinfoga]")
             res()
@@ -485,7 +485,7 @@ while True:
             res()
             tru_601 = input('  Введите номер>>> ')
             os.system('clear')
-            os.system('python3 phoneinfoga.py -n '+tru_601+'')
+            os.system('python phoneinfoga.py -n '+tru_601+'')
             res()
             tsu_602 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
