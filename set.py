@@ -281,6 +281,7 @@ while True:
 
 
           if tsu_501 == '1':
+              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
               baner()
               print(Fore.YELLOW+" Не возмжно удалить Ngrok! \n (Так как он устанавливается напримую в Termux)")
               res()
@@ -288,6 +289,7 @@ while True:
               os.system('clear')
           
           if tsu_501 == '2':
+              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
               baner()
               print(Fore.YELLOW+" Не возмжно удалить Localhost! \n (Так как он устанавливается напримую в Termux)")
               res()
@@ -295,6 +297,7 @@ while True:
               os.system('clear')
 
           if tsu_501 == '8':
+              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
               baner()
               print(Fore.YELLOW+" Не возмжно удалить IP-Tracer! \n (Так как он устанавливается напримую в Termux)")
               res()
