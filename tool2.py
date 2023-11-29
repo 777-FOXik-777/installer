@@ -115,7 +115,6 @@ while True:
             res()
             os.system('git clone https://github.com/KasRoudra/CamHacker')
             os.chdir('CamHacker')
-            CamHacker = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('bash ch.sh')
             res()
@@ -155,7 +154,6 @@ while True:
             res()
             os.system('git clone https://github.com/KasRoudra/VidPhisher')
             os.chdir('VidPhisher')
-            VidPhisher = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('bash vp.sh')
             res()
@@ -213,7 +211,6 @@ while True:
             os.system('git clone https://github.com/lamer112311/Telephish')
           
             os.chdir('Telephish')
-            Telephish = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('python builder.py')
             os.system('clear')
@@ -292,7 +289,6 @@ while True:
             os.system('git clone https://github.com/lamer112311/Dnnme2')
           
             os.chdir('Dnnme2')
-            Dnnme2 = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('python build.py')
             os.system('clear')
@@ -369,7 +365,6 @@ while True:
             res()
             os.system('git clone https://github.com/logicguy1/Discord-Nitro-Generator-and-Checker.git')
             os.chdir('Discord-Nitro-Generator-and-Checker')
-            Discord = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('python3 main.py')
             res()
@@ -407,7 +402,6 @@ while True:
             res()
             os.system('git clone https://github.com/htr-tech/shorturl')
             os.chdir('shorturl')
-            ShortUrl = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('bash setup.sh')
             os.system('ShortUrl')
