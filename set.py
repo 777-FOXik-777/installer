@@ -254,6 +254,11 @@ while True:
         else:
           ShortUrl = ""+Fore.RED+"X"
 
+        filename = "PhoneInfoga"
+        if os.path.exists(filename):
+          PhoneInfoga = ""+Fore.GREEN+"✓"
+        else:
+          PhoneInfoga = ""+Fore.RED+"X"
       
         while True:
           baner()
@@ -265,7 +270,7 @@ while True:
           print(Fore.YELLOW+"    [4] Zphisher     ("+Zphisher+""+Fore.YELLOW+")  [14] Dnnme2         ("+Dnnme2+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [5] K-fuscator   ("+Kfuscator+""+Fore.YELLOW+")  [15] Discord        ("+Discord+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  [16] ShortUrl       ("+ShortUrl+""+Fore.YELLOW+")")
-          print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  ")
+          print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  [17] PhoneInfoga   ("+PhoneInfoga+""+Fore.GREEN+")")
           print(Fore.YELLOW+"    [8] IP-Tracer    ("+IPTracer+""+Fore.YELLOW+")  ")
           print(Fore.YELLOW+"    [9] Seeker       ("+Seeker+""+Fore.YELLOW+")  ")
           res()
@@ -390,6 +395,14 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
               ShortUrl = ""+Fore.RED+"X"
+
+              if tsu_501 == '16':
+              filename = "PhoneInfoga"
+              led = "PhoneInfoga"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
+              os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
+              PhoneInfoga = ""+Fore.RED+"X"
             
           
           if tsu_501 == 'a':
@@ -411,6 +424,9 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
+                  os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
+                  PhoneInfoga = ""+Fore.RED+"X"
                   PyPhisher = ""+Fore.RED+"X"
                   Zphisher = ""+Fore.RED+"X"
                   Kfuscator = ""+Fore.RED+"X"
