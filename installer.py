@@ -62,16 +62,6 @@ if os.path.exists(filename):
     res()
     time.sleep(1.5)
     os.system('pkg install python3 -y')
-    
-    #доступ к файлам
-    
-    os.system('clear')
-    print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
-    res()
-    time.sleep(1.5)
-    os.system('termux-setup-storage')
-    tsu = input('\n \n[Нажмите enter чтобы продолжить]')
-    os.system('clear')
 
 
     os.system('rm -fr tg_SYPEXHACK')
