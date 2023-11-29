@@ -80,9 +80,7 @@ if os.path.exists(filename):
     #запуск
     
     os.system('clear')
-    os.system('xdg-open https://t.me/+p9CBKAxQUQZmMjli')
-    os.system('python3 tool.py')
-    
+
 
 else:
     from colorama import Fore, Style
@@ -94,5 +92,9 @@ else:
     print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Все зависимости уже установлены!")
     time.sleep(2)
     os.system('clear')
-    os.system('python3 tool.py')
+
+
+
+print(' Этот инструмент предназначен только для образовательных целей. \n Если вы используете Installer для других целей, кроме образования, \n в таких случаях мы не несем ответственности. Все утилиты \n и файлы взяты из открытых источников. Утилиты, фото, видео и прочие файлы \n принадлежат их законным авторам.')
+os.system('python3 tool.py')
         
