@@ -387,7 +387,7 @@ while True:
           
           if tsu_501 == 'a':
               baner()
-              print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить все директории?')
+              print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
               res()
               tru_502 = input('  Выбери пункт [y/n] >>> ')
               if tru_502 == 'y':
