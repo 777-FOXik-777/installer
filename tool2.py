@@ -411,6 +411,73 @@ while True:
 
 
     
+    if inp == '17':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "Discord-Nitro-Generator-and-Checker"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Phoneinfoga уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('Discord-Nitro-Generator-and-Checker')
+            os.system('clear')
+            os.system('python3 main.py')
+            res()
+            tsu_502 = input(' [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Phoneinfoga еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
+            res()
+            os.system('pip install requests')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка bs4...")
+            res()
+            os.system('pip install bs4')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка html5lib...")
+            res()
+            os.system('pip install html5lib')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка phonenumbers...")
+            res()
+            os.system('pip install phonenumbers')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка argparse...")
+            res()
+            os.system('pip install argparse')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка urllib3...")
+            res()
+            os.system('pip install urllib3')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Phoneinfoga...")
+            res()
+            os.system('git clone https://github.com/la-deep-web/Phoneinfoga.git')
+            os.chdir('Phoneinfoga')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"\n  [Phoneinfoga]")
+            res()
+            print(Fore.GREEN+'    Введите телефон в формате E164 пример: +3396360XXXX')
+            res()
+            print(Fore.YELLOW+"    [e] Выход")
+            res()
+            tru_601 = input('  Введите номер>>> ')
+            os.system('python3 main.py -n '+tru_601+' -s all --osint')
+            res()
+            tsu_602 = input(' [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
 
 
