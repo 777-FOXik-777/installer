@@ -146,7 +146,6 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
             res()
             os.system('npm install ngrok -g')
-            Ngrok = ""+Fore.GREEN+"✓"
             we  = '8080'
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/ngrok')
             os.system('clear')
@@ -271,7 +270,6 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
             res()
             os.system('pkg install openssh -y')
-            Localhost = ""+Fore.GREEN+"✓"
             qw  = '8080'
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
             os.system('clear')
@@ -406,7 +404,6 @@ while True:
             res()
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
             os.chdir('PyPhisher')
-            PyPhisher = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('python3 pyphisher.py')
             res()
@@ -446,7 +443,6 @@ while True:
             res()
             os.system('git clone https://github.com/htr-tech/zphisher')
             os.chdir('zphisher')
-            Zphisher = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('bash zphisher.sh')
             res()
@@ -486,7 +482,6 @@ while True:
             res()
             os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
             os.chdir('k-fuscator')
-            Kfuscator = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('python3 kf.py')
             res()
@@ -527,7 +522,6 @@ while True:
             res()
             os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
             os.chdir('TigerVirus')
-            TigerVirus = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('bash TigerVirus.sh')
             res()
@@ -567,7 +561,6 @@ while True:
             res()
             os.system('git clone https://github.com/jaykali/maskphish.git')
             os.chdir('maskphish')
-            Maskphish = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('bash maskphish.sh')
             res()
@@ -593,7 +586,6 @@ while True:
             time.sleep(1)
             os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
             os.chdir('IP-Tracer')
-            IPTracer = ""+Fore.GREEN+"✓"
             os.system('bash install')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/IP')
@@ -739,7 +731,6 @@ while True:
             os.system('git clone https://github.com/thewhiteh4t/seeker.git')
             
             os.chdir('seeker')
-            Seeker = ""+Fore.GREEN+"✓"
             os.system('clear')
             os.system('python seeker.py')
             res()
