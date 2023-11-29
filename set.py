@@ -395,7 +395,7 @@ while True:
           
           if tsu_501 == 'a':
               baner()
-              print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?\n '+Fore.YELLOW+'(Ngrok, Localhost и IP-Tracker нужно удалить отдельно!)')
+              print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
               res()
               tru_502 = input('  Выбери пункт [y/n] >>> ')
               if tru_502 == 'y':
@@ -426,7 +426,7 @@ while True:
                   ShortUrl = ""+Fore.RED+"X"
     
                   baner()
-                  print(Fore.YELLOW+" ВСЕ Утилиты успешно удалены!")
+                  print(Fore.YELLOW+" ВСЕ Утилиты успешно удалены!\n\n '+Fore.YELLOW+'(Ngrok, Localhost и IP-Tracker нужно удалить отдельно!)")
                   res()
                   del_tool = input(' [Нажмите enter чтобы выйти]')
                   os.system('clear')
