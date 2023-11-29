@@ -395,7 +395,7 @@ while True:
           
           if tsu_501 == 'a':
               baner()
-              print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
+              print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?\n '+Fore.YELLOW+'(Ngrok, Localhost и IP-Tracker нужно удалить отдельно!)')
               res()
               tru_502 = input('  Выбери пункт [y/n] >>> ')
               if tru_502 == 'y':
@@ -412,14 +412,11 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
-                  Ngrok = ""+Fore.RED+"X"
-                  Localhost = ""+Fore.RED+"X"
                   PyPhisher = ""+Fore.RED+"X"
                   Zphisher = ""+Fore.RED+"X"
                   Kfuscator = ""+Fore.RED+"X"
                   TigerVirus = ""+Fore.RED+"X"
                   Maskphish = ""+Fore.RED+"X"
-                  IPTracer = ""+Fore.RED+"X"
                   Seeker = ""+Fore.RED+"X"
                   CamHacker = ""+Fore.RED+"X"
                   VidPhisher = ""+Fore.RED+"X"
