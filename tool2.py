@@ -471,7 +471,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Phoneinfoga...")
             res()
-            os.system('git clone https://github.com/ExpertAnonymous/PhoneInfoga.git')
+            os.system('git clone https://github.com/ExpertAnonymous/PhoneInfoga')
             os.chdir('/data/data/com.termux/files/home/Installer_FilesPhoneinfoga')
             os.system('bash phoneinfoga.sh')
             
