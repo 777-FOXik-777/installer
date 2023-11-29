@@ -391,37 +391,37 @@ while True:
               res()
               tru_401 = input('  Выбери пункт [y/n] >>> ')
               if tru_502 == 'y':
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamPhish')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
-                PyPhisher = ""+Fore.RED+"X"
-                Zphisher = ""+Fore.RED+"X"
-                Kfuscator = ""+Fore.RED+"X"
-                TigerVirus = ""+Fore.RED+"X"
-                Maskphish = ""+Fore.RED+"X"
-                Seeker = ""+Fore.RED+"X"
-                CamHacker = ""+Fore.RED+"X"
-                VidPhisher = ""+Fore.RED+"X"
-                Telephish = ""+Fore.RED+"X"
-                Dnnme2 = ""+Fore.RED+"X"
-                Discord = ""+Fore.RED+"X"
-                ShortUrl = ""+Fore.RED+"X"
-  
-                baner()
-                print(Fore.YELLOW+" Утилиты успешно удалены! \n (Кроме: Ngrok, Localhost и IP-Tracer)")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamPhish')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
+                  PyPhisher = ""+Fore.RED+"X"
+                  Zphisher = ""+Fore.RED+"X"
+                  Kfuscator = ""+Fore.RED+"X"
+                  TigerVirus = ""+Fore.RED+"X"
+                  Maskphish = ""+Fore.RED+"X"
+                  Seeker = ""+Fore.RED+"X"
+                  CamHacker = ""+Fore.RED+"X"
+                  VidPhisher = ""+Fore.RED+"X"
+                  Telephish = ""+Fore.RED+"X"
+                  Dnnme2 = ""+Fore.RED+"X"
+                  Discord = ""+Fore.RED+"X"
+                  ShortUrl = ""+Fore.RED+"X"
+    
+                  baner()
+                  print(Fore.YELLOW+" Утилиты успешно удалены! \n (Кроме: Ngrok, Localhost и IP-Tracer)")
+                  res()
+                  del_tool = input(' [Нажмите enter чтобы выйти]')
+                  os.system('clear')
 
 
           if tsu_501 == 'e':
