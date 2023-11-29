@@ -149,7 +149,6 @@ while True:
             os.system('mv shorturl /data/data/com.termux/files/home/')
             os.system('clear')
             baner()
-            res()
             print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в папку /files/home/")
             res()
             tsu_402 = input(' [Нажмите enter чтобы выйти]')
