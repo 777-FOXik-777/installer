@@ -426,7 +426,7 @@ while True:
                   ShortUrl = ""+Fore.RED+"X"
     
                   baner()
-                  print(Fore.YELLOW+" ВСЕ Утилиты успешно удалены!\n\n '+Fore.YELLOW+'(Ngrok, Localhost и IP-Tracker нужно удалить отдельно!)")
+                  print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!\n\n "+Fore.YELLOW+"(Ngrok, Localhost и IP-Tracker нужно удалить отдельно!)")
                   res()
                   del_tool = input(' [Нажмите enter чтобы выйти]')
                   os.system('clear')
