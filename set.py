@@ -16,7 +16,6 @@ def res():
 def baner():
     os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
-    print('')
     print("  ___                 _             _   _               ")
     print(" |_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
     print("  | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
