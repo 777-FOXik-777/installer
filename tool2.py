@@ -413,7 +413,7 @@ while True:
     
     if inp == '17':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "Discord-Nitro-Generator-and-Checker"
+        filename = "Phoneinfoga"
 
         if os.path.exists(filename):
             os.system('clear')
@@ -473,7 +473,7 @@ while True:
             print(Fore.YELLOW+"  [e] Выход")
             res()
             tru_601 = input('  Введите номер>>> ')
-            os.system('python3 phoneinfoga.py -n '+tru_601+' -s all --osint')
+            os.system('python3 phoneinfoga.py -n '+tru_601+'')
             res()
             tsu_602 = input(' [Нажмите enter чтобы выйти]')
             os.chdir('/data/data/com.termux/files/home/installer')
