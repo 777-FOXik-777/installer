@@ -430,7 +430,7 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
 
-            os.chdir('/data/data/com.termux/files/home/PhoneInfoga')
+            os.chdir('PhoneInfoga')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n  [PhoneInfoga]")
             res()
@@ -482,8 +482,10 @@ while True:
             os.system('git clone https://github.com/ExpertAnonymous/PhoneInfoga')
             os.chdir('PhoneInfoga')
             os.system('bash phoneinfoga.sh')
-            
-            os.chdir('/data/data/com.termux/files/home/PhoneInfoga')
+            os.system('rm -fr /data/data/com.termux/files/Installer_Files/PhoneInfoga')
+            os.system('mv /data/data/com.termux/files/home/PhoneInfoga /data/data/com.termux/files/home/Installer_Files')
+
+            os.chdir('/data/data/com.termux/files/Installer_Files/PhoneInfoga')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"\n  [Phoneinfoga]")
             res()
