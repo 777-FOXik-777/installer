@@ -149,7 +149,7 @@ while True:
             os.system('mv PhoneInfoga /data/data/com.termux/files/home/')
             os.system('clear')
             baner()
-            print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в папку /files/home/")
+            print(Fore.GREEN+"\n Все утилиты УСПЕШНО перенесены в папку /files/home/")
             res()
             tsu_402 = input(' [Нажмите enter чтобы выйти]')
             os.system('clear')
