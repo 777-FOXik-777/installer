@@ -412,6 +412,33 @@ while True:
               res()
               tru_502 = input('  Выбери пункт [y/n] >>> ')
               if tru_502 == 'y':
+                
+                  os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+                
+                  filename = "ngrok"
+                  if os.path.exists(filename):
+                    os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
+                  Ngrok = ""+Fore.RED+"X"
+
+                  filename = "lochost"
+                  if os.path.exists(filename):
+                    os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
+                  Localhost = ""+Fore.RED+"X
+
+                  filename = "IP"
+                  if os.path.exists(filename):
+                    os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
+                  IPTracer = ""+Fore.RED+"X
+
+                
+                  os.chdir('/data/data/com.termux/files/home/Installer_Files')
+                
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
@@ -442,7 +469,7 @@ while True:
                   ShortUrl = ""+Fore.RED+"X"
     
                   baner()
-                  print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!\n\n "+Fore.YELLOW+"(Ngrok, Localhost и IP-Tracker нужно удалить отдельно!)")
+                  print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!")
                   res()
                   del_tool = input(' [Нажмите enter чтобы выйти]')
                   os.system('clear')
