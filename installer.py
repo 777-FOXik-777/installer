@@ -1,6 +1,10 @@
 import os, time
 
 os.system('clear')
+os.system('rm -fr image')
+os.system('rm -fr README.md')
+
+os.system('clear')
 
 print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
