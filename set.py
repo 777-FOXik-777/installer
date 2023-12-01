@@ -285,6 +285,7 @@ while True:
 
 
           if tsu_501 == '1':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "ngrok"
               if os.path.exists(filename):
                 baner()
@@ -303,6 +304,7 @@ while True:
                 os.system('clear')
           
           if tsu_501 == '2':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "lochost"
               if os.path.exists(filename):
                 baner()
@@ -321,6 +323,7 @@ while True:
                 os.system('clear')
 
           if tsu_501 == '8':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "IP"
               if os.path.exists(filename):
                 baner()
