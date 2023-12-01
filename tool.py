@@ -101,7 +101,7 @@ while True:
     os.chdir('/data/data/com.termux/files/home/installer')
     pri()
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         ["+Fore.YELLOW+"2.10.0"+Fore.CYAN+"]")
+    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         ["+Fore.YELLOW+"2.10.1"+Fore.CYAN+"]")
     res()
     print(Fore.GREEN+"    [1] Ngrok      ("+Ngrok+""+Fore.GREEN+")  >>  Тунелирование")
     print(Fore.GREEN+"    [2] Localhost  ("+Localhost+""+Fore.GREEN+")  >>  Тунелирование")
