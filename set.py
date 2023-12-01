@@ -285,32 +285,57 @@ while True:
 
 
           if tsu_501 == '1':
-              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
-              Ngrok = ""+Fore.RED+"X"
-              baner()
-              print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
-              res()
-              del_tool = input(' [Нажмите enter чтобы выйти]')
-              os.system('clear')
+              filename = "ngrok"
+              if os.path.exists(filename):
+                baner()
+                print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
+                
+              else:
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
+                Ngrok = ""+Fore.RED+"X"
+                baner()
+                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
           
           if tsu_501 == '2':
-              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
-              Localhost = ""+Fore.RED+"X"
-              baner()
-              print(Fore.YELLOW+" Утилита Localhost успешно удалена!")
-              res()
-              del_tool = input(' [Нажмите enter чтобы выйти]')
-              os.system('clear')
+              filename = "lochost"
+              if os.path.exists(filename):
+                baner()
+                print(Fore.YELLOW+" Утилита Localhost еще не установлена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
+                
+              else:
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
+                Localhost = ""+Fore.RED+"X"
+                baner()
+                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
 
           if tsu_501 == '8':
-              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
-              IPTracer = ""+Fore.RED+"X"
-              baner()
-              print(Fore.YELLOW+" Утилита IP-Tracer успешно удалена!")
-              res()
-              del_tool = input(' [Нажмите enter чтобы выйти]')
-              os.system('clear')
-
+              filename = "IP"
+              if os.path.exists(filename):
+                baner()
+                print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
+              else:
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
+                IPTracer = ""+Fore.RED+"X"
+                baner()
+                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
           
           
           if tsu_501 == '3':
