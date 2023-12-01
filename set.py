@@ -146,6 +146,7 @@ while True:
             os.system('mv VidPhisher /data/data/com.termux/files/home/')
             os.system('mv Discord-Nitro-Generator-and-Checker /data/data/com.termux/files/home/')
             os.system('mv shorturl /data/data/com.termux/files/home/')
+            os.system('mv PhoneInfoga /data/data/com.termux/files/home/')
             os.system('clear')
             baner()
             print(Fore.GREEN+"\n Все директории УСПЕШНО перенесены в папку /files/home/")
