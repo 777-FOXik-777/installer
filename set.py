@@ -434,7 +434,7 @@ while True:
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
-                  IPTracer = ""+Fore.RED+"X
+                  IPTracer = ""+Fore.RED+"X"
 
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
