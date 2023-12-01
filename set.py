@@ -427,7 +427,7 @@ while True:
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
-                  Localhost = ""+Fore.RED+"X
+                  Localhost = ""+Fore.RED+"X"
 
                   filename = "IP"
                   if os.path.exists(filename):
