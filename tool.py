@@ -7,6 +7,32 @@ os.system('rm -fr /data/data/com.termux/files/home/update.py')
 
 
 
+os.chdir('/data/data/com.termux/files/home')
+
+filename = "storage"
+
+if os.path.exists(filename):
+    
+    os.system('clear')
+
+
+else:
+    from colorama import Fore, Style
+
+    print ('\n')
+    def res():
+        print(Style.RESET_ALL)
+  
+    os.system('clear')
+    print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
+    res()
+    time.sleep(1.5)
+    os.system('termux-setup-storage')
+    tsu = input('\n [Нажмите Enter чтобы продолжить]')
+    os.system('clear')
+
+
+
 os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
 filename = "Auto"
