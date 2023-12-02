@@ -28,7 +28,7 @@ else:
     res()
     time.sleep(1.5)
     os.system('termux-setup-storage')
-    tsu = input('\n [Нажмите Enter чтобы продолжить]')
+    tsu = input('\n[Нажмите Enter чтобы продолжить]')
     os.system('clear')
 
 
