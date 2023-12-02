@@ -89,35 +89,6 @@ else:
 
 
 
-
-
-os.chdir('/data/data/com.termux/files/home')
-
-filename = "storage"
-
-if os.path.exists(filename):
-    
-    os.system('clear')
-
-
-else:
-    from colorama import Fore, Style
-
-    print ('\n')
-    def res():
-        print(Style.RESET_ALL)
-  
-    os.system('clear')
-    print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
-    res()
-    time.sleep(1.5)
-    os.system('termux-setup-storage')
-    tsu = input('\n \n[Нажмите enter чтобы продолжить]')
-    os.system('clear')
-
-
-
-
 os.chdir('/data/data/com.termux/files/home/installer')
 print(Style.RESET_ALL)
 print(' Этот инструмент предназначен только для образовательных\n целей. Если вы используете Installer для других целей,\n кроме образования, в таких случаях мы не несем\n ответственности. Все утилиты и файлы взяты из открытых\n источников. Утилиты, фото, видео и прочие файлы\n принадлежат их законным авторам.')
