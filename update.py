@@ -57,8 +57,6 @@ if os.path.exists(filename):
   os.chdir('/data/data/com.termux/files/home/installer')
   os.system('clear')
   print(Style.RESET_ALL)
-  print(' Этот инструмент предназначен только для образовательных\n целей. Если вы используете Installer для других целей,\n кроме образования, в таких случаях мы не несем\n ответственности. Все утилиты, фото, видео и прочие файлы\n взяты из открытых источников\n и принадлежат их законным авторам.')
-  time.sleep(2)
   os.system('python3 tool.py')
         
 
