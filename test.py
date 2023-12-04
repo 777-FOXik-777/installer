@@ -1,13 +1,26 @@
-# Импортируем модуль subprocess для запуска команды ssh
-import subprocess
+# Определяем имя файла, в который записывается вывод команды ssh
+cf_file = "cf_log.txt"
 
-# Запускаем команду ssh с нужными параметрами и получаем ее вывод
-output = subprocess.run(["ssh", "-R", "80:localhost:8080", "nokey@localhost.run", "-T", "-n"], capture_output=True, text=True)
+# Определяем функцию для поиска строки, соответствующей регулярному выражению, в файле
+def grep(pattern, file):
+    with open(file, "r") as f:
+        for line in f:
+            match = re.search(pattern, line)
+            if match:
+                return match.group(1)
+    return ""
 
-# Ищем в выводе строку, начинающуюся с https://
-for line in output.stdout.splitlines():
-    if line.startswith("https://"):
-        # Выводим найденную строку на экран
-        print(line)
-        # Прерываем цикл
+# Запускаем команду ssh в фоновом режиме и перенаправляем ее вывод в файл
+bgtask("ssh -R 80:localhost:8080 nokey@localhost.run -T -n", stdout=cf_log, stderr=cf_log)
+
+# Пытаемся найти URL в файле в течение 10 секунд
+cf_success = False
+for i in range(10):
+    cf_url = grep("(https://[-0-9a-z.]*.lhr.life)", cf_file)
+    if cf_url != "":
+        cf_success = True
         break
+    time.sleep(1)
+
+# Выводим найденный URL на экран
+print(f'\n[~] Link: {cf_url}')
