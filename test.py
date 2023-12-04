@@ -5,7 +5,7 @@ import re
 pattern = r"https://\S+"
 
 # Запускаем команду ssh с нужными параметрами и получаем ее вывод в виде строки
-output = subprocess.getoutput("ssh -R 80:localhost:8080 nokey@localhost.run  -T -n")
+output = subprocess.getoutput("ssh -R 80:localhost:8080 nokey@localhost.run")
 
 # Ищем в выводе первое совпадение с шаблоном
 match = re.search(pattern, output)
