@@ -1,15 +1,13 @@
-# Импортируем модуль re для работы с регулярными выражениями
-import re
+# Импортируем модуль subprocess для запуска команды ssh
+import subprocess
 
-# Определяем шаблон для поиска URL, начинающегося с https://
-pattern = r"https://\S+"
+# Запускаем команду ssh с нужными параметрами и получаем ее вывод
+output = subprocess.run(["ssh", "-R", "80:localhost:8080", "nokey@localhost.run", "-T", "-n"], capture_output=True, text=True)
 
-# Запускаем команду ssh с нужными параметрами и получаем ее вывод в виде строки
-output = subprocess.getoutput("ssh -R 80:localhost:8080 nokey@localhost.run")
-
-# Ищем в выводе первое совпадение с шаблоном
-match = re.search(pattern, output)
-
-# Если совпадение найдено, выводим его на экран
-if match:
-    print(match.group())
+# Ищем в выводе строку, начинающуюся с https://
+for line in output.stdout.splitlines():
+    if line.startswith("https://"):
+        # Выводим найденную строку на экран
+        print(line)
+        # Прерываем цикл
+        break
