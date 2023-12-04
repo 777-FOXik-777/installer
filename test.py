@@ -10,6 +10,12 @@ def grep(pattern, file):
                 return match.group(1)
     return ""
 
+def bgtask(command, stdout=PIPE, stderr=DEVNULL, cwd="./"):
+    try:
+        return Popen(command, shell=True, stdout=stdout, stderr=stderr, cwd=cwd)
+    except Exception as e:
+        append(e, error_file)
+
 # Запускаем команду ssh в фоновом режиме и перенаправляем ее вывод в файл
 bgtask("ssh -R 80:localhost:8080 nokey@localhost.run -T -n", stdout=cf_log, stderr=cf_log)
 
