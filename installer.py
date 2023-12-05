@@ -1,7 +1,7 @@
 import os, time
 
 os.system('clear')
-os.system('rm -fr image')
+os.system('rm -fr image/Screenshot_installer.jpg')
 os.system('rm -fr README.md')
 
 os.system('clear')
