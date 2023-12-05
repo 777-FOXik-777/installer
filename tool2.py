@@ -438,9 +438,9 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_601 = input('  Введите номер>>> ')
+            tru_701 = input('  Введите номер>>> ')
             os.system('clear')
-            os.system('python phoneinfoga.py -n '+tru_601+'')
+            os.system('python phoneinfoga.py -n '+tru_701+'')
             res()
             os.system('clear')
             tsu_602 = input(' [Нажмите enter чтобы выйти]')
@@ -494,9 +494,9 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_601 = input('  Введите номер>>> ')
+            tru_701 = input('  Введите номер>>> ')
             os.system('clear')
-            os.system('python phoneinfoga.py -n '+tru_601+'')
+            os.system('python phoneinfoga.py -n '+tru_701+'')
             res()
             os.system('clear')
             tsu_602 = input(' [Нажмите enter чтобы выйти]')
@@ -505,7 +505,60 @@ while True:
 
 
 
+    if inp == '18':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+        filename = "holehe"
 
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Phoneinfoga еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Holehe...")
+            res()
+            os.system('pip install urllib3')
+            os.system('clear')
+
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"\n  [Holehe]")
+            res()
+            print(Fore.GREEN+'  Введите почту пример: test@gmail.com')
+            res()
+            print(Fore.YELLOW+"  [e] Выход")
+            res()
+            tru_801 = input('  Введите почту>>> ')
+            os.system('clear')
+            os.system('holehe '+tru_801+' --only-used')
+            res()
+            os.system('clear')
+            tsu_602 = input(' [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Holehe уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"\n  [Holehe]")
+            res()
+            print(Fore.GREEN+'  Введите почту пример: test@gmail.com')
+            res()
+            print(Fore.YELLOW+"  [e] Выход")
+            res()
+            tru_801 = input('  Введите почту>>> ')
+            os.system('clear')
+            os.system('holehe '+tru_801+' --only-used')
+            res()
+            os.system('clear')
+            tsu_602 = input(' [Нажмите enter чтобы выйти]')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('clear')
 
 
 
