@@ -51,9 +51,9 @@ if os.path.exists(filename):
 
   
   os.system('clear')
-  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Installer успешно установлен!")
+  print(Fore.YELLOW+"["+Fore.GREEN+"i"+Fore.YELLOW+"] Installer успешно установлен!")
   print(Fore.WHITE+" ")
-  tsu = input(' [Нажмите Enter чтобы продолжить]')
+  tsu = input('[Нажмите Enter чтобы продолжить]')
   os.chdir('/data/data/com.termux/files/home/installer')
   os.system('clear')
   print(Style.RESET_ALL)
