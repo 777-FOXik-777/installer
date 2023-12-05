@@ -7,6 +7,7 @@ os.system('rm -fr /data/data/com.termux/files/home/update.py')
 
 
 
+
 os.chdir('/data/data/com.termux/files/home')
 
 filename = "storage"
@@ -32,6 +33,23 @@ else:
     os.system('termux-setup-storage')
     tsu = input('\n[Нажмите Enter чтобы продолжить]')
     os.system('clear')
+
+filename = "storage"
+
+if os.path.exists(filename):
+    
+    os.system('mv /data/data/com.termux/files/home/installer/image/logo-installer.jpg /sdcard/Pictures')
+    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
+    os.system('clear')
+
+
+else:
+        
+    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
+    os.system('clear')
+
+
+
 
 
 print(Style.RESET_ALL)
