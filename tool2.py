@@ -521,7 +521,7 @@ while True:
             os.system('clear')
 
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n  [Holehe]")
+            print(Style.BRIGHT,Fore.CYAN+"  [Holehe]")
             res()
             print(Fore.GREEN+'  Введите почту пример: test@gmail.com')
             res()
@@ -545,7 +545,7 @@ while True:
             time.sleep(0.5)
 
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n  [Holehe]")
+            print(Style.BRIGHT,Fore.CYAN+"  [Holehe]")
             res()
             print(Fore.GREEN+'  Введите почту пример: test@gmail.com')
             res()
