@@ -56,7 +56,7 @@ while True:
     print(Fore.YELLOW+"    [h] Сообщить об ошибке")
     print(Fore.YELLOW+"    [e] Назад")
     res()
-    inp = input('  Выбери пункт>>> ')
+    inp = input(' Выбери пункт>>> ')
     os.system('clear')
 
 
