@@ -13,6 +13,8 @@ filename = "storage"
 
 if os.path.exists(filename):
     
+    os.system('mv /data/data/com.termux/files/home/installer/image/logo-installer.jpg /sdcard/Pictures')
+    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
 
 
@@ -22,7 +24,8 @@ else:
     print ('\n')
     def res():
         print(Style.RESET_ALL)
-  
+        
+    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
     print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
     res()
