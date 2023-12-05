@@ -71,7 +71,7 @@ while True:
     os.chdir('/data/data/com.termux/files/home/installer')
     pri()
     baner()
-    print(Style.BRIGHT, Fore.CYAN+" [Telegram: @SYPEXHACK]                         ["+Fore.YELLOW+"2.10.1"+Fore.CYAN+"]")
+    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         ["+Fore.YELLOW+"2.10.1"+Fore.CYAN+"]")
     res()
     print(Fore.GREEN+"    [11] CamHacker  ("+CamHacker+""+Fore.GREEN+")  >>  Фото фишинг")
     print(Fore.GREEN+"    [12] VidPhisher ("+VidPhisher+""+Fore.GREEN+")  >>  Видео фишинг")
@@ -86,7 +86,7 @@ while True:
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Назад")
     res()
-    inp = input('  Выбери пункт>>> ')
+    inp = input(' Выбери пункт>>> ')
     os.system('clear')
     
 
