@@ -511,7 +511,7 @@ while True:
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Phoneinfoga еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Holehe еще НЕ установлен!")
             time.sleep(2)
             
             os.system('clear')
@@ -521,7 +521,7 @@ while True:
             os.system('clear')
 
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"  [Holehe]")
+            print(Style.BRIGHT,Fore.CYAN+" [Holehe]")
             res()
             print(Fore.GREEN+'  Введите почту пример: test@gmail.com')
             res()
@@ -545,7 +545,7 @@ while True:
             time.sleep(0.5)
 
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"  [Holehe]")
+            print(Style.BRIGHT,Fore.CYAN+" [Holehe]")
             res()
             print(Fore.GREEN+'  Введите почту пример: test@gmail.com')
             res()
