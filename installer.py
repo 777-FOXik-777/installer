@@ -11,6 +11,26 @@ print(f'\33]0; Installer - Установка...\a',
 
 
 
+
+os.chdir('/data/data/com.termux/files/home')
+
+filename = "storage"
+
+if os.path.exists(filename):
+    
+    os.system('mv /data/data/com.termux/files/home/installer/image/logo-installer.jpg /sdcard/Pictures')
+    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
+    os.system('clear')
+
+
+else:
+        
+    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
+    os.system('clear')
+
+
+
+
 os.chdir('/data/data/com.termux/files/home/')
 
 filename = "Installer_Files"
@@ -26,6 +46,7 @@ else:
   os.chdir('/data/data/com.termux/files/home/installer')
   os.system('mv Installer_Files /data/data/com.termux/files/home')
   
+
 
 
 os.system('clear')
@@ -86,6 +107,7 @@ else:
     print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Все зависимости уже установлены!")
     time.sleep(2)
     os.system('clear')
+
 
 
 
