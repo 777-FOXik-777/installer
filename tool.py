@@ -34,20 +34,35 @@ else:
     tsu = input('\n[Нажмите Enter чтобы продолжить]')
     os.system('clear')
 
-filename = "storage"
+
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "hack"
 
 if os.path.exists(filename):
-    
-    os.system('mv /data/data/com.termux/files/home/installer/image/logo-installer.jpg /sdcard/Pictures')
-    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
-    os.system('clear')
 
+  os.chdir('/data/data/com.termux/files/home')
+  
+  filename = "storage"
+  
+  if os.path.exists(filename):
+      
+      os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
+      os.system('rm -fr /data/data/com.termux/files/home/installer/image')
+      os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/hack')
+      os.system('clear')
+  
+  
+  else:
+          
+      os.system('clear')
 
 else:
-        
+  
     os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
-
 
 
 
