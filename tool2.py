@@ -24,6 +24,14 @@ def baner():
     res()
     
 while True:
+    os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+    
+    filename = "holehe"
+    if os.path.exists(filename):
+      Holehe = ""+Fore.RED+"X"
+    else:
+      Holehe = ""+Fore.GREEN+"✓"
+    
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
     
     filename = "CamHacker"
