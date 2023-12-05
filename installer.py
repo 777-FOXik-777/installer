@@ -2,6 +2,7 @@ import os, time
 
 os.system('clear')
 os.system('rm -fr image/Screenshot_installer.jpg')
+os.system('rm -fr image/logo-installer.jpg')
 os.system('rm -fr README.md')
 
 os.system('clear')
@@ -18,7 +19,7 @@ filename = "storage"
 
 if os.path.exists(filename):
     
-    os.system('mv /data/data/com.termux/files/home/installer/image/logo-installer.jpg /sdcard/Pictures')
+    os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
     os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
 
