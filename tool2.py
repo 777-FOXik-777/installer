@@ -517,7 +517,8 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Holehe...")
             res()
-            os.system('pip install urllib3')
+            os.system('pip3 install holehe')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/holehe')
             os.system('clear')
 
             baner()
