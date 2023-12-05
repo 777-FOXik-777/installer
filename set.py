@@ -180,6 +180,11 @@ while True:
         else:
           IPTracer = ""+Fore.GREEN+"✓"
 
+        filename = "holehe"
+        if os.path.exists(filename):
+          Holehe = ""+Fore.RED+"X"
+        else:
+          Holehe = ""+Fore.GREEN+"✓"
       
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
       
@@ -339,6 +344,24 @@ while True:
                 res()
                 del_tool = input(' [Нажмите enter чтобы выйти]')
                 os.system('clear')
+
+          if tsu_501 == '18':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+              filename = "holehe"
+              if os.path.exists(filename):
+                baner()
+                print(Fore.YELLOW+" Утилита Holehe еще не установлена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
+              else:
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
+                Holehe = ""+Fore.RED+"X"
+                baner()
+                print(Fore.YELLOW+" Утилита Holehe успешно удалена!")
+                res()
+                del_tool = input(' [Нажмите enter чтобы выйти]')
+                os.system('clear')
           
           
           if tsu_501 == '3':
@@ -463,6 +486,13 @@ while True:
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
                   IPTracer = ""+Fore.RED+"X"
+
+                  filename = "holehe"
+                  if os.path.exists(filename):
+                    os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
+                  Holehe = ""+Fore.RED+"X"
 
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
