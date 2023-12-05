@@ -263,7 +263,7 @@ while True:
       
         while True:
           baner()
-          print(Style.BRIGHT, Fore.CYAN+"  Выбери какую именно удалить Утилиту?")
+          print(Style.BRIGHT, Fore.CYAN+" Выбери какую именно удалить Утилиту?")
           res()
           print(Fore.YELLOW+"    [1] Ngrok        ("+Ngrok+""+Fore.YELLOW+")  [11] CamHacker      ("+CamHacker+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [2] Localhost    ("+Localhost+""+Fore.YELLOW+")  [12] VidPhisher     ("+VidPhisher+""+Fore.YELLOW+")")
