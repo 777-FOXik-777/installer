@@ -355,7 +355,7 @@ while True:
                 del_tool = input(' [Нажмите enter чтобы выйти]')
                 os.system('clear')
               else:
-                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
                 Holehe = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Holehe успешно удалена!")
