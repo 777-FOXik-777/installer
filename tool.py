@@ -29,6 +29,8 @@ else:
     time.sleep(1.5)
     os.system('termux-setup-storage')
     tsu = input('\n[Нажмите Enter чтобы продолжить]')
+    os.system('mv /data/data/com.termux/files/home/installer/image/logo-installer.jpg /sdcard/Pictures')
+    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
 
 
