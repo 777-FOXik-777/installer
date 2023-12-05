@@ -491,7 +491,7 @@ while True:
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
-                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
                   Holehe = ""+Fore.RED+"X"
 
                 
