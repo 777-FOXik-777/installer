@@ -25,7 +25,6 @@ if os.path.exists(filename):
 
 else:
         
-    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
 
 
