@@ -537,13 +537,17 @@ while True:
             print(Fore.YELLOW+"  [e] Выход")
             res()
             tru_801 = input('  Введите почту>>> ')
-            os.system('clear')
-            baner()
-            os.system('holehe '+tru_801+' --only-used --no-clear')
-            res()
-            tsu_602 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            if tru_801 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('holehe '+tru_801+' --only-used --no-clear')
+                res()
+                tsu_602 = input('[Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
 
         else:
             os.system('clear')
@@ -561,13 +565,17 @@ while True:
             print(Fore.YELLOW+"  [e] Выход")
             res()
             tru_801 = input('  Введите почту>>> ')
-            os.system('clear')
-            baner()
-            os.system('holehe '+tru_801+' --only-used --no-clear')
-            res()
-            tsu_602 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            if tru_801 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('holehe '+tru_801+' --only-used --no-clear')
+                res()
+                tsu_602 = input('[Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
 
 
 
