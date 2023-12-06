@@ -11,7 +11,8 @@ def pri():
 
 
 def exit():
-    exit = input('[Нажмите enter чтобы выйти]')
+    res()
+    exit = input('[Нажмите Enter чтобы выйти]')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('clear')
 
@@ -120,9 +121,7 @@ while True:
             os.system('clear')
             os.system('bash ch.sh')
             res()
-            tsu_102 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
 
         else:
             os.system('clear')
