@@ -447,13 +447,18 @@ while True:
             print(Fore.YELLOW+"  [e] Выход")
             res()
             tru_701 = input('  Введите номер>>> ')
-            os.system('clear')
-            os.system('python phoneinfoga.py -n '+tru_701+'')
-            res()
-            os.system('clear')
-            tsu_602 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            if tru_701 == 'e':
+                os.system('clear')
+
+            else:
+                os.system('clear')
+                os.system('python phoneinfoga.py -n '+tru_701+'')
+                res()
+                os.system('clear')
+                tsu_602 = input(' [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+
 
         else:
             os.system('clear')
@@ -503,13 +508,17 @@ while True:
             print(Fore.YELLOW+"  [e] Выход")
             res()
             tru_701 = input('  Введите номер>>> ')
-            os.system('clear')
-            os.system('python phoneinfoga.py -n '+tru_701+'')
-            res()
-            os.system('clear')
-            tsu_602 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            if tru_701 == 'e':
+                os.system('clear')
+
+            else:
+                os.system('clear')
+                os.system('python phoneinfoga.py -n '+tru_701+'')
+                res()
+                os.system('clear')
+                tsu_602 = input(' [Нажмите enter чтобы выйти]')
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
 
 
 
