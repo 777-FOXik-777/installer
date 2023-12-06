@@ -150,7 +150,7 @@ while True:
     print(Fore.GREEN+"    [8] IP-Tracer  ("+IPTracer+""+Fore.GREEN+")  >>  Пробив по IP")
     print(Fore.GREEN+"    [9] Seeker     ("+Seeker+""+Fore.GREEN+")  >>  Узнать местоположения")
     res()
-    print(Style.BRIGHT,Fore.CYAN+"   "+Fore.YELLOW+"[00] Стр. (1) "+Fore.CYAN+"[10] Стр. (2) "+Fore.CYAN+"[20] Стр. (3)")
+    print(Fore.CYAN+"    "+Fore.YELLOW+"[00] Стр. (1) "+Fore.CYAN+"[10] Стр. (2) "+Fore.CYAN+"[20] Стр. (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Выход")
