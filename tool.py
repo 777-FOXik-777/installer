@@ -61,6 +61,12 @@ else:
 def pri():
     print(f'\33]0; Installer - Страница [1]\a',
                       end='', flush=True)
+    
+def exit():
+    res()
+    exit = input('[Нажмите Enter чтобы выйти]')
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('clear')
 
 def res():
     print(Style.RESET_ALL)
@@ -425,10 +431,7 @@ while True:
             os.chdir('PyPhisher')
             os.system('clear')
             os.system('python3 pyphisher.py')
-            res()
-            tsu_302 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
 
         else:
             os.system('clear')
@@ -442,10 +445,7 @@ while True:
             os.chdir('PyPhisher')
             os.system('clear')
             os.system('python3 pyphisher.py')
-            res()
-            tsu_302 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
 
     
 
@@ -464,10 +464,7 @@ while True:
             os.chdir('zphisher')
             os.system('clear')
             os.system('bash zphisher.sh')
-            res()
-            tsu_401 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
             
         else:
             os.system('clear')
@@ -481,10 +478,7 @@ while True:
             os.chdir('zphisher')
             os.system('clear')
             os.system('bash zphisher.sh')
-            res()
-            tsu_401 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
 
   
 
@@ -503,10 +497,7 @@ while True:
             os.chdir('k-fuscator')
             os.system('clear')
             os.system('python3 kf.py')
-            res()
-            tsu_601 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
             
         else:
             os.system('clear')
@@ -520,10 +511,7 @@ while True:
             os.chdir('k-fuscator')
             os.system('clear')
             os.system('python3 kf.py')
-            res()
-            tsu_501 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
 
 
 
@@ -543,10 +531,7 @@ while True:
             os.chdir('TigerVirus')
             os.system('clear')
             os.system('bash TigerVirus.sh')
-            res()
-            tsu_601 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
             
         else:
             os.system('clear')
@@ -560,11 +545,7 @@ while True:
             os.chdir('TigerVirus')
             os.system('clear')
             os.system('bash TigerVirus.sh')
-            res()
-            tsu_601 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
-
+            exit()
     
 
     if inp == '7':
@@ -582,10 +563,7 @@ while True:
             os.chdir('maskphish')
             os.system('clear')
             os.system('bash maskphish.sh')
-            res()
-            tsu_701 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
             
         else:
             os.system('clear')
@@ -599,10 +577,7 @@ while True:
             os.chdir('maskphish')
             os.system('clear')
             os.system('bash maskphish.sh')
-            res()
-            tsu_701 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
 
 
     
@@ -639,9 +614,7 @@ while True:
             if tru_801 == '1':
                 os.system('clear')
                 os.system('trace -m')
-                tsu_803 = input('\n [Нажмите enter чтобы выйти]')
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
+                exit()
                 
             if tru_801 == '2':
                 os.system('clear')
@@ -652,10 +625,7 @@ while True:
                 tsu_802 = input('  Введите IP >>> ')
                 os.system('clear')
                 os.system('trace -t '+tsu_802)
-                res()
-                tsu_804 = input(' [Нажмите enter чтобы выйти]')
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
+                exit()
     
             else:
                 os.chdir('/data/data/com.termux/files/home/installer')
@@ -684,9 +654,7 @@ while True:
             if tru_801 == '1':
                 os.system('clear')
                 os.system('trace -m')
-                tsu_803 = input('\n [Нажмите enter чтобы выйти]')
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
+                exit()
                 
             if tru_801 == '2':
                 os.system('clear')
@@ -697,10 +665,7 @@ while True:
                 tsu_802 = input('  Введите IP >>> ')
                 os.system('clear')
                 os.system('trace -t '+tsu_802)
-                res()
-                tsu_804 = input(' [Нажмите enter чтобы выйти]')
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
+                exit()
     
             else:
                 os.chdir('/data/data/com.termux/files/home/installer')
@@ -723,10 +688,7 @@ while True:
             os.chdir('seeker')
             os.system('clear')
             os.system('python seeker.py')
-            res()
-            tsu_901 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
+            exit()
         
         else:
             os.system('clear')
@@ -769,11 +731,7 @@ while True:
             os.chdir('seeker')
             os.system('clear')
             os.system('python seeker.py')
-            res()
-            tsu_901 = input(' [Нажмите enter чтобы выйти]')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('clear')
-
+            exit()
     
     
     if inp == '10':
