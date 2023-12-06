@@ -89,7 +89,7 @@ while True:
     print(Fore.GREEN+"    [16] ShortUrl   ("+ShortUrl+""+Fore.GREEN+")  >>  Сокращение ссылок")
     print(Fore.GREEN+"    [17] PhoneInfo  ("+PhoneInfoga+""+Fore.GREEN+")  >>  Инфо о номере")
     res()
-    print(Style.BRIGHT,Fore.CYAN+"   [10] Страница (1) "+Fore.GREEN+"[00] Страница (2) "+Fore.CYAN+"[20] Страница (3)")
+    print(Style.BRIGHT,Fore.CYAN+"   [10] Стр. (1) "+Fore.YELLOW+"[00] Стр. (2) "+Fore.CYAN+"[20] Стр. (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Назад")
