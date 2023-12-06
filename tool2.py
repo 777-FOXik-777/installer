@@ -10,6 +10,11 @@ def pri():
                       end='', flush=True)
 
 
+def exit():
+    exit = input('[Нажмите enter чтобы выйти]')
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('clear')
+
 def res():
     print(Style.RESET_ALL)
 
