@@ -157,7 +157,6 @@ while True:
     print(Fore.GREEN+"    [9] Seeker     ("+Seeker+""+Fore.GREEN+")  >>  Узнать местоположения")
     res()
     print(Style.BRIGHT,Fore.CYAN+"   [10] Страница (2)")
-    print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Выход")
@@ -766,8 +765,8 @@ while True:
 
     
     if inp == '10':
-        nol = '10'
-        break
+        os.system('cd /data/data/com.termux/files/home/installer/')
+        os.system('python tool2.py')
 
 
     
@@ -779,22 +778,11 @@ while True:
     
 
     if inp == 'e':
-        nol = 'e'
-        break
-
-
-
-
-
-if nol == '10':
-        os.system('cd /data/data/com.termux/files/home/installer/')
-        os.system('python tool2.py')
-
-if nol == 'e':
         print(f'\33]0; Installer - Спасибо за использование\a',
-                  end='', flush=True)
+              end='', flush=True)
         os.system('cd /data/data/com.termux/files/home/')
         os.system('clear')
         print('\n')
         print(Fore.CYAN+'Спасибо за использование Installer')
         res()
+        break
