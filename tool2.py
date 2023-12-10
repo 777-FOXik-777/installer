@@ -553,12 +553,82 @@ while True:
 
 
 
+    if inp == '19':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "sherlock"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Sherlock уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('sherlock')
+            os.system('clear')
+            exit()
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Sherlock еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tur-repo...")
+            res()
+            os.system('pkg install tur-repo')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка numpy...")
+            res()
+            os.system('pkg install python-numpy -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка pandas...")
+            res()
+            os.system('pkg install python-pandas -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка certifi...")
+            res()
+            os.system('pip3 install certifi')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PySocks...")
+            res()
+            os.system('pip3 install certifi')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
+            res()
+            os.system('pip3 install requests')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests-futures...")
+            res()
+            os.system('pip3 install requests-futures')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка stem...")
+            res()
+            os.system('pip3 install stem')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка torrequest...")
+            res()
+            os.system('pip3 install torrequest')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openpyxl...")
+            res()
+            os.system('pip3 install openpyxl')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка exrex...")
+            res()
+            os.system('pip3 install exrex')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Sherlok...")
+            res()
+            os.system('git clone https://github.com/sherlock-project/sherlock.git')
+            os.chdir('sherlock')
+            os.system('clear')
+            exit()
 
 
 
 
-
-    
     
 
     if inp == '20':
