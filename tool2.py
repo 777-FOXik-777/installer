@@ -511,6 +511,9 @@ while True:
             print(Fore.YELLOW+"  [e] Выход")
             res()
             tru_801 = input('  Введите почту>>> ')
+            if tru_801 == '':
+                os.system('clear')
+            
             if tru_801 == 'e':
                 os.system('clear')
             
