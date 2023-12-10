@@ -55,6 +55,9 @@ git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
 ```
+
+<hr />
+
 <h1 align="center">После установки:</h1>
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer.jpg)
