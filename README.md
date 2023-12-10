@@ -1,4 +1,4 @@
-<h1 align="center">Installer
+<h1 align="center">Installer<h/1>
 
 <hr />
 
