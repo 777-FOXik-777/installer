@@ -311,7 +311,6 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
-                Ngrok = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
                 exit()
@@ -326,7 +325,6 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
-                Localhost = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
                 exit()
@@ -341,7 +339,6 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
-                IPTracer = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
                 exit()
@@ -356,7 +353,6 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
-                Holehe = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Holehe успешно удалена!")
                 exit()
@@ -367,98 +363,84 @@ while True:
               led = "PyPhish"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
-              PyPhisher = ""+Fore.RED+"X"
 
           if tsu_501 == '4':
               filename = "zphisher"
               led = "Zphisher"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
-              Zphisher = ""+Fore.RED+"X"
 
           if tsu_501 == '5':
               filename = "k-fuscator"
               led = "K-fuscator"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
-              Kfuscator = ""+Fore.RED+"X"
 
           if tsu_501 == '6':
               filename = "TigerVirus"
               led = "TigerVirus"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
-              TigerVirus = ""+Fore.RED+"X"
 
           if tsu_501 == '7':
               filename = "maskphish"
               led = "Maskphish"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
-              Maskphish = ""+Fore.RED+"X"
 
           if tsu_501 == '9':
               filename = "seeker"
               led = "Seeker"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
-              Seeker = ""+Fore.RED+"X"
 
           if tsu_501 == '11':
               filename = "CamHacker"
               led = "CamHacker"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
-              CamHacker = ""+Fore.RED+"X"
 
           if tsu_501 == '12':
               filename = "VidPhisher"
               led = "VidPhisher"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
-              VidPhisher = ""+Fore.RED+"X"
 
           if tsu_501 == '13':
               filename = "Telephish"
               led = "Telephish"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
-              Telephish = ""+Fore.RED+"X"
 
           if tsu_501 == '14':
               filename = "Dnnme2"
               led = "Dnnme2"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
-              Dnnme2 = ""+Fore.RED+"X"
 
           if tsu_501 == '15':
               filename = "Discord-Nitro-Generator-and-Checker"
               led = "Discord"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
-              Discord = ""+Fore.RED+"X"
 
           if tsu_501 == '16':
               filename = "shorturl"
               led = "ShortUrl"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
-              ShortUrl = ""+Fore.RED+"X"
 
           if tsu_501 == '17':
               filename = "PhoneInfoga"
               led = "PhoneInfoga"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
-              PhoneInfoga = ""+Fore.RED+"X"
 
           if tsu_501 == '19':
               filename = "sherlock"
               led = "Sherlock"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
-              Sherlock = ""+Fore.RED+"X"
             
           
           if tsu_501 == 'a':
@@ -475,28 +457,24 @@ while True:
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
-                  Ngrok = ""+Fore.RED+"X"
 
                   filename = "lochost"
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
-                  Localhost = ""+Fore.RED+"X"
 
                   filename = "IP"
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
-                  IPTracer = ""+Fore.RED+"X"
 
                   filename = "holehe"
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
-                  Holehe = ""+Fore.RED+"X"
 
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
