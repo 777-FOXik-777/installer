@@ -452,7 +452,7 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
               PhoneInfoga = ""+Fore.RED+"X"
 
-          if tsu_501 == '17':
+          if tsu_501 == '19':
               filename = "sherlock"
               led = "Sherlock"
               delet()
