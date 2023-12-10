@@ -567,7 +567,25 @@ while True:
 
             os.chdir('sherlock')
             os.system('clear')
-            exit()
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+" [Sherlock]")
+            res()
+            print(Fore.GREEN+'  Введите ник, пример:'+Fore.CYAN+' oleghka')
+            res()
+            print(Fore.YELLOW+"  [e] Выход")
+            res()
+            tru_901 = input('  Введите ник>>> ')
+            if tru_901 == '':
+                os.system('clear')
+            
+            if tru_901 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('python sherlock '+tru_901+'')
+                exit()
 
         else:
             os.system('clear')
@@ -624,7 +642,25 @@ while True:
             os.system('git clone https://github.com/sherlock-project/sherlock.git')
             os.chdir('sherlock')
             os.system('clear')
-            exit()
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+" [Sherlock]")
+            res()
+            print(Fore.GREEN+'  Введите ник, пример:'+Fore.CYAN+' oleghka')
+            res()
+            print(Fore.YELLOW+"  [e] Выход")
+            res()
+            tru_901 = input('  Введите ник>>> ')
+            if tru_901 == '':
+                os.system('clear')
+            
+            if tru_901 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('python sherlock '+tru_901+'')
+                exit()
 
 
 
