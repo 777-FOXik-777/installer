@@ -157,6 +157,7 @@ while True:
     print(Fore.GREEN+"    [9] Seeker     ("+Seeker+""+Fore.GREEN+")  >>  Узнать местоположения")
     res()
     print(Style.BRIGHT,Fore.CYAN+"   [10] Страница (2)")
+    print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
     print(Fore.YELLOW+"    [e] Выход")
@@ -738,7 +739,31 @@ while True:
             os.system('clear')
             os.system('python seeker.py')
             exit()
-    
+
+
+
+
+
+        if inp == '20':
+        print(f'\33]0; Installer - Страница [3]\a',
+                      end='', flush=True)
+        baner()
+        print (Fore.YELLOW+"  ["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
+        res()
+        print(Fore.CYAN+'  [1]'+Fore.CYAN+' Добавить утилиту в Installer')
+        res()
+        print(Fore.YELLOW+'  [e]'+Fore.YELLOW+' Выход')
+        res()
+        tsu_20 = input('  Выбери пункт>>> ')
+
+        if tsu_20 == '1':
+            os.system('xdg-open https://forms.gle/vMHny8Yp24HQZqLV9')
+            os.system('clear')
+
+        else:
+            os.system('clear')
+
+
     
     if inp == '10':
         nol = '10'
@@ -756,6 +781,7 @@ while True:
     if inp == 'e':
         nol = 'e'
         break
+
 
 
 
