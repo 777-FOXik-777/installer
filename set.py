@@ -101,9 +101,9 @@ while True:
     if inp == '2':
         os.system('clear')
         baner()
-        print(Style.BRIGHT,Fore.CYAN+' Вы точно хотите Обновить/Переустановить Installer?')
+        print(Style.BRIGHT,Fore.YELLOW+' Вы точно хотите Обновить/Переустановить Installer?')
         res()
-        tru_201 = input('  Выбери пункт>>> ')
+        tru_201 = input('  Выбери пункт [y/n] >>> ')
         if tru_201 == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
             os.system('rm ~/.bashrc')
