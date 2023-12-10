@@ -202,12 +202,12 @@ while True:
             if tru_102 == 'y':
                 os.system('clear')
                 baner()
+                print(Style.BRIGHT,Fore.CYAN+" [Ngrok]")
                 res()
                 we_2 = input('  Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
                     baner()
-                    res()
                     print(Fore.YELLOW+' Вы ничего не ввели!')
                     res()
                     print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
@@ -258,12 +258,12 @@ while True:
             if tru_102 == 'y':
                 os.system('clear')
                 baner()
+                print(Style.BRIGHT,Fore.CYAN+" [Ngrok]")
                 res()
                 we_2 = input('  Введите порт>>> ')
                 if we_2 == '':
                     os.system('clear')
                     baner()
-                    res()
                     print(Fore.YELLOW+' Вы ничего не ввели!')
                     res()
                     print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
@@ -326,11 +326,12 @@ while True:
             if tru_202 == 'y':
                 os.system('clear')
                 baner()
+                print(Style.BRIGHT,Fore.CYAN+" [Localhost]")
                 res()
                 qw_2 = input('  Введите порт>>> ')
                 if qw_2 == '':
                     os.system('clear')
-                    print('\n')
+                    baner()
                     print(Fore.YELLOW+' Вы ничего не ввели!')
                     res()
                     print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
@@ -381,11 +382,12 @@ while True:
             if tru_202 == 'y':
                 os.system('clear')
                 baner()
+                print(Style.BRIGHT,Fore.CYAN+" [Localhost]")
                 res()
                 qw_2 = input('  Введите порт>>> ')
                 if qw_2 == '':
                     os.system('clear')
-                    print('\n')
+                    baner()
                     print(Fore.YELLOW+' Вы ничего не ввели!')
                     res()
                     print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
