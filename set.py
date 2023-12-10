@@ -147,7 +147,7 @@ while True:
             os.system('mv PhoneInfoga /data/data/com.termux/files/home/')
             os.system('clear')
             baner()
-            print(Fore.GREEN+"  Все утилиты УСПЕШНО перенесены в папку /files/home/")
+            print(Fore.GREEN+"  Все утилиты УСПЕШНО перенесены в папку /files/home")
             exit()
 
         else:
