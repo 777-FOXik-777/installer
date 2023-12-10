@@ -539,7 +539,7 @@ while True:
             print(Fore.YELLOW+"  [e] Выход")
             res()
             tru_801 = input('  Введите почту>>> ')
-            if tru_801 == ' ':
+            if tru_801 == '':
                 os.system('clear')
             
             if tru_801 == 'e':
@@ -565,11 +565,11 @@ while True:
         print(f'\33]0; Installer - Страница [3]\a',
                       end='', flush=True)
         baner()
-        print (Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
+        print (Fore.YELLOW+"  ["+Fore.RED+"!"+Fore.YELLOW+"] Страница (3) еще не доступна!")
         res()
-        print(Fore.CYAN+'    [1]'+Fore.CYAN+' Добавить утилиту в Installer')
+        print(Fore.CYAN+'  [1]'+Fore.CYAN+' Добавить утилиту в Installer')
         res()
-        print(Fore.YELLOW+'    [e]'+Fore.YELLOW+' Выход')
+        print(Fore.YELLOW+'  [e]'+Fore.YELLOW+' Выход')
         res()
         tsu_20 = input('  Выбери пункт>>> ')
 
