@@ -103,6 +103,7 @@ while True:
     print(Fore.GREEN+"    [18] Holehe     ("+Holehe+""+Fore.GREEN+")  >>  Инфо о почте")
     print(Fore.GREEN+"    [19] Sherlock   ("+Sherlock+""+Fore.GREEN+")  >>  Найти по нику")
     res()
+    print(Style.BRIGHT,Fore.CYAN+"   [00] Страница (1)")
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
@@ -698,6 +699,12 @@ while True:
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('python set.py')
 
+
+
+    if inp == '00' or '0':
+        nol = '0'
+        break
+    
     
     
     if inp == 'e':
@@ -705,6 +712,9 @@ while True:
         break
 
 
+if nol == '0':
+        os.system('cd /data/data/com.termux/files/home/installer/')
+        os.system('python tool.py')
 
 
 if nol == 'e':
