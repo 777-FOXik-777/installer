@@ -103,11 +103,10 @@ while True:
     print(Fore.GREEN+"    [18] Holehe     ("+Holehe+""+Fore.GREEN+")  >>  Инфо о почте")
     print(Fore.GREEN+"    [19] Sherlock   ("+Sherlock+""+Fore.GREEN+")  >>  Найти по нику")
     res()
-    print(Style.BRIGHT,Fore.CYAN+"   [00] Страница (1)")
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
-    print(Fore.YELLOW+"    [e] Выход")
+    print(Fore.YELLOW+"    [e] Назад")
     res()
     inp = input(' Выбери пункт>>> ')
     os.system('clear')
@@ -699,29 +698,7 @@ while True:
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('python set.py')
 
-
-
-    if inp == '00' or '0':
-        nol = '0'
-        break
-    
     
     
     if inp == 'e':
-        nol = 'e'
         break
-
-
-if nol == '0':
-        os.system('cd /data/data/com.termux/files/home/installer/')
-        os.system('python tool.py')
-
-
-if nol == 'e':
-        print(f'\33]0; Installer - Спасибо за использование\a',
-                  end='', flush=True)
-        os.system('cd /data/data/com.termux/files/home/')
-        os.system('clear')
-        print('\n')
-        print(Fore.CYAN+'Спасибо за использование Installer')
-        res()
