@@ -531,7 +531,7 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+" [Holehe]")
             res()
-            print(Fore.GREEN+'  Введите почту, пример: test@gmail.com')
+            print(Fore.GREEN+'  Введите почту, пример:"+Fore.CYAN+" test@gmail.com')
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
