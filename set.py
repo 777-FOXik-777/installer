@@ -64,12 +64,12 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print (Fore.CYAN+'\n Запускать Installer вместе с Termux?')
+        print (Style.BRIGHT,Fore.CYAN+' Запускать Installer вместе с Termux?')
         res()
-        print(Fore.YELLOW+'    [1]'+Fore.YELLOW+' Включить')
-        print(Fore.YELLOW+'    [2]'+Fore.YELLOW+' Выключить')
+        print(Fore.YELLOW+'  [1]'+Fore.YELLOW+' Включить')
+        print(Fore.YELLOW+'  [2]'+Fore.YELLOW+' Выключить')
         res()
-        print(Fore.YELLOW+'    [e] выход')
+        print(Fore.YELLOW+'  [e] выход')
         res()
         tru_101 = input('  Выбери пункт>>> ')
 
@@ -78,7 +78,7 @@ while True:
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
             os.system('clear')
             baner()
-            print(Fore.GREEN+"\n  Включено!")
+            print(Fore.GREEN+"  Включено!")
             res()
             tsu_103 = input(' [Нажмите enter чтобы выйти]')
             os.system('clear')
@@ -88,7 +88,7 @@ while True:
             os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
             os.system('clear')
             baner()
-            print(Fore.YELLOW+"\n  Выключено!")
+            print(Fore.YELLOW+"  Выключено!")
             res()
             tsu_103 = input(' [Нажмите enter чтобы выйти]')
             os.system('clear')
@@ -101,9 +101,9 @@ while True:
     if inp == '2':
         os.system('clear')
         baner()
-        print(Fore.CYAN+'\n  Вы хотите Обновить/Переустановить Installer?')
+        print(Style.BRIGHT,Fore.CYAN+' Вы точно хотите Обновить/Переустановить Installer?')
         res()
-        tru_201 = input('  Продолжить? [y/n] >>> ')
+        tru_201 = input('  Выбери пункт>>> ')
         if tru_201 == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
             os.system('rm ~/.bashrc')
@@ -128,7 +128,7 @@ while True:
     if inp == '4':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
-        print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.WHITE+' ?')
+        print(Style.BRIGHT,Fore.WHINE+'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.WHITE+' ?')
         res()
         tru_401 = input('  Выбери пункт [y/n] >>> ')
         if tru_401 == 'y':
