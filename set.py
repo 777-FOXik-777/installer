@@ -12,6 +12,12 @@ def res():
     print(Style.RESET_ALL)
 
 
+def exit():
+    res()
+    exit = input('[Нажмите Enter чтобы выйти]')
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('clear')
+
 
 def baner():
     os.system('clear')
@@ -29,16 +35,12 @@ def delet():
     if os.path.exists(filename):
       baner()
       print(Fore.YELLOW+" Утилита "+led+" успешно удалена!")
-      res()
-      del_tool = input(' [Нажмите enter чтобы выйти]')
-      os.system('clear')
+      exit()
 
     else:
       baner()
       print(Fore.YELLOW+" Утилита "+led+" еще не установлена!")
-      res()
-      del_tool = input(' [Нажмите enter чтобы выйти]')
-      os.system('clear')
+      exit()
       
 
 
@@ -50,7 +52,7 @@ while True:
     print(Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
     print(Fore.GREEN+"    [2] Обновить/Переустановить Installer")
     print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
-    print(Fore.GREEN+"    [4] Переместить скачаные утилиты в "+Fore.YELLOW+"/files/home/")
+    print(Fore.GREEN+"    [4] Переместить скачаные утилиты в "+Fore.YELLOW+"/files/home")
     print(Fore.GREEN+"    [5] Удалить скачаные директории")
     res()
     print(Fore.YELLOW+"    [h] Сообщить об ошибке")
@@ -79,9 +81,7 @@ while True:
             os.system('clear')
             baner()
             print(Fore.GREEN+"  Включено!")
-            res()
-            tsu_103 = input(' [Нажмите enter чтобы выйти]')
-            os.system('clear')
+            exit()
             
         if tru_101 == '2':
             os.system('rm ~/.bashrc')
@@ -89,9 +89,7 @@ while True:
             os.system('clear')
             baner()
             print(Fore.YELLOW+"  Выключено!")
-            res()
-            tsu_103 = input(' [Нажмите enter чтобы выйти]')
-            os.system('clear')
+            exit()
             
         else:
             os.system('clear')
@@ -149,10 +147,8 @@ while True:
             os.system('mv PhoneInfoga /data/data/com.termux/files/home/')
             os.system('clear')
             baner()
-            print(Fore.GREEN+"\n Все утилиты УСПЕШНО перенесены в папку /files/home/")
-            res()
-            tsu_402 = input(' [Нажмите enter чтобы выйти]')
-            os.system('clear')
+            print(Fore.GREEN+"  Все утилиты УСПЕШНО перенесены в папку /files/home/")
+            exit()
 
         else:
             os.system('clear')
@@ -295,18 +291,14 @@ while True:
               if os.path.exists(filename):
                 baner()
                 print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
                 Ngrok = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                exit()
           
           if tsu_501 == '2':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
@@ -314,18 +306,14 @@ while True:
               if os.path.exists(filename):
                 baner()
                 print(Fore.YELLOW+" Утилита Localhost еще не установлена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
                 Localhost = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                exit()
 
           if tsu_501 == '8':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
@@ -333,35 +321,29 @@ while True:
               if os.path.exists(filename):
                 baner()
                 print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                exit()
+                
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
                 IPTracer = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
-
+                exit()
+                
           if tsu_501 == '18':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "holehe"
               if os.path.exists(filename):
                 baner()
                 print(Fore.YELLOW+" Утилита Holehe еще не установлена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                exit()
+                
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
                 Holehe = ""+Fore.RED+"X"
                 baner()
                 print(Fore.YELLOW+" Утилита Holehe успешно удалена!")
-                res()
-                del_tool = input(' [Нажмите enter чтобы выйти]')
-                os.system('clear')
+                exit()
           
           
           if tsu_501 == '3':
@@ -528,9 +510,7 @@ while True:
     
                   baner()
                   print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!")
-                  res()
-                  del_tool = input(' [Нажмите enter чтобы выйти]')
-                  os.system('clear')
+                  exit()
 
 
           if tsu_501 == 'e':
