@@ -18,12 +18,14 @@
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
 
+<hr />
 
 ## [📄] Описание:
 
 ***Installer - скрипт который поможет тебе найти самые лучшие хакерские утилиты в Termux,
 с полностью автоматизированной установкой. Этот инструмент работает без root-прав.***
 
+<hr />
 
 ## [⚙️] Установка на [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
  
@@ -57,6 +59,8 @@ python installer.py
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer.jpg)
 
+<hr />
+
 ## [❓️] Решение типичных проблем:
 
 - Если у вас ошибка во время установки попробуйте обновить список пакетов командами: 1) apt update 2) apt upgrade -y
@@ -73,12 +77,16 @@ python installer.py
 - ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
 - ### [Сообщить об ошибке](https://t.me/SYPEXHACK_help_bot)
 
+<hr />
+
 ## [📬] Подпишись на:
 
 - [![Github](https://img.shields.io/badge/Github-777%7EFOXik%7E777-indigo?style=for-the-badge&logo=github)](https://github.com/777-FOXik-777)
 
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
+
+<hr />
 
 ## [⛔️] Внимание
 
