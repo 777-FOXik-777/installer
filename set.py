@@ -517,20 +517,6 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
                   os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
-                  PhoneInfoga = ""+Fore.RED+"X"
-                  PyPhisher = ""+Fore.RED+"X"
-                  Zphisher = ""+Fore.RED+"X"
-                  Kfuscator = ""+Fore.RED+"X"
-                  TigerVirus = ""+Fore.RED+"X"
-                  Maskphish = ""+Fore.RED+"X"
-                  Seeker = ""+Fore.RED+"X"
-                  CamHacker = ""+Fore.RED+"X"
-                  VidPhisher = ""+Fore.RED+"X"
-                  Telephish = ""+Fore.RED+"X"
-                  Dnnme2 = ""+Fore.RED+"X"
-                  Discord = ""+Fore.RED+"X"
-                  ShortUrl = ""+Fore.RED+"X"
-                  Sherlock = ""+Fore.RED+"X"
     
                   baner()
                   print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!")
