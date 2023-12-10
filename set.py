@@ -288,7 +288,7 @@ while True:
           print(Fore.YELLOW+"    [6] TigerVirus   ("+TigerVirus+""+Fore.YELLOW+")  [16] ShortUrl       ("+ShortUrl+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [7] Maskphish    ("+Maskphish+""+Fore.YELLOW+")  [17] PhoneInfo      ("+PhoneInfoga+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [8] IP-Tracer    ("+IPTracer+""+Fore.YELLOW+")  [18] Holehe         ("+Holehe+""+Fore.YELLOW+")")
-          print(Fore.YELLOW+"    [9] Seeker       ("+Seeker+""+Fore.YELLOW+")  ")
+          print(Fore.YELLOW+"    [9] Seeker       ("+Seeker+""+Fore.YELLOW+")  [19] Sherlock       ("+Sherlock+""+Fore.YELLOW+")")
           res()
           print(Fore.RED+"    [a] Выбрать все утилиты")
           res()
