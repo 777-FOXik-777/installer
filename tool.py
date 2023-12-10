@@ -742,6 +742,7 @@ while True:
     
     if inp == '10':
         nol = '10'
+        break
 
 
     
@@ -755,6 +756,8 @@ while True:
     if inp == 'e':
         nol = 'e'
         break
+
+
 
 
 if nol == '10':
