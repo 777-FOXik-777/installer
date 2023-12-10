@@ -84,7 +84,7 @@ while True:
             exit()
             
         if tru_101 == '2':
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
             filename = "Auto"
           
             if os.path.exists(filename):
