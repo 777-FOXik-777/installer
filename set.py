@@ -89,7 +89,7 @@ while True:
           
             if os.path.exists(filename):
               baner()
-              print(Fore.YELLOW+" Авто запуск еще не включен!")
+              print(Fore.YELLOW+" Авто-запуск еще не включен!")
               exit()
               
             else:
