@@ -744,7 +744,7 @@ while True:
 
 
 
-        if inp == '20':
+    if inp == '20':
         print(f'\33]0; Installer - Страница [3]\a',
                       end='', flush=True)
         baner()
