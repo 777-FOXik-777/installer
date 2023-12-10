@@ -1,7 +1,7 @@
-<h1 align="center">Installer<h1>
+<h1 align="center">Installer</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-2.10.3-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Версия-2.10.2-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
@@ -18,14 +18,12 @@
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
 
-<hr />
 
 ## [📄] Описание:
 
 ***Installer - скрипт который поможет тебе найти самые лучшие хакерские утилиты в Termux,
 с полностью автоматизированной установкой. Этот инструмент работает без root-прав.***
 
-<hr />
 
 ## [⚙️] Установка на [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
  
@@ -55,14 +53,9 @@ git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
 ```
-
-<hr />
-
-<h1 align="center">После установки:
+<h1 align="center">После установки:</h1>
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer.jpg)
-
-<hr />
 
 ## [❓️] Решение типичных проблем:
 
@@ -71,16 +64,12 @@ python installer.py
 - Некторые утилиты на старых версия Installer могут некорректно работать. Обновите Installer до последней версии для более комфортного использования.
 - Termux из Google Play может некорректно работать. Советую скачать последнюю версию [Termux](https://t.me/SYPEXHACK_fail/51) (0.118)
 
-<hr />
-
 ## [📚] Полезное:
 
 - ### [Добавить утилиту в Installer](https://forms.gle/vMHny8Yp24HQZqLV9)
 - ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
 - ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
 - ### [Сообщить об ошибке](https://t.me/SYPEXHACK_help_bot)
-
-<hr />
 
 ## [📬] Подпишись на:
 
@@ -89,11 +78,8 @@ python installer.py
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 
-<hr />
-
 ## [⛔️] Внимание
 
 ***Этот инструмент предназначен только для образовательных целей. Если вы используете Installer для других целей, кроме образования, в таких случаях мы не несем ответственности.
 Все утилиты, фото, видео и прочие файлы взяты из открытых источников и принадлежат их законным авторам.***
-
 
