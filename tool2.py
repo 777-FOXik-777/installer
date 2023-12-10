@@ -81,6 +81,12 @@ while True:
       PhoneInfoga = ""+Fore.GREEN+"✓"
     else:
       PhoneInfoga = ""+Fore.RED+"X"
+
+    filename = "sherlock"
+    if os.path.exists(filename):
+      Sherlock = ""+Fore.GREEN+"✓"
+    else:
+      Sherlock = ""+Fore.RED+"X"
     
     os.chdir('/data/data/com.termux/files/home/installer')
     pri()
