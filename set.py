@@ -458,7 +458,7 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
               os.system('rm -fr /data/data/com.termux/files/home/sherlock')
-              PhoneInfoga = ""+Fore.RED+"X"
+              Sherlock = ""+Fore.RED+"X"
             
           
           if tsu_501 == 'a':
