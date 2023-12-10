@@ -106,7 +106,7 @@ while True:
     print(Style.BRIGHT,Fore.CYAN+"   [20] Страница (3)")
     res()
     print(Fore.YELLOW+"    [s] Настройки")
-    print(Fore.YELLOW+"    [e] Назад")
+    print(Fore.YELLOW+"    [e] Выход")
     res()
     inp = input(' Выбери пункт>>> ')
     os.system('clear')
@@ -701,7 +701,17 @@ while True:
     
     
     if inp == 'e':
-        os.system('cd /data/data/com.termux/files/home/installer/')
-        res()
-        os.system('clear')
+        nol = 'e'
         break
+
+
+
+
+if nol == 'e':
+        print(f'\33]0; Installer - Спасибо за использование\a',
+                  end='', flush=True)
+        os.system('cd /data/data/com.termux/files/home/')
+        os.system('clear')
+        print('\n')
+        print(Fore.CYAN+'Спасибо за использование Installer')
+        res()
