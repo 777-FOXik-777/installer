@@ -1,6 +1,4 @@
-<h1 align="center">Installer<h/1>
-
-<hr />
+<h1 align="center">Installer<hr/1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Версия-2.10.3-cyan?style=flat-square">
