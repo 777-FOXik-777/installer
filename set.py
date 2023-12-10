@@ -164,119 +164,121 @@ while True:
 
   
     if inp == '5':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
-        filename = "ngrok"
-        if os.path.exists(filename):
-          Ngrok = ""+Fore.RED+"X"
-        else:
-          Ngrok = ""+Fore.GREEN+"✓"
-
-        filename = "lochost"
-        if os.path.exists(filename):
-          Localhost = ""+Fore.RED+"X"
-        else:
-          Localhost = ""+Fore.GREEN+"✓"
-      
-        filename = "IP"
-        if os.path.exists(filename):
-          IPTracer = ""+Fore.RED+"X"
-        else:
-          IPTracer = ""+Fore.GREEN+"✓"
-
-        filename = "holehe"
-        if os.path.exists(filename):
-          Holehe = ""+Fore.RED+"X"
-        else:
-          Holehe = ""+Fore.GREEN+"✓"
-      
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-      
-        filename = "PyPhisher"
-        if os.path.exists(filename):
-          PyPhisher = ""+Fore.GREEN+"✓"
-        else:
-          PyPhisher = ""+Fore.RED+"X"
-
-        filename = "zphisher"
-        if os.path.exists(filename):
-          Zphisher = ""+Fore.GREEN+"✓"
-        else:
-          Zphisher = ""+Fore.RED+"X"
-
-        filename = "k-fuscator"
-        if os.path.exists(filename):
-          Kfuscator = ""+Fore.GREEN+"✓"
-        else:
-          Kfuscator = ""+Fore.RED+"X"
-
-        filename = "TigerVirus"
-        if os.path.exists(filename):
-          TigerVirus = ""+Fore.GREEN+"✓"
-        else:
-          TigerVirus = ""+Fore.RED+"X"
-
-        filename = "maskphish"
-        if os.path.exists(filename):
-          Maskphish = ""+Fore.GREEN+"✓"
-        else:
-          Maskphish = ""+Fore.RED+"X"
-
-        filename = "seeker"
-        if os.path.exists(filename):
-          Seeker = ""+Fore.GREEN+"✓"
-        else:
-          Seeker = ""+Fore.RED+"X"
-
-        filename = "CamHacker"
-        if os.path.exists(filename):
-          CamHacker = ""+Fore.GREEN+"✓"
-        else:
-          CamHacker = ""+Fore.RED+"X"
-
-        filename = "VidPhisher"
-        if os.path.exists(filename):
-          VidPhisher = ""+Fore.GREEN+"✓"
-        else:
-          VidPhisher = ""+Fore.RED+"X"
-
-        filename = "Telephish"
-        if os.path.exists(filename):
-          Telephish = ""+Fore.GREEN+"✓"
-        else:
-          Telephish = ""+Fore.RED+"X"
-
-        filename = "Dnnme2"
-        if os.path.exists(filename):
-          Dnnme2 = ""+Fore.GREEN+"✓"
-        else:
-          Dnnme2 = ""+Fore.RED+"X"
-
-        filename = "Discord-Nitro-Generator-and-Checker"
-        if os.path.exists(filename):
-          Discord = ""+Fore.GREEN+"✓"
-        else:
-          Discord = ""+Fore.RED+"X"
-
-        filename = "shorturl"
-        if os.path.exists(filename):
-          ShortUrl = ""+Fore.GREEN+"✓"
-        else:
-          ShortUrl = ""+Fore.RED+"X"
-
-        filename = "PhoneInfoga"
-        if os.path.exists(filename):
-          PhoneInfoga = ""+Fore.GREEN+"✓"
-        else:
-          PhoneInfoga = ""+Fore.RED+"X"
-
-        filename = "sherlock"
-        if os.path.exists(filename):
-          Sherlock = ""+Fore.GREEN+"✓"
-        else:
-          Sherlock = ""+Fore.RED+"X"
       
         while True:
+          
+          os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+          filename = "ngrok"
+          if os.path.exists(filename):
+            Ngrok = ""+Fore.RED+"X"
+          else:
+            Ngrok = ""+Fore.GREEN+"✓"
+  
+          filename = "lochost"
+          if os.path.exists(filename):
+            Localhost = ""+Fore.RED+"X"
+          else:
+            Localhost = ""+Fore.GREEN+"✓"
+        
+          filename = "IP"
+          if os.path.exists(filename):
+            IPTracer = ""+Fore.RED+"X"
+          else:
+            IPTracer = ""+Fore.GREEN+"✓"
+  
+          filename = "holehe"
+          if os.path.exists(filename):
+            Holehe = ""+Fore.RED+"X"
+          else:
+            Holehe = ""+Fore.GREEN+"✓"
+        
+          os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        
+          filename = "PyPhisher"
+          if os.path.exists(filename):
+            PyPhisher = ""+Fore.GREEN+"✓"
+          else:
+            PyPhisher = ""+Fore.RED+"X"
+  
+          filename = "zphisher"
+          if os.path.exists(filename):
+            Zphisher = ""+Fore.GREEN+"✓"
+          else:
+            Zphisher = ""+Fore.RED+"X"
+  
+          filename = "k-fuscator"
+          if os.path.exists(filename):
+            Kfuscator = ""+Fore.GREEN+"✓"
+          else:
+            Kfuscator = ""+Fore.RED+"X"
+  
+          filename = "TigerVirus"
+          if os.path.exists(filename):
+            TigerVirus = ""+Fore.GREEN+"✓"
+          else:
+            TigerVirus = ""+Fore.RED+"X"
+  
+          filename = "maskphish"
+          if os.path.exists(filename):
+            Maskphish = ""+Fore.GREEN+"✓"
+          else:
+            Maskphish = ""+Fore.RED+"X"
+  
+          filename = "seeker"
+          if os.path.exists(filename):
+            Seeker = ""+Fore.GREEN+"✓"
+          else:
+            Seeker = ""+Fore.RED+"X"
+  
+          filename = "CamHacker"
+          if os.path.exists(filename):
+            CamHacker = ""+Fore.GREEN+"✓"
+          else:
+            CamHacker = ""+Fore.RED+"X"
+  
+          filename = "VidPhisher"
+          if os.path.exists(filename):
+            VidPhisher = ""+Fore.GREEN+"✓"
+          else:
+            VidPhisher = ""+Fore.RED+"X"
+  
+          filename = "Telephish"
+          if os.path.exists(filename):
+            Telephish = ""+Fore.GREEN+"✓"
+          else:
+            Telephish = ""+Fore.RED+"X"
+  
+          filename = "Dnnme2"
+          if os.path.exists(filename):
+            Dnnme2 = ""+Fore.GREEN+"✓"
+          else:
+            Dnnme2 = ""+Fore.RED+"X"
+  
+          filename = "Discord-Nitro-Generator-and-Checker"
+          if os.path.exists(filename):
+            Discord = ""+Fore.GREEN+"✓"
+          else:
+            Discord = ""+Fore.RED+"X"
+  
+          filename = "shorturl"
+          if os.path.exists(filename):
+            ShortUrl = ""+Fore.GREEN+"✓"
+          else:
+            ShortUrl = ""+Fore.RED+"X"
+  
+          filename = "PhoneInfoga"
+          if os.path.exists(filename):
+            PhoneInfoga = ""+Fore.GREEN+"✓"
+          else:
+            PhoneInfoga = ""+Fore.RED+"X"
+  
+          filename = "sherlock"
+          if os.path.exists(filename):
+            Sherlock = ""+Fore.GREEN+"✓"
+          else:
+            Sherlock = ""+Fore.RED+"X"
+          
           baner()
           print(Style.BRIGHT, Fore.CYAN+" Выбери какую именно удалить Утилиту?")
           res()
@@ -449,7 +451,6 @@ while True:
               led = "PhoneInfoga"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
-              os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
               PhoneInfoga = ""+Fore.RED+"X"
 
           if tsu_501 == '19':
@@ -457,15 +458,14 @@ while True:
               led = "Sherlock"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
-              os.system('rm -fr /data/data/com.termux/files/home/sherlock')
               Sherlock = ""+Fore.RED+"X"
             
           
           if tsu_501 == 'a':
               baner()
-              print(Fore.WHITE+'\n'' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
+              print(Fore.WHITE+' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
               res()
-              tru_502 = input('  Выбери пункт [y/n] >>> ')
+              tru_502 = input(' Выбери пункт [y/n] >>> ')
               if tru_502 == 'y':
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
