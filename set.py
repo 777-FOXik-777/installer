@@ -269,6 +269,12 @@ while True:
           PhoneInfoga = ""+Fore.GREEN+"✓"
         else:
           PhoneInfoga = ""+Fore.RED+"X"
+
+        filename = "sherlock"
+        if os.path.exists(filename):
+          Sherlock = ""+Fore.GREEN+"✓"
+        else:
+          Sherlock = ""+Fore.RED+"X"
       
         while True:
           baner()
@@ -445,6 +451,14 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
               os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
               PhoneInfoga = ""+Fore.RED+"X"
+
+          if tsu_501 == '17':
+              filename = "sherlock"
+              led = "Sherlock"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
+              os.system('rm -fr /data/data/com.termux/files/home/sherlock')
+              PhoneInfoga = ""+Fore.RED+"X"
             
           
           if tsu_501 == 'a':
@@ -502,6 +516,7 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
                   os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
                   PhoneInfoga = ""+Fore.RED+"X"
                   PyPhisher = ""+Fore.RED+"X"
                   Zphisher = ""+Fore.RED+"X"
@@ -515,6 +530,7 @@ while True:
                   Dnnme2 = ""+Fore.RED+"X"
                   Discord = ""+Fore.RED+"X"
                   ShortUrl = ""+Fore.RED+"X"
+                  Sherlock = ""+Fore.RED+"X"
     
                   baner()
                   print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!")
