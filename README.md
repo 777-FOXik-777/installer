@@ -58,7 +58,7 @@ python installer.py
 
 <hr />
 
-<h1 align="center">После установки:</h1>
+<h1 align="center">После установки:
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer.jpg)
 
