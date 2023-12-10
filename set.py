@@ -80,16 +80,24 @@ while True:
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
             os.system('clear')
             baner()
-            print(Fore.GREEN+"  Включено!")
+            print(Fore.GREEN+" Включено!")
             exit()
             
         if tru_101 == '2':
-            os.system('rm ~/.bashrc')
-            os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
-            os.system('clear')
-            baner()
-            print(Fore.YELLOW+"  Выключено!")
-            exit()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            filename = "Auto"
+          
+            if os.path.exists(filename):
+              baner()
+              print(Fore.YELLOW+" Авто запуск еще не включен!")
+              exit()
+              
+            else:
+              os.system('rm ~/.bashrc')
+              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
+              baner()
+              print(Fore.YELLOW+" Выключено!")
+              exit()
             
         else:
             os.system('clear')
