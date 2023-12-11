@@ -611,7 +611,7 @@ while True:
             print(Style.BRIGHT,Fore.CYAN+" [IP-Tracer]")
             res()
             print(Fore.GREEN+'  [1] Пробить свой IP')
-            print(Fore.GREEN+'    [2] Пробить чужой IP')
+            print(Fore.GREEN+'  [2] Пробить чужой IP')
             res()
             print(Fore.YELLOW+'  [e] выход')
             res()
