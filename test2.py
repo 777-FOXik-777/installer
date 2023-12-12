@@ -624,7 +624,20 @@ while True:
         os.chdir('/data/data/com.termux/files/home/installer')
         os.system('python set_test.py')
 
+
+    
+    if inp == '30':
+        leave = "3"
+        break
+
     
     
     if inp == 'e':
         break
+
+
+if leave == '3':
+    os.system('python test3.py')
+
+else:
+    os.system('clear')
