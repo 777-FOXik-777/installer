@@ -30,12 +30,12 @@ def baner():
 def delet():
     if os.path.exists(filename):
       baner()
-      print(Fore.YELLOW+" Утилита "+led+" успешно удалена!")
+      print(Fore.YELLOW+"\n  Утилита "+led+" успешно удалена!")
       exit()
 
     else:
       baner()
-      print(Fore.YELLOW+" Утилита "+led+" еще не установлена!")
+      print(Fore.YELLOW+"\n  Утилита "+led+" еще не установлена!")
       exit()
       
 
@@ -43,7 +43,7 @@ def delet():
 while True:
     os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('lolcat baner_set.txt')
-    inp = input('\n Выбери пункт>>> ')
+    inp = input('\n Выбери пункт ➤ ')
     os.system('clear')
 
 
@@ -51,21 +51,21 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print (Style.BRIGHT,Fore.CYAN+' Запускать Installer вместе с Termux?')
+        print (Style.BRIGHT,Fore.CYAN+'\n  Запускать Installer вместе с Termux?')
         res()
         print(Fore.YELLOW+'  [1]'+Fore.YELLOW+' Включить')
         print(Fore.YELLOW+'  [2]'+Fore.YELLOW+' Выключить')
         res()
         print(Fore.YELLOW+'  [e] выход')
         res()
-        tru_101 = input('  Выбери пункт>>> ')
+        tru_101 = input('  Выбери пункт ➤ ')
 
         if tru_101 == '1':
             os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
             os.system('clear')
             baner()
-            print(Fore.GREEN+" Включено!")
+            print(Fore.GREEN+"\n  Включено!")
             exit()
             
         if tru_101 == '2':
@@ -74,14 +74,14 @@ while True:
           
             if os.path.exists(filename):
               baner()
-              print(Fore.YELLOW+" Авто-запуск еще не включен!")
+              print(Fore.YELLOW+"\n  Авто-запуск еще не включен!")
               exit()
               
             else:
               os.system('rm ~/.bashrc')
               os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
               baner()
-              print(Fore.YELLOW+" Выключено!")
+              print(Fore.YELLOW+"\n  Выключено!")
               exit()
             
         else:
@@ -92,9 +92,9 @@ while True:
     if inp == '2':
         os.system('clear')
         baner()
-        print(Style.BRIGHT,Fore.YELLOW+' Вы точно хотите Обновить/Переустановить Installer?')
+        print(Style.BRIGHT,Fore.YELLOW+'\n  Вы точно хотите Обновить/Переустановить Installer?')
         res()
-        tru_201 = input('  Выбери пункт [y/n] >>> ')
+        tru_201 = input('  Выбери пункт [y/n] ➤ ')
         if tru_201 == 'y':
             os.system('mv update.py /data/data/com.termux/files/home/')
             os.system('rm ~/.bashrc')
@@ -119,9 +119,9 @@ while True:
     if inp == '4':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
-        print(Style.BRIGHT,Fore.CYAN+' Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.WHITE+' ?')
+        print(Style.BRIGHT,Fore.CYAN+'\n  Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.WHITE+' ?')
         res()
-        tru_401 = input('  Выбери пункт [y/n] >>> ')
+        tru_401 = input('  Выбери пункт [y/n] ➤ ')
         if tru_401 == 'y':
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
           
@@ -266,7 +266,7 @@ while True:
             Sherlock = ""+Fore.RED+"X"
           
           baner()
-          print(Style.BRIGHT, Fore.CYAN+" Выбери какую именно удалить Утилиту?")
+          print(Style.BRIGHT, Fore.CYAN+"\n  Выбери какую именно удалить Утилиту?")
           res()
           print(Fore.YELLOW+"    [1] Ngrok        ("+Ngrok+""+Fore.YELLOW+")  [11] CamHacker      ("+CamHacker+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [2] Localhost    ("+Localhost+""+Fore.YELLOW+")  [12] VidPhisher     ("+VidPhisher+""+Fore.YELLOW+")")
@@ -282,7 +282,7 @@ while True:
           res()
           print(Fore.YELLOW+"    [e] Назад")
           res()
-          tsu_501 = input('  Выбери пункт>>> ')
+          tsu_501 = input('  Выбери пункт ➤ ')
           os.system('clear')
 
 
@@ -292,13 +292,13 @@ while True:
               filename = "ngrok"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
+                print(Fore.YELLOW+"\n  Утилита ngrok еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
                 baner()
-                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                print(Fore.YELLOW+"\n  Утилита Ngrok успешно удалена!")
                 exit()
           
           if tsu_501 == '2':
@@ -306,13 +306,13 @@ while True:
               filename = "lochost"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита Localhost еще не установлена!")
+                print(Fore.YELLOW+"\n Утилита Localhost еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
                 baner()
-                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                print(Fore.YELLOW+"\n Утилита Ngrok успешно удалена!")
                 exit()
 
           if tsu_501 == '8':
@@ -320,13 +320,13 @@ while True:
               filename = "IP"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
+                print(Fore.YELLOW+"\n Утилита ngrok еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
                 baner()
-                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                print(Fore.YELLOW+"\n Утилита Ngrok успешно удалена!")
                 exit()
                 
           if tsu_501 == '18':
@@ -334,13 +334,13 @@ while True:
               filename = "holehe"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита Holehe еще не установлена!")
+                print(Fore.YELLOW+"\n Утилита Holehe еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
                 baner()
-                print(Fore.YELLOW+" Утилита Holehe успешно удалена!")
+                print(Fore.YELLOW+"\n Утилита Holehe успешно удалена!")
                 exit()
           
           
