@@ -633,6 +633,7 @@ while True:
     
     
     if inp == 'e':
+        leave = "e"
         break
 
 
