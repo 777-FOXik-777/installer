@@ -5,10 +5,11 @@ from colorama import Fore, Style
 os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
+
+
 def pri():
     print(f'\33]0; Installer - Страница [3]\a',
                       end='', flush=True)
-
 
 def exit():
     res()
@@ -16,15 +17,20 @@ def exit():
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('clear')
 
+
 def res():
     print(Style.RESET_ALL)
+
 
 def baner():
     os.chdir('/data/data/com.termux/files/home/Installer_Files/banner')
     os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
     os.system('lolcat baner.txt')
+    os.chdir('/data/data/com.termux/files/home/Installer_Files')
 
+
+#начало
     
 while True:
     os.chdir('/data/data/com.termux/files/home/Installer_Files/banner')
