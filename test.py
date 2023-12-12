@@ -30,9 +30,9 @@ def baner():
  |___|_| \_|____/ |_/_/   \_\_____|______|_____|_| \_\ '|lolcat -8""")
     
 while True:
-    os.chdir('/data/data/com.termux/files/home/installer')
+    os.chdir('/data/data/com.termux/files/home/Installer_Files/banner')
     pri()
-    os.system('lolcat banner.txt')
+    os.system('lolcat banner3.txt')
     inp = input('\n Выбери пункт ➤ ')
     os.system('clear')
     
@@ -73,7 +73,7 @@ while True:
 
 
     if inp == '12':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/baner')
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "VidPhisher"
 
         if os.path.exists(filename):
