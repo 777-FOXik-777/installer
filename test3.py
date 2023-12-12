@@ -58,5 +58,23 @@ while True:
 
     
     
-    if inp == 'e':
+    if inp == '20':
+        leave = "2"
         break
+
+    
+    
+    if inp == 'e':
+        leave = "e"
+        break
+
+
+
+
+if leave == '3':
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('python test2.py')
+
+else:
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('clear')
