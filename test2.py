@@ -622,7 +622,7 @@ while True:
     
     if inp == 's':
         os.chdir('/data/data/com.termux/files/home/installer')
-        os.system('python set.py')
+        os.system('python set_test.py')
 
     
     
