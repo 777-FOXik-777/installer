@@ -367,7 +367,7 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_701 = input('  Введите номер>>> ')
+            tru_701 = input('  Введите номер ➤ ')
             if tru_701 == 'e':
                 os.system('clear')
 
@@ -425,7 +425,7 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_701 = input('  Введите номер>>> ')
+            tru_701 = input('  Введите номер ➤ ')
             if tru_701 == 'e':
                 os.system('clear')
 
@@ -460,7 +460,7 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_801 = input('  Введите почту>>> ')
+            tru_801 = input('  Введите почту ➤ ')
             if tru_801 == '':
                 os.system('clear')
             
@@ -488,7 +488,7 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_801 = input('  Введите почту>>> ')
+            tru_801 = input('  Введите почту ➤ ')
             if tru_801 == '':
                 os.system('clear')
             
@@ -524,7 +524,7 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_901 = input('  Введите ник>>> ')
+            tru_901 = input('  Введите ник ➤ ')
             if tru_901 == '':
                 os.system('clear')
             
@@ -599,7 +599,7 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_901 = input('  Введите ник>>> ')
+            tru_901 = input('  Введите ник ➤ ')
             if tru_901 == '':
                 os.system('clear')
             
