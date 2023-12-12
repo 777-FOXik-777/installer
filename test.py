@@ -596,6 +596,12 @@ while True:
 
 
     
+    if inp == 'h':
+        os.system('xdg-open https://t.me/SYPEXHACK')
+        os.system('clear')
+
+    
+    
     if inp == 's':
         os.chdir('/data/data/com.termux/files/home/installer')
         os.system('python set.py')
