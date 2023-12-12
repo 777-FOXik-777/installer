@@ -23,7 +23,7 @@ def res():
 
 
 def baner():
-    os.chdir('/data/data/com.termux/files/home/Installer_Files/banner')
+    os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
     os.system('lolcat baner.txt')
