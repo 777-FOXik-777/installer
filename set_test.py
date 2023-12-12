@@ -491,13 +491,25 @@ while True:
           if tsu_501 == 'e':
               break
 
+  
 
+    if inp == 't':
+        os.system('xdg-open https://t.me/SYPEXHACK')
+        os.system('clear')
+
+  
   
     if inp == 'h':
         os.system('xdg-open https://t.me/SYPEXHACK_help_bot')
         os.system('clear')
 
-    
+
+  
+    if inp == 'p':
+        os.system('xdg-open https://forms.gle/qi2HKCi3Lu9mDrsF6')
+        os.system('clear')
+  
+
     
     if inp == 'e':
         res()
