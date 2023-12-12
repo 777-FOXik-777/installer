@@ -92,7 +92,7 @@ while True:
     os.chdir('/data/data/com.termux/files/home/installer')
     pri()
     baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Telegram: @SYPEXHACK]                         ["+Fore.YELLOW+"2.10.3"+Fore.CYAN+"]")
+    print(Style.BRIGHT, Fore.CYAN+"\n [Telegram: @SYPEXHACK]                         ["+Fore.YELLOW+"2.10.3"+Fore.CYAN+"]")
     res()
     print(Fore.GREEN+"    [11] CamHacker  ("+CamHacker+""+Fore.GREEN+")  >>  Фото фишинг")
     print(Fore.GREEN+"    [12] VidPhisher ("+VidPhisher+""+Fore.GREEN+")  >>  Видео фишинг")
