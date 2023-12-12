@@ -42,7 +42,7 @@ def delet():
 
 while True:
     os.chdir('/data/data/com.termux/files/home/installer/banner')
-    os.system('lolcat baner_set.txt')
+    os.system('lolcat banerset.txt')
     inp = input('\n Выбери пункт ➤ ')
     os.system('clear')
 
