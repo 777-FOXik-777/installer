@@ -24,6 +24,7 @@ def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
     os.system("""echo '
   ___ _   _ ____ ______ _    _     _      _____ ____
+  
  |_ _| \ | / ___|_   _|/ \  | |   | |    | ____|  _ \
   | ||  \| \___ \ | | / _ \ | |   | |    |  _| | |_) |
   | || |\  |___) || |/ ___ \| |___| |____| |___|  _ <
@@ -596,7 +597,7 @@ while True:
 
     
     if inp == 's':
-        os.system('cd /data/data/com.termux/files/home/installer/')
+        os.chdir('/data/data/com.termux/files/home/installer')
         os.system('python set.py')
 
     
