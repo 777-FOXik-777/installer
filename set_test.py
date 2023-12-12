@@ -20,15 +20,11 @@ def exit():
 
 
 def baner():
+    os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
-    print("  ___                 _             _   _               ")
-    print(" |_ _|  _ __    ___  | |_    __ _  | | | |   ___   _ __ ")
-    print("  | |  | '_ \  / __| | __|  / _` | | | | |  / _ \ | '__|")
-    print("  | |  | | | | \__ \ | |_  | (_| | | | | | |  __/ | |   ")
-    print(" |___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
-    res()
-
+    os.system('lolcat baner.txt')
+    os.chdir('/data/data/com.termux/files/home/Installer_Files')
 
 
 def delet():
@@ -45,20 +41,9 @@ def delet():
 
 
 while True:
-    os.chdir('/data/data/com.termux/files/home/installer')
-    baner()
-    print(Style.BRIGHT, Fore.CYAN+"[Github.com/777-FOXik-777/installer]        ["+Fore.YELLOW+"Настройки"+Fore.CYAN+"]")
-    res()
-    print(Fore.GREEN+"    [1] Запускать Installer вместе с Termux")
-    print(Fore.GREEN+"    [2] Обновить/Переустановить Installer")
-    print(Fore.GREEN+"    [3] Установить последнюю версию Termux")
-    print(Fore.GREEN+"    [4] Переместить скачаные утилиты в "+Fore.YELLOW+"/files/home")
-    print(Fore.GREEN+"    [5] Удалить скачаные директории")
-    res()
-    print(Fore.YELLOW+"    [h] Сообщить об ошибке")
-    print(Fore.YELLOW+"    [e] Назад")
-    res()
-    inp = input(' Выбери пункт>>> ')
+    os.chdir('/data/data/com.termux/files/home/installer/banner')
+    os.system('lolcat baner_set.txt')
+    inp = input('\n Выбери пункт>>> ')
     os.system('clear')
 
 
