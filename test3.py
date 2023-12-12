@@ -71,7 +71,7 @@ while True:
 
 
 
-if leave == '3':
+if leave == '2':
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('python test2.py')
 
