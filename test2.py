@@ -8,7 +8,7 @@ os.system('clear')
 
 
 def pri():
-    print(f'\33]0; Installer - Страница [3]\a',
+    print(f'\33]0; Installer - Страница [2]\a',
                       end='', flush=True)
 
 def exit():
