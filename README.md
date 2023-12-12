@@ -1,7 +1,7 @@
 <h1 align="center">Installer</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-2.10.2-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Версия-2.10.3-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
@@ -29,14 +29,21 @@
  
 Скачиваем [Termux](https://t.me/SYPEXHACK_fail/51)
 
-### Установка зависимостей
+### Обновляем пакеты:
+
+```
+apt update
+apt upgrade -y
+``` 
+
+### Установка зависимостей:
 
 ```
 pkg install git
-pkg install python
+pkg install python -y
 ``` 
 
-### Установка Installer
+### Установка Installer:
 
 ``` 
 git clone https://github.com/777-FOXik-777/installer
@@ -44,22 +51,12 @@ cd installer
 python installer.py
 ``` 
 
-## [⚙️] Установка на [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux) (Альфа)
-
-### Установка Installer
-
-```
-git clone https://github.com/777-FOXik-777/installer
-cd installer
-python installer.py
-```
 <h1 align="center">После установки:</h1>
 
 ![Installer](https://github.com/777-FOXik-777/installer/blob/main/image/Screenshot_installer.jpg)
 
 ## [❓️] Решение типичных проблем:
 
-- Если у вас ошибка во время установки попробуйте обновить список пакетов командами: 1) apt update 2) apt upgrade -y
 - VPN или прокси препятствуют туннелированию и даже нормальному доступу в Интернет. Отключите их, если у вас возникли проблемы.
 - Некторые утилиты на старых версия Installer могут некорректно работать. Обновите Installer до последней версии для более комфортного использования.
 - Termux из Google Play может некорректно работать. Советую скачать последнюю версию [Termux](https://t.me/SYPEXHACK_fail/51) (0.118)
