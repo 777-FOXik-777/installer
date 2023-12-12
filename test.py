@@ -596,7 +596,7 @@ while True:
 
 
     
-    if inp == 'h':
+    if inp == 't':
         os.system('xdg-open https://t.me/SYPEXHACK')
         os.system('clear')
 
