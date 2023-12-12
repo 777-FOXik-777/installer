@@ -22,13 +22,8 @@ def res():
 def baner():
     os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
-    os.system("""echo '
-  ___ _   _ ____ ______ _    _     _      _____ ____
- |_ _| \ | / ___|_   _|/ \  | |   | |    | ____|  _ \
- 
-  | ||  \| \___ \ | | / _ \ | |   | |    |  _| | |_) |
-  | || |\  |___) || |/ ___ \| |___| |____| |___|  _ <
- |___|_| \_|____/ |_/_/   \_\_____|______|_____|_| \_\ '|lolcat -8""")
+    os.system('lolcat baner.txt')
+
     
 while True:
     os.chdir('/data/data/com.termux/files/home/Installer_Files/banner')
