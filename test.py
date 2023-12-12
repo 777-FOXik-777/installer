@@ -34,7 +34,7 @@ while True:
     os.chdir('/data/data/com.termux/files/home/installer')
     pri()
     os.system('lolcat banner.txt')
-    inp = input(' Выбери пункт ➤ ')
+    inp = input('\n Выбери пункт ➤ ')
     os.system('clear')
     
 
