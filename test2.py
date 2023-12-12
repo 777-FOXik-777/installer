@@ -33,7 +33,7 @@ def baner():
 #начало
     
 while True:
-    os.chdir('/data/data/com.termux/files/home/Installer_Files/banner')
+    os.chdir('/data/data/com.termux/files/home/installer/banner')
     pri()
     os.system('lolcat banner2.txt')
     inp = input('\n Выбери пункт ➤ ')
