@@ -101,5 +101,6 @@ else:
     os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
     os.system('lolcat baner.txt')
-    print(Fore.CYAN+'\n Спасибо за использование Installer')
+    print(Fore.CYAN+'', Style.BRIGHT)
+    print(' Спасибо за использование Installer \n')
     os.chdir('/data/data/com.termux/files/home/installer')
