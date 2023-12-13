@@ -2,61 +2,8 @@ import os, time
 
 from colorama import Fore, Style
 
-os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/README.md')
-os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 os.system('rm -fr /data/data/com.termux/files/home/update.py')
-os.system('rm -fr /data/data/com.termux/files/home/installer/image')
 
-
-
-os.chdir('/data/data/com.termux/files/home')
-
-filename = "storage"
-
-if os.path.exists(filename):
-
-    os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
-    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
-    os.system('clear')
-
-
-else:
-    from colorama import Fore, Style
-
-    print ('\n')
-    def res():
-        print(Style.RESET_ALL)
-        
-    os.system('clear')
-    print (Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
-    res()
-    time.sleep(1.5)
-    os.system('termux-setup-storage')
-    tsu = input('\n[Нажмите Enter чтобы продолжить]')
-    os.system('clear')
-
-
-
-
-
-print(Style.RESET_ALL)
-print(' Этот инструмент предназначен только для образовательных\n целей. Если вы используете Installer для других целей,\n кроме образования, в таких случаях мы не несем\n ответственности. Все утилиты, фото, видео и прочие\n файлы взяты из открытых источников и принадлежат\n их законным авторам.')
-time.sleep(2)
-
-
-
-os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
-filename = "Auto"
-
-if os.path.exists(filename):
-  
-  os.system('clear')
-
-else:
-
-  os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
-  os.system('clear')
 
 
 def pri():
