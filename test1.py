@@ -2,6 +2,8 @@ import os, time
 
 from colorama import Fore, Style
 
+os.system('rm -fr /data/data/com.termux/files/home/update.py')
+
 def pri():
     print(f'\33]0; Installer - Страница [1]\a',
                       end='', flush=True)
