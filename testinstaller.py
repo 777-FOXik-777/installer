@@ -11,9 +11,6 @@ print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
 
-
-
-
 os.chdir('/data/data/com.termux/files/home/')
 
 filename = "Installer_Files"
