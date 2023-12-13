@@ -96,8 +96,7 @@ if os.path.exists(filename):
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка lolcat...")
     res()
     time.sleep(1.5)
-    os.system('pkg install ruby -y')
-    os.system('gem install lolcat')
+    os.system('pip install lolcat')
     os.system('clear')
   
     os.system('clear')
@@ -129,7 +128,6 @@ else:
 def baner():
     os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
-    print(Fore.CYAN+'', Style.BRIGHT)
     os.system('lolcat baner.txt')
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
 
@@ -164,9 +162,9 @@ else:
     baner()
     print (Fore.YELLOW+"\n ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
     res()
-    time.sleep(1.5)
+    time.sleep(1)
     os.system('termux-setup-storage')
-    tsu = input('\n[Нажмите Enter чтобы продолжить]')
+    tsu = input(' [Нажмите Enter чтобы продолжить]')
     os.system('clear')
 
 
@@ -175,7 +173,7 @@ else:
 
 print(Style.RESET_ALL)
 print(' Этот инструмент предназначен только для образовательных\n целей. Если вы используете Installer для других целей,\n кроме образования, в таких случаях мы не несем\n ответственности. Все утилиты, фото, видео и прочие\n файлы взяты из открытых источников и принадлежат\n их законным авторам.')
-time.sleep(2)
+time.sleep(3)
 
 
 
