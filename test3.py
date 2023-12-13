@@ -45,6 +45,17 @@ while True:
         os.system('clear')
 
 
+
+
+
+
+
+
+
+    
+    
+
+
     
     if inp == 't':
         os.system('xdg-open https://t.me/SYPEXHACK')
@@ -56,7 +67,13 @@ while True:
         os.chdir('/data/data/com.termux/files/home/installer')
         os.system('python set_test.py')
 
+
     
+    if inp == '10':
+        leave = "1"
+        break    
+
+
     
     if inp == '20':
         leave = "2"
@@ -70,11 +87,19 @@ while True:
 
 
 
+if leave == '1':
+    os.chdir('/data/data/com.termux/files/home/installer')
+    os.system('python test1.py')
 
 if leave == '2':
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('python test2.py')
 
 else:
-    os.chdir('/data/data/com.termux/files/home/installer')
+    print(f'\33]0; Installer - Спасибо за использование\a',
+          end='', flush=True)
+    os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
+    os.system('lolcat baner.txt')
+    print(Fore.CYAN+'\n Спасибо за использование Installer')
+    os.chdir('/data/data/com.termux/files/home/installer')
