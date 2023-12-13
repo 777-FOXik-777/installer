@@ -632,7 +632,7 @@ while True:
 
     
     if inp == '30':
-        leave = "2"
+        leave = "3"
         break
 
     
