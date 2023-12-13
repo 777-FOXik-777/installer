@@ -8,18 +8,21 @@ os.system('cd /data/data/com.termux/files/home/installer/')
 os.system('clear')
 
 
+
 def pri():
-    print(f'\33]0; Installer - Страница [1]\a',
+    print(f'\33]0; Installer - Страница [2]\a',
                       end='', flush=True)
-    
+
 def exit():
     res()
     exit = input('[Нажмите Enter чтобы выйти]')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('clear')
 
+
 def res():
     print(Style.RESET_ALL)
+
 
 def baner():
     os.chdir('/data/data/com.termux/files/home/installer/banner')
@@ -27,6 +30,9 @@ def baner():
     print(Fore.CYAN+'', Style.BRIGHT)
     os.system('lolcat baner.txt')
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
+
+
+#начало
     
 while True:
     os.chdir('/data/data/com.termux/files/home/installer/banner')
