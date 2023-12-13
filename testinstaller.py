@@ -96,7 +96,7 @@ if os.path.exists(filename):
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка lolcat...")
     res()
     time.sleep(1.5)
-    os.system('pkg install lolcat -y')
+    os.system('pkg install lolcat')
     os.system('clear')
   
     os.system('clear')
