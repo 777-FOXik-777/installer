@@ -27,6 +27,7 @@ def baner():
     os.system('clear')
     print(Fore.CYAN+'', Style.BRIGHT)
     os.system('lolcat baner.txt')
+    res()
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
 
 
@@ -361,7 +362,7 @@ while True:
 
             os.chdir('PhoneInfoga')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n  [PhoneInfoga]")
+            print(Style.BRIGHT,Fore.CYAN+" [PhoneInfoga]")
             res()
             print(Fore.GREEN+'  Введите телефон в формате E164 пример: +3396360XXXX')
             res()
@@ -419,7 +420,7 @@ while True:
 
             os.chdir('/data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n  [Phoneinfoga]")
+            print(Style.BRIGHT,Fore.CYAN+" [Phoneinfoga]")
             res()
             print(Fore.GREEN+'  Введите телефон в формате E164 пример: +3396360XXXX')
             res()
@@ -454,7 +455,7 @@ while True:
             os.system('clear')
 
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n [Holehe]")
+            print(Style.BRIGHT,Fore.CYAN+" [Holehe]")
             res()
             print(Fore.GREEN+'  Введите почту, пример:'+Fore.CYAN+' test@gmail.com')
             res()
@@ -482,7 +483,7 @@ while True:
             time.sleep(0.5)
 
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n [Holehe]")
+            print(Style.BRIGHT,Fore.CYAN+" [Holehe]")
             res()
             print(Fore.GREEN+'  Введите почту, пример:'+Fore.CYAN+' test@gmail.com')
             res()
@@ -518,7 +519,7 @@ while True:
             os.chdir('sherlock')
             os.system('clear')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n [Sherlock]")
+            print(Style.BRIGHT,Fore.CYAN+" [Sherlock]")
             res()
             print(Fore.GREEN+'  Введите ник, пример:'+Fore.CYAN+' oleghka')
             res()
@@ -593,7 +594,7 @@ while True:
             os.chdir('sherlock')
             os.system('clear')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"\n [Sherlock]")
+            print(Style.BRIGHT,Fore.CYAN+" [Sherlock]")
             res()
             print(Fore.GREEN+'  Введите ник, пример:'+Fore.CYAN+' oleghka')
             res()
