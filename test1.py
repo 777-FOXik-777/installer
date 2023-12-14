@@ -1,4 +1,4 @@
-import os, time
+import os, time, sys
 
 from colorama import Fore, Style
 
@@ -18,7 +18,7 @@ filename = "sypexhack"
 if os.path.exists(filename):
   os.system('clear')
   print("Чтобы запустить Installer: python installer.py")
-  break
+  sys.exit()
 
 
 else:
