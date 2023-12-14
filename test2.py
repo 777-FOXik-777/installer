@@ -235,7 +235,9 @@ while True:
             if tru_801 == '2':
                 os.system('clear')
                 baner()
-                print(Fore.YELLOW+' Пример IP'+Fore.CYAN+' 33.73.133.137')
+                print(Style.BRIGHT,Fore.CYAN+"[IP-Tracer]")
+                res()
+                print(Fore.YELLOW+' Пример IP:'+Fore.CYAN+' 33.73.133.137')
                 res()
                 tsu_802 = input(' Введите IP ➤ ')
                 os.system('clear')
@@ -274,7 +276,9 @@ while True:
             if tru_801 == '2':
                 os.system('clear')
                 baner()
-                print(Fore.YELLOW+' Пример IP'+Fore.CYAN+' 33.73.133.137')
+                print(Style.BRIGHT,Fore.CYAN+"[IP-Tracer]")
+                res()
+                print(Fore.YELLOW+' Пример IP:'+Fore.CYAN+' 33.73.133.137')
                 res()
                 tsu_802 = input(' Введите IP ➤ ')
                 os.system('clear')
