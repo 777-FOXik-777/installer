@@ -539,5 +539,4 @@ while True:
         res()
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('clear')
-        os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
         break
