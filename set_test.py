@@ -22,7 +22,6 @@ def exit():
 def baner():
     os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
-    print(Fore.CYAN+'', Style.BRIGHT)
     os.system('lolcat baner.txt')
     res()
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
