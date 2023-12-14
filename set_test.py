@@ -1,4 +1,4 @@
-import os, time
+import os, time, sys
 
 from colorama import Fore, Style
 
@@ -6,6 +6,29 @@ os.system('clear')
 
 print(f'\33]0; Installer - Настройки\a',
                   end='', flush=True)
+
+
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "sypexhack"
+
+if os.path.exists(filename):
+  os.system('clear')
+  print("Чтобы запустить Installer: python installer.py")
+  sys.exit()
+
+
+else:
+  os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
+  os.system('clear')   
+
+
+
+
+
+
 
 
 def res():
@@ -516,4 +539,5 @@ while True:
         res()
         os.system('cd /data/data/com.termux/files/home/installer/')
         os.system('clear')
+        os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
         break
