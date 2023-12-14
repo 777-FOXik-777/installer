@@ -9,6 +9,28 @@ os.system('clear')
 
 
 
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "sypexhack"
+
+if os.path.exists(filename):
+  os.system('clear')
+  print("Чтобы запустить Installer: python installer.py")
+  break
+
+
+else:
+  os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
+  os.system('clear')   
+
+
+
+
+
+
+
 def pri():
     print(f'\33]0; Installer - Страница [1]\a',
                       end='', flush=True)
