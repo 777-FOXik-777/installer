@@ -686,7 +686,7 @@ if leave == '3':
     os.system('python test3.py')
 
 else:
-    print(f'\33]0; Installer - Спасибо за использование\a',
+    print(f'\33]0; Telegram: @SYPEXHACK желает вам Хорошего дня!\a',
           end='', flush=True)
     os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
