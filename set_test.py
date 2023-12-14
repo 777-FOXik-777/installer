@@ -106,7 +106,7 @@ while True:
             while True:
                 os.system('clear')
                 baner()
-                print(Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
+                print(Fore.YELLOW+" ["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                 lol = input('')
         else:
             os.system('clear')
