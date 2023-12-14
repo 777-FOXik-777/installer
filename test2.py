@@ -666,12 +666,12 @@ while True:
 
 
 if leave == '1':
-    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack'
+    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('python test1.py')
 
 if leave == '3':
-    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack'
+    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('python test3.py')
 
