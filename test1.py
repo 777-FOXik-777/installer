@@ -15,7 +15,7 @@ def pri():
 
 def exit():
     res()
-    exit = input('[Нажмите Enter чтобы выйти]')
+    exit = input(' [Нажмите Enter чтобы выйти]')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('clear')
 
