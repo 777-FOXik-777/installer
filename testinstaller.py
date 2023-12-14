@@ -204,6 +204,7 @@ time.sleep(5)
 
 
 #nef
+os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
 
 os.chdir('/data/data/com.termux/files/home/installer')
 os.system('python3 test1.py')
