@@ -10,7 +10,7 @@ os.system('clear')
 
 
 def pri():
-    print(f'\33]0; Installer - Страница [2]\a',
+    print(f'\33]0; Installer - Страница [1]\a',
                       end='', flush=True)
 
 def exit():
@@ -322,6 +322,10 @@ while True:
             time.sleep(2)
             
             os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            res()
+            os.system('pkg install wget -y')
+            os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
             res()
             os.system('git clone https://github.com/KasRoudra/PyPhisher')
@@ -354,6 +358,10 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Zphiser еще НЕ установлен!")
             time.sleep(2)
         
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            res()
+            os.system('pkg install wget -y')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
             res()
@@ -389,6 +397,10 @@ while True:
             time.sleep(2)
             
             os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            res()
+            os.system('pkg install wget -y')
+            os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamHacker...")
             res()
             os.system('git clone https://github.com/KasRoudra/CamHacker')
@@ -421,6 +433,10 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] VidPhisher еще НЕ установлен!")
             time.sleep(2)
             
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            res()
+            os.system('pkg install wget -y')
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка VidPhisher...")
             res()
