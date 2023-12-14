@@ -363,75 +363,236 @@ while True:
             os.system('bash zphisher.sh')
             exit()
 
-  
 
-    if inp == '5':
+
+    if inp == '11':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "k-fuscator"
+        filename = "CamHacker"
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] K-fuscator уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamHacker уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-            
-            os.chdir('k-fuscator')
+
+            os.chdir('CamHacker')
             os.system('clear')
-            os.system('python3 kf.py')
+            os.system('bash ch.sh')
+            res()
             exit()
-            
+
         else:
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] CamHacker еще НЕ установлен!")
             time.sleep(2)
-
+            
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка K-fuscator...")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamHacker...")
             res()
-            os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
-            os.chdir('k-fuscator')
+            os.system('git clone https://github.com/KasRoudra/CamHacker')
+            os.chdir('CamHacker')
             os.system('clear')
-            os.system('python3 kf.py')
+            os.system('bash ch.sh')
             exit()
 
 
 
-    
-    if inp == '6':
+    if inp == '12':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "TigerVirus"
+        filename = "VidPhisher"
 
         if os.path.exists(filename):
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] VidPhisher уже установлен!")
             time.sleep(2)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-            
-            os.chdir('TigerVirus')
+
+            os.chdir('VidPhisher')
             os.system('clear')
-            os.system('bash TigerVirus.sh')
+            os.system('bash vp.sh')
             exit()
-            
+
         else:
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] VidPhisher еще НЕ установлен!")
             time.sleep(2)
-
+            
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка VidPhisher...")
             res()
-            os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
-            os.chdir('TigerVirus')
+            os.system('git clone https://github.com/KasRoudra/VidPhisher')
+            os.chdir('VidPhisher')
             os.system('clear')
-            os.system('bash TigerVirus.sh')
+            os.system('bash vp.sh')
             exit()
-    
 
-    if inp == '7':
+
+
+    if inp == '13':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "Telephish"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Telephish уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('Telephish')
+            os.system('clear')
+            os.system('python builder.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Telephish')
+            os.system('python Instagram.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Telephish')
+            os.system('python vk.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Telephish')
+            os.system('python tiktok.py')
+            os.system('rm -fr Instagram.py')
+            os.system('rm -fr vk.py.py')
+            os.system('rm -fr tiktok.py')
+            os.system('clear')
+            exit()
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Telephish еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка pyTelegramBotAPI...")
+            res()
+            os.system('pip install pyTelegramBotAPI')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Telephish...")
+            res()
+            os.system('git clone https://github.com/lamer112311/Telephish')
+          
+            os.chdir('Telephish')
+            os.system('clear')
+            os.system('python builder.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Telephish')
+            os.system('python Instagram.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Telephish')
+            os.system('python vk.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Telephish')
+            os.system('python tiktok.py')
+            os.system('rm -fr Instagram.py')
+            os.system('rm -fr vk.py.py')
+            os.system('rm -fr tiktok.py')
+            os.system('clear')
+            exit()
+
+
+
+    if inp == '14':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "Dnnme2"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Dnnme2 уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('Dnnme2')
+            os.system('clear')
+            os.system('python build.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python probiv.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python nacr.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python brawl.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python znak.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python btc.py')
+            os.system('rm -fr nacr.py')
+            os.system('rm -fr probiv.py')
+            os.system('rm -fr brawl.py')
+            os.system('rm -fr znak.py')
+            os.system('rm -fr btc.py')
+            os.system('clear')
+            exit()
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Dnnme2 еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка pyTelegramBotAPI...")
+            res()
+            os.system('pip install pyTelegramBotAPI')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Dnnme2...")
+            res()
+            os.system('git clone https://github.com/lamer112311/Dnnme2')
+          
+            os.chdir('Dnnme2')
+            os.system('clear')
+            os.system('python build.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python probiv.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python nacr.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python brawl.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python znak.py')
+            os.system('clear')
+            baner()
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/Dnme2')
+            os.system('python btc.py')
+            os.system('rm -fr nacr.py')
+            os.system('rm -fr probiv.py')
+            os.system('rm -fr brawl.py')
+            os.system('rm -fr znak.py')
+            os.system('rm -fr btc.py')
+            os.system('clear')
+            exit()
+
+
+
+    if inp == '9':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "maskphish"
 
@@ -464,157 +625,6 @@ while True:
 
 
     
-    if inp == '8':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-        filename = "IP"
-
-        if os.path.exists(filename):
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
-            time.sleep(2)
-            
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
-            res()
-            time.sleep(1)
-            os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
-            os.chdir('IP-Tracer')
-            os.system('bash install')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/IP')
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+" [IP-Tracer]")
-            res()
-            print(Fore.GREEN+'  [1] Пробить свой IP')
-            print(Fore.GREEN+'  [2] Пробить чужой IP')
-            res()
-            print(Fore.YELLOW+'  [e] выход')
-            res()
-            tru_801 = input('  Выбери пункт ➤ ')
-    
-            if tru_801 == '1':
-                os.system('clear')
-                os.system('trace -m')
-                exit()
-                
-            if tru_801 == '2':
-                os.system('clear')
-                baner()
-                res()
-                print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
-                res()
-                tsu_802 = input('  Введите IP ➤ ')
-                os.system('clear')
-                os.system('trace -t '+tsu_802)
-                exit()
-    
-            else:
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
-
-        else:
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+" [IP-Tracer]")
-            res()
-            print(Fore.GREEN+'  [1] Пробить свой IP')
-            print(Fore.GREEN+'  [2] Пробить чужой IP')
-            res()
-            print(Fore.YELLOW+'  [e] выход')
-            res()
-            tru_801 = input('  Выбери пункт ➤ ')
-    
-            if tru_801 == '1':
-                os.system('clear')
-                os.system('trace -m')
-                exit()
-                
-            if tru_801 == '2':
-                os.system('clear')
-                baner()
-                res()
-                print(Fore.YELLOW+'  Пример IP'+Fore.CYAN+' 33.73.133.137')
-                res()
-                tsu_802 = input('  Введите IP ➤ ')
-                os.system('clear')
-                os.system('trace -t '+tsu_802)
-                exit()
-    
-            else:
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
-
-
-
-    if inp == '9':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "seeker"
-
-        if os.path.exists(filename):
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            
-            os.chdir('seeker')
-            os.system('clear')
-            os.system('python seeker.py')
-            exit()
-        
-        else:
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
-            time.sleep(2)
-            
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
-            res()
-            os.system('pkg install dropbear -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-            res()
-            os.system('pkg install openssh -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
-            res()
-            os.system('pkg install php -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php7...")
-            res()
-            os.system('pkg install php7 -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка psutil...")
-            res()
-            os.system('pip install psutil')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка packaging...")
-            res()
-            os.system('pip install packaging')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
-            res()
-            os.system('pip install requests')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
-            res()
-            os.system('git clone https://github.com/thewhiteh4t/seeker.git')
-            
-            os.chdir('seeker')
-            os.system('clear')
-            os.system('python seeker.py')
-            exit()
 
 
 
