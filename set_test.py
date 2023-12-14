@@ -284,7 +284,7 @@ while True:
           res()
           print(Fore.YELLOW+" [e] Назад")
           res()
-          tsu_501 = input('  Выбери пункт ➤ ')
+          tsu_501 = input(' Выбери пункт ➤ ')
           os.system('clear')
 
 
