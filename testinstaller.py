@@ -171,23 +171,6 @@ else:
 
 
 
-
-print(Style.RESET_ALL)
-os.system('clear')
-print(Fore.WHITE+'', Style.BRIGHT)
-print("[+]═════════════════════════════════════════════════[+]")
-print("")
-print("Этот инструмент предназначен только для образовательных")
-print("целей. Все утилиты, фото, видео и прочие и прочие файлы")
-print("взяты из открытых источников и принадлежат их законным ")
-print("авторам.                                               ")
-print("")
-print("[+]═════════════════════════════════════════════════[+]")
-res()
-time.sleep(4)
-
-
-
 os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
 filename = "Auto"
@@ -201,6 +184,22 @@ else:
   os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
   os.system('clear')
 
+
+
+
+
+print(Style.RESET_ALL)
+os.system('clear')
+print(Fore.WHITE+'', Style.BRIGHT)
+print("[+]═════════════════════════════════════════════════[+]")
+print("")
+print("Этот инструмент предназначен только для образовательных")
+print("целей. Все утилиты, фото, видео и прочие и прочие файлы")
+print("взяты из открытых источников и принадлежат их законным ")
+print("авторам.                                               ")
+print("")
+print("[+]═════════════════════════════════════════════════[+]")
+time.sleep(5)
 
 
 #nef
