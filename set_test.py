@@ -51,14 +51,14 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print (Style.BRIGHT, Fore.CYAN+' Запускать Installer вместе с Termux?')
+        print (Style.BRIGHT, Fore.CYAN+'Запускать Installer вместе с Termux?')
         res()
-        print(Fore.YELLOW+'  [1]'+Fore.YELLOW+' Включить')
-        print(Fore.YELLOW+'  [2]'+Fore.YELLOW+' Выключить')
+        print(Fore.YELLOW+' [1]'+Fore.YELLOW+' Включить')
+        print(Fore.YELLOW+' [2]'+Fore.YELLOW+' Выключить')
         res()
-        print(Fore.YELLOW+'  [e] выход')
+        print(Fore.YELLOW+' [e] выход')
         res()
-        tru_101 = input('  Выбери пункт ➤ ')
+        tru_101 = input(' Выбери пункт ➤ ')
 
         if tru_101 == '1':
             os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
@@ -92,9 +92,9 @@ while True:
     if inp == '2':
         os.system('clear')
         baner()
-        print(Style.BRIGHT,Fore.YELLOW+' Вы точно хотите Обновить/Переустановить Installer?')
+        print(Style.BRIGHT,Fore.YELLOW+'Вы точно хотите Обновить/Переустановить Installer?')
         res()
-        tru_201 = input('  Выбери пункт [y/n] ➤ ')
+        tru_201 = input(' Выбери пункт [y/n] ➤ ')
         if tru_201 == 'y':
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv update.py /data/data/com.termux/files/home/')
@@ -121,9 +121,9 @@ while True:
     if inp == '4':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
-        print(Style.BRIGHT,Fore.CYAN+' Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.CYAN+' ?')
+        print(Style.BRIGHT,Fore.CYAN+'Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.CYAN+' ?')
         res()
-        tru_401 = input('  Выбери пункт [y/n] ➤ ')
+        tru_401 = input(' Выбери пункт [y/n] ➤ ')
         if tru_401 == 'y':
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
           
@@ -143,7 +143,7 @@ while True:
             os.system('mv sherlock /data/data/com.termux/files/home/')
             os.system('clear')
             baner()
-            print(Fore.GREEN+"  Все утилиты УСПЕШНО перенесены в папку /files/home")
+            print(Fore.GREEN+" Все утилиты УСПЕШНО перенесены в папку /files/home")
             exit()
 
         else:
@@ -268,7 +268,7 @@ while True:
             Sherlock = ""+Fore.RED+"X"
           
           baner()
-          print(Style.BRIGHT, Fore.CYAN+"  Выбери какую именно удалить Утилиту?")
+          print(Style.BRIGHT, Fore.CYAN+" Выбери какую именно удалить Утилиту?")
           res()
           print(Fore.YELLOW+"    [1] Ngrok        ("+Ngrok+""+Fore.YELLOW+")  [11] CamHacker      ("+CamHacker+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [2] Localhost    ("+Localhost+""+Fore.YELLOW+")  [12] VidPhisher     ("+VidPhisher+""+Fore.YELLOW+")")
@@ -280,9 +280,9 @@ while True:
           print(Fore.YELLOW+"    [8] IP-Tracer    ("+IPTracer+""+Fore.YELLOW+")  [18] Holehe         ("+Holehe+""+Fore.YELLOW+")")
           print(Fore.YELLOW+"    [9] Seeker       ("+Seeker+""+Fore.YELLOW+")  [19] Sherlock       ("+Sherlock+""+Fore.YELLOW+")")
           res()
-          print(Fore.RED+"    [a] Выбрать все утилиты")
+          print(Fore.RED+" [a] Выбрать все утилиты")
           res()
-          print(Fore.YELLOW+"    [e] Назад")
+          print(Fore.YELLOW+" [e] Назад")
           res()
           tsu_501 = input('  Выбери пункт ➤ ')
           os.system('clear')
@@ -294,13 +294,13 @@ while True:
               filename = "ngrok"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+"  Утилита ngrok еще не установлена!")
+                print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
                 baner()
-                print(Fore.YELLOW+"  Утилита Ngrok успешно удалена!")
+                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
                 exit()
           
           if tsu_501 == '2':
@@ -433,7 +433,7 @@ while True:
           
           if tsu_501 == 'a':
               baner()
-              print(Fore.WHITE+' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
+              print(Fore.WHITE+'['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
               res()
               tru_502 = input(' Выбери пункт [y/n] ➤ ')
               if tru_502 == 'y':
