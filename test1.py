@@ -365,7 +365,7 @@ while True:
 
 
 
-    if inp == '11':
+    if inp == '5':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "CamHacker"
 
@@ -399,7 +399,7 @@ while True:
 
 
 
-    if inp == '12':
+    if inp == '6':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "VidPhisher"
 
@@ -432,7 +432,7 @@ while True:
 
 
 
-    if inp == '13':
+    if inp == '7':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "Telephish"
 
@@ -502,7 +502,7 @@ while True:
 
 
 
-    if inp == '14':
+    if inp == '8':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "Dnnme2"
 
