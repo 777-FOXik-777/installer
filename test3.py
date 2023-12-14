@@ -7,6 +7,27 @@ os.system('clear')
 
 
 
+
+
+
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "sypexhack"
+
+if os.path.exists(filename):
+  os.system('clear')
+  print("Чтобы запустить Installer: python installer.py")
+  sys.exit()
+
+
+else:
+  os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
+  os.system('clear')   
+
+
+
+
+
 def pri():
     print(f'\33]0; Installer - Страница [3]\a',
                       end='', flush=True)
@@ -88,10 +109,12 @@ while True:
 
 
 if leave == '1':
+    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('python test1.py')
 
 if leave == '2':
+    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('python test2.py')
 
