@@ -102,5 +102,5 @@ else:
     os.system('clear')
     os.system('lolcat baner.txt')
     print(Fore.CYAN+'', Style.BRIGHT)
-    print(' Спасибо за использование Installer \n')
+    print(' Telegram: @SYPEXHACK желает вам '+Fore.YELLOW+'Хорошего дня! \n')
     os.chdir('/data/data/com.termux/files/home/installer')
