@@ -76,13 +76,13 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_102 = input('  Изменить порт? [y/n] >>> ')
+            tru_102 = input('  Изменить порт? [y/n] ➤ ')
             if tru_102 == 'y':
                 os.system('clear')
                 baner()
                 print(Style.BRIGHT,Fore.CYAN+" [Ngrok]")
                 res()
-                we_2 = input('  Введите порт>>> ')
+                we_2 = input('  Введите порт ➤ ')
                 if we_2 == '':
                     os.system('clear')
                     baner()
@@ -133,13 +133,13 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_102 = input('  Изменить порт? [y/n] >>> ')
+            tru_102 = input('  Изменить порт? [y/n] ➤ ')
             if tru_102 == 'y':
                 os.system('clear')
                 baner()
                 print(Style.BRIGHT,Fore.CYAN+" [Ngrok]")
                 res()
-                we_2 = input('  Введите порт>>> ')
+                we_2 = input('  Введите порт ➤ ')
                 if we_2 == '':
                     os.system('clear')
                     baner()
@@ -202,13 +202,13 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_202 = input('  Изменить порт? [y/n] >>> ')
+            tru_202 = input('  Изменить порт? [y/n] ➤ ')
             if tru_202 == 'y':
                 os.system('clear')
                 baner()
                 print(Style.BRIGHT,Fore.CYAN+" [Localhost]")
                 res()
-                qw_2 = input('  Введите порт>>> ')
+                qw_2 = input('  Введите порт ➤ ')
                 if qw_2 == '':
                     os.system('clear')
                     baner()
@@ -259,13 +259,13 @@ while True:
             res()
             print(Fore.YELLOW+"  [e] Выход")
             res()
-            tru_202 = input('  Изменить порт? [y/n] >>> ')
+            tru_202 = input('  Изменить порт? [y/n] ➤ ')
             if tru_202 == 'y':
                 os.system('clear')
                 baner()
                 print(Style.BRIGHT,Fore.CYAN+" [Localhost]")
                 res()
-                qw_2 = input('  Введите порт>>> ')
+                qw_2 = input('  Введите порт ➤ ')
                 if qw_2 == '':
                     os.system('clear')
                     baner()
@@ -493,7 +493,7 @@ while True:
             res()
             print(Fore.YELLOW+'  [e] выход')
             res()
-            tru_801 = input('  Выбери пункт>>> ')
+            tru_801 = input('  Выбери пункт ➤ ')
     
             if tru_801 == '1':
                 os.system('clear')
@@ -506,7 +506,7 @@ while True:
                 res()
                 print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
                 res()
-                tsu_802 = input('  Введите IP >>> ')
+                tsu_802 = input('  Введите IP ➤ ')
                 os.system('clear')
                 os.system('trace -t '+tsu_802)
                 exit()
@@ -533,7 +533,7 @@ while True:
             res()
             print(Fore.YELLOW+'  [e] выход')
             res()
-            tru_801 = input('  Выбери пункт>>> ')
+            tru_801 = input('  Выбери пункт ➤ ')
     
             if tru_801 == '1':
                 os.system('clear')
@@ -546,7 +546,7 @@ while True:
                 res()
                 print(Fore.YELLOW+'  Пример IP'+Fore.CYAN+' 33.73.133.137')
                 res()
-                tsu_802 = input('  Введите IP >>> ')
+                tsu_802 = input('  Введите IP ➤ ')
                 os.system('clear')
                 os.system('trace -t '+tsu_802)
                 exit()
