@@ -21,6 +21,7 @@ if os.path.exists(filename):
 
 
 else:
+  os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
   os.system('clear')   
 
 
