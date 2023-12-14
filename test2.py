@@ -40,307 +40,8 @@ while True:
     os.system('clear')
     
 
-
-    if inp == '5':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "k-fuscator"
-
-        if os.path.exists(filename):
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] K-fuscator уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            
-            os.chdir('k-fuscator')
-            os.system('clear')
-            os.system('python3 kf.py')
-            exit()
-            
-        else:
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
-            time.sleep(2)
-
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка K-fuscator...")
-            res()
-            os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
-            os.chdir('k-fuscator')
-            os.system('clear')
-            os.system('python3 kf.py')
-            exit()
     
-    
-    if inp == '6':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "TigerVirus"
-
-        if os.path.exists(filename):
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            
-            os.chdir('TigerVirus')
-            os.system('clear')
-            os.system('bash TigerVirus.sh')
-            exit()
-            
-        else:
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
-            time.sleep(2)
-
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
-            res()
-            os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
-            os.chdir('TigerVirus')
-            os.system('clear')
-            os.system('bash TigerVirus.sh')
-            exit()
-
-    
-
-    if inp == '8':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-        filename = "IP"
-
-        if os.path.exists(filename):
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
-            time.sleep(2)
-            
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
-            res()
-            time.sleep(1)
-            os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
-            os.chdir('IP-Tracer')
-            os.system('bash install')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/IP')
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+" [IP-Tracer]")
-            res()
-            print(Fore.GREEN+'  [1] Пробить свой IP')
-            print(Fore.GREEN+'  [2] Пробить чужой IP')
-            res()
-            print(Fore.YELLOW+'  [e] выход')
-            res()
-            tru_801 = input('  Выбери пункт ➤ ')
-    
-            if tru_801 == '1':
-                os.system('clear')
-                os.system('trace -m')
-                exit()
-                
-            if tru_801 == '2':
-                os.system('clear')
-                baner()
-                res()
-                print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
-                res()
-                tsu_802 = input('  Введите IP ➤ ')
-                os.system('clear')
-                os.system('trace -t '+tsu_802)
-                exit()
-    
-            else:
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
-
-        else:
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+" [IP-Tracer]")
-            res()
-            print(Fore.GREEN+'  [1] Пробить свой IP')
-            print(Fore.GREEN+'  [2] Пробить чужой IP')
-            res()
-            print(Fore.YELLOW+'  [e] выход')
-            res()
-            tru_801 = input('  Выбери пункт ➤ ')
-    
-            if tru_801 == '1':
-                os.system('clear')
-                os.system('trace -m')
-                exit()
-                
-            if tru_801 == '2':
-                os.system('clear')
-                baner()
-                res()
-                print(Fore.YELLOW+'  Пример IP'+Fore.CYAN+' 33.73.133.137')
-                res()
-                tsu_802 = input('  Введите IP ➤ ')
-                os.system('clear')
-                os.system('trace -t '+tsu_802)
-                exit()
-    
-            else:
-                os.chdir('/data/data/com.termux/files/home/installer')
-                os.system('clear')
-
-
-
-    if inp == '9':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "seeker"
-
-        if os.path.exists(filename):
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            
-            os.chdir('seeker')
-            os.system('clear')
-            os.system('python seeker.py')
-            exit()
-        
-        else:
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
-            time.sleep(2)
-            
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
-            res()
-            os.system('pkg install dropbear -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-            res()
-            os.system('pkg install openssh -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
-            res()
-            os.system('pkg install php -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php7...")
-            res()
-            os.system('pkg install php7 -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка psutil...")
-            res()
-            os.system('pip install psutil')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка packaging...")
-            res()
-            os.system('pip install packaging')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
-            res()
-            os.system('pip install requests')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
-            res()
-            os.system('git clone https://github.com/thewhiteh4t/seeker.git')
-            
-            os.chdir('seeker')
-            os.system('clear')
-            os.system('python seeker.py')
-            exit()
-
-
-
-  
-    if inp == '15':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "Discord-Nitro-Generator-and-Checker"
-
-        if os.path.exists(filename):
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Discord-Nitro-Generator уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-
-            os.chdir('Discord-Nitro-Generator-and-Checker')
-            os.system('clear')
-            os.system('python3 main.py')
-            exit()
-
-        else:
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Discord-Nitro-Generator еще НЕ установлен!")
-            time.sleep(2)
-            
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
-            res()
-            os.system('pip install requests')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка discord_webhook...")
-            res()
-            os.system('pip install discord_webhook')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка colored...")
-            res()
-            os.system('pip install colored')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка numpy...")
-            res()
-            os.system('pkg install python-numpy -y')
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Discord-Nitro-Generator...")
-            res()
-            os.system('git clone https://github.com/logicguy1/Discord-Nitro-Generator-and-Checker.git')
-            os.chdir('Discord-Nitro-Generator-and-Checker')
-            os.system('clear')
-            os.system('python3 main.py')
-            exit()
-
-    
-    
-    if inp == '16':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "shorturl"
-
-        if os.path.exists(filename):
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] ShortUrl уже установлен!")
-            time.sleep(2)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-
-            os.system('ShortUrl')
-            exit()
-        else:
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] ShortUrl еще НЕ установлен!")
-            time.sleep(2)
-            
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ShortUrl...")
-            res()
-            os.system('git clone https://github.com/htr-tech/shorturl')
-            os.chdir('shorturl')
-            os.system('clear')
-            os.system('bash setup.sh')
-            os.system('ShortUrl')
-            exit()
-
-    
-    if inp == '17':
+    if inp == '11':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "PhoneInfoga"
 
@@ -430,7 +131,7 @@ while True:
 
 
 
-    if inp == '18':
+    if inp == '12':
         os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
         filename = "holehe"
 
@@ -496,7 +197,99 @@ while True:
 
 
 
-    if inp == '19':
+    if inp == '13':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+        filename = "IP"
+
+        if os.path.exists(filename):
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
+            res()
+            time.sleep(1)
+            os.system('git clone https://github.com/rajkumardusad/IP-Tracer.git')
+            os.chdir('IP-Tracer')
+            os.system('bash install')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/IP')
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+" [IP-Tracer]")
+            res()
+            print(Fore.GREEN+'  [1] Пробить свой IP')
+            print(Fore.GREEN+'  [2] Пробить чужой IP')
+            res()
+            print(Fore.YELLOW+'  [e] выход')
+            res()
+            tru_801 = input('  Выбери пункт ➤ ')
+    
+            if tru_801 == '1':
+                os.system('clear')
+                os.system('trace -m')
+                exit()
+                
+            if tru_801 == '2':
+                os.system('clear')
+                baner()
+                res()
+                print(Fore.YELLOW+'    Пример IP'+Fore.CYAN+' 33.73.133.137')
+                res()
+                tsu_802 = input('  Введите IP ➤ ')
+                os.system('clear')
+                os.system('trace -t '+tsu_802)
+                exit()
+    
+            else:
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+
+        else:
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+" [IP-Tracer]")
+            res()
+            print(Fore.GREEN+'  [1] Пробить свой IP')
+            print(Fore.GREEN+'  [2] Пробить чужой IP')
+            res()
+            print(Fore.YELLOW+'  [e] выход')
+            res()
+            tru_801 = input('  Выбери пункт ➤ ')
+    
+            if tru_801 == '1':
+                os.system('clear')
+                os.system('trace -m')
+                exit()
+                
+            if tru_801 == '2':
+                os.system('clear')
+                baner()
+                res()
+                print(Fore.YELLOW+'  Пример IP'+Fore.CYAN+' 33.73.133.137')
+                res()
+                tsu_802 = input('  Введите IP ➤ ')
+                os.system('clear')
+                os.system('trace -t '+tsu_802)
+                exit()
+    
+            else:
+                os.chdir('/data/data/com.termux/files/home/installer')
+                os.system('clear')
+
+    
+
+    if inp == '14':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "sherlock"
 
@@ -605,6 +398,219 @@ while True:
                 os.system('python sherlock '+tru_901+'')
                 exit()
 
+    
+
+    if inp == '15':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "TigerVirus"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            os.chdir('TigerVirus')
+            os.system('clear')
+            os.system('bash TigerVirus.sh')
+            exit()
+            
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
+            time.sleep(2)
+
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
+            res()
+            os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
+            os.chdir('TigerVirus')
+            os.system('clear')
+            os.system('bash TigerVirus.sh')
+            exit()
+            
+
+    
+    if inp == '16':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "k-fuscator"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] K-fuscator уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            os.chdir('k-fuscator')
+            os.system('clear')
+            os.system('python3 kf.py')
+            exit()
+            
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
+            time.sleep(2)
+
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка K-fuscator...")
+            res()
+            os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
+            os.chdir('k-fuscator')
+            os.system('clear')
+            os.system('python3 kf.py')
+            exit()
+
+
+  
+    if inp == '17':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "Discord-Nitro-Generator-and-Checker"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Discord-Nitro-Generator уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('Discord-Nitro-Generator-and-Checker')
+            os.system('clear')
+            os.system('python3 main.py')
+            exit()
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Discord-Nitro-Generator еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
+            res()
+            os.system('pip install requests')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка discord_webhook...")
+            res()
+            os.system('pip install discord_webhook')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка colored...")
+            res()
+            os.system('pip install colored')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка numpy...")
+            res()
+            os.system('pkg install python-numpy -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Discord-Nitro-Generator...")
+            res()
+            os.system('git clone https://github.com/logicguy1/Discord-Nitro-Generator-and-Checker.git')
+            os.chdir('Discord-Nitro-Generator-and-Checker')
+            os.system('clear')
+            os.system('python3 main.py')
+            exit()
+
+    
+    
+    if inp == '18':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "shorturl"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] ShortUrl уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.system('ShortUrl')
+            exit()
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] ShortUrl еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ShortUrl...")
+            res()
+            os.system('git clone https://github.com/htr-tech/shorturl')
+            os.chdir('shorturl')
+            os.system('clear')
+            os.system('bash setup.sh')
+            os.system('ShortUrl')
+            exit()
+
+
+
+    if inp == '19':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "seeker"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            os.chdir('seeker')
+            os.system('clear')
+            os.system('python seeker.py')
+            exit()
+        
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
+            res()
+            os.system('pkg install dropbear -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
+            res()
+            os.system('pkg install openssh -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
+            res()
+            os.system('pkg install php -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php7...")
+            res()
+            os.system('pkg install php7 -y')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка psutil...")
+            res()
+            os.system('pip install psutil')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка packaging...")
+            res()
+            os.system('pip install packaging')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
+            res()
+            os.system('pip install requests')
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
+            res()
+            os.system('git clone https://github.com/thewhiteh4t/seeker.git')
+            
+            os.chdir('seeker')
+            os.system('clear')
+            os.system('python seeker.py')
+            exit()
+
+
+    
+
+
+    
 
     
     if inp == 't':
