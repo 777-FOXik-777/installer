@@ -90,6 +90,7 @@ while True:
             else:
                 os.system('clear')
                 baner()
+                os.chdir('hammer')
                 os.system('python hammer.py -s '+tru_701+'')
                 os.system('clear')
                 exit()
@@ -97,7 +98,7 @@ while True:
 
         else:
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Phoneinfoga еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Hammer еще НЕ установлен!")
             time.sleep(2)
             
             os.system('clear')
@@ -123,6 +124,7 @@ while True:
             else:
                 os.system('clear')
                 baner()
+                os.chdir('hammer')
                 os.system('python hammer.py -s '+tru_701+'')
                 os.system('clear')
                 exit()
