@@ -130,7 +130,9 @@ while True:
                 os.system('clear')
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
-                lol = input('')
+                res()
+                lol = input(' [Нажмите Enter чтобы закрыть Termux]')
+                os.system('exit')
         else:
             os.system('clear')
 
@@ -467,7 +469,7 @@ while True:
           
           if tsu_501 == 'a':
               baner()
-              print(Fore.WHITE+'['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
+              print(Fore.WHITE+' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
               res()
               tru_502 = input(' Выбери пункт [y/n] ➤ ')
               if tru_502 == 'y':
