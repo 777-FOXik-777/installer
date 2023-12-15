@@ -64,7 +64,66 @@ while True:
 
 
     if inp == '21':
-        os.system('clear')
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "hammer"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Hammer уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.chdir('PhoneInfoga')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
+            res()
+            print(Fore.GREEN+' Введите IP, пример:'+Fore.CYAN+' 33.73.133.137')
+            res()
+            print(Fore.YELLOW+" [e] Выход")
+            res()
+            tru_701 = input(' Введите IP ➤ ')
+            if tru_701 == 'e':
+                os.system('clear')
+
+            else:
+                os.system('clear')
+                os.system('python hammer.py -p '+tru_701+'')
+                os.system('clear')
+                exit()
+
+
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Phoneinfoga еще НЕ установлен!")
+            time.sleep(2)
+            
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
+            res()
+            os.system('pip install requests')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Hammer...")
+            res()
+            os.system('git clone https://github.com/777-oleg-777/hammer')
+            os.chdir('hammer')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
+            res()
+            print(Fore.GREEN+' Введите IP, пример:'+Fore.CYAN+' 33.73.133.137')
+            res()
+            print(Fore.YELLOW+" [e] Выход")
+            res()
+            tru_701 = input(' Введите IP ➤ ')
+            if tru_701 == 'e':
+                os.system('clear')
+
+            else:
+                os.system('clear')
+                os.system('python hammer.py -p '+tru_701+'')
+                os.system('clear')
+                exit()
+
 
 
 
