@@ -26,37 +26,6 @@ else:
 
 
 
-os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
-filename = "hack"
-
-if os.path.exists(filename):
-
-  os.chdir('/data/data/com.termux/files/home')
-  
-  filename = "storage"
-  
-  if os.path.exists(filename):
-      
-      os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
-      os.system('rm -fr /data/data/com.termux/files/home/installer/image')
-      os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/hack')
-      os.system('clear')
-  
-  
-  else:
-          
-      os.system('clear')
-
-else:
-  
-    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
-    os.system('clear')
-
-
-
-
-
 
 os.system('clear')
 
@@ -159,14 +128,25 @@ else:
 #фото
 
 
-os.chdir('/data/data/com.termux/files/home')
 
-filename = "storage"
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "hack"
 
 if os.path.exists(filename):
-    os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
-    os.system('clear')
 
+  os.chdir('/data/data/com.termux/files/home')
+  
+  filename = "storage"
+  
+  if os.path.exists(filename):
+      
+      os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
+      os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/hack')
+      os.system('clear')
+  
+  else:
+      os.system('clear')
 
 else:
     os.system('clear')
@@ -182,6 +162,7 @@ os.system('rm -fr /data/data/com.termux/files/home/installer/image')
 
 
 
+#автозапуск после обновления
 
 
 os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
@@ -216,8 +197,12 @@ print("")
 time.sleep(5)
 
 
-#nef
+
+#разрешание запуск
+
 os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
 
+
+
 os.chdir('/data/data/com.termux/files/home/installer')
-os.system('python3 test1.py')
+os.system('python test1.py')
