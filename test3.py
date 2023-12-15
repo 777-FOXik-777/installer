@@ -16,7 +16,8 @@ filename = "sypexhack"
 
 if os.path.exists(filename):
   os.system('clear')
-  print("Чтобы запустить Installer: python installer.py")
+  print("Installer запускается командой: python installer.py")
+  print("")
   sys.exit()
 
 
@@ -128,3 +129,4 @@ else:
     print(Fore.CYAN+'', Style.BRIGHT)
     print(' Telegram: @SYPEXHACK желает вам '+Fore.YELLOW+'Хорошего дня! \n')
     os.chdir('/data/data/com.termux/files/home/installer')
+    sys.exit()
