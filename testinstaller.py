@@ -134,7 +134,7 @@ def baner():
 
 
 
-os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/README.md')
+os.system('rm -fr /data/data/com.termux/files/home/installer/README.md')
 os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 os.system('rm -fr /data/data/com.termux/files/home/installer/image')
 
@@ -145,8 +145,17 @@ os.chdir('/data/data/com.termux/files/home')
 filename = "storage"
 
 if os.path.exists(filename):
+  
+    os.chdir('/data/data/com.termux/files/home/installer/image')
+    filename = "hack.jpg"
 
-    os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
+    if os.path.exists(filename): 
+      os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
+
+    else:
+      os.system('clear')
+
+  
     os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
 
