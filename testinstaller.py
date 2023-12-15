@@ -152,8 +152,6 @@ else:
     time.sleep(1)
     os.system('termux-setup-storage')
     tsu = input(' [Нажмите Enter чтобы продолжить]')
-    os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
-    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
 
 
