@@ -75,8 +75,8 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
 
-            os.chdir('hammer')
             baner()
+            os.chdir('hammer')
             print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
             res()
             print(Fore.GREEN+' Введите IP, пример:'+Fore.CYAN+' 33.73.133.137')
@@ -91,6 +91,7 @@ while True:
                 os.system('clear')
                 baner()
                 os.system('python hammer.py -s '+tru_701+'')
+                os.system('clear')
                 exit()
 
 
@@ -107,8 +108,8 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Hammer...")
             res()
             os.system('git clone https://github.com/777-oleg-777/hammer')
-            os.chdir('hammer')
             baner()
+            os.chdir('hammer')
             print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
             res()
             print(Fore.GREEN+' Введите IP, пример:'+Fore.CYAN+' 33.73.133.137')
@@ -123,6 +124,7 @@ while True:
                 os.system('clear')
                 baner()
                 os.system('python hammer.py -s '+tru_701+'')
+                os.system('clear')
                 exit()
 
 
