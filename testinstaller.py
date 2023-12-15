@@ -1,8 +1,6 @@
 import os, time
 
 os.system('clear')
-os.system('rm -fr image/Screenshot_installer.jpg')
-os.system('rm -fr image/logo-installer.jpg')
 os.system('rm -fr README.md')
 
 os.system('clear')
@@ -25,9 +23,6 @@ else:
 
   os.chdir('/data/data/com.termux/files/home/installer')
   os.system('mv Installer_Files /data/data/com.termux/files/home')
-
-
-
 
 
 
@@ -139,18 +134,6 @@ os.chdir('/data/data/com.termux/files/home')
 filename = "storage"
 
 if os.path.exists(filename):
-  
-    os.chdir('/data/data/com.termux/files/home/installer/image')
-    filename = "hack.jpg"
-
-    if os.path.exists(filename): 
-      os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
-
-    else:
-      os.system('clear')
-
-  
-    os.system('rm -fr /data/data/com.termux/files/home/installer/image')
     os.system('clear')
 
 
