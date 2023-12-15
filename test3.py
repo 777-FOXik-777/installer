@@ -91,7 +91,6 @@ while True:
                 os.system('clear')
                 baner()
                 os.system('python hammer.py -s '+tru_701+'')
-                os.system('clear')
                 exit()
 
 
@@ -124,7 +123,6 @@ while True:
                 os.system('clear')
                 baner()
                 os.system('python hammer.py -s '+tru_701+'')
-                os.system('clear')
                 exit()
 
 
