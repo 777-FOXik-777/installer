@@ -16,7 +16,8 @@ filename = "sypexhack"
 
 if os.path.exists(filename):
   os.system('clear')
-  print("Чтобы запустить Installer: python installer.py")
+  print("Installer запускается командой: python installer.py")
+  print("")
   sys.exit()
 
 
