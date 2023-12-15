@@ -75,7 +75,7 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
 
-            os.chdir('PhoneInfoga')
+            os.chdir('hammer')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
             res()
@@ -103,6 +103,7 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
             res()
             os.system('pip install requests')
+            os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Hammer...")
             res()
             os.system('git clone https://github.com/777-oleg-777/hammer')
