@@ -1,8 +1,25 @@
-import os, time
+import os, time, sys
 
 from colorama import Fore, Style
 
 os.system('clear')
+
+
+os.chdir('/data/data/com.termux/files/home/installer')
+
+filename = "setup_installer.py"
+
+if os.path.exists(filename):
+  os.system('clear')
+  print("Installer запускается командой: python installer.py")
+  print("")
+  sys.exit()
+
+
+else:
+  os.system('clear')   
+
+
 
 print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
