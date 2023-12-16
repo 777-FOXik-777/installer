@@ -9,6 +9,8 @@ filename = "/data/data/com.termux/files/home/installer/setup_installer.py"
 
 if os.path.exists(filename):
   os.system('clear')
+  print("Installer уже установле!")
+  print("")
   print("Installer запускается командой: python installer.py")
   print("")
   sys.exit()
