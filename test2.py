@@ -72,7 +72,6 @@ while True:
             time.sleep(0.5)
 
             baner()
-            os.chdir('/data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
             print(Style.BRIGHT,Fore.CYAN+"[PhoneInfoga]")
             res()
             print(Fore.GREEN+' Введите телефон в формате E164, пример:'+Fore.CYAN+' +3396360XXXX')
@@ -130,7 +129,6 @@ while True:
             os.system('mv /data/data/com.termux/files/home/PhoneInfoga /data/data/com.termux/files/home/Installer_Files')
 
             baner()
-            os.chdir('/data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
             print(Style.BRIGHT,Fore.CYAN+"[Phoneinfoga]")
             res()
             print(Fore.GREEN+' Введите телефон в формате E164, пример:'+Fore.CYAN+' +3396360XXXX')
@@ -322,7 +320,6 @@ while True:
             time.sleep(0.5)
 
             os.chdir('sherlock')
-            os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Sherlock]")
             res()
@@ -396,8 +393,8 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Sherlok...")
             res()
             os.system('git clone https://github.com/sherlock-project/sherlock.git')
+          
             os.chdir('sherlock')
-            os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Sherlock]")
             res()
