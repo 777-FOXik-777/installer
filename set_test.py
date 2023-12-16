@@ -393,7 +393,7 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
 
-          if tsu_501 == '4':
+          if tsu_501 == '21':
               filename = "hammer"
               led = "Hammer"
               delet()
