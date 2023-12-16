@@ -446,7 +446,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Mmail...")
             res()
-            os.system('git clone git clone https://github.com/mao2116/mmail.git')
+            os.system('git clone git clone https://github.com/777-oleg-777/mmail')
             os.chdir('mmail')
             os.system('clear')
             os.system('python mmail.py')
