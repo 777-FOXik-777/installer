@@ -70,5 +70,5 @@ else:
   os.system('clear')
   print(Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время установки Installer!")
   print(Fore.WHITE+" ")
-  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Повторите используя команду:"+Fore.WHITE+" python update.py")
+  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Повторите используя команду:"+Fore.WHITE+" python setup_installer.py")
   print(Fore.WHITE+" ")
