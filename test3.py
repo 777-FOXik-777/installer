@@ -53,9 +53,8 @@ def baner():
 #начало
     
 while True:
-    os.chdir('/data/data/com.termux/files/home/installer/banner')
     pri()
-    os.system('lolcat banner3.txt')
+    os.system('lolcat ~/installer/banner/banner3.txt')
     inp = input('\n Выбери пункт ➤ ')
     os.system('clear')
     
