@@ -45,11 +45,9 @@ def res():
 
 
 def baner():
-    os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
-    os.system('lolcat baner.txt')
+    os.system('lolcat ~/installer/banner/baner.txt')
     res()
-    os.chdir('/data/data/com.termux/files/home/Installer_Files')
 
 
 #начало
@@ -90,9 +88,7 @@ while True:
             else:
                 os.system('clear')
                 baner()
-                os.chdir('hammer')
                 os.system('python hammer.py -s '+tru_701+'')
-                os.system('clear')
                 exit()
 
 
@@ -122,9 +118,7 @@ while True:
                 os.system('clear')
 
             else:
-                os.system('clear')
                 baner()
-                os.chdir('hammer')
                 os.system('python hammer.py -s '+tru_701+'')
                 os.system('clear')
                 exit()
