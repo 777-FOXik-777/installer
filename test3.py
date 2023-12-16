@@ -125,6 +125,37 @@ while True:
 
 
 
+    if inp == '22':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "TigerVirus"
+
+        if os.path.exists(filename):
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
+            time.sleep(2)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            os.chdir('TigerVirus')
+            os.system('clear')
+            os.system('bash TigerVirus.sh')
+            exit()
+            
+        else:
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
+            time.sleep(2)
+
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
+            res()
+            os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
+            os.chdir('TigerVirus')
+            os.system('clear')
+            os.system('bash TigerVirus.sh')
+            exit()
+            
 
 
 
