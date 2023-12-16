@@ -1,6 +1,9 @@
 import os, time
 
 os.system('clear')
+
+os.system('rm -fr /data/data/com.termux/files/home/testupdate.py')
+
 os.system('rm -fr README.md')
 
 os.system('clear')
