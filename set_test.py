@@ -165,6 +165,7 @@ while True:
             os.system('mv shorturl /data/data/com.termux/files/home/')
             os.system('mv PhoneInfoga /data/data/com.termux/files/home/')
             os.system('mv sherlock /data/data/com.termux/files/home/')
+            os.system('mv hammer /data/data/com.termux/files/home/')
             os.system('clear')
             baner()
             print(Fore.GREEN+" Все утилиты УСПЕШНО перенесены в папку /files/home")
@@ -290,6 +291,12 @@ while True:
             Sherlock = ""+Fore.GREEN+"✓"
           else:
             Sherlock = ""+Fore.RED+"X"
+
+          filename = "hammer"
+          if os.path.exists(filename):
+            Sherlock = ""+Fore.GREEN+"✓"
+          else:
+            Sherlock = ""+Fore.RED+"X"
           
           baner()
           print(Style.BRIGHT, Fore.CYAN+"Выбери какую именно удалить Утилиту:")
@@ -386,6 +393,12 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
 
+          if tsu_501 == '4':
+              filename = "hammer"
+              led = "Hammer"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
+          
           if tsu_501 == '4':
               filename = "zphisher"
               led = "Zphisher"
