@@ -120,9 +120,9 @@ while True:
         tru_201 = input(' Выбери пункт [y/n] ➤ ')
         if tru_201 == 'y':
             os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('mv testupdate.py /data/data/com.termux/files/home/')
+            os.system('mv setup_installer.py /data/data/com.termux/files/home/')
             os.system('rm ~/.bashrc')
-            os.system('echo "cd && python testupdate.py" >> ~/.bashrc')
+            os.system('echo "cd && python setup_installer.py" >> ~/.bashrc')
             print(f'\33]0; Создайте новый сезон!\a',
                     end='', flush=True)  
             while True:
