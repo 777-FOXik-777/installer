@@ -119,6 +119,7 @@ while True:
         res()
         tru_201 = input(' Выбери пункт [y/n] ➤ ')
         if tru_201 == 'y':
+            os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv setup_installer.py /data/data/com.termux/files/home/')
             os.system('rm ~/.bashrc')
