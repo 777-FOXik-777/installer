@@ -5,9 +5,7 @@ from colorama import Fore, Style
 os.system('clear')
 
 
-os.chdir('/data/data/com.termux/files/home/installer')
-
-filename = "setup_installer.py"
+filename = "/data/data/com.termux/files/home/installer/setup_installer.py"
 
 if os.path.exists(filename):
   os.system('clear')
@@ -87,5 +85,5 @@ else:
   os.system('clear')
   print(Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время установки Installer!")
   print(Fore.WHITE+" ")
-  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Повторите используя команду:"+Fore.WHITE+" python setup_installer.py")
+  print(Fore.YELLOW+" ["+Fore.GREEN+"i"+Fore.YELLOW+"] Повторите попытку команой:"+Fore.WHITE+" python setup_installer.py")
   print(Fore.WHITE+" ")
