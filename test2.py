@@ -40,7 +40,7 @@ def exit():
 
 
 def res():
-    print(Style.RESET_ALL)
+    print(Style.BRIGHT,Fore.WHITE+"")
 
 
 def baner():
