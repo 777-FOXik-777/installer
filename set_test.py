@@ -509,13 +509,6 @@ while True:
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
-
-                  filename = "sherlock"
-                  if os.path.exists(filename):
-                    os.system('clear')
-                  else:
-                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sherlock")
-
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
                 
@@ -533,7 +526,6 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
-                  os.system('rm -fr /data/data/com.termux/files/home/PhoneInfoga')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
     
                   baner()
