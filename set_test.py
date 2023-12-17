@@ -53,12 +53,12 @@ def baner():
 def delet():
     if os.path.exists(filename):
       baner()
-      print(Fore.YELLOW+"  Утилита "+led+" успешно удалена!")
+      print(Style.BRIGHT, Fore.YELLOW+"Утилита "+led+" успешно удалена!")
       exit()
 
     else:
       baner()
-      print(Fore.YELLOW+"  Утилита "+led+" еще не установлена!")
+      print(Style.BRIGHT, Fore.YELLOW+"Утилита "+led+" еще не установлена!")
       exit()
       
 
@@ -392,6 +392,13 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
 
+          if tsu_501 == '23':
+              filename = "mmail"
+              led = "Mmail"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/mmail')
+
+          
           if tsu_501 == '21':
               filename = "hammer"
               led = "Hammer"
@@ -527,6 +534,7 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/mmail')
     
                   baner()
                   print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!")
