@@ -9,7 +9,7 @@ filename = "/data/data/com.termux/files/home/installer/setup_installer.py"
 
 if os.path.exists(filename):
   os.system('clear')
-  print("Installer уже установле!")
+  print("Installer уже установлен!")
   print("")
   print("Installer запускается командой: python installer.py")
   print("")
@@ -66,6 +66,7 @@ if os.path.exists(filename):
   print(f'\33]0; Installer - Успешно установлен!\a',
                   end='', flush=True)
 
+  os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
   
   os.system('clear')
   os.system('lolcat ~/installer/banner/baner.txt')
