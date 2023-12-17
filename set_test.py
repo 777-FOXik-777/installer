@@ -510,6 +510,12 @@ while True:
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
 
+                  filename = "sherlock"
+                  if os.path.exists(filename):
+                    os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sherlock")
+
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
                 
