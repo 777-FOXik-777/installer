@@ -2,7 +2,7 @@ import os, time
 
 os.system('clear')
 
-os.system('rm -fr /data/data/com.termux/files/home/testupdate.py')
+os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
 
 os.system('rm -fr README.md')
 
