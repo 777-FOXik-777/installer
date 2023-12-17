@@ -73,11 +73,11 @@ while True:
             time.sleep(2) 
             
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Nodejs-lts...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка nodejs-lts...")
             res()
             os.system('pkg install nodejs-lts -y')
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
             res()
             os.system('npm install ngrok')
             os.system('clear')
@@ -341,7 +341,7 @@ while True:
             time.sleep(2)
             
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
             res()
             os.system('pkg install wget -y')
             os.system('clear')
@@ -378,7 +378,7 @@ while True:
             time.sleep(2)
         
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
             res()
             os.system('pkg install wget -y')
             os.system('clear')
@@ -416,7 +416,7 @@ while True:
             time.sleep(2)
             
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
             res()
             os.system('pkg install wget -y')
             os.system('clear')
@@ -453,7 +453,7 @@ while True:
             time.sleep(2)
             
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Wget...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
             res()
             os.system('pkg install wget -y')
             os.system('clear')
