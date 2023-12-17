@@ -97,11 +97,11 @@ while True:
             time.sleep(2)
             
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Optparse-pretty...")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка optparse-pretty...")
             res()
             os.system('pip install optparse-pretty')
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Queue...")
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка queue...")
             res()
             os.system('pip instal queue')
             os.system('clear')
