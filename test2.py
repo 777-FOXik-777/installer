@@ -70,7 +70,8 @@ while True:
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-
+          
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[PhoneInfoga]")
             res()
@@ -128,6 +129,7 @@ while True:
             os.system('rm -fr PhoneInfoga')
             os.system('mv /data/data/com.termux/files/home/PhoneInfoga /data/data/com.termux/files/home/Installer_Files')
 
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Phoneinfoga]")
             res()
