@@ -293,9 +293,15 @@ while True:
 
           filename = "hammer"
           if os.path.exists(filename):
-            Sherlock = ""+Fore.GREEN+"✓"
+            Hammer = ""+Fore.GREEN+"✓"
           else:
-            Sherlock = ""+Fore.RED+"X"
+            Hammer = ""+Fore.RED+"X"
+
+          filename = "mmail"
+          if os.path.exists(filename):
+            Mmail = ""+Fore.GREEN+"✓"
+          else:
+            Mmail = ""+Fore.RED+"X"
           
           baner()
           print(Style.BRIGHT, Fore.CYAN+"Выбери какую именно удалить Утилиту:")
