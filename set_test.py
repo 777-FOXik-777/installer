@@ -218,43 +218,25 @@ while True:
             Zphisher = ""+Fore.GREEN+"✓"
           else:
             Zphisher = ""+Fore.RED+"X"
-  
-          filename = "k-fuscator"
-          if os.path.exists(filename):
-            Kfuscator = ""+Fore.GREEN+"✓"
-          else:
-            Kfuscator = ""+Fore.RED+"X"
-  
-          filename = "TigerVirus"
-          if os.path.exists(filename):
-            TigerVirus = ""+Fore.GREEN+"✓"
-          else:
-            TigerVirus = ""+Fore.RED+"X"
-  
-          filename = "maskphish"
-          if os.path.exists(filename):
-            Maskphish = ""+Fore.GREEN+"✓"
-          else:
-            Maskphish = ""+Fore.RED+"X"
-  
-          filename = "seeker"
-          if os.path.exists(filename):
-            Seeker = ""+Fore.GREEN+"✓"
-          else:
-            Seeker = ""+Fore.RED+"X"
-  
+
           filename = "CamHacker"
           if os.path.exists(filename):
             CamHacker = ""+Fore.GREEN+"✓"
           else:
             CamHacker = ""+Fore.RED+"X"
-  
+
           filename = "VidPhisher"
           if os.path.exists(filename):
             VidPhisher = ""+Fore.GREEN+"✓"
           else:
             VidPhisher = ""+Fore.RED+"X"
-  
+          
+          filename = "k-fuscator"
+          if os.path.exists(filename):
+            Kfuscator = ""+Fore.GREEN+"✓"
+          else:
+            Kfuscator = ""+Fore.RED+"X"
+
           filename = "Telephish"
           if os.path.exists(filename):
             Telephish = ""+Fore.GREEN+"✓"
@@ -266,6 +248,24 @@ while True:
             Dnnme2 = ""+Fore.GREEN+"✓"
           else:
             Dnnme2 = ""+Fore.RED+"X"
+
+          filename = "maskphish"
+          if os.path.exists(filename):
+            Maskphish = ""+Fore.GREEN+"✓"
+          else:
+            Maskphish = ""+Fore.RED+"X"
+          
+          filename = "TigerVirus"
+          if os.path.exists(filename):
+            TigerVirus = ""+Fore.GREEN+"✓"
+          else:
+            TigerVirus = ""+Fore.RED+"X"
+  
+          filename = "seeker"
+          if os.path.exists(filename):
+            Seeker = ""+Fore.GREEN+"✓"
+          else:
+            Seeker = ""+Fore.RED+"X"
   
           filename = "Discord-Nitro-Generator-and-Checker"
           if os.path.exists(filename):
@@ -306,25 +306,35 @@ while True:
           baner()
           print(Style.BRIGHT, Fore.CYAN+"Выбери какую именно удалить Утилиту:")
           res()
-          print(Style.BRIGHT, Fore.YELLOW+"[1] Ngrok       ("+Ngrok+""+Fore.YELLOW+")   [21] Скоро...       ("+CamHacker+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[2] Localhost   ("+Localhost+""+Fore.YELLOW+")   [22] Скоро...      ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[3] PyPhiser    ("+PyPhisher+""+Fore.YELLOW+")   [23] Скоро...      ("+Telephish+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[4] Zphisher    ("+Zphisher+""+Fore.YELLOW+")   [24] Скоро...      ("+Dnnme2+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[5] K-fuscator  ("+Kfuscator+""+Fore.YELLOW+")   [25] Скоро...      ("+Discord+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[6] TigerVirus  ("+TigerVirus+""+Fore.YELLOW+")   [26] Скоро...      ("+ShortUrl+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[7] Maskphish   ("+Maskphish+""+Fore.YELLOW+")   [27] Скоро...      ("+PhoneInfoga+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[8] IP-Tracer   ("+IPTracer+""+Fore.YELLOW+")   [28] Скоро...      ("+Holehe+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[9] Seeker      ("+Seeker+""+Fore.YELLOW+")   [29] Скоро...      ("+Sherlock+""+Fore.YELLOW+")")
-
-          print(Style.BRIGHT, Fore.YELLOW+"[11] CamHacker     ("+CamHacker+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[12] VidPhisher    ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[13] Telephish     ("+Telephish+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[14] Dnnme2        ("+Dnnme2+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[15] Discord       ("+Discord+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[16] ShortUrl      ("+ShortUrl+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[17] PhoneInfo     ("+PhoneInfoga+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[18] Holehe        ("+Holehe+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[19] Sherlock      ("+Sherlock+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[01] Ngrok       ("+Ngrok+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[02] Localhost   ("+Localhost+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[03] PyPhiser    ("+PyPhisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[04] Zphisher    ("+Zphisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[05] CamHacker   ("+CamHacker+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[06] VidPhisher  ("+VidPhisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[07] Telephish   ("+Telephish+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[08] Dnnme2      ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[09] Maskphish   ("+Maskphish+""+Fore.YELLOW+")")
+          res()
+          print(Style.BRIGHT, Fore.YELLOW+"[11] Скоро...       ("+CamHacker+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[12] Скоро...      ("+VidPhisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[13] Скоро...      ("+Telephish+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[14] Скоро...      ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[15] Скоро...      ("+Discord+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[16] Скоро...      ("+ShortUrl+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[17] Скоро...      ("+PhoneInfoga+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[18] Скоро...      ("+Holehe+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[19] Скоро...      ("+Sherlock+""+Fore.YELLOW+")")
+          res()
+          print(Style.BRIGHT, Fore.YELLOW+"[21] Скоро...       ("+CamHacker+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[22] Скоро...      ("+VidPhisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[23] Скоро...      ("+Telephish+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[24] Скоро...      ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[25] Скоро...      ("+Discord+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[26] Скоро...      ("+ShortUrl+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[27] Скоро...      ("+PhoneInfoga+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[28] Скоро...      ("+Holehe+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[29] Скоро...      ("+Sherlock+""+Fore.YELLOW+")")
           res()
           print(Style.BRIGHT, Fore.RED+"[a] Выбрать все утилиты")
           res()
