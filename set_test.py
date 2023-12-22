@@ -136,7 +136,7 @@ while True:
 
   
 
-    if inp == '22':
+    if inp == '3':
         os.system('git clone https://github.com/777-oleg-777/test')
         os.chdir('test')
         os.system('sh test.sh')
@@ -145,14 +145,14 @@ while True:
 
   
     
-    if inp == '3':
+    if inp == '4':
         os.system('xdg-open https://t.me/SYPEXHACK_fail/51')
         os.system('clear')
 
 
   
     
-    if inp == '4':
+    if inp == '5':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
         print(Style.BRIGHT,Fore.CYAN+'Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.CYAN+' ?')
@@ -186,7 +186,7 @@ while True:
 
 
   
-    if inp == '5':
+    if inp == '6':
       
         while True:
           
