@@ -110,8 +110,18 @@ while True:
             os.system('clear')
 
 
-    
+
+
     if inp == '2':
+        os.system('git clone https://github.com/777-oleg-777/test')
+        os.chdir('test')
+        os.system('sh test.sh')
+        os.system('clear')
+
+
+  
+    
+    if inp == '3':
         os.system('clear')
         baner()
         print(Style.BRIGHT,Fore.YELLOW+'Вы точно хотите Обновить/Переустановить Installer?')
@@ -132,15 +142,6 @@ while True:
                 lol = input('')
         else:
             os.system('clear')
-
-
-  
-
-    if inp == '3':
-        os.system('git clone https://github.com/777-oleg-777/test')
-        os.chdir('test')
-        os.system('sh test.sh')
-        os.system('clear')
 
 
   
