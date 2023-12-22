@@ -416,6 +416,10 @@ while True:
             time.sleep(2)
             
             os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
+            res()
+            os.system('pkg install php -y')
+            os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
             res()
             os.system('pkg install wget -y')
@@ -452,6 +456,10 @@ while True:
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] VidPhisher еще НЕ установлен!")
             time.sleep(2)
             
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
+            res()
+            os.system('pkg install php -y')
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
             res()
