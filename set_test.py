@@ -134,12 +134,23 @@ while True:
             os.system('clear')
 
 
+  
+
+    if inp == '22':
+        os.system('git clone https://github.com/777-oleg-777/test')
+        os.chdir('test')
+        os.system('sh test.sh')
+        os.system('clear')
+
+
+  
     
     if inp == '3':
         os.system('xdg-open https://t.me/SYPEXHACK_fail/51')
         os.system('clear')
 
 
+  
     
     if inp == '4':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
