@@ -12,9 +12,10 @@ print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
 
-os.chdir('/data/data/com.termux/files/home/')
 
-filename = "Installer_Files"
+
+
+filename = "/data/data/com.termux/files/home/Installer_Files"
 
 if os.path.exists(filename):
   
@@ -30,11 +31,11 @@ else:
 
 
 
+
+
 os.system('clear')
 
-os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
-filename = "tg_SYPEXHACK"
+filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
 
 if os.path.exists(filename):
 
@@ -79,12 +80,11 @@ if os.path.exists(filename):
     os.system('rm -fr tg_SYPEXHACK')
     os.chdir('/data/data/com.termux/files/home/installer')
     
-    #запуск
-    
     os.system('clear')
 
 
 else:
+  
     os.system('clear')
 
 
@@ -99,27 +99,62 @@ def baner():
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
 
 
+
+
+
 #проверка
 
 
+os.system('clear')
+os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
+print (Fore.GREEN+"\n ["+Fore.CYAN+"~"+Fore.GREEN+"] Проверка целостности файлов...")
+
+
+os.chdir('/data/data/com.termux/files/home/installer')
+
+filename = "tool1.py"
+
+if os.path.exists(filename):
+  
+
+else:
+  print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
+  time.sleep(1)
+  print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tool.py...")
+  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
+
+
+
+
+
+
+
+
+
+
+
+
+
+os.system('clear')
 
 os.chdir('/data/data/com.termux/files/home')
 
 filename = "storage"
 
 if os.path.exists(filename):
+  
     os.system('clear')
 
 
 else:
-
+  
     print ('\n')
     def res():
         print(Style.RESET_ALL)
         
     os.system('clear')
     baner()
-    print (Fore.YELLOW+"\n ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
     res()
     os.system('termux-setup-storage')
     tsu = input(' [Нажмите Enter чтобы продолжить]')
