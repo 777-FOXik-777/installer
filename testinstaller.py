@@ -205,7 +205,7 @@ else:
 os.chdir('/data/data/com.termux/files/home/installer/banner')
 
 
-filename = "banner/baner.txt"
+filename = "baner.txt"
 
 if os.path.exists(filename):
     time.sleep(0.1)
@@ -219,7 +219,7 @@ else:
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/baner.txt')
 
 
-filename = "banner/banerset.txt"
+filename = "banerset.txt"
 
 if os.path.exists(filename):
     time.sleep(0.1)
@@ -233,7 +233,7 @@ else:
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banerset.txt')
 
 
-filename = "banner/banner1.txt"
+filename = "banner1.txt"
 
 if os.path.exists(filename):
     time.sleep(0.1)
@@ -247,7 +247,7 @@ else:
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner1.txt')
 
 
-filename = "banner/banner2.txt"
+filename = "banner2.txt"
 
 if os.path.exists(filename):
     time.sleep(0.1)
