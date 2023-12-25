@@ -9,10 +9,7 @@ os.system('rm -fr README.md')
 os.system('clear')
 
 
-
-
-
-
+#проверка место нахождения
 
 
 filename = "/data/data/com.termux/files/home/installer"
@@ -23,10 +20,13 @@ if os.path.exists(filename):
 else:
   os.system('mv setup_installer.py /data/data/com.termux/files/home/')
   os.system('clear')
-  print("Внимание! Installer Установлен не в папку home")
-  print("Запуск не возможен!")
+  print("Внимание! Запуск не возможен!")
+  print("Installer Установлен не в главную папку /home !")
   print("")
-  print("Используйте команду: cd && python setup_installer.py")
+  print("Чтобы исправить используйте команду:")
+  print("")
+  print("cd && python setup_installer.py")
+  print("")
   sys.exit()  
 
 
@@ -34,13 +34,11 @@ else:
 
 
 
-
-
+# Установка зависсимсот
 
 
 print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
-
 
 
 
