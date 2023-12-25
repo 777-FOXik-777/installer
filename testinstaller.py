@@ -92,6 +92,10 @@ else:
 from colorama import Fore, Style
 
 #mef
+
+def res():
+        print(Style.RESET_ALL)
+  
 def baner():
     os.chdir('/data/data/com.termux/files/home/installer/banner')
     os.system('clear')
@@ -118,10 +122,11 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py !")
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
     time.sleep(2)
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool1.py...")
     time.sleep(1)
+    res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
 
 
@@ -131,10 +136,11 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool2.py !")
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool2.py")
     time.sleep(2)
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: too2.py...")
     time.sleep(1)
+    res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test2.py')
 
 
@@ -144,15 +150,17 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool3.py !")
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool3.py")
     time.sleep(2)
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool3.py...")
     time.sleep(1)
+    res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test3.py')
 
 
-
-print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы прошли проверку!")
+os.system('clear')
+os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
+print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
 time.sleep(2)
 
 
