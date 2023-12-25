@@ -115,13 +115,13 @@ os.chdir('/data/data/com.termux/files/home/installer')
 filename = "tool1.py"
 
 if os.path.exists(filename):
-  
+    time.sleep(0.1)
 
 else:
-  print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
-  time.sleep(1)
-  print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tool.py...")
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
+    time.sleep(1)
+    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tool.py...")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
 
 
 
