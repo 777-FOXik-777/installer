@@ -667,15 +667,18 @@ while True:
 
 
 
+
 if leave == '1':
     os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
-    os.system('python test1.py')
+    
+    lomik == "python test1.py"
 
 if leave == '3':
     os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
-    os.system('python test3.py')
+  
+    lomik == "python test3.py"
 
 else:
     print(f'\33]0; Telegram: @SYPEXHACK желает вам Хорошего дня!\a',
@@ -684,6 +687,8 @@ else:
     os.system('clear')
     os.system('lolcat baner.txt')
     print(Fore.CYAN+'', Style.BRIGHT)
-    print(' Telegram: @SYPEXHACK желает вам '+Fore.YELLOW+'Хорошего дня! \n')
-    os.chdir('/data/data/com.termux/files/home/installer')
-    sys.exit()
+    print(' Telegram: @SYPEXHACK желает вам '+Fore.YELLOW+'Хорошего дня!')
+  
+    lomik == "echo  "
+
+os.system('+lomik+')
