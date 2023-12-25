@@ -1,4 +1,4 @@
-import os, time
+import os, time, sys
 
 os.system('clear')
 
