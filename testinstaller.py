@@ -216,7 +216,7 @@ else:
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: baner.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/baner.txt')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/baner.txt')
 
 
 filename = "banerset.txt"
@@ -230,7 +230,7 @@ else:
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banerset.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banerset.txt')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banerset.txt')
 
 
 filename = "banner1.txt"
@@ -244,7 +244,7 @@ else:
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner1.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner1.txt')
+    os.system('https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt')
 
 
 filename = "banner2.txt"
@@ -258,8 +258,21 @@ else:
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner2.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner2.txt')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner2.txt')
 
+
+filename = "banner3.txt"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner3.txt")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner3.txt...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner3.txt')
 
 
 
