@@ -32,14 +32,11 @@ else:
 
 os.system('clear')
 
-filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+filename = "tg_SYPEXHACK"
 
 if os.path.exists(filename):
-    
-    os.system('clear')
-
-
-else:
 
     print ('[~] Установка зависимостей... \n')
     time.sleep(2)
@@ -65,13 +62,6 @@ else:
     time.sleep(1.5)
     os.system('pip install lolcat')
     os.system('clear')
-
-    os.system('clear')
-    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
-    res()
-    time.sleep(1.5)
-    os.system('pkg install wget -y')
-    os.system('clear')
   
     os.system('clear')
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
@@ -88,7 +78,13 @@ else:
 
     os.system('rm -fr tg_SYPEXHACK')
     os.chdir('/data/data/com.termux/files/home/installer')
-  
+    
+    #запуск
+    
+    os.system('clear')
+
+
+else:
     os.system('clear')
 
 
@@ -101,58 +97,6 @@ def baner():
     os.system('clear')
     os.system('lolcat baner.txt')
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
-
-
-
-
-
-#целосность 
-
-
-
-
-baner()
-print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
-
-
-
-os.chdir('/data/data/com.termux/files/home/')
-
-filename = "Installer_Files"
-
-if os.path.exists(filename):
-  os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files')
-
-else:
-  os.mkdir('/data/data/com.termux/files/home/Installer_Files/trash')
-  os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/IP')
-  os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/Auto')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/hack')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/holehe')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/lochost')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/ngrok')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/sypexhack')
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #проверка
@@ -211,8 +155,11 @@ else:
 
 
 
+
+
+
 os.system('rm -fr /data/data/com.termux/files/home/installer/README.md')
-os.mkdir('/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
+os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 os.system('rm -fr /data/data/com.termux/files/home/installer/image')
 
 
