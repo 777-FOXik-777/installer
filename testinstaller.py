@@ -63,8 +63,13 @@ if os.path.exists(filename):
     time.sleep(1.5)
     os.system('pip install lolcat')
     os.system('clear')
-  
+
+    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
+    res()
+    time.sleep(1.5)
+    os.system('pkg install wget -y')
     os.system('clear')
+  
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
     res()
     time.sleep(1.5)
@@ -112,7 +117,7 @@ def baner():
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
 print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
-time.sleep(2)
+time.sleep(3)
 
 os.chdir('/data/data/com.termux/files/home/installer')
 
@@ -161,7 +166,7 @@ else:
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
 print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
-time.sleep(2)
+time.sleep(3)
 
 
 
