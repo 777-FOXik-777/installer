@@ -163,6 +163,35 @@ else:
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test3.py')
 
 
+filename = "set_test.py"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: set.py")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: set.py...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set_test.py')
+
+
+filename = "setup_installer.py"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: setup_installer.py")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: setup_installer.py...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/setup_installer.py')
+
+
+
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
 print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
