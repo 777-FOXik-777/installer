@@ -118,7 +118,7 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py !")
     time.sleep(2)
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool1.py...")
     time.sleep(1)
@@ -131,7 +131,7 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool2.py")
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool2.py !")
     time.sleep(2)
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: too2.py...")
     time.sleep(1)
@@ -144,15 +144,15 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool3.py")
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool3.py !")
     time.sleep(2)
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool3.py...")
     time.sleep(1)
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test3.py')м
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test3.py')
 
 
 
-print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы прошли проверку")
+print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы прошли проверку!")
 time.sleep(2)
 
 
