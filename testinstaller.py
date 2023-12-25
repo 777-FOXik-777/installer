@@ -32,9 +32,14 @@ else:
 
 os.system('clear')
 
-filename = "/data/data/com.termux/files/home/Installer_Files/trashtg_SYPEXHACK"
+filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
 
 if os.path.exists(filename):
+    
+    os.system('clear')
+
+
+else:
 
     print ('[~] Установка зависимостей... \n')
     time.sleep(2)
@@ -83,13 +88,7 @@ if os.path.exists(filename):
 
     os.system('rm -fr tg_SYPEXHACK')
     os.chdir('/data/data/com.termux/files/home/installer')
-    
-    #запуск
-    
-    os.system('clear')
-
-
-else:
+  
     os.system('clear')
 
 
@@ -135,7 +134,6 @@ else:
   os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/lochost')
   os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/ngrok')
   os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/sypexhack')
-  os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/tg_SYPEXHACK')
   
 
 
@@ -214,7 +212,7 @@ else:
 
 
 os.system('rm -fr /data/data/com.termux/files/home/installer/README.md')
-os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
+os.mkdir('/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 os.system('rm -fr /data/data/com.termux/files/home/installer/image')
 
 
