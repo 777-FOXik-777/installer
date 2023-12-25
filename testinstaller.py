@@ -246,11 +246,6 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner1.txt')
 
-os.system('clear')
-os.system('lolcat /data/data/com.termux/files/home/installer/banner/banner1.txt')
-print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
-time.sleep(3)
-
 
 filename = "banner/banner2.txt"
 
@@ -265,11 +260,17 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner2.txt')
 
+
+
+
+
 os.system('clear')
-os.system('lolcat /data/data/com.termux/files/home/installer/banner/banner2.txt')
+os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
 print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
 time.sleep(3)
 
+
+#доступ к файлам
 
 os.system('clear')
 
