@@ -696,4 +696,4 @@ else:
   
     lomik = "echo  "
 
-os.system('+lomik+')
+os.system(""+lomik+"")
