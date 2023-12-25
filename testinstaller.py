@@ -107,9 +107,8 @@ def baner():
 
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
-time.sleep(1)
-print (Fore.GREEN+"\n ["+Fore.CYAN+"~"+Fore.GREEN+"] Проверка целостности файлов...")
-time.sleep(1)
+print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
+time.sleep(2)
 
 os.chdir('/data/data/com.termux/files/home/installer')
 
@@ -120,8 +119,9 @@ if os.path.exists(filename):
 
 else:
     print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
-    time.sleep(1)
+    time.sleep(2)
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tool.py...")
+    time.sleep(1)
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
 
 
@@ -130,8 +130,8 @@ else:
 
 
 
-
-
+print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы прошли проверку")
+time.sleep(2)
 
 
 
