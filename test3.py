@@ -215,7 +215,7 @@ if leave == '2':
   
     lomik = "python test2.py"
 
-else:
+if leave == 'e':
     print(f'\33]0; Telegram: @SYPEXHACK желает вам Хорошего дня!\a',
           end='', flush=True)
     os.chdir('/data/data/com.termux/files/home/installer/banner')
