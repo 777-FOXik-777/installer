@@ -190,14 +190,85 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/setup_installer.py')
 
+#банер
 
+filename = "banner"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    os.mkdir("/data/data/com.termux/files/home/installer/banner")
+
+
+
+os.chdir('/data/data/com.termux/files/home/installer/banner')
+
+
+filename = "banner/baner.txt"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: baner.txt")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: baner.txt...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/baner.txt')
+
+
+filename = "banner/banerset.txt"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banerset.txt")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banerset.txt...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banerset.txt')
+
+
+filename = "banner/banner1.txt"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner1.txt")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner1.txt...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner1.txt')
 
 os.system('clear')
-os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
+os.system('lolcat /data/data/com.termux/files/home/installer/banner/banner1.txt')
 print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
 time.sleep(3)
 
 
+filename = "banner/banner2.txt"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner2.txt")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner2.txt...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner2.txt')
+
+os.system('clear')
+os.system('lolcat /data/data/com.termux/files/home/installer/banner/banner2.txt')
+print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
+time.sleep(3)
 
 
 os.system('clear')
