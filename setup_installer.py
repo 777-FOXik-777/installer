@@ -5,7 +5,7 @@ from colorama import Fore, Style
 os.system('clear')
 
 
-filename = "~/installer/setup_installer.py"
+filename = "/data/data/com.termux/files/home/installer/setup_installer.py"
 
 if os.path.exists(filename):
   os.system('clear')
