@@ -107,12 +107,13 @@ def baner():
 
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
+time.sleep(1)
 print (Fore.GREEN+"\n ["+Fore.CYAN+"~"+Fore.GREEN+"] Проверка целостности файлов...")
-
+time.sleep(1)
 
 os.chdir('/data/data/com.termux/files/home/installer')
 
-filename = "tool1.py"
+filename = "test1.py"
 
 if os.path.exists(filename):
     time.sleep(0.1)
