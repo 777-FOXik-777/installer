@@ -8,6 +8,36 @@ os.system('rm -fr README.md')
 
 os.system('clear')
 
+
+
+
+
+
+
+
+filename = "/data/data/com.termux/files/home/installer"
+
+if os.path.exists(filename):
+  os.system('clear')
+
+else:
+  os.system('mv setup_installer.py /data/data/com.termux/files/home/')
+  os.system('clear')
+  print("Внимание! Installer Установлен не в папку home")
+  print("Запуск не возможен!")
+  print("")
+  print("Используйте команду: cd && python setup_installer.py")
+  sys.exit()  
+
+
+
+
+
+
+
+
+
+
 print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
@@ -244,7 +274,7 @@ else:
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner1.txt...")
     time.sleep(1)
     res()
-    os.system('https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt')
 
 
 filename = "banner2.txt"
