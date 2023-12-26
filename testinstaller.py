@@ -47,27 +47,26 @@ filename = "/data/data/com.termux/files/home/Installer_Files"
 
 if os.path.exists(filename):
 
+  os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files')
+
+else:
+
   filename = "/data/data/com.termux/files/home/installer/Installer_Files"
 
   if os.path.exists(filename):
-  
-    os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files')
-    os.system('clear')
+    
+    os.system('mv Installer_Files /data/data/com.termux/files/home')
+    
+    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 
   else:
     
     os.system('clear')
 
-else:
-
-  os.chdir('/data/data/com.termux/files/home/installer')
-  os.system('mv Installer_Files /data/data/com.termux/files/home')
-  
-  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 
 
 
-
+# зависимости
 
 
 os.system('clear')
