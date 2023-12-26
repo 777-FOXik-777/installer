@@ -408,16 +408,21 @@ else:
 filename = "/data/data/com.termux/files/home/Installer_Files/trash/hack"
 
 if os.path.exists(filename):
-
-  os.chdir('/data/data/com.termux/files/home')
   
-  filename = "storage"
+  filename = "/data/data/com.termux/files/home/storage"
   
   if os.path.exists(filename):
+
+      filename = "/data/data/com.termux/files/home/installer/image/hack.jpg"
+  
+      if os.path.exists(filename):
       
-      os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
-      os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/hack')
-      os.system('clear')
+        os.system('mv /data/data/com.termux/files/home/installer/image/hack.jpg /sdcard/Pictures')
+        os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/hack')
+        os.system('clear')
+
+      else:
+        os.system('clear')
   
   else:
       os.system('clear')
