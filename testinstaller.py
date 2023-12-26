@@ -66,7 +66,12 @@ os.system('clear')
 filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
 
 if os.path.exists(filename):
+    
+    os.system('clear')
 
+
+else:
+  
     print ('[~] Установка зависимостей... \n')
     time.sleep(2)
     os.system('clear')
@@ -112,11 +117,6 @@ if os.path.exists(filename):
 
     os.system('rm -fr tg_SYPEXHACK')
     os.chdir('/data/data/com.termux/files/home/installer')
-    
-    os.system('clear')
-
-
-else:
   
     os.system('clear')
 
@@ -424,12 +424,13 @@ else:
 
 
 
-
+# удаление мусора
 
 
 os.system('rm -fr /data/data/com.termux/files/home/installer/README.md')
-os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK')
 os.system('rm -fr /data/data/com.termux/files/home/installer/image')
+
+os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK")
 
 
 
