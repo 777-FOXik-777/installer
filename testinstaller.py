@@ -371,9 +371,7 @@ time.sleep(3)
 
 os.system('clear')
 
-os.chdir('/data/data/com.termux/files/home')
-
-filename = "storage"
+filename = "/data/data/com.termux/files/home/storage"
 
 if os.path.exists(filename):
   
@@ -399,10 +397,7 @@ else:
 #фото
 
 
-
-os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
-filename = "hack"
+filename = "/data/data/com.termux/files/home/Installer_Files/trash/hack"
 
 if os.path.exists(filename):
 
