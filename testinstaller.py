@@ -47,8 +47,7 @@ filename = "/data/data/com.termux/files/home/Installer_Files"
 
 if os.path.exists(filename):
   
-  os.chdir('/data/data/com.termux/files/home/installer')
-  os.system('rm -fr Installer_Files')
+  os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files')
   os.system('clear')
 
 else:
