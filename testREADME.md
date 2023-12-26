@@ -50,6 +50,8 @@ cd installer
 python installer.py
 ``` 
 
+Дальше Installer сделает все за тебя: он установит все необходимые компоненты и обеспечит тебе доступ ко всему функционалу.
+
 <h1 align="center">После установки:</h1>
 
 ![Installer](https://github.com/777-oleg-777/test/blob/main/present.jpg)
