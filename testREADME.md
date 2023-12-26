@@ -21,8 +21,7 @@
 
 ## [~] Описание:
 
-***Installer - скрипт который поможет тебе найти самые лучшие хакерские утилиты в Termux,
-с полностью автоматизированной установкой. Этот инструмент работает без root-прав.***
+***Installer - это скрипт, который подберет для тебя более 20 отличных хакерских утилит в Termux с автоматической установкой. Для работы этого инструмента НЕ нужны root-права.***
 
 
 ## [√] Установка на [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
