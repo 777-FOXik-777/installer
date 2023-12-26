@@ -164,6 +164,7 @@ else:
     print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: Installer_Files...")
     time.sleep(1)
     res()
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash")
   
     os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
