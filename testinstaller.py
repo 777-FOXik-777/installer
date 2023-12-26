@@ -147,6 +147,44 @@ os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
 print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
 time.sleep(3)
 
+
+
+# доп файлы
+
+os.chdir('/data/data/com.termux/files/home')
+
+filename = "Installer_Files"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: Installer_Files")
+    time.sleep(2)
+    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: Installer_Files...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/Auto')
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/hack")
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK")
+    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен")
+
+
+filename = "test2.py"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+
+
+
+#стандарт файлы 
+
 os.chdir('/data/data/com.termux/files/home/installer')
 
 filename = "test1.py"
