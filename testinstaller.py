@@ -67,11 +67,6 @@ filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
 
 if os.path.exists(filename):
     
-    os.system('clear')
-
-
-else:
-  
     print ('[~] Установка зависимостей... \n')
     time.sleep(2)
     os.system('clear')
@@ -117,6 +112,11 @@ else:
 
     os.system('rm -fr tg_SYPEXHACK')
     os.chdir('/data/data/com.termux/files/home/installer')
+    
+    os.system('clear')
+
+
+else:
   
     os.system('clear')
 
@@ -176,7 +176,6 @@ else:
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
-    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK")
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен")
 
 
