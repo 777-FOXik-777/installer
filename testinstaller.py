@@ -360,7 +360,7 @@ else:
 
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
-print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Все файлы УСПЕШНО прошли проверку!")
+print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Все файлы УСПЕШНО прошли проверку!")
 time.sleep(3)
 
 
