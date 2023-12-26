@@ -46,9 +46,17 @@ print(f'\33]0; Installer - Установка...\a',
 filename = "/data/data/com.termux/files/home/Installer_Files"
 
 if os.path.exists(filename):
+
+  filename = "/data/data/com.termux/files/home/installer/Installer_Files"
+
+  if os.path.exists(filename):
   
-  os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files')
-  os.system('clear')
+    os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files')
+    os.system('clear')
+
+  else:
+    
+    os.system('clear')
 
 else:
 
