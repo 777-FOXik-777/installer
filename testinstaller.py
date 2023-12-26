@@ -431,7 +431,15 @@ else:
 os.system('rm -fr /data/data/com.termux/files/home/installer/README.md')
 os.system('rm -fr /data/data/com.termux/files/home/installer/image')
 
-os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK")
+filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
+
+if os.path.exists(filename):
+    os.system('clear')
+
+else:
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK")
+    os.system('clear')
+
 
 
 
