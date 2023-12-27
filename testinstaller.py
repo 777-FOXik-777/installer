@@ -23,7 +23,7 @@ else:
   print("ВНИМАНИЕ! Запуск не возможен!")
   print("Installer Установлен НЕ в главную папку /home")
   print("")
-  print("Чтобы исправить ошибку используйте команду:")
+  print("ЧТОБЫ ИСПРАВИТЬ ОШИБКУ, ИСПОЛЬЗУЙТЕ КОМАНДУ:")
   print("")
   print("cd && python setup_installer.py")
   print("")
