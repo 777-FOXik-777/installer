@@ -185,6 +185,7 @@ else:
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "test2.py"
@@ -212,6 +213,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "test2.py"
@@ -227,6 +229,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test2.py')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "test3.py"
@@ -242,6 +245,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test3.py')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "set_test.py"
@@ -257,6 +261,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set_test.py')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "setup_installer.py"
@@ -272,6 +277,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/setup_installer.py')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 #банер
 
@@ -301,6 +307,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/baner.txt')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "banerset.txt"
@@ -316,6 +323,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banerset.txt')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "banner1.txt"
@@ -331,6 +339,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "banner2.txt"
@@ -346,6 +355,7 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner2.txt')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 filename = "banner3.txt"
@@ -361,10 +371,11 @@ else:
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner3.txt')
     print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    time.sleep(1)
 
 
 
-time.sleep(2)
+time.sleep(1)
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
 print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Все файлы УСПЕШНО прошли проверку!")
