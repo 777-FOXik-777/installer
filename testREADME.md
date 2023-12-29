@@ -52,16 +52,16 @@ python installer.py
 
 Дальше Installer сделает все за вас: он установит все необходимые компоненты и обеспечит тебе доступ ко всему функционалу.
 
-### [+] Для подальшего запуска:
+<h1 align="center">Снимок некоторых возможностей:</h1>
+
+![Installer](https://github.com/777-oleg-777/test/blob/main/present.jpg)
+
+## [√] Для повторного запуска:
 
 ``` 
 cd installer
 python installer.py
 ``` 
-
-<h1 align="center">Снимок некоторых возможностей:</h1>
-
-![Installer](https://github.com/777-oleg-777/test/blob/main/present.jpg)
 
 ## [?] Решение типичных проблем:
 
