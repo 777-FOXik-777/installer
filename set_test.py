@@ -70,7 +70,7 @@ while True:
 
 
     
-    if inp == '1':
+    if inp == '5':
         os.system('clear')
         baner()
         print (Style.BRIGHT, Fore.CYAN+'Запускать Installer вместе с Termux?')
@@ -121,7 +121,7 @@ while True:
 
   
     
-    if inp == '3':
+    if inp == '1':
         os.system('clear')
         baner()
         print(Style.BRIGHT,Fore.YELLOW+'Вы точно хотите Обновить/Переустановить Installer?')
@@ -153,7 +153,7 @@ while True:
 
   
     
-    if inp == '5':
+    if inp == '2':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
         print(Style.BRIGHT,Fore.CYAN+'Переместить скачаные утилты в '+Fore.YELLOW+'/files/home'+Fore.CYAN+' ?')
