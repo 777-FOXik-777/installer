@@ -310,13 +310,13 @@ while True:
               filename = "ngrok"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Ngrok еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
                 baner()
-                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Ngrok успешно удалена!")
                 exit()
           
           if tsu_501 == '2':
@@ -324,13 +324,13 @@ while True:
               filename = "lochost"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита Localhost еще не установлена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Localhost еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
                 baner()
-                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Localhost успешно удалена!")
                 exit()
 
           if tsu_501 == '8':
@@ -338,13 +338,13 @@ while True:
               filename = "IP"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита ngrok еще не установлена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита IP-Tracer еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
                 baner()
-                print(Fore.YELLOW+" Утилита Ngrok успешно удалена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита IP-Tracer успешно удалена!")
                 exit()
                 
           if tsu_501 == '18':
@@ -352,13 +352,13 @@ while True:
               filename = "holehe"
               if os.path.exists(filename):
                 baner()
-                print(Fore.YELLOW+" Утилита Holehe еще не установлена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Holehe еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
                 baner()
-                print(Fore.YELLOW+" Утилита Holehe успешно удалена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Holehe успешно удалена!")
                 exit()
           
           
