@@ -69,58 +69,7 @@ while True:
     os.system('clear')
 
 
-    
-    if inp == '5':
-        os.system('clear')
-        baner()
-        print (Style.BRIGHT, Fore.CYAN+'Запускать Installer вместе с Termux?')
-        res()
-        print(Fore.YELLOW+' [1]'+Fore.YELLOW+' Включить')
-        print(Fore.YELLOW+' [2]'+Fore.YELLOW+' Выключить')
-        res()
-        print(Fore.YELLOW+' [e] выход')
-        res()
-        tru_101 = input(' Выбери пункт ➤ ')
-
-        if tru_101 == '1':
-            os.system('echo "cd && cd installer && python testinstaller.py" >> ~/.bashrc')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT, Fore.GREEN+"Включено!")
-            exit()
-            
-        if tru_101 == '2':
-            os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-            filename = "Auto"
-          
-            if os.path.exists(filename):
-              baner()
-              print(Style.BRIGHT, Fore.YELLOW+"Авто-запуск еще не включен!")
-              exit()
-              
-            else:
-              os.system('rm ~/.bashrc')
-              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
-              baner()
-              print(Style.BRIGHT, Fore.YELLOW+"Выключено!")
-              exit()
-            
-        else:
-            os.system('clear')
-
-
-
-
-    if inp == '2':
-        os.system('git clone https://github.com/777-oleg-777/test')
-        os.chdir('test')
-        os.system('sh test.sh')
-        os.system('clear')
-
-
   
-    
     if inp == '1':
         os.system('clear')
         baner()
@@ -143,14 +92,7 @@ while True:
         else:
             os.system('clear')
 
-
   
-    
-    if inp == '4':
-        os.system('xdg-open https://t.me/SYPEXHACK_fail/51')
-        os.system('clear')
-
-
   
     
     if inp == '2':
@@ -187,7 +129,7 @@ while True:
 
 
   
-    if inp == '6':
+    if inp == '3':
       
         while True:
           
@@ -578,6 +520,75 @@ while True:
           if tsu_501 == 'e':
               break
 
+
+
+
+  
+    if inp == '5':
+        os.system('clear')
+        baner()
+        print (Style.BRIGHT, Fore.CYAN+'Запускать Installer вместе с Termux?')
+        res()
+        print(Fore.YELLOW+' [1]'+Fore.YELLOW+' Включить')
+        print(Fore.YELLOW+' [2]'+Fore.YELLOW+' Выключить')
+        res()
+        print(Fore.YELLOW+' [e] выход')
+        res()
+        tru_101 = input(' Выбери пункт ➤ ')
+
+        if tru_101 == '1':
+            os.system('echo "cd && cd installer && python testinstaller.py" >> ~/.bashrc')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT, Fore.GREEN+"Включено!")
+            exit()
+            
+        if tru_101 == '2':
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+            filename = "Auto"
+          
+            if os.path.exists(filename):
+              baner()
+              print(Style.BRIGHT, Fore.YELLOW+"Авто-запуск еще не включен!")
+              exit()
+              
+            else:
+              os.system('rm ~/.bashrc')
+              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
+              baner()
+              print(Style.BRIGHT, Fore.YELLOW+"Выключено!")
+              exit()
+            
+        else:
+            os.system('clear')
+
+
+  
+
+  
+    
+    if inp == '6':
+        os.system('xdg-open https://t.me/SYPEXHACK_fail/51')
+        os.system('clear')
+
+
+
+  
+
+    if inp == '7':
+        os.system('git clone https://github.com/777-oleg-777/test')
+        os.chdir('test')
+        os.system('sh test.sh')
+        os.system('clear')
+
+
+
+
+
+
+
+  
   
 
     if inp == 't':
