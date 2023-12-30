@@ -100,6 +100,7 @@ else:
 
     os.system('clear')
     print(Fore.WHITE+'', Style.BRIGHT)
+    os.system('clear')
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка lolcat...")
     res()
     time.sleep(1.5)
@@ -107,6 +108,7 @@ else:
     os.system('clear')
 
     print(Fore.WHITE+'', Style.BRIGHT)
+    os.system('clear')
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
     res()
     time.sleep(1.5)
@@ -114,6 +116,7 @@ else:
     os.system('clear')
 
     print(Fore.WHITE+'', Style.BRIGHT)
+    os.system('clear')
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
     res()
     time.sleep(1.5)
@@ -121,6 +124,7 @@ else:
     os.system('clear')
 
     print(Fore.WHITE+'', Style.BRIGHT)
+    os.system('clear')
     print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python3...")
     res()
     time.sleep(1.5)
