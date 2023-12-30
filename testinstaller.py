@@ -152,7 +152,7 @@ def baner():
 
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
-print (Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
+print (Style.BRIGHT, Fore.YELLOW+"\n["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
 time.sleep(1)
 
 
@@ -378,7 +378,7 @@ else:
 time.sleep(1)
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
-print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Все файлы УСПЕШНО прошли проверку!")
+print (Style.BRIGHT, Fore.GREEN+"\n["+Fore.CYAN+"!"+Fore.GREEN+"] Все файлы УСПЕШНО прошли проверку!")
 time.sleep(3)
 
 
