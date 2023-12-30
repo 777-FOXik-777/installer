@@ -80,12 +80,12 @@ if os.path.exists(filename):
 
 else:
       
-    print (' [~] Установка зависимостей... \n')
+    print ('[~] Установка зависимостей... \n')
     time.sleep(2)
     os.system('clear')
        
     #colorama
-    print (' [~] Установка colorama... \n')
+    print ('[~] Установка colorama... \n')
     time.sleep(1.5)
     os.system('pip install colorama')
     os.system('clear')
@@ -99,25 +99,29 @@ else:
         print(Style.RESET_ALL)
 
     os.system('clear')
-    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка lolcat...")
+    print(Fore.WHITE+'', Style.BRIGHT)
+    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка lolcat...")
     res()
     time.sleep(1.5)
     os.system('pip install lolcat')
     os.system('clear')
 
-    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
+    print(Fore.WHITE+'', Style.BRIGHT)
+    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
     res()
     time.sleep(1.5)
     os.system('pkg install wget -y')
     os.system('clear')
-  
-    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
+
+    print(Fore.WHITE+'', Style.BRIGHT)
+    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
     res()
     time.sleep(1.5)
     os.system('pkg install python2 -y')
     os.system('clear')
-    
-    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python3...")
+
+    print(Fore.WHITE+'', Style.BRIGHT)
+    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python3...")
     res()
     time.sleep(1.5)
     os.system('pkg install python3 -y')
@@ -152,7 +156,8 @@ def baner():
 
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
-print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
+print(Fore.WHITE+'', Style.BRIGHT)
+print (Fore.YELLOW+" ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
 time.sleep(1)
 
 
@@ -378,7 +383,8 @@ else:
 time.sleep(1)
 os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
-print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Все файлы УСПЕШНО прошли проверку!")
+print(Fore.WHITE+'', Style.BRIGHT)
+print (Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Все файлы УСПЕШНО прошли проверку!")
 time.sleep(3)
 
 
@@ -404,7 +410,8 @@ else:
         
     os.system('clear')
     baner()
-    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
+    print(Fore.WHITE+'', Style.BRIGHT)
+    print (Fore.YELLOW+" ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
     res()
     os.system('termux-setup-storage')
     tsu = input(' [Нажмите Enter чтобы продолжить]')
