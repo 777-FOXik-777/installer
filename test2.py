@@ -196,9 +196,9 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Holehe]")
             res()
-            print(Fore.GREEN+' Пример:'+Fore.CYAN+' test@gmail.com')
+            print(Style.BRIGHT,Fore.GREEN+'Пример:'+Fore.CYAN+' test@gmail.com')
             res()
-            print(Fore.YELLOW+" [e] Выход")
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_801 = input(' Введите почту ➤ ')
             if tru_801 == '':
