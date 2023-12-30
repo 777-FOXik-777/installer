@@ -76,9 +76,9 @@ while True:
             os.chdir('hammer')
             print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
             res()
-            print(Fore.GREEN+' Пример:'+Fore.CYAN+' 33.73.133.137')
+            print(Style.BRIGHT,Fore.GREEN+'Пример:'+Fore.CYAN+' 33.73.133.137')
             res()
-            print(Fore.YELLOW+" [e] Выход")
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_701 = input(' Введите IP ➤ ')
             if tru_701 == 'e':
@@ -112,9 +112,9 @@ while True:
             os.chdir('hammer')
             print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
             res()
-            print(Fore.GREEN+' Пример:'+Fore.CYAN+' 33.73.133.137')
+            print(Style.BRIGHT,Fore.GREEN+'Пример:'+Fore.CYAN+' 33.73.133.137')
             res()
-            print(Fore.YELLOW+" [e] Выход")
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_701 = input(' Введите IP ➤ ')
             if tru_701 == 'e':
