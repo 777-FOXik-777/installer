@@ -80,12 +80,12 @@ if os.path.exists(filename):
 
 else:
       
-    print ('[~] Установка зависимостей... \n')
+    print (' [~] Установка зависимостей... \n')
     time.sleep(2)
     os.system('clear')
        
     #colorama
-    print ('[~] Установка colorama... \n')
+    print (' [~] Установка colorama... \n')
     time.sleep(1.5)
     os.system('pip install colorama')
     os.system('clear')
@@ -99,25 +99,25 @@ else:
         print(Style.RESET_ALL)
 
     os.system('clear')
-    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка lolcat...")
+    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка lolcat...")
     res()
     time.sleep(1.5)
     os.system('pip install lolcat')
     os.system('clear')
 
-    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
+    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка wget...")
     res()
     time.sleep(1.5)
     os.system('pkg install wget -y')
     os.system('clear')
   
-    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
+    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python2...")
     res()
     time.sleep(1.5)
     os.system('pkg install python2 -y')
     os.system('clear')
     
-    print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python3...")
+    print (Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка python3...")
     res()
     time.sleep(1.5)
     os.system('pkg install python3 -y')
