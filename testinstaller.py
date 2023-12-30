@@ -167,9 +167,9 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: Installer_Files")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: Installer_Files")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: Installer_Files...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: Installer_Files...")
     time.sleep(1)
     res()
     os.mkdir("/data/data/com.termux/files/home/Installer_Files")
@@ -184,7 +184,7 @@ else:
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -206,13 +206,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool1.py")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool1.py...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool1.py...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -222,13 +222,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool2.py")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool2.py")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: too2.py...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: too2.py...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test2.py')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -238,13 +238,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool3.py")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: tool3.py")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool3.py...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool3.py...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test3.py')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -254,13 +254,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: set.py")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: set.py")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: set.py...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: set.py...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set_test.py')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -270,13 +270,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: setup_installer.py")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: setup_installer.py")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: setup_installer.py...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: setup_installer.py...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/setup_installer.py')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 #банер
@@ -300,13 +300,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: baner.txt")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: baner.txt")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: baner.txt...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: baner.txt...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/baner.txt')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -316,13 +316,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banerset.txt")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banerset.txt")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banerset.txt...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banerset.txt...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banerset.txt')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -332,13 +332,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner1.txt")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner1.txt")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner1.txt...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner1.txt...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -348,13 +348,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner2.txt")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner2.txt")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner2.txt...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner2.txt...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner2.txt')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -364,13 +364,13 @@ if os.path.exists(filename):
     time.sleep(0.1)
 
 else:
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner3.txt")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: banner3.txt")
     time.sleep(2)
-    print (Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner3.txt...")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner3.txt...")
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner3.txt')
-    print (Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -404,7 +404,7 @@ else:
         
     os.system('clear')
     baner()
-    print (Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
     res()
     os.system('termux-setup-storage')
     tsu = input(' [Нажмите Enter чтобы продолжить]')
