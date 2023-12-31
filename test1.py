@@ -94,9 +94,9 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
             res()
-            print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print(Style.BRIGHT ,Fore.GREEN+'Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
-            print(Fore.YELLOW+" [e] Выход")
+            print(Style.BRIGHT ,Fore.YELLOW+"[e] Выход")
             res()
             tru_102 = input(' Изменить порт? [y/n] ➤ ')
             if tru_102 == 'y':
@@ -108,9 +108,9 @@ while True:
                 if we_2 == '':
                     os.system('clear')
                     baner()
-                    print(Fore.YELLOW+' Вы ничего не ввели!')
+                    print(Style.BRIGHT ,Fore.YELLOW+' Вы ничего не ввели!')
                     res()
-                    print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                    print(Style.BRIGHT ,Fore.CYAN+'Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
                     print(Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                     time.sleep(5)
                     os.system('clear')
@@ -120,6 +120,7 @@ while True:
                     os.system('clear')
                     
                 else:
+                    print(Fore.WHITE+'', Style.BRIGHT)
                     os.system('clear')
                     print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                     time.sleep(1)
@@ -127,6 +128,7 @@ while True:
                     os.system('clear')
     
             if tru_102 == 'n':
+                print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
@@ -153,9 +155,9 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
             res()
-            print(Fore.GREEN+' Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print(Style.BRIGHT ,Fore.GREEN+'Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
             res()
-            print(Fore.YELLOW+" [e] Выход")
+            print(Style.BRIGHT ,Fore.YELLOW+"[e] Выход")
             res()
             tru_102 = input(' Изменить порт? [y/n] ➤ ')
             if tru_102 == 'y':
@@ -167,9 +169,9 @@ while True:
                 if we_2 == '':
                     os.system('clear')
                     baner()
-                    print(Fore.YELLOW+' Вы ничего не ввели!')
+                    print(Style.BRIGHT ,Fore.YELLOW+'Вы ничего не ввели!')
                     res()
-                    print(Fore.CYAN+' Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
+                    print(Style.BRIGHT ,Fore.CYAN+'Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
                     print(Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                     time.sleep(5)
                     os.system('clear')
@@ -179,6 +181,7 @@ while True:
                     os.system('clear')
                     
                 else:
+                    print(Fore.WHITE+'', Style.BRIGHT)
                     os.system('clear')
                     print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                     time.sleep(1)
@@ -186,6 +189,7 @@ while True:
                     os.system('clear')
     
             if tru_102 == 'n':
+                print(Fore.WHITE+'', Style.BRIGHT)`
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
