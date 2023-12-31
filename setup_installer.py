@@ -29,6 +29,8 @@ os.system('rm -fr /data/data/com.termux/files/home/installer')
 os.system('rm -fr installer')
 os.chdir('/data/data/com.termux/files/home/')
 
+print(Fore.WHITE+'', Style.BRIGHT)
+os.system('clear')
 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Installer...")
 time.sleep(1.5)
 print(Fore.WHITE+"")
@@ -70,7 +72,7 @@ else:
   print(f'\33]0; Installer - Ошибка во время установки!\a',
                   end='', flush=True)
   os.system('clear')
-  print(Fore.YELLOW+" ["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время установки Installer!")
+  print(Style.BRIGHT ,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время установки Installer!")
   print(Fore.WHITE+" ")
-  print(Fore.YELLOW+" ["+Fore.CYAN+"i"+Fore.YELLOW+"] Повторите командой:"+Fore.WHITE+" python setup_installer.py")
+  print(Style.BRIGHT ,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Повторите командой:"+Fore.WHITE+" python setup_installer.py")
   print(Fore.WHITE+" ")
