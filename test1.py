@@ -68,18 +68,22 @@ while True:
 
         if os.path.exists(filename):
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
             time.sleep(2) 
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка nodejs-lts...")
             res()
             os.system('pkg install nodejs-lts -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
             res()
             os.system('npm install ngrok')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
             res()
@@ -135,9 +139,11 @@ while True:
 
         else:
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Ngrok уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Ngrok уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -198,14 +204,17 @@ while True:
 
         if os.path.exists(filename):
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
             time.sleep(2) 
 
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
             res()
             os.system('pkg install dropbear -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
             res()
@@ -261,9 +270,11 @@ while True:
                 
         else:
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Localhost уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Localhost уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -323,9 +334,11 @@ while True:
         filename = "PyPhisher"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] PyPhiser уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] PyPhiser уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -336,10 +349,12 @@ while True:
             exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] PyPhiser еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] PyPhiser еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
             res()
@@ -356,10 +371,12 @@ while True:
         filename = "zphisher"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Zphiser уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Zphiser уже установлен!")
             time.sleep(2)
             os.system('clear')
+            print(Fore.WHITE+'', Style.BRIGHT)
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
             
@@ -372,7 +389,8 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Zphiser еще НЕ установлен!")
             time.sleep(2)
-        
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Zphiser...")
             res()
