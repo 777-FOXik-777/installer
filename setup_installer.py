@@ -33,7 +33,7 @@ print(Fore.WHITE+'', Style.BRIGHT)
 os.system('clear')
 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Installer...")
 time.sleep(1.5)
-print(Fore.WHITE+"")
+print(Style.RESET_ALL)
 
 os.system('git clone https://github.com/777-FOXik-777/installer')
 
@@ -58,7 +58,7 @@ if os.path.exists(filename):
   os.system('lolcat ~/installer/banner/baner.txt')
   print(Fore.WHITE+" ")
   print(Style.BRIGHT, Fore.YELLOW+"["+Fore.GREEN+"i"+Fore.YELLOW+"] Installer успешно установлен!")
-  print(Fore.WHITE+" ")
+  print(Style.RESET_ALL)
   lol = input(' [Нажмите Enter чтобы продолжить]')
   os.chdir('/data/data/com.termux/files/home/installer')
   os.system('clear')
