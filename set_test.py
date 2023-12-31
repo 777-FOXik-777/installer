@@ -530,10 +530,10 @@ while True:
         baner()
         print (Style.BRIGHT, Fore.CYAN+'Запускать Installer вместе с Termux?')
         res()
-        print(Fore.YELLOW+' [1]'+Fore.YELLOW+' Включить')
-        print(Fore.YELLOW+' [2]'+Fore.YELLOW+' Выключить')
+        print(Style.BRIGHT ,Fore.YELLOW+'[1]'+Fore.YELLOW+' Включить')
+        print(Style.BRIGHT ,Fore.YELLOW+'[2]'+Fore.YELLOW+' Выключить')
         res()
-        print(Fore.YELLOW+' [e] выход')
+        print(Style.BRIGHT ,Fore.YELLOW+'[e] выход')
         res()
         tru_101 = input(' Выбери пункт ➤ ')
 
