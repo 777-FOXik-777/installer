@@ -381,8 +381,8 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Zphiser уже установлен!")
             time.sleep(2)
-            os.system('clear')
             print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
             
@@ -392,6 +392,7 @@ while True:
             exit()
             
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Zphiser еще НЕ установлен!")
             time.sleep(2)
