@@ -189,7 +189,7 @@ while True:
                     os.system('clear')
     
             if tru_102 == 'n':
-                print(Fore.WHITE+'', Style.BRIGHT)`
+                print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
