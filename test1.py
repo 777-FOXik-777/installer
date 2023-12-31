@@ -414,9 +414,11 @@ while True:
         filename = "CamHacker"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] CamHacker уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] CamHacker уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -428,14 +430,17 @@ while True:
             exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] CamHacker еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] CamHacker еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
             res()
             os.system('pkg install php -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка CamHacker...")
             res()
@@ -452,9 +457,11 @@ while True:
         filename = "VidPhisher"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] VidPhisher уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] VidPhisher уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -465,14 +472,17 @@ while True:
             exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] VidPhisher еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] VidPhisher еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
             res()
             os.system('pkg install php -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка VidPhisher...")
             res()
@@ -489,9 +499,11 @@ while True:
         filename = "Telephish"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Telephish уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Telephish уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -515,14 +527,17 @@ while True:
             exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Telephish еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Telephish еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка pyTelegramBotAPI...")
             res()
             os.system('pip install pyTelegramBotAPI')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Telephish...")
             res()
@@ -553,9 +568,11 @@ while True:
         filename = "Dnnme2"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Dnnme2 уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Dnnme2 уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -587,14 +604,17 @@ while True:
             exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Dnnme2 еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Dnnme2 еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка pyTelegramBotAPI...")
             res()
             os.system('pip install pyTelegramBotAPI')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Dnnme2...")
             res()
@@ -633,9 +653,11 @@ while True:
         filename = "maskphish"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Maskphish уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Maskphish уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -646,10 +668,12 @@ while True:
             exit()
             
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Maskphish еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Maskphish еще НЕ установлен!")
             time.sleep(2)
 
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Maskphish...")
             res()
