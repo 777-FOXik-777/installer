@@ -64,9 +64,11 @@ while True:
         filename = "PhoneInfoga"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Phoneinfoga уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Phoneinfoga уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -93,34 +95,42 @@ while True:
 
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Phoneinfoga еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Phoneinfoga еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
             res()
             os.system('pip install requests')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка bs4...")
             res()
             os.system('pip install bs4')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка html5lib...")
             res()
             os.system('pip install html5lib')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка phonenumbers...")
             res()
             os.system('pip install phonenumbers')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка argparse...")
             res()
             os.system('pip install argparse')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка urllib3...")
             res()
             os.system('pip install urllib3')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Phoneinfoga...")
             res()
@@ -158,10 +168,12 @@ while True:
         filename = "holehe"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Holehe еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Holehe еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Holehe...")
             res()
@@ -192,9 +204,11 @@ while True:
                 exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Holehe уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Holehe уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -228,11 +242,13 @@ while True:
         filename = "IP"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] IP-Tracer еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка IP-Tracer...")
             res()
@@ -277,10 +293,12 @@ while True:
                 os.system('clear')
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] IP-Tracer уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] IP-Tracer уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -326,9 +344,11 @@ while True:
         filename = "sherlock"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Sherlock уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Sherlock уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -357,54 +377,67 @@ while True:
                 exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Sherlock еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Sherlock еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tur-repo...")
             res()
             os.system('pkg install tur-repo')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка numpy...")
             res()
             os.system('pkg install python-numpy -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка pandas...")
             res()
             os.system('pkg install python-pandas -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка certifi...")
             res()
             os.system('pip3 install certifi')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PySocks...")
             res()
             os.system('pip3 install PySocks')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
             res()
             os.system('pip3 install requests')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests-futures...")
             res()
             os.system('pip3 install requests-futures')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка stem...")
             res()
             os.system('pip3 install stem')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка torrequest...")
             res()
             os.system('pip3 install torrequest')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openpyxl...")
             res()
             os.system('pip3 install openpyxl')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка exrex...")
             res()
             os.system('pip3 install exrex')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Sherlok...")
             res()
@@ -440,9 +473,11 @@ while True:
         filename = "mmail"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Mmail уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Mmail уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -453,14 +488,17 @@ while True:
             exit()
             
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Mmail еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Mmail еще НЕ установлен!")
             time.sleep(2)
 
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
             res()
             os.system('pip install requests')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Mmail...")
             res()
@@ -477,23 +515,27 @@ while True:
         filename = "k-fuscator"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] K-fuscator уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] K-fuscator уже установлен!")
             time.sleep(2)
+          
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-            
             os.chdir('k-fuscator')
             os.system('clear')
             os.system('python3 kf.py')
             exit()
             
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
             time.sleep(2)
 
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка K-fuscator...")
             res()
@@ -510,39 +552,47 @@ while True:
         filename = "Discord-Nitro-Generator-and-Checker"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Discord-Nitro-Generator уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Discord-Nitro-Generator уже установлен!")
             time.sleep(2)
+          
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-
             os.chdir('Discord-Nitro-Generator-and-Checker')
             os.system('clear')
             os.system('python3 main.py')
             exit()
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Discord-Nitro-Generator еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Discord-Nitro-Generator еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
             res()
             os.system('pip install requests')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка discord_webhook...")
             res()
             os.system('pip install discord_webhook')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка colored...")
             res()
             os.system('pip install colored')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка numpy...")
             res()
             os.system('pkg install python-numpy -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Discord-Nitro-Generator...")
             res()
@@ -559,20 +609,24 @@ while True:
         filename = "shorturl"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] ShortUrl уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] ShortUrl уже установлен!")
             time.sleep(2)
+          
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-
             os.system('ShortUrl')
             exit()
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] ShortUrl еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] ShortUrl еще НЕ установлен!")
             time.sleep(2)
-            
+          
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ShortUrl...")
             res()
@@ -590,51 +644,62 @@ while True:
         filename = "seeker"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Seeker уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Seeker уже установлен!")
             time.sleep(2)
+          
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-            
             os.chdir('seeker')
             os.system('clear')
             os.system('python seeker.py')
             exit()
         
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
             time.sleep(2)
-            
+
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
             res()
             os.system('pkg install dropbear -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
             res()
             os.system('pkg install openssh -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php...")
             res()
             os.system('pkg install php -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка php7...")
             res()
             os.system('pkg install php7 -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка psutil...")
             res()
             os.system('pip install psutil')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка packaging...")
             res()
             os.system('pip install packaging')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
             res()
             os.system('pip install requests')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Seeker...")
             res()
