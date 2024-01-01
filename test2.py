@@ -661,7 +661,7 @@ while True:
         else:
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Seeker еще НЕ установлен!")
             time.sleep(2)
 
             print(Fore.WHITE+'', Style.BRIGHT)
