@@ -89,5 +89,4 @@ python installer.py
 
 
 > [!WARNING]\
-> By default, the stats card only shows statistics like stars, commits, and pull requests from public repositories. To show private statistics on the stats card, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
-
+> Этот инструмент создан с целью обучения и повышения квалификации в области хакинга и безопасности. Некоторые утилиты, фото, видео и другие файлы, которые используются в этом инструменте, взяты из открытых источников и принадлежат их законным автораме. Разработчик не несет ответственности за неправомерное использование этого инструмента и уважает права и интересы законных авторов.
