@@ -82,7 +82,6 @@ python installer.py
 
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
-
 ##
 
 > [!WARNING]\
