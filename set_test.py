@@ -263,7 +263,7 @@ while True:
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (1) ➤")
           res()
-          print(Style.BRIGHT, Fore.YELLOW+"[01] Serveo       ("+serveo+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[01] Serveo      ("+serveo+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[02] Localhost   ("+Localhost+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[03] PyPhiser    ("+PyPhisher+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[04] Zphisher    ("+Zphisher+""+Fore.YELLOW+")")
@@ -308,14 +308,14 @@ while True:
 
           if tsu_501 == '1':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-              filename = "ngrok"
+              filename = "serveo"
               if os.path.exists(filename):
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"Утилита Serveo еще не установлена!")
                 exit()
                 
               else:
-                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/serveo")
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"Утилита Serveo успешно удалена!")
                 exit()
