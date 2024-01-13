@@ -846,24 +846,25 @@ while True:
             
             if tru_101 == 'e':
                 os.system('clear')
-              
-            res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример токена:"+Fore.CYAN+" kfzDt3egPP5sZ9EBGQTJbWKBEZptFT")
-            res()
-            tru_102 = input(' Введите токен ➤ ')
-            os.system('ngrok authtoken '+tru_102+'')
-            
-            if tru_102 == 'e':
-                os.system('clear')
-          
+
             else:
-                print(Fore.WHITE+'', Style.BRIGHT)
-                os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('clear')
-                os.system('ngrok http '+tru_101+'')
-                exit()
+                res()
+                print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример токена:"+Fore.CYAN+" kfzDt3egPP5sZ9EBGQTJbWKBEZptFT")
+                res()
+                tru_102 = input(' Введите токен ➤ ')
+                os.system('ngrok authtoken '+tru_102+'')
+                
+                if tru_102 == 'e':
+                    os.system('clear')
+              
+                else:
+                    print(Fore.WHITE+'', Style.BRIGHT)
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('clear')
+                    os.system('ngrok http '+tru_101+'')
+                    exit()
 
         else:
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
@@ -890,24 +891,25 @@ while True:
             
             if tru_101 == 'e':
                 os.system('clear')
-              
-            res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример токена:"+Fore.CYAN+" kfzDt3egPP5sZ9EBGQTJbWKBEZptFT")
-            res()
-            tru_102 = input(' Введите токен ➤ ')
-            os.system('ngrok authtoken '+tru_102+'')
-            
-            if tru_102 == 'e':
-                os.system('clear')
-          
+
             else:
-                print(Fore.WHITE+'', Style.BRIGHT)
-                os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('clear')
-                os.system('ngrok http '+tru_101+'')
-                exit()
+                res()
+                print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример токена:"+Fore.CYAN+" kfzDt3egPP5sZ9EBGQTJbWKBEZptFT")
+                res()
+                tru_102 = input(' Введите токен ➤ ')
+                os.system('ngrok authtoken '+tru_102+'')
+                
+                if tru_102 == 'e':
+                    os.system('clear')
+              
+                else:
+                    print(Fore.WHITE+'', Style.BRIGHT)
+                    os.system('clear')
+                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                    time.sleep(1)
+                    os.system('clear')
+                    os.system('ngrok http '+tru_101+'')
+                    exit()
 
 
 
