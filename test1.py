@@ -716,15 +716,95 @@ while True:
 
 
 
-
-
-
-
-
-
-
-
     if inp == '12':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+        filename = "lochost"
+
+        if os.path.exists(filename):
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
+            time.sleep(2) 
+
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
+            res()
+            os.system('pkg install dropbear -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
+            res()
+            os.system('pkg install openssh -y')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
+          
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_201 = input(' Введите порт ➤ ')
+            
+            if tru_201 == 'e':
+                os.system('clear')
+          
+            else:
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ssh -R 80:localhost:'+tru_201+' nokey@localhost.run -T -n')
+                exit()
+
+        else:
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Localhost уже установлен!")
+            time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_201 = input(' Введите порт ➤ ')
+            
+            if tru_201 == 'e':
+                os.system('clear')
+          
+            else:
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ssh -R 80:localhost:'+tru_201+' nokey@localhost.run -T -n')
+                exit()
+
+
+
+
+
+
+
+    if inp == '11':
         os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
         filename = "ngrok"
 
@@ -747,7 +827,7 @@ while True:
             os.system('npm install ngrok')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
             res()
             os.system('npm install ngrok -g')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/ngrok')
