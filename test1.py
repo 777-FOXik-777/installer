@@ -66,13 +66,13 @@ while True:
   
     if inp == '1':
         os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-        filename = "lochost"
+        filename = "serveo"
 
         if os.path.exists(filename):
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Serveo еще НЕ установлен!")
             time.sleep(2) 
 
             print(Fore.WHITE+'', Style.BRIGHT)
@@ -89,9 +89,9 @@ while True:
           
             os.system('clear')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+            print(Style.BRIGHT,Fore.CYAN+"[Serveo]")
             res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Serveo позволяет туннелировать трафик")
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
@@ -109,20 +109,20 @@ while True:
                 time.sleep(1)
                 os.system('clear')
                 baner()
-                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                print(Style.BRIGHT,Fore.CYAN+"[Serveo]")
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Порт:"+Fore.CYAN+" "+tru_201+"")
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
                 res()
-                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" serveo.net -T -n 2>&1 | awk '/serveo.net/ {print $5}'""")
                 exit()
 
         else:
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Localhost уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Serveo уже установлен!")
             time.sleep(2)
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
@@ -131,9 +131,9 @@ while True:
 
             os.system('clear')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+            print(Style.BRIGHT,Fore.CYAN+"[Serveo]")
             res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Serveo позволяет туннелировать трафик")
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
@@ -151,13 +151,13 @@ while True:
                 time.sleep(1)
                 os.system('clear')
                 baner()
-                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                print(Style.BRIGHT,Fore.CYAN+"[Serveo]")
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Порт:"+Fore.CYAN+" "+tru_201+"")
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
                 res()
-                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" serveo.net -T -n 2>&1 | awk '/serveo.net/ {print $5}'""")
                 exit()
 
 
