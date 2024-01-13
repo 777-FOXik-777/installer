@@ -760,6 +760,11 @@ while True:
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                res()
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
                 os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
                 exit()
 
@@ -795,6 +800,11 @@ while True:
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                res()
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
                 os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
                 exit()
 
