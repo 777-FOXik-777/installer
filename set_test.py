@@ -37,7 +37,7 @@ def res():
 
 
 def exit():
-    res()
+    print(Fore.WHITE+'', Style.BRIGHT)
     exit = input(' [Нажмите Enter чтобы закрыть]')
     os.chdir('/data/data/com.termux/files/home/installer')
     os.system('clear')
