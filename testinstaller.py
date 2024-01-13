@@ -416,8 +416,9 @@ else:
     baner()
     print(Fore.WHITE+'', Style.BRIGHT)
     print (Fore.YELLOW+" ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
-    res()
     os.system('termux-setup-storage')
+    time.sleep(1)
+    print(Fore.WHITE+'', Style.BRIGHT)
     tsu = input(' [Нажмите Enter чтобы продолжить]')
     os.system('clear')
 
