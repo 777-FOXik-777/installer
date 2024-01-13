@@ -94,6 +94,7 @@ while True:
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_701 = input(' Введите номер ➤ ')
+          
             if tru_701 == 'e':
                 os.system('clear')
 
@@ -166,6 +167,7 @@ while True:
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_701 = input(' Введите номер ➤ ')
+
             if tru_701 == 'e':
                 os.system('clear')
 
@@ -208,9 +210,7 @@ while True:
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_801 = input(' Введите почту ➤ ')
-            if tru_801 == '':
-                os.system('clear')
-            
+
             if tru_801 == 'e':
                 os.system('clear')
             
@@ -240,8 +240,6 @@ while True:
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_801 = input(' Введите почту ➤ ')
-            if tru_801 == '':
-                os.system('clear')
             
             if tru_801 == 'e':
                 os.system('clear')
@@ -385,9 +383,7 @@ while True:
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_901 = input(' Введите ник ➤ ')
-            if tru_901 == '':
-                os.system('clear')
-            
+
             if tru_901 == 'e':
                 os.system('clear')
             
@@ -478,8 +474,6 @@ while True:
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
             tru_901 = input(' Введите ник ➤ ')
-            if tru_901 == '':
-                os.system('clear')
             
             if tru_901 == 'e':
                 os.system('clear')
@@ -492,7 +486,88 @@ while True:
 
     
 
+
     if inp == '15':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+        filename = "h8mail"
+
+        if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] H8mail еще НЕ установлен!")
+            time.sleep(2)
+
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка requests...")
+            res()
+            os.system('pip install requests')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка h8mail...")
+            res()
+            os.system('pip3 install holehe')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/holehe')
+            os.system('clear')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[H8mail]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] H8mail позволяет узнать регистрации почты")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример почты:"+Fore.CYAN+" testoleg@gmail.com")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_801 = input(' Введите почту ➤ ')
+
+            if tru_801 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('h8mail -t '+tru_801+'')
+                exit()
+
+        else:
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] H8mail уже установлен!")
+            time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[H8mail]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] H8mail позволяет узнать регистрации почты")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример почты:"+Fore.CYAN+" testoleg@gmail.com")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_801 = input(' Введите почту ➤ ')
+            
+            if tru_801 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('h8mail -t '+tru_801+'')
+                exit()
+
+
+
+
+  
+    if inp == '16':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "mmail"
 
