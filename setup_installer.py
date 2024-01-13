@@ -58,7 +58,7 @@ if os.path.exists(filename):
   os.system('lolcat ~/installer/banner/baner.txt')
   print(Fore.WHITE+" ")
   print(Style.BRIGHT, Fore.YELLOW+"["+Fore.GREEN+"i"+Fore.YELLOW+"] Installer успешно установлен!")
-  print(Style.RESET_ALL)
+  print(Fore.WHITE+'', Style.BRIGHT)
   lol = input(' [Нажмите Enter чтобы продолжить]')
   os.chdir('/data/data/com.termux/files/home/installer')
   os.system('clear')
