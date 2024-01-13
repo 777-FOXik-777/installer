@@ -565,7 +565,7 @@ while True:
               exit()
               
             else:
-              os.system('rm ~/.bashrc')
+              os.system('sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc')
               os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
               baner()
               print(Style.BRIGHT, Fore.YELLOW+"Выключено!")
