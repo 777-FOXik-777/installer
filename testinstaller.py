@@ -425,7 +425,7 @@ else:
     os.system('clear')
     baner()
     print(Fore.WHITE+'', Style.BRIGHT)
-    print (Fore.YELLOW+" ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам")
+    print (Fore.YELLOW+" ["+Fore.CYAN+"!"+Fore.YELLOW+"] Разрешите доступ к файлам устройства")
     os.system('termux-setup-storage')
     time.sleep(1)
     print(Fore.WHITE+'', Style.BRIGHT)
