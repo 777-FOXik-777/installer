@@ -760,7 +760,7 @@ while True:
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
-                os.system("""ssh -R 80:localhost:'+tru_201+' nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
                 exit()
 
         else:
@@ -795,7 +795,7 @@ while True:
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
-                os.system("""ssh -R 80:localhost:'+tru_201+' nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
                 exit()
 
 
