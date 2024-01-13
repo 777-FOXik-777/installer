@@ -495,7 +495,7 @@ if os.path.exists(filename):
 
 else:
 
-  os.system('echo "cd && cd installer && python tool.py" >> ~/.bashrc')
+  os.system('echo "cd && cd installer && python installer.py" >> ~/.bashrc')
   os.system('clear')
 
 
