@@ -136,11 +136,11 @@ while True:
           
           os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
-          filename = "ngrok"
+          filename = "serveo"
           if os.path.exists(filename):
-            Ngrok = ""+Fore.RED+"X"
+            serveo = ""+Fore.RED+"X"
           else:
-            Ngrok = ""+Fore.GREEN+"✓"
+            serveo = ""+Fore.GREEN+"✓"
   
           filename = "lochost"
           if os.path.exists(filename):
@@ -263,7 +263,7 @@ while True:
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (1) ➤")
           res()
-          print(Style.BRIGHT, Fore.YELLOW+"[01] Ngrok       ("+Ngrok+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[01] Serveo       ("+serveo+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[02] Localhost   ("+Localhost+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[03] PyPhiser    ("+PyPhisher+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[04] Zphisher    ("+Zphisher+""+Fore.YELLOW+")")
@@ -311,13 +311,13 @@ while True:
               filename = "ngrok"
               if os.path.exists(filename):
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Ngrok еще не установлена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Serveo еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Ngrok успешно удалена!")
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита Serveo успешно удалена!")
                 exit()
           
           if tsu_501 == '2':
@@ -474,7 +474,7 @@ while True:
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
-                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/serveo")
 
                   filename = "lochost"
                   if os.path.exists(filename):
