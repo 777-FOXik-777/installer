@@ -758,9 +758,7 @@ while True:
             res()
             print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Ngrok позволяет туннелировать трафик")
             res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 7777")
-            res()
-            print(Style.BRIGHT,Fore.YELLOW+"[s] Использовать порт: 8080")
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
@@ -768,15 +766,6 @@ while True:
             
             if tru_101 == 'e':
                 os.system('clear')
-
-            if tru_101 == 's':
-                print(Fore.WHITE+'', Style.BRIGHT)
-                os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('clear')
-                os.system('ngrok http 8080')
-                exit()
           
             else:
                 print(Fore.WHITE+'', Style.BRIGHT)
@@ -804,9 +793,7 @@ while True:
             res()
             print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Ngrok позволяет туннелировать трафик")
             res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 7777")
-            res()
-            print(Style.BRIGHT,Fore.YELLOW+"[s] Использовать порт: 8080")
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
             print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
             res()
@@ -814,15 +801,6 @@ while True:
             
             if tru_101 == 'e':
                 os.system('clear')
-
-            if tru_101 == 's':
-                print(Fore.WHITE+'', Style.BRIGHT)
-                os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('clear')
-                os.system('ngrok http 8080')
-                exit()
           
             else:
                 print(Fore.WHITE+'', Style.BRIGHT)
