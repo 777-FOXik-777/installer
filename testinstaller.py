@@ -19,7 +19,7 @@ os.system('rm -fr README.md')
 os.system('clear')
 
 
-#проверка место нахождения
+#проверка нахождения Installer
 
 
 filename = "/data/data/com.termux/files/home/installer"
