@@ -348,7 +348,6 @@ while True:
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-
             os.chdir('PyPhisher')
             os.system('clear')
             os.system('python3 pyphisher.py')
@@ -364,6 +363,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка PyPhiser...")
             res()
+            os.system('git clone https://github.com/KasRoudra/PyPhisher')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
