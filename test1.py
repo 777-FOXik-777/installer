@@ -716,6 +716,136 @@ while True:
 
 
 
+
+
+
+
+
+
+
+
+    if inp == '12':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+        filename = "ngrok"
+
+        if os.path.exists(filename):
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
+            time.sleep(2) 
+
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка nodejs-lts...")
+            res()
+            os.system('pkg install nodejs-lts -y')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
+            res()
+            os.system('npm install ngrok')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
+            res()
+            os.system('npm install ngrok -g')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/ngrok')
+          
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Ngrok позволяет туннелировать трафик")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 7777")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[s] Использовать порт: 8080")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_101 = input(' Введите порт ➤ ')
+            
+            if tru_101 == 'e':
+                os.system('clear')
+
+            if tru_101 == 's':
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ngrok http 8080')
+                exit()
+          
+            else:
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ngrok http '+tru_101+'')
+                exit()
+
+        else:
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Ngrok уже установлен!")
+            time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Ngrok позволяет туннелировать трафик")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 7777")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[s] Использовать порт: 8080")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_101 = input(' Введите порт ➤ ')
+            
+            if tru_101 == 'e':
+                os.system('clear')
+
+            if tru_101 == 's':
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ngrok http 8080')
+                exit()
+          
+            else:
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                os.system('ngrok http '+tru_101+'')
+                exit()
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
 
     if inp == 't':
