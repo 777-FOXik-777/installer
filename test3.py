@@ -65,9 +65,11 @@ while True:
         filename = "hammer"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] Hammer уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -96,18 +98,22 @@ while True:
 
 
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Hammer еще НЕ установлен!")
             time.sleep(2)
             
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка optparse-pretty...")
             res()
             os.system('pip install optparse-pretty')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка queue...")
             res()
             os.system('pip instal queue')
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Hammer...")
             res()
@@ -140,9 +146,11 @@ while True:
         filename = "TigerVirus"
 
         if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
             time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
@@ -153,10 +161,12 @@ while True:
             exit()
             
         else:
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
             time.sleep(2)
 
+            print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
             res()
