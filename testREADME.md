@@ -54,7 +54,7 @@ python installer.py
 
 <h1 align="center">Снимок некоторых возможностей:</h1>
 
-![Installer](https://github.com/777-oleg-777/test/blob/main/present.jpg)
+![Installer](https://github.com/777-oleg-777/test/blob/main/1present.jpg)
 
 ## [√] Для повторного запуска:
 
