@@ -61,147 +61,104 @@ while True:
     inp = input('\n Выбери пункт ➤ ')
     os.system('clear')
     
-        
+
+
+  
     if inp == '1':
         os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-        filename = "ngrok"
+        filename = "lochost"
 
         if os.path.exists(filename):
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
             time.sleep(2) 
 
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка nodejs-lts...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
             res()
-            os.system('pkg install nodejs-lts -y')
+            os.system('pkg install dropbear -y')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
             res()
-            os.system('npm install ngrok')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Ngrok...")
-            res()
-            os.system('npm install ngrok -g')
-            we  = '8080'
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/ngrok')
+            os.system('pkg install openssh -y')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
+          
             os.system('clear')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
+            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
             res()
-            print(Style.BRIGHT ,Fore.GREEN+'Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
             res()
-            print(Style.BRIGHT ,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            tru_102 = input(' Изменить порт? [y/n] ➤ ')
-            if tru_102 == 'y':
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_201 = input(' Введите порт ➤ ')
+            
+            if tru_201 == 'e':
                 os.system('clear')
-                baner()
-                print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
-                res()
-                we_2 = input(' Введите порт ➤ ')
-                if we_2 == '':
-                    os.system('clear')
-                    baner()
-                    print(Style.BRIGHT ,Fore.YELLOW+'Вы ничего не ввели!')
-                    res()
-                    print(Style.BRIGHT ,Fore.CYAN+'Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                    print(Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(5)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ngrok http '+we+' && clear')
-                    os.system('clear')
-                    
-                else:
-                    print(Fore.WHITE+'', Style.BRIGHT)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ngrok http '+we_2+' && clear')
-                    os.system('clear')
-    
-            if tru_102 == 'n':
+          
+            else:
                 print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
-                os.system('ngrok http '+we+' && clear')
-                os.system('clear')
-                
-            else:
-                os.system('clear')
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                exit()
 
         else:
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Ngrok уже установлен!")
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Localhost уже установлен!")
             time.sleep(2)
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
 
-            we  = '8080'
             os.system('clear')
             baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
+            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
             res()
-            print(Style.BRIGHT ,Fore.GREEN+'Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
             res()
-            print(Style.BRIGHT ,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            tru_102 = input(' Изменить порт? [y/n] ➤ ')
-            if tru_102 == 'y':
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_201 = input(' Введите порт ➤ ')
+            
+            if tru_201 == 'e':
                 os.system('clear')
-                baner()
-                print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
-                res()
-                we_2 = input(' Введите порт ➤ ')
-                if we_2 == '':
-                    os.system('clear')
-                    baner()
-                    print(Style.BRIGHT ,Fore.YELLOW+'Вы ничего не ввели!')
-                    res()
-                    print(Style.BRIGHT ,Fore.CYAN+'Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                    print(Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(5)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ngrok http '+we+' && clear')
-                    os.system('clear')
-                    
-                else:
-                    print(Fore.WHITE+'', Style.BRIGHT)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ngrok http '+we_2+' && clear')
-                    os.system('clear')
-    
-            if tru_102 == 'n':
+          
+            else:
                 print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
-                os.system('ngrok http '+we+' && clear')
-                os.system('clear')
-                
-            else:
-                os.system('clear')
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                exit()
 
 
-    
+  
+  
     if inp == '2':
         os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
         filename = "lochost"
@@ -223,55 +180,37 @@ while True:
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
             res()
             os.system('pkg install openssh -y')
-            qw  = '8080'
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
+          
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
             res()
-            print(Style.BRIGHT ,Fore.GREEN+'Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
             res()
-            print(Style.BRIGHT ,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            tru_202 = input(' Изменить порт? [y/n] ➤ ')
-            if tru_202 == 'y':
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_201 = input(' Введите порт ➤ ')
+            
+            if tru_201 == 'e':
                 os.system('clear')
-                baner()
-                print(Style.BRIGHT ,Fore.CYAN+"[Localhost]")
-                res()
-                qw_2 = input(' Введите порт ➤ ')
-                if qw_2 == '':
-                    os.system('clear')
-                    baner()
-                    print(Style.BRIGHT ,Fore.YELLOW+'Вы ничего не ввели!')
-                    res()
-                    print(Style.BRIGHT ,Fore.CYAN+'Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                    print(Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(5)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
-                    os.system('clear')
-                    
-                else:
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
-                    os.system('clear')
-    
-            if tru_202 == 'n':
+          
+            else:
+                print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
-                os.system('clear')
-                
-            else:
-                os.system('clear')
-                
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                exit()
+
         else:
             os.chdir('/data/data/com.termux/files/home/Installer_Files')
             print(Fore.WHITE+'', Style.BRIGHT)
@@ -282,59 +221,39 @@ while True:
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
             time.sleep(0.5)
-            
-            qw  = '8080'
+
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
             res()
-            print(Style.BRIGHT ,Fore.GREEN+'Стандартный порт ['+Fore.YELLOW+'8080'+Fore.GREEN+']')
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
             res()
-            print(Style.BRIGHT ,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            tru_202 = input(' Изменить порт? [y/n] ➤ ')
-            if tru_202 == 'y':
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_201 = input(' Введите порт ➤ ')
+            
+            if tru_201 == 'e':
                 os.system('clear')
-                baner()
-                print(Style.BRIGHT ,Fore.CYAN+"[Localhost]")
-                res()
-                qw_2 = input(' Введите порт ➤ ')
-                if qw_2 == '':
-                    os.system('clear')
-                    baner()
-                    print(Style.BRIGHT ,Fore.YELLOW+'Вы ничего не ввели!')
-                    res()
-                    print(Style.BRIGHT ,Fore.CYAN+'Использую стандартный порт ['+Fore.YELLOW+'8080'+Fore.CYAN+']')
-                    print(Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(5)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
-                    os.system('clear')
-                    
-                else:
-                    print(Fore.WHITE+'', Style.BRIGHT)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('ssh -R 80:localhost:'+qw_2+' nokey@localhost.run && clear')
-                    os.system('clear')
-    
-            if tru_202 == 'n':
+          
+            else:
                 print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
                 time.sleep(1)
                 os.system('clear')
-                os.system('ssh -R 80:localhost:'+qw+' nokey@localhost.run && clear')
-                os.system('clear')
-                
-            else:
-                os.system('clear')
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
+                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
+                exit()
                 
     
 
+  
     if inp == '3':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "PyPhisher"
@@ -712,216 +631,6 @@ while True:
 
 
     
-
-
-
-
-    if inp == '12':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-        filename = "lochost"
-
-        if os.path.exists(filename):
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Localhost еще НЕ установлен!")
-            time.sleep(2) 
-
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка dropbear...")
-            res()
-            os.system('pkg install dropbear -y')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка openssh...")
-            res()
-            os.system('pkg install openssh -y')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
-          
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
-            res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
-            res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
-            res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
-            res()
-            tru_201 = input(' Введите порт ➤ ')
-            
-            if tru_201 == 'e':
-                os.system('clear')
-          
-            else:
-                print(Fore.WHITE+'', Style.BRIGHT)
-                os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('clear')
-                baner()
-                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
-                print(Fore.WHITE+'', Style.BRIGHT)
-                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
-                res()
-                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
-                exit()
-
-        else:
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Localhost уже установлен!")
-            time.sleep(2)
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
-            res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Localhost позволяет туннелировать трафик")
-            res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
-            res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
-            res()
-            tru_201 = input(' Введите порт ➤ ')
-            
-            if tru_201 == 'e':
-                os.system('clear')
-          
-            else:
-                print(Fore.WHITE+'', Style.BRIGHT)
-                os.system('clear')
-                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                time.sleep(1)
-                os.system('clear')
-                baner()
-                print(Style.BRIGHT,Fore.CYAN+"[Localhost]")
-                print(Fore.WHITE+'', Style.BRIGHT)
-                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
-                res()
-                os.system("""ssh -R 80:localhost:"""+tru_201+""" nokey@localhost.run -T -n 2>&1 | awk '/.lhr.life/ {print $6}'""")
-                exit()
-
-
-
-
-
-
-
-    if inp == '11':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-        filename = "ngrok"
-
-        if os.path.exists(filename):
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Ngrok еще НЕ установлен!")
-            time.sleep(2) 
-
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка nodejs-lts...")
-            res()
-            os.system('pkg install nodejs-lts -y')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
-            res()
-            os.system('npm install ngrok')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка ngrok...")
-            res()
-            os.system('npm install ngrok -g')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/ngrok')
-          
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
-            res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Ngrok позволяет туннелировать трафик")
-            res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
-            res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
-            res()
-            tru_101 = input(' Введите порт ➤ ')
-            
-            if tru_101 == 'e':
-                os.system('clear')
-
-            else:
-                res()
-                print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример токена:"+Fore.CYAN+" kfzDt3egPP5sZ9EBGQTJbWKBEZptFT")
-                res()
-                tru_102 = input(' Введите токен ➤ ')
-                os.system('ngrok authtoken '+tru_102+'')
-                
-                if tru_102 == 'e':
-                    os.system('clear')
-              
-                else:
-                    print(Fore.WHITE+'', Style.BRIGHT)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('clear')
-                    os.system('ngrok http '+tru_101+'')
-                    exit()
-
-        else:
-            os.chdir('/data/data/com.termux/files/home/Installer_Files')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Ngrok уже установлен!")
-            time.sleep(2)
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.CYAN+"[Ngrok]")
-            res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Ngrok позволяет туннелировать трафик")
-            res()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
-            res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
-            res()
-            tru_101 = input(' Введите порт ➤ ')
-            
-            if tru_101 == 'e':
-                os.system('clear')
-
-            else:
-                res()
-                print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример токена:"+Fore.CYAN+" kfzDt3egPP5sZ9EBGQTJbWKBEZptFT")
-                res()
-                tru_102 = input(' Введите токен ➤ ')
-                os.system('ngrok authtoken '+tru_102+'')
-                
-                if tru_102 == 'e':
-                    os.system('clear')
-              
-                else:
-                    print(Fore.WHITE+'', Style.BRIGHT)
-                    os.system('clear')
-                    print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-                    time.sleep(1)
-                    os.system('clear')
-                    os.system('ngrok http '+tru_101+'')
-                    exit()
-
-
 
 
 
