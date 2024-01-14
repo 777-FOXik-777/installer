@@ -341,6 +341,7 @@ while True:
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"Утилита Serveo успешно удалена!")
                 exit()
+
           
           if tsu_501 == '2':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
@@ -356,7 +357,8 @@ while True:
                 print(Style.BRIGHT, Fore.YELLOW+"Утилита Localhost успешно удалена!")
                 exit()
 
-          if tsu_501 == '8':
+          
+          if tsu_501 == '13':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "IP"
               if os.path.exists(filename):
@@ -369,8 +371,9 @@ while True:
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"Утилита IP-Tracer успешно удалена!")
                 exit()
-                
-          if tsu_501 == '18':
+
+          
+          if tsu_501 == '12':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "holehe"
               if os.path.exists(filename):
@@ -383,7 +386,24 @@ while True:
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"Утилита Holehe успешно удалена!")
                 exit()
+
           
+          if tsu_501 == '15':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+              filename = "h8mail"
+              if os.path.exists(filename):
+                baner()
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита H8mail еще не установлена!")
+                exit()
+                
+              else:
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
+                baner()
+                print(Style.BRIGHT, Fore.YELLOW+"Утилита H8mail успешно удалена!")
+                exit()
+
+
+
           
           if tsu_501 == '3':
               filename = "PyPhisher"
@@ -391,19 +411,6 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
 
-          if tsu_501 == '23':
-              filename = "mmail"
-              led = "Mmail"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/mmail')
-
-          
-          if tsu_501 == '21':
-              filename = "hammer"
-              led = "Hammer"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
-          
           if tsu_501 == '4':
               filename = "zphisher"
               led = "Zphisher"
@@ -411,78 +418,98 @@ while True:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
 
           if tsu_501 == '5':
-              filename = "k-fuscator"
-              led = "K-fuscator"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
-
-          if tsu_501 == '6':
-              filename = "TigerVirus"
-              led = "TigerVirus"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
-
-          if tsu_501 == '7':
-              filename = "maskphish"
-              led = "Maskphish"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
-
-          if tsu_501 == '9':
-              filename = "seeker"
-              led = "Seeker"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
-
-          if tsu_501 == '11':
               filename = "CamHacker"
               led = "CamHacker"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
 
-          if tsu_501 == '12':
+          if tsu_501 == '6':
               filename = "VidPhisher"
               led = "VidPhisher"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
 
-          if tsu_501 == '13':
+          if tsu_501 == '7':
               filename = "Telephish"
               led = "Telephish"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
 
-          if tsu_501 == '14':
+          if tsu_501 == '8':
               filename = "Dnnme2"
               led = "Dnnme2"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
 
-          if tsu_501 == '15':
-              filename = "Discord-Nitro-Generator-and-Checker"
-              led = "Discord"
+          if tsu_501 == '9':
+              filename = "maskphish"
+              led = "Maskphish"
               delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
 
-          if tsu_501 == '16':
-              filename = "shorturl"
-              led = "ShortUrl"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
 
-          if tsu_501 == '17':
+          
+      
+          if tsu_501 == '11':
               filename = "PhoneInfoga"
               led = "PhoneInfoga"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
 
-          if tsu_501 == '19':
+          if tsu_501 == '14':
               filename = "sherlock"
               led = "Sherlock"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
-            
           
+          if tsu_501 == '15':
+              filename = "mmail"
+              led = "Mmail"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/mmail')
+
+          if tsu_501 == '17':
+              filename = "Discord-Nitro-Generator-and-Checker"
+              led = "Discord"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
+
+          if tsu_501 == '18':
+              filename = "shorturl"
+              led = "ShortUrl"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
+            
+          if tsu_501 == '19':
+              filename = "seeker"
+              led = "Seeker"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
+          
+
+
+          
+          if tsu_501 == '21':
+              filename = "k-fuscator"
+              led = "K-fuscator"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
+
+          if tsu_501 == '22':
+              filename = "TigerVirus"
+              led = "TigerVirus"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
+
+          if tsu_501 == '23':
+              filename = "hammer"
+              led = "Hammer"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
+
+
+
+
           if tsu_501 == 'a':
               baner()
               print(Fore.WHITE+' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
