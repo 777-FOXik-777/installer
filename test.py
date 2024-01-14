@@ -17,7 +17,7 @@ os.system('wget -O chek https://raw.githubusercontent.com/777-FOXik-777/installe
 filename = "/data/data/com.termux/files/home/chek/3.0.0"
 
 if os.path.exists(filename):
-  print("Обновелния нету!")
+  print("Есть обновлени!")
 
 else:
-  print("Есть обновление!")
+  print("Обновелния нету!")
