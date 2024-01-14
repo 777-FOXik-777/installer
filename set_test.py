@@ -298,7 +298,7 @@ while True:
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (2) ➤")
           res()
           print(Style.BRIGHT, Fore.YELLOW+"[11] PhoneInfo   ("+PhoneInfoga+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[12] Holehe      ("+holehe+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[12] Holehe      ("+Holehe+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[13] IP-Tracer   ("+IPTracer+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[14] Sherlock    ("+Sherlock+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[15] H8mail      ("+h8mail+""+Fore.YELLOW+")")
