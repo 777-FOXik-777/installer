@@ -492,7 +492,7 @@ while True:
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
                 
-                  filename = "ngrok"
+                  filename = "serveo"
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
@@ -515,25 +515,33 @@ while True:
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
+
+                  filename = "mmail"
+                  if os.path.exists(filename):
+                    os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/mmail")
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
                 
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PyPhisher')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamPhish')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/CamHacker')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/VidPhisher')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Telephish')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Dnnme2')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/maskphish')
+
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/PhoneInfoga')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/mmail')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
+                
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/hammer')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
     
                   baner()
                   print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!")
