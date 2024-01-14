@@ -19,30 +19,24 @@ def baner():
     print(" |___| |_| |_| |___/  \__|  \__,_| |_| |_|  \___| |_|   ")
     res()
 
-
-def compare_files(file_path1, file_path2):
+def compare_filenames_in_folder(folder_path, filename_to_compare):
+    
     os.chdir('/data/data/com.termux/files/home/Installer_Files/version')
   
     os.system('wget -O chek https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/version')
   
-    try:
-        # Открываем первый файл для чтения
-        with open(file_path1, 'r') as file1:
-            content1 = file1.read()
+    
+    # Получаем список файлов в указанной папке
+    files_in_folder = os.listdir(folder_path)
 
-        # Открываем второй файл для чтения
-        with open(file_path2, 'r') as file2:
-            content2 = file2.read()
-
-        # Сравниваем содержимое файлов
-        if content1 == content2:
-            print(f"Нет обновлений!")
-        else:
-            print(f"Есть обновление!")
-    except FileNotFoundError:
-        print("Один из файлов не найден.")
-    except Exception as e:
-        print(f"Произошла ошибка при сравнении файлов: {e}")
+    # Проверяем наличие файла с нужным именем в папке
+    if filename_to_compare in files_in_folder:
+        print(f"Обновления нету!")
+    else:
+        print(f"Есть обновление!")
 
 # Пример использования
-compare_files("/data/data/com.termux/files/home/Installer_Files/version/chek", "/data/data/com.termux/files/home/Installer_Files/version/3.0.0")
+folder_path = "/data/data/com.termux/files/home/Installer_Files/version/chek/"
+filename_to_compare = "3.0.0"
+
+compare_filenames_in_folder(folder_path, filename_to_compare)
