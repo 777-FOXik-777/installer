@@ -512,7 +512,7 @@ while True:
 
           if tsu_501 == 'a':
               baner()
-              print(Fore.WHITE+' ['+Fore.RED+'ВНИМАНИЕ'+Fore.WHITE+'] Вы действительно хотите удалить ВСЕ утилиты?')
+              print(Style.BRIGHT,Fore.YELLOW+'Вы действительно хотите удалить ВСЕ утилиты?')
               res()
               tru_502 = input(' Выбери пункт [y/n] ➤ ')
               if tru_502 == 'y':
@@ -571,7 +571,7 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
     
                   baner()
-                  print(Fore.GREEN+" ВСЕ Утилиты успешно удалены!")
+                  print(Style.BRIGHT,Fore.GREEN+"ВСЕ Утилиты успешно удалены!")
                   exit()
 
 
