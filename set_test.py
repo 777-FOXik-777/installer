@@ -169,6 +169,12 @@ while True:
             Holehe = ""+Fore.RED+"X"
           else:
             Holehe = ""+Fore.GREEN+"✓"
+
+          filename = "h8mail"
+          if os.path.exists(filename):
+            h8mail = ""+Fore.RED+"X"
+          else:
+            h8mail = ""+Fore.GREEN+"✓"
         
           os.chdir('/data/data/com.termux/files/home/Installer_Files')
         
@@ -195,12 +201,6 @@ while True:
             VidPhisher = ""+Fore.GREEN+"✓"
           else:
             VidPhisher = ""+Fore.RED+"X"
-          
-          filename = "k-fuscator"
-          if os.path.exists(filename):
-            Kfuscator = ""+Fore.GREEN+"✓"
-          else:
-            Kfuscator = ""+Fore.RED+"X"
 
           filename = "Telephish"
           if os.path.exists(filename):
@@ -219,54 +219,64 @@ while True:
             Maskphish = ""+Fore.GREEN+"✓"
           else:
             Maskphish = ""+Fore.RED+"X"
-          
-          filename = "TigerVirus"
-          if os.path.exists(filename):
-            TigerVirus = ""+Fore.GREEN+"✓"
-          else:
-            TigerVirus = ""+Fore.RED+"X"
-  
-          filename = "seeker"
-          if os.path.exists(filename):
-            Seeker = ""+Fore.GREEN+"✓"
-          else:
-            Seeker = ""+Fore.RED+"X"
-  
-          filename = "Discord-Nitro-Generator-and-Checker"
-          if os.path.exists(filename):
-            Discord = ""+Fore.GREEN+"✓"
-          else:
-            Discord = ""+Fore.RED+"X"
-  
-          filename = "shorturl"
-          if os.path.exists(filename):
-            ShortUrl = ""+Fore.GREEN+"✓"
-          else:
-            ShortUrl = ""+Fore.RED+"X"
-  
+
+
+
           filename = "PhoneInfoga"
           if os.path.exists(filename):
             PhoneInfoga = ""+Fore.GREEN+"✓"
           else:
             PhoneInfoga = ""+Fore.RED+"X"
-  
+
           filename = "sherlock"
           if os.path.exists(filename):
             Sherlock = ""+Fore.GREEN+"✓"
           else:
             Sherlock = ""+Fore.RED+"X"
 
-          filename = "hammer"
-          if os.path.exists(filename):
-            Hammer = ""+Fore.GREEN+"✓"
-          else:
-            Hammer = ""+Fore.RED+"X"
-
           filename = "mmail"
           if os.path.exists(filename):
             Mmail = ""+Fore.GREEN+"✓"
           else:
             Mmail = ""+Fore.RED+"X"
+
+          filename = "Discord-Nitro-Generator-and-Checker"
+          if os.path.exists(filename):
+            Discord = ""+Fore.GREEN+"✓"
+          else:
+            Discord = ""+Fore.RED+"X"
+
+          filename = "shorturl"
+          if os.path.exists(filename):
+            ShortUrl = ""+Fore.GREEN+"✓"
+          else:
+            ShortUrl = ""+Fore.RED+"X"
+
+          filename = "seeker"
+          if os.path.exists(filename):
+            Seeker = ""+Fore.GREEN+"✓"
+          else:
+            Seeker = ""+Fore.RED+"X"
+
+
+          
+          filename = "TigerVirus"
+          if os.path.exists(filename):
+            TigerVirus = ""+Fore.GREEN+"✓"
+          else:
+            TigerVirus = ""+Fore.RED+"X"
+
+          filename = "hammer"
+          if os.path.exists(filename):
+            Hammer = ""+Fore.GREEN+"✓"
+          else:
+            Hammer = ""+Fore.RED+"X"
+          
+          filename = "k-fuscator"
+          if os.path.exists(filename):
+            Kfuscator = ""+Fore.GREEN+"✓"
+          else:
+            Kfuscator = ""+Fore.RED+"X"
           
           baner()
           print(Style.BRIGHT, Fore.CYAN+"Выбери какую именно удалить Утилиту:")
@@ -285,15 +295,15 @@ while True:
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (2) ➤")
           res()
-          print(Style.BRIGHT, Fore.YELLOW+"[11] Скоро...    ("+CamHacker+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[12] Скоро...    ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[13] Скоро...    ("+Telephish+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[14] Скоро...    ("+Dnnme2+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[15] Скоро...    ("+Discord+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[16] Скоро...    ("+CamHacker+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[17] Скоро...    ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[18] Скоро...    ("+Telephish+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[19] Скоро...    ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[11] PhoneInfo   ("+CamHacker+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[12] Holehe      ("+holehe+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[13] IP-Tracer   ("+Telephish+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[14] Sherlock    ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[15] H8mail      ("+h8mail+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[16] Mmail       ("+CamHacker+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[17] Discord     ("+VidPhisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[18] ShortUrl    ("+Telephish+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[19] Seeker      ("+Dnnme2+""+Fore.YELLOW+")")
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (3) ➤")
           res()
