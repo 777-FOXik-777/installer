@@ -96,6 +96,7 @@ while True:
             res()
             os.system('pkg install openssh -y')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/serveo')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
           
             os.system('clear')
             baner()
@@ -195,6 +196,7 @@ while True:
             res()
             os.system('pkg install openssh -y')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/lochost')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/serveo')
           
             os.system('clear')
             baner()
