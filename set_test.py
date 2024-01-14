@@ -548,6 +548,7 @@ while True:
         tru_101 = input(' Выбери пункт ➤ ')
 
         if tru_101 == '1':
+            os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
             os.system('echo "cd && cd installer && python testinstaller.py" >> ~/.bashrc')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
             os.system('clear')
