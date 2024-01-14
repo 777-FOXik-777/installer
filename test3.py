@@ -87,8 +87,6 @@ while True:
             os.chdir('hammer')
             print(Style.BRIGHT,Fore.CYAN+"[Hammer]")
             res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Phoneinfoga позволяет узнать инофрмацию о номере")
-            res()
             print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Hammer позволяет задудосить сайт по IP")
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример IP:"+Fore.CYAN+" 33.73.133.137")
@@ -196,7 +194,7 @@ while True:
 
             
     
-    if inp == '16':
+    if inp == '23':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "k-fuscator"
 
