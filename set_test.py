@@ -63,12 +63,12 @@ def baner():
 def delet():
     if os.path.exists(filename):
       baner()
-      print(Style.BRIGHT, Fore.YELLOW+"Утилита "+led+" успешно удалена!")
+      print(Style.BRIGHT, Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита "+led+" успешно удалена!")
       exit()
 
     else:
       baner()
-      print(Style.BRIGHT, Fore.YELLOW+"Утилита "+led+" еще не установлена!")
+      print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита "+led+" еще не установлена!")
       exit()
       
 
@@ -334,13 +334,13 @@ while True:
               filename = "serveo"
               if os.path.exists(filename):
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Serveo еще не установлена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Serveo еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/serveo")
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Serveo успешно удалена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Serveo успешно удалена!")
                 exit()
 
           
@@ -349,13 +349,13 @@ while True:
               filename = "lochost"
               if os.path.exists(filename):
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Localhost еще не установлена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Localhost еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Localhost успешно удалена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Localhost успешно удалена!")
                 exit()
 
           
@@ -364,13 +364,13 @@ while True:
               filename = "IP"
               if os.path.exists(filename):
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита IP-Tracer еще не установлена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита IP-Tracer еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита IP-Tracer успешно удалена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита IP-Tracer успешно удалена!")
                 exit()
 
           
@@ -379,13 +379,13 @@ while True:
               filename = "holehe"
               if os.path.exists(filename):
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Holehe еще не установлена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Holehe еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита Holehe успешно удалена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Holehe успешно удалена!")
                 exit()
 
           
@@ -394,13 +394,13 @@ while True:
               filename = "h8mail"
               if os.path.exists(filename):
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита H8mail еще не установлена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита H8mail еще не установлена!")
                 exit()
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
                 baner()
-                print(Style.BRIGHT, Fore.YELLOW+"Утилита H8mail успешно удалена!")
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита H8mail успешно удалена!")
                 exit()
 
 
@@ -572,7 +572,7 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
     
                   baner()
-                  print(Style.BRIGHT,Fore.GREEN+"ВСЕ Утилиты успешно удалены!")
+                  print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] ВСЕ Утилиты успешно удалены!")
                   exit()
 
 
