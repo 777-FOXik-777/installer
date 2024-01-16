@@ -99,6 +99,7 @@ while True:
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                 lol = input('')
+                sys.exit()
         else:
             os.system('clear')
 
@@ -512,7 +513,7 @@ while True:
 
           if tsu_501 == 'a':
               baner()
-              print(Style.BRIGHT,Fore.YELLOW+'Вы действительно хотите удалить ВСЕ утилиты?')
+              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Вы действительно хотите удалить ВСЕ утилиты?')
               res()
               tru_502 = input(' Выбери пункт [y/n] ➤ ')
               if tru_502 == 'y':
@@ -585,10 +586,10 @@ while True:
     if inp == '5':
         os.system('clear')
         baner()
-        print (Style.BRIGHT, Fore.CYAN+'Запускать Installer вместе с Termux?')
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Запускать Installer при запуске Termux")
         res()
-        print(Style.BRIGHT ,Fore.YELLOW+'[1]'+Fore.YELLOW+' Включить')
-        print(Style.BRIGHT ,Fore.YELLOW+'[2]'+Fore.YELLOW+' Выключить')
+        print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
+        print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
         res()
         print(Style.BRIGHT ,Fore.YELLOW+'[e] выход')
         res()
