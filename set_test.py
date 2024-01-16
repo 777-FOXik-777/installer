@@ -109,7 +109,7 @@ while True:
     if inp == '2':
         os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
-        filename = "Auto"
+        filename = "update"
         if os.path.exists(filename):
           Auto = ""+Fore.RED+"Выключено"
         else:
@@ -117,9 +117,9 @@ while True:
       
         os.system('clear')
         baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Запуск Installer при запуске Termux")
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Проверка обновлений во время запуска Installer ")
         res()
-        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Auto+"")
+        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+update+"")
         res()
         print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
         print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
@@ -129,9 +129,7 @@ while True:
         tru_101 = input(' Выбери пункт ➤ ')
 
         if tru_101 == '1':
-            os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
-            os.system('echo "cd && cd installer && python testinstaller.py" >> ~/.bashrc')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/update')
             os.system('clear')
             baner()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Включено!")
@@ -139,7 +137,7 @@ while True:
             
         if tru_101 == '2':
             os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-            filename = "Auto"
+            filename = "update"
           
             if os.path.exists(filename):
               baner()
@@ -147,8 +145,7 @@ while True:
               exit()
               
             else:
-              os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
-              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
+              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/update")
               baner()
               print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
               exit()
