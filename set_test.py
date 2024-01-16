@@ -102,7 +102,62 @@ while True:
         else:
             os.system('clear')
 
+
+
   
+  
+    if inp == '2':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+        filename = "Auto"
+        if os.path.exists(filename):
+          Auto = ""+Fore.RED+"Выключено"
+        else:
+          Auto = ""+Fore.GREEN+"Включено"
+      
+        os.system('clear')
+        baner()
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Запуск Installer при запуске Termux")
+        res()
+        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Auto+"")
+        res()
+        print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
+        print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
+        res()
+        print(Style.BRIGHT ,Fore.YELLOW+'[e] выход')
+        res()
+        tru_101 = input(' Выбери пункт ➤ ')
+
+        if tru_101 == '1':
+            os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
+            os.system('echo "cd && cd installer && python testinstaller.py" >> ~/.bashrc')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
+            os.system('clear')
+            baner()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Включено!")
+            exit()
+            
+        if tru_101 == '2':
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+            filename = "Auto"
+          
+            if os.path.exists(filename):
+              baner()
+              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Авто-запуск еще не включен!")
+              exit()
+              
+            else:
+              os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
+              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
+              baner()
+              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
+              exit()
+            
+        else:
+            os.system('clear')
+
+
+
   
     
     if inp == '3':
@@ -593,7 +648,7 @@ while True:
       
         os.system('clear')
         baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Запускать Installer при запуске Termux")
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Запуск Installer при запуске Termux")
         res()
         print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Auto+"")
         res()
