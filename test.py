@@ -11,7 +11,7 @@ def compare_files(file1_path, file2_path):
 
 # Пример использования
 file1_path = "/data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak/Installer_Files/about/version"
-file2_path = "/data/data/com.termux/files/home/installer/nstaller_Files/about/version"
+file2_path = "/data/data/com.termux/files/home/installer/Installer_Files/about/version"
 
 result = compare_files(file1_path, file2_path)
 
