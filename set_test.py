@@ -513,7 +513,7 @@ while True:
 
           if tsu_501 == 'a':
               baner()
-              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Вы действительно хотите удалить ВСЕ утилиты?')
+              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Вы действительно хотите удалить ВСЕ утилиты?")
               res()
               tru_502 = input(' Выбери пункт [y/n] ➤ ')
               if tru_502 == 'y':
