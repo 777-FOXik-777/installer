@@ -141,7 +141,7 @@ while True:
           
             if os.path.exists(filename):
               baner()
-              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Авто-запуск еще не включен!")
+              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Автообновление еще не включен!")
               exit()
               
             else:
