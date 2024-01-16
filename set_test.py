@@ -583,9 +583,19 @@ while True:
 
   
     if inp == '5':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+
+        filename = "Auto"
+        if os.path.exists(filename):
+          Auto = ""+Fore.RED+"Выключено"
+        else:
+          Auto = ""+Fore.GREEN+"Включено"
+      
         os.system('clear')
         baner()
         print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Запускать Installer при запуске Termux")
+        res()
+        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Dnnme2+"")
         res()
         print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
         print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
