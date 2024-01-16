@@ -83,7 +83,7 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print(Style.BRIGHT,Fore.YELLOW+'Вы точно хотите Обновить/Переустановить Installer?')
+        print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Вы точно хотите Обновить/Переустановить Installer?")
         res()
         tru_201 = input(' Выбери пункт [y/n] ➤ ')
         if tru_201 == 'y':
