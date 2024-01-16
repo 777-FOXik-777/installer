@@ -111,9 +111,9 @@ while True:
 
         filename = "update"
         if os.path.exists(filename):
-          Auto = ""+Fore.RED+"Выключено"
+          update = ""+Fore.RED+"Выключено"
         else:
-          Auto = ""+Fore.GREEN+"Включено"
+          update = ""+Fore.GREEN+"Включено"
       
         os.system('clear')
         baner()
