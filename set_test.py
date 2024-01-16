@@ -105,7 +105,7 @@ while True:
   
   
     
-    if inp == '2':
+    if inp == '3':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
         print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Переместить скачаные утилты в "+Fore.YELLOW+"/files/home"+Fore.CYAN+" ?")
@@ -142,7 +142,7 @@ while True:
 
 
   
-    if inp == '3':
+    if inp == '4':
       
         while True:
           
