@@ -595,7 +595,7 @@ while True:
         baner()
         print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Запускать Installer при запуске Termux")
         res()
-        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Dnnme2+"")
+        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Auto+"")
         res()
         print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
         print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
