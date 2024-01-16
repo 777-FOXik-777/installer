@@ -99,7 +99,6 @@ while True:
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                 lol = input('')
-                sys.exit()
         else:
             os.system('clear')
 
