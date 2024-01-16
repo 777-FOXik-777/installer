@@ -1,34 +1,21 @@
 import os
-import wget
 
-# URL файла для скачивания
-url = "https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/version/3.0.0"
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
-# Путь к уже скачанному файлу
-local_file_path = "/data/data/com.termux/files/home/installer/Installer_Files/version/3.0.0"
 
-# Скачиваем файл
-filename = wget.download(url)
+os.system('git clone --depth 1  https://github.com/777-FOXik-777/installer updatepak')
 
-# Проверяем, существует ли уже скачанный файл
-if os.path.exists(local_file_path):
+def compare_files(file1_path, file2_path):
+    with open(file1_path, 'r') as file1, open(file2_path, 'r') as file2:
+        return file1.read() == file2.read()
 
-    # Сравниваем два файла
-    with open(filename, "rb") as f1, open(local_file_path, "rb") as f2:
-        diff = f1.read() != f2.read()
+# Пример использования
+file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/version/3.0.0"
+file2_path = "/data/data/com.termux/files/home/Installer_Files/version/3.0.0"
 
-    # Если файлы отличаются, выводим сообщение
-    if diff:
-        print("Файлы отличаются!")
+result = compare_files(file1_path, file2_path)
 
-    # Если файлы одинаковые, выводим сообщение
-    else:
-        print("Файлы одинаковые.")
-
+if result:
+    print("Содержимое файлов идентично.")
 else:
-
-    # Если файл не был скачан ранее, выводим сообщение
-    print("Файл не был скачан ранее.")
-
-# Удаляем временный файл
-os.remove(filename)
+    print("Содержимое файлов различно.")
