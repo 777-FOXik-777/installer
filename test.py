@@ -1,6 +1,6 @@
 import os
 
-os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+os.chdir('/data/data/com.termux/files/home/installer/Installer_Files/trash')
 
 
 os.system('git clone --depth 1  https://github.com/777-FOXik-777/installer updatepak')
@@ -10,8 +10,8 @@ def compare_files(file1_path, file2_path):
         return file1.read() == file2.read()
 
 # Пример использования
-file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/version/3.0.0"
-file2_path = "/data/data/com.termux/files/home/Installer_Files/version/3.0.0"
+file1_path = "/data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak/Installer_Files/version/3.0.0"
+file2_path = "/data/data/com.termux/files/home/installer/nstaller_Files/version/3.0.0"
 
 result = compare_files(file1_path, file2_path)
 
