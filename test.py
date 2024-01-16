@@ -9,6 +9,8 @@ def compare_files(file1_path, file2_path):
     with open(file1_path, 'r') as file1, open(file2_path, 'r') as file2:
         return file1.read() == file2.read()
 
+
+
 # Пример использования
 file1_path = "/data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak/Installer_Files/about/version"
 file2_path = "/data/data/com.termux/files/home/installer/Installer_Files/about/version"
@@ -16,6 +18,6 @@ file2_path = "/data/data/com.termux/files/home/installer/Installer_Files/about/v
 result = compare_files(file1_path, file2_path)
 
 if result:
-    print("Содержимое файлов идентично.")
+    print("Обновлений нету!")
 else:
-    print("Содержимое файлов различно.")
+    print("Есть обновление!")
