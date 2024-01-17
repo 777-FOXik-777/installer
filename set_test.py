@@ -98,11 +98,11 @@ while True:
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv setup_installer.py /data/data/com.termux/files/home/')
             os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
+            os.system('echo "rm -fr /data/data/com.termux/files/home/Installer_Files" >> ~/.bashrc')
             os.system('echo "cd && python setup_installer.py" >> ~/.bashrc')
             print(f'\33]0; Создайте новый сезон!\a',
                     end='', flush=True)  
             while True:
-                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files')
                 os.system('clear')
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
