@@ -419,7 +419,8 @@ if os.path.exists(filename):
 else:
   
     baner()
-    print (Fore.YELLOW+" ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновления...")
+    print(Fore.WHITE+'', Style.BRIGHT)
+    print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновления...")
     print(Fore.WHITE+'', Style.BRIGHT)
     time.sleep(1)
     
@@ -444,7 +445,8 @@ else:
     if result:
         os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
         baner()
-        print (Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
+        print(Fore.WHITE+'', Style.BRIGHT)
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
         print(Fore.WHITE+'', Style.BRIGHT)
         tsu = input(' [Нажмите Enter чтобы продолжить]')
         os.system('clear')
@@ -452,7 +454,8 @@ else:
     else:
         os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
         baner()
-        print (Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
+        print(Fore.WHITE+'', Style.BRIGHT)
+        print (Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
         print(Fore.WHITE+'', Style.BRIGHT)
         print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновить Installer?")
         print(Style.RESET_ALL)
@@ -469,6 +472,7 @@ else:
             while True:
                 os.system('clear')
                 baner()
+                print(Fore.WHITE+'', Style.BRIGHT)
                 print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                 lol = input('')
                 
