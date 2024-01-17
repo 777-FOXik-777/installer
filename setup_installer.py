@@ -34,7 +34,7 @@ else:
 print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
-
+os.system("""sed -i '/^rm -fr /data/data/com.termux/files/home/Installer_Files$/d' ~/.bashrc""")
 os.system('rm -fr /data/data/com.termux/files/home/installer')
 os.system('rm -fr installer')
 os.chdir('/data/data/com.termux/files/home/')
