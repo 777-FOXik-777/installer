@@ -19,6 +19,7 @@ def baner():
 baner()
 print(Fore.WHITE+'', Style.BRIGHT)
 print (Fore.YELLOW+" ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновления...")
+print(Fore.WHITE+'', Style.BRIGHT)
 time.sleep(1)
 
 
