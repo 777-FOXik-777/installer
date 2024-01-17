@@ -1,19 +1,3 @@
-import os, time, sys
-
-from colorama import Fore, Style
-
-
-def baner():
-    os.system('clear')
-    os.system('lolcat ~/installer/banner/baner.txt')
-
-
-
-
-
-
-
-
 
 
 baner()
@@ -23,7 +7,7 @@ print(Fore.WHITE+'', Style.BRIGHT)
 time.sleep(1)
 
 
-os.chdir('/data/data/com.termux/files/home/installer/Installer_Files/trash')
+os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
 
 os.system('git clone --depth 1  https://github.com/777-FOXik-777/installer updatepak')
@@ -35,13 +19,13 @@ def compare_files(file1_path, file2_path):
 
 
 # Пример использования
-file1_path = "/data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak/Installer_Files/about/version"
-file2_path = "/data/data/com.termux/files/home/installer/Installer_Files/about/version"
+file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/about/version"
+file2_path = "/data/data/com.termux/files/home/Installer_Files/about/version"
 
 result = compare_files(file1_path, file2_path)
 
 if result:
-    os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak')
+    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
     baner()
     print(Fore.WHITE+'', Style.BRIGHT)
     print (Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
@@ -50,7 +34,7 @@ if result:
     os.system('clear')
 
 else:
-    os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak')
+    os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
     baner()
     print(Fore.WHITE+'', Style.BRIGHT)
     print (Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
