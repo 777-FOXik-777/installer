@@ -355,7 +355,7 @@ while True:
             Kfuscator = ""+Fore.RED+"X"
           
           baner()
-          print(Style.BRIGHT, Fore.CYAN+"Выбери какую именно удалить Утилиту:")
+          print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выбери какую именно удалить Утилиту:")
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (1) ➤")
           res()
