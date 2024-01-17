@@ -83,14 +83,36 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Вы точно хотите Обновить/Переустановить Installer?")
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Phoneinfoga позволяет узнать инофрмацию о номере")
         res()
-        tru_201 = input(' Выбери пункт [y/n] ➤ ')
-        if tru_201 == 'y':
+        print(Style.BRIGHT,Fore.YELLOW+"[1] Проверить наличие обновлений")
+        print(Style.BRIGHT,Fore.YELLOW+"[2] Глобальная переустановка")
+        print(Style.BRIGHT,Fore.YELLOW+"[3] Простая переустановка")
+        res()
+        print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+        res()
+        tru_201 = input(' Выбери пункт ➤ ')
+
+        if tru_201 == '2':
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files')
             os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-            os.system('rm ~/.bashrc')
+            os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
+            os.system('echo "cd && python setup_installer.py" >> ~/.bashrc')
+            print(f'\33]0; Создайте новый сезон!\a',
+                    end='', flush=True)  
+            while True:
+                os.system('clear')
+                baner()
+                print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
+                lol = input('')
+              
+        if tru_201 == '3':
+            os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
+            os.chdir('/data/data/com.termux/files/home/installer')
+            os.system('mv setup_installer.py /data/data/com.termux/files/home/')
+            os.system("""sed -i '/^cd && cd installer && python testinstaller.py$/d' ~/.bashrc""")
             os.system('echo "cd && python setup_installer.py" >> ~/.bashrc')
             print(f'\33]0; Создайте новый сезон!\a',
                     end='', flush=True)  
