@@ -94,7 +94,6 @@ while True:
         tru_201 = input(' Выбери пункт ➤ ')
 
         if tru_201 == '2':
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files')
             os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv setup_installer.py /data/data/com.termux/files/home/')
@@ -103,6 +102,7 @@ while True:
             print(f'\33]0; Создайте новый сезон!\a',
                     end='', flush=True)  
             while True:
+                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files')
                 os.system('clear')
                 baner()
                 print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
