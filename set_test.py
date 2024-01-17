@@ -95,7 +95,7 @@ while True:
       
         if tru_201 == '1':
           baner()
-          print (Fore.YELLOW+" ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновления...")
+          print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновления...")
           print(Fore.WHITE+'', Style.BRIGHT)
           time.sleep(1)
           
@@ -120,7 +120,7 @@ while True:
           if result:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
               baner()
-              print (Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
+              print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
               print(Fore.WHITE+'', Style.BRIGHT)
               tsu = input(' [Нажмите Enter чтобы продолжить]')
               os.system('clear')
@@ -128,7 +128,7 @@ while True:
           else:
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
               baner()
-              print (Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
+              print (Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
               print(Fore.WHITE+'', Style.BRIGHT)
               print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновить Installer?")
               print(Style.RESET_ALL)
