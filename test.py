@@ -41,12 +41,15 @@ file2_path = "/data/data/com.termux/files/home/installer/Installer_Files/about/v
 result = compare_files(file1_path, file2_path)
 
 if result:
+    os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak')
     baner()
     print(Fore.WHITE+'', Style.BRIGHT)
     print (Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
 
 
 else:
+    os.system('rm -fr /data/data/com.termux/files/home/installer/Installer_Files/trash/updatepak')
     baner()
     print(Fore.WHITE+'', Style.BRIGHT)
     print (Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
+    
