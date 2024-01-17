@@ -56,7 +56,7 @@ else:
     print (Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
     print(Fore.WHITE+'', Style.BRIGHT)
     print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновить Installer ?")
-    res()
+    print(Style.RESET_ALL)
     uodate = input(' Выбери пункт [y/n] ➤ ')
     
     if uodate == 'y':
