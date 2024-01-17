@@ -7,7 +7,6 @@ import os
 def baner():
     os.system('clear')
     os.system('lolcat ~/installer/banner/baner.txt')
-    res()
 
 
 
