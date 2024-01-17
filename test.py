@@ -1,12 +1,18 @@
-import os
+import os, time, sys
 
-
-
+from colorama import Fore, Style
 
 
 def baner():
     os.system('clear')
     os.system('lolcat ~/installer/banner/baner.txt')
+
+
+
+
+
+
+
 
 
 
