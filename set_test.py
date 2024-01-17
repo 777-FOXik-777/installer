@@ -83,7 +83,7 @@ while True:
     if inp == '1':
         os.system('clear')
         baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"!"+Fore.YELLOW+"] Phoneinfoga позволяет узнать инофрмацию о номере")
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Инструменты для Обновлению/Переустановке")
         res()
         print(Style.BRIGHT,Fore.YELLOW+"[1] Проверить наличие обновлений")
         print(Style.BRIGHT,Fore.YELLOW+"[2] Глобальная переустановка")
