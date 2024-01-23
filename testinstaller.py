@@ -500,7 +500,7 @@ else:
             os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-            os.system("""sed -i '/cd ~\/ && python testinstaller.py/d' ~/.bashrc""")
+            os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
             os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
             print(f'\33]0; Создайте новый сезон!\a',
                     end='', flush=True)  
