@@ -142,8 +142,11 @@ else:
     res()
     time.sleep(1.5)
     os.system('pkg install python3 -y')
-  
 
+    #запуск на installer
+    os.system("""sed -i '/alias installer="cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
+
+  
     os.system('rm -fr tg_SYPEXHACK')
     os.chdir('/data/data/com.termux/files/home/installer')
   
