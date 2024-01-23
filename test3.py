@@ -293,7 +293,7 @@ if leave == 'e':
     os.system('clear')
     os.system('lolcat baner.txt')
     print(Fore.CYAN+'', Style.BRIGHT)
-    print(' Telegram: @SYPEXHACK желает вам '+Fore.YELLOW+'Хорошего дня!')
+    print (Fore.YELLOW+" ["+Fore.CYAN+"~"+Fore.YELLOW+"] "+Fore.CYAN+"Telegram: @SYPEXHACK желает вам "+Fore.YELLOW+"Хорошего дня!")
   
     lomik = "echo  "
 
