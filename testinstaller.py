@@ -460,8 +460,7 @@ else:
             return file1.read() == file2.read()
     
     
-    
-    # Пример использования
+  
     file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/about/version"
     file2_path = "/data/data/com.termux/files/home/Installer_Files/about/version"
     
@@ -597,7 +596,7 @@ if os.path.exists(filename):
 
 else:
 
-  os.system('echo "cd && cd installer && python installer.py" >> ~/.bashrc')
+  os.system('echo "cd && cd installer && python testinstaller.py" >> ~/.bashrc')
   os.system('clear')
 
 
