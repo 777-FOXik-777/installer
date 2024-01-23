@@ -222,7 +222,8 @@ else:
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash")
   
     os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-  
+
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/Auto')
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/hack")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
