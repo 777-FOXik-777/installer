@@ -46,9 +46,15 @@ print(Style.RESET_ALL)
 os.system('git clone https://github.com/777-FOXik-777/installer')
 
 
-os.system('rm -fr ~/.bashrc')
-os.system("""alias installer="cd ~/installer && python testinstaller.py" """)
+
+
+
+os.system("""sed -i '/rm -fr \/data\/data\/com\.termux\/files\/home\/Installer_Files/d' ~/.bashrc""")
+os.system("""sed -i '/cd ~\/ && python setup_installer.py/d' ~/.bashrc""")
+
+os.system("""sed -i '/alias installer="cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
 os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
+
 
 
 
