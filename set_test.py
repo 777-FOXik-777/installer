@@ -111,7 +111,6 @@ while True:
           
           
           
-          # Пример использования
           file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/about/version"
           file2_path = "/data/data/com.termux/files/home/Installer_Files/about/version"
           
