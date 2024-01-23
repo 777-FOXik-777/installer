@@ -47,7 +47,7 @@ print(Style.RESET_ALL)
 
 os.system('git clone https://github.com/777-FOXik-777/installer')
 
-os.system("""sed -i '/^cd ~/ && setup_installer.py$/d' ~/.bashrc""")
+os.system("""sed -i '/^cd ~/ && python setup_installer.py$/d' ~/.bashrc""")
 
 
 
