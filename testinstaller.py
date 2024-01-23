@@ -76,6 +76,31 @@ else:
 
 
 
+
+
+
+# легкий запуск
+
+
+os.system('clear')
+
+filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
+
+if os.path.exists(filename):
+    
+    os.system('clear')
+
+
+else:
+
+    os.system("""alias installer="cd ~/installer && python testinstaller.py" """)
+    os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
+
+
+
+
+  
+
 # зависимости
 
 
