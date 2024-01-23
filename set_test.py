@@ -137,7 +137,7 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
                   os.chdir('/data/data/com.termux/files/home/installer')
                   os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-                  os.system("""sed -i '/^cd ~/installer && python testinstaller.py$/d' ~/.bashrc""")
+                  os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
                   os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
                   print(f'\33]0; Создайте новый сезон!\a',
                           end='', flush=True)  
@@ -155,7 +155,7 @@ while True:
             os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-            os.system("""sed -i '/^cd ~/installer && python testinstaller.py$/d' ~/.bashrc""")
+            os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
             os.system('echo "rm -fr /data/data/com.termux/files/home/Installer_Files" >> ~/.bashrc')
             os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
             print(f'\33]0; Создайте новый сезон!\a',
@@ -170,7 +170,7 @@ while True:
             os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
             os.chdir('/data/data/com.termux/files/home/installer')
             os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-            os.system("""sed -i '/^cd ~/installer && python testinstaller.py$/d' ~/.bashrc""")
+            os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
             os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
             print(f'\33]0; Создайте новый сезон!\a',
                     end='', flush=True)  
@@ -737,7 +737,7 @@ while True:
         tru_101 = input(' Выбери пункт ➤ ')
 
         if tru_101 == '1':
-            os.system("""sed -i '/^cd ~/installer && python testinstaller.py$/d' ~/.bashrc""")
+            os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
             os.system('echo "cd ~/installer && python testinstaller.py" >> ~/.bashrc')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
             os.system('clear')
@@ -755,7 +755,7 @@ while True:
               exit()
               
             else:
-              os.system("""sed -i '/^cd ~/installer && python testinstaller.py$/d' ~/.bashrc""")
+              os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
               os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
               baner()
               print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
