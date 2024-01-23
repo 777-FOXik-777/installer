@@ -59,8 +59,7 @@ python installer.py
 ## [√] Для повторного запуска:
 
 ``` 
-cd installer
-python installer.py
+installer
 ``` 
 
 ## [?] Решение типичных проблем:
