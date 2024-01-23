@@ -230,6 +230,12 @@ else:
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/ngrok")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/sypexhack")
+
+
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/about")
+    os.chdir('/data/data/com.termux/files/home/Installer_Files/about')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/about/version')
+    
     print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
