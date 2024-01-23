@@ -18,6 +18,7 @@ os.system("""sed -i '/^cd ~/ && python setup_installer.py$/d' ~/.bashrc""")
 os.system("""sed -i '/^rm -fr /data/data/com.termux/files/home/Installer_Files$/d' ~/.bashrc""")
 
 
+sys.exit()
 
 filename = "/data/data/com.termux/files/home/installer/setup_installer.py"
 
