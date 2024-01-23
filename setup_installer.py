@@ -14,6 +14,10 @@ from colorama import Fore, Style
 
 os.system('clear')
 
+os.system("""sed -i '/^cd ~/ && python setup_installer.py$/d' ~/.bashrc""")
+os.system("""sed -i '/^rm -fr /data/data/com.termux/files/home/Installer_Files$/d' ~/.bashrc""")
+
+
 
 filename = "/data/data/com.termux/files/home/installer/setup_installer.py"
 
@@ -34,7 +38,6 @@ else:
 print(f'\33]0; Installer - Установка...\a',
                   end='', flush=True)
 
-os.system("""sed -i '/^rm -fr /data/data/com.termux/files/home/Installer_Files$/d' ~/.bashrc""")
 os.system('rm -fr /data/data/com.termux/files/home/installer')
 os.system('rm -fr installer')
 os.chdir('/data/data/com.termux/files/home/')
@@ -46,10 +49,6 @@ time.sleep(1.5)
 print(Style.RESET_ALL)
 
 os.system('git clone https://github.com/777-FOXik-777/installer')
-
-os.system("""sed -i '/^cd ~/ && python setup_installer.py$/d' ~/.bashrc""")
-
-
 
 
 
