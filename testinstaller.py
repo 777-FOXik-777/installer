@@ -77,28 +77,6 @@ else:
 
 
 
-
-
-# легкий запуск
-
-
-os.system('clear')
-
-filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
-
-if os.path.exists(filename):
-    
-    os.system('clear')
-
-
-else:
-
-    os.system("""alias installer="cd ~/installer && python testinstaller.py" """)
-    os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
-
-
-
-
   
 
 # зависимости
@@ -164,6 +142,7 @@ else:
     res()
     time.sleep(1.5)
     os.system('pkg install python3 -y')
+    os.system("""sed -i '/^alias installer="cd ~/installer && python testinstaller.py"$/d' ~/.bashrc""")
 
 
     os.system('rm -fr tg_SYPEXHACK')
@@ -185,6 +164,30 @@ def baner():
     os.system('clear')
     os.system('lolcat baner.txt')
     os.chdir('/data/data/com.termux/files/home/Installer_Files')
+
+
+
+
+
+
+
+# легкий запуск
+
+
+os.system('clear')
+
+filename = "/data/data/com.termux/files/home/Installer_Files/trash/tg_SYPEXHACK"
+
+if os.path.exists(filename):
+    
+    os.system('clear')
+
+
+else:
+
+    os.system("""alias installer="cd ~/installer && python testinstaller.py" """)
+    os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
+
 
 
 
