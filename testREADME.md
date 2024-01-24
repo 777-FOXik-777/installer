@@ -95,7 +95,7 @@ installer
 
 
 
-<div style="display: flex; justify-content: space-between;">
+<figure style="display: flex;">
     <img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt="Фото 1" />
     <img src="https://github.com/777-oleg-777/test/blob/main/4present.jpg" alt="Фото 2" />
-</div>
+</figure>
