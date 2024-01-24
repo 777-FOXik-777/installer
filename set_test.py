@@ -166,7 +166,8 @@ while True:
                   baner()
                   print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                   lol = input('')
-                
+
+          
           if tru_201 == '3':
               os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
               os.chdir('/data/data/com.termux/files/home/installer')
@@ -180,12 +181,18 @@ while True:
                   baner()
                   print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                   lol = input('')
-          else:
-              os.system('clear')
-  
-  
 
-  
+          
+          if tru_201 == 'e':
+            os.system('clear')
+            break
+
+          
+          else:
+            os.system('clear')  
+
+
+
   
     if inp == '2':
         os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
