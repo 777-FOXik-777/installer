@@ -792,7 +792,7 @@ while True:
           tru_70 = input(' Выбери пункт ➤ ')
 
 
-          if tru_70 == '11':
+          if tru_70 == '1':
               os.chdir('/data/data/com.termux/files/home/Installer_Files')
               filename = "tmate"
       
@@ -831,7 +831,7 @@ while True:
                       print(Fore.WHITE+'', Style.BRIGHT)
                       print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
                       res()
-                      os.system("""ssh -R 80:localhost:"""+tru_201+""" serveo.net -T -n 2>&1 | awk '/serveo.net/ {print $5}'""")
+                      os.system("""tmate -F | awk 'NR == 5 {print $3}'""")
                       exit()
 
                   else:
@@ -877,7 +877,7 @@ while True:
                       print(Fore.WHITE+'', Style.BRIGHT)
                       print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
                       res()
-                      os.system("""ssh -R 80:localhost:"""+tru_201+""" serveo.net -T -n 2>&1 | awk '/serveo.net/ {print $5}'""")
+                      os.system("""tmate -F | awk 'NR == 5 {print $3}'""")
                       exit()
 
                   else:
