@@ -95,4 +95,4 @@ installer
 
 
 
-![Installer](https://github.com/777-oleg-777/test/blob/main/1present.jpg) | ![Installer](https://github.com/777-oleg-777/test/blob/main/4present.jpg)
+| ![Installer](https://github.com/777-oleg-777/test/blob/main/1present.jpg) | ![Installer](https://github.com/777-oleg-777/test/blob/main/4present.jpg) |
