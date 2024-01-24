@@ -840,7 +840,7 @@ while True:
               else:
                   print(Fore.WHITE+'', Style.BRIGHT)
                   os.system('clear')
-                  print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Tmate еще НЕ установлен!")
+                  print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] c еще НЕ установлен!")
                   time.sleep(2)
       
                   print(Fore.WHITE+'', Style.BRIGHT)
@@ -848,6 +848,7 @@ while True:
                   print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tmate...")
                   res()
                   os.system('pkg install tmate -y')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tmate')
                   print(Fore.WHITE+'', Style.BRIGHT)
                   os.system('clear')
                   print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
