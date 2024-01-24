@@ -607,7 +607,7 @@ if os.path.exists(filename):
 
 else:
 
-  os.system("""sed -i '/^cd ~/installer && python testinstaller.py$/d' ~/.bashrc""")
+  os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
   os.system('echo "cd ~/installer && python testinstaller.py" >> ~/.bashrc')
 
 
