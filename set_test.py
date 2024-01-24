@@ -81,108 +81,109 @@ while True:
 
   
     if inp == '1':
-        os.system('clear')
-        baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Инструменты для управления Installer")
-        res()
-        print(Style.BRIGHT,Fore.YELLOW+"[1] Проверить наличие обновлений")
-        print(Style.BRIGHT,Fore.YELLOW+"[2] Глобальная переустановка")
-        print(Style.BRIGHT,Fore.YELLOW+"[3] Простая переустановка")
-        res()
-        print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
-        res()
-        tru_201 = input(' Выбери пункт ➤ ')
-      
-        if tru_201 == '1':
+        while True:
+          os.system('clear')
           baner()
-          print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновления...")
-          print(Fore.WHITE+'', Style.BRIGHT)
-          time.sleep(1)
-          
-          
-          os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-          
-          
-          os.system('git clone --depth 1  https://github.com/777-FOXik-777/installer updatepak')
-          
-          def compare_files(file1_path, file2_path):
-              with open(file1_path, 'r') as file1, open(file2_path, 'r') as file2:
-                  return file1.read() == file2.read()
-          
-          
-          
-          file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/about/version"
-          file2_path = "/data/data/com.termux/files/home/Installer_Files/about/version"
-          
-          result = compare_files(file1_path, file2_path)
-          
-          if result:
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
-              baner()
-              print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
-              print(Fore.WHITE+'', Style.BRIGHT)
-              tsu = input(' [Нажмите Enter чтобы продолжить]')
-              os.system('clear')
-          
-          else:
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
-              baner()
-              print (Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
-              print(Fore.WHITE+'', Style.BRIGHT)
-              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновить Installer?")
-              print(Style.RESET_ALL)
-              uodate = input(' Выбери пункт [y/n] ➤ ')
-              
-              if uodate == 'y':
-                  os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
-                  os.chdir('/data/data/com.termux/files/home/installer')
-                  os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-                  os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
-                  os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
-                  print(f'\33]0; Создайте новый сезон!\a',
-                          end='', flush=True)  
-                  while True:
-                      os.system('clear')
-                      baner()
-                      print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
-                      lol = input('')
-                      
-              else:
+          print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Инструменты для управления Installer")
+          res()
+          print(Style.BRIGHT,Fore.YELLOW+"[1] Проверить наличие обновлений")
+          print(Style.BRIGHT,Fore.YELLOW+"[2] Глобальная переустановка")
+          print(Style.BRIGHT,Fore.YELLOW+"[3] Простая переустановка")
+          res()
+          print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+          res()
+          tru_201 = input(' Выбери пункт ➤ ')
+        
+          if tru_201 == '1':
+            baner()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновления...")
+            print(Fore.WHITE+'', Style.BRIGHT)
+            time.sleep(1)
+            
+            
+            os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+            
+            
+            os.system('git clone --depth 1  https://github.com/777-FOXik-777/installer updatepak')
+            
+            def compare_files(file1_path, file2_path):
+                with open(file1_path, 'r') as file1, open(file2_path, 'r') as file2:
+                    return file1.read() == file2.read()
+            
+            
+            
+            file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/about/version"
+            file2_path = "/data/data/com.termux/files/home/Installer_Files/about/version"
+            
+            result = compare_files(file1_path, file2_path)
+            
+            if result:
+                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
+                baner()
+                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                tsu = input(' [Нажмите Enter чтобы продолжить]')
+                os.system('clear')
+            
+            else:
+                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
+                baner()
+                print (Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновить Installer?")
+                print(Style.RESET_ALL)
+                uodate = input(' Выбери пункт [y/n] ➤ ')
+                
+                if uodate == 'y':
+                    os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
+                    os.chdir('/data/data/com.termux/files/home/installer')
+                    os.system('mv setup_installer.py /data/data/com.termux/files/home/')
+                    os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
+                    os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
+                    print(f'\33]0; Создайте новый сезон!\a',
+                            end='', flush=True)  
+                    while True:
+                        os.system('clear')
+                        baner()
+                        print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
+                        lol = input('')
+                        
+                else:
+                    os.system('clear')
+  
+        
+          if tru_201 == '2':
+              os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
+              os.chdir('/data/data/com.termux/files/home/installer')
+              os.system('mv setup_installer.py /data/data/com.termux/files/home/')
+              os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
+              os.system('echo "rm -fr /data/data/com.termux/files/home/Installer_Files" >> ~/.bashrc')
+              os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
+              print(f'\33]0; Создайте новый сезон!\a',
+                      end='', flush=True)  
+              while True:
                   os.system('clear')
-
-      
-        if tru_201 == '2':
-            os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-            os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
-            os.system('echo "rm -fr /data/data/com.termux/files/home/Installer_Files" >> ~/.bashrc')
-            os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
-            print(f'\33]0; Создайте новый сезон!\a',
-                    end='', flush=True)  
-            while True:
-                os.system('clear')
-                baner()
-                print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
-                lol = input('')
-              
-        if tru_201 == '3':
-            os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
-            os.chdir('/data/data/com.termux/files/home/installer')
-            os.system('mv setup_installer.py /data/data/com.termux/files/home/')
-            os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
-            os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
-            print(f'\33]0; Создайте новый сезон!\a',
-                    end='', flush=True)  
-            while True:
-                os.system('clear')
-                baner()
-                print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
-                lol = input('')
-        else:
-            os.system('clear')
-
-
+                  baner()
+                  print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
+                  lol = input('')
+                
+          if tru_201 == '3':
+              os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
+              os.chdir('/data/data/com.termux/files/home/installer')
+              os.system('mv setup_installer.py /data/data/com.termux/files/home/')
+              os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
+              os.system('echo "cd ~/ && python setup_installer.py" >> ~/.bashrc')
+              print(f'\33]0; Создайте новый сезон!\a',
+                      end='', flush=True)  
+              while True:
+                  os.system('clear')
+                  baner()
+                  print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
+                  lol = input('')
+          else:
+              os.system('clear')
+  
+  
 
   
   
