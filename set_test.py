@@ -809,24 +809,34 @@ while True:
                   baner()
                   print(Style.BRIGHT,Fore.CYAN+"[Tmate]")
                   res()
-                  print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Phoneinfoga позволяет узнать инофрмацию о номере")
+                  print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Tmate позволяет получить онлайн доступ терминала")
                   res()
-                  print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример номера:"+Fore.CYAN+" +3396360XXXX")
+                  print(Style.BRIGHT,Fore.YELLOW+"[y] Запустить")
                   res()
                   print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
                   res()
-                  tru_701 = input(' Введите номер ➤ ')
-                
-                  if tru_701 == 'e':
+                  tru_501 = input(' Введите порт ➤ ')
+                  
+                  if tru_501 == 'y':
+
+                      print(Fore.WHITE+'', Style.BRIGHT)
                       os.system('clear')
-      
+                      print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                      time.sleep(1)
+                      os.system('clear')
+                      baner()
+                      print(Style.BRIGHT,Fore.CYAN+"[Tmate]")
+                      print(Fore.WHITE+'', Style.BRIGHT)
+                      print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
+                      print(Fore.WHITE+'', Style.BRIGHT)
+                      print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                      res()
+                      os.system("""ssh -R 80:localhost:"""+tru_201+""" serveo.net -T -n 2>&1 | awk '/serveo.net/ {print $5}'""")
+                      exit()
+
                   else:
                       os.system('clear')
-                      os.system('python phoneinfoga.py -n '+tru_701+'')
-                      os.system('clear')
-                      exit()
-      
-      
+
               else:
                   print(Fore.WHITE+'', Style.BRIGHT)
                   os.system('clear')
@@ -851,20 +861,29 @@ while True:
                   res()
                   print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
                   res()
-                  tru_701 = input(' Введите номер ➤ ')
-      
-                  if tru_701 == 'e':
+                  tru_501 = input(' Введите порт ➤ ')
+                  
+                  if tru_501 == 'y':
+
+                      print(Fore.WHITE+'', Style.BRIGHT)
                       os.system('clear')
-      
+                      print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                      time.sleep(1)
+                      os.system('clear')
+                      baner()
+                      print(Style.BRIGHT,Fore.CYAN+"[Tmate]")
+                      print(Fore.WHITE+'', Style.BRIGHT)
+                      print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
+                      print(Fore.WHITE+'', Style.BRIGHT)
+                      print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                      res()
+                      os.system("""ssh -R 80:localhost:"""+tru_201+""" serveo.net -T -n 2>&1 | awk '/serveo.net/ {print $5}'""")
+                      exit()
+
                   else:
                       os.system('clear')
-                      os.system('python phoneinfoga.py -n '+tru_701+'')
-                      os.system('clear')
-                      exit()
-      
-      
-      
-      
+
+
       
 
 
