@@ -778,27 +778,32 @@ while True:
   
 
     if inp == '7':
-        os.system('clear')
-        baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Инструменты для управления Termux")
-        res()
-        print(Style.BRIGHT,Fore.YELLOW+"[1] Проверить наличие обновлений")
-        print(Style.BRIGHT,Fore.YELLOW+"[2] Глобальная переустановка")
-        print(Style.BRIGHT,Fore.YELLOW+"[3] Простая переустановка")
-        res()
-        print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
-        res()
-        tru_70 = input(' Выбери пункт ➤ ')
-      
-        if tru_70 == '1':
-          os.system('git clone https://github.com/777-oleg-777/test')
-          os.chdir('test')
-          os.system('sh test.sh')
+        while True:
           os.system('clear')
+          baner()
+          print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Инструменты для управления Termux")
+          res()
+          print(Style.BRIGHT,Fore.YELLOW+"[1] Удалленный доступ")
+          print(Style.BRIGHT,Fore.YELLOW+"[2] Стиль и цвет")
+          print(Style.BRIGHT,Fore.YELLOW+"[3] Пароль")
+          res()
+          print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+          res()
+          tru_70 = input(' Выбери пункт ➤ ')
+        
+          if tru_70 == '1':
+            os.system('git clone https://github.com/777-oleg-777/test')
+            os.chdir('test')
+            os.system('sh test.sh')
+            os.system('clear')
 
 
 
 
+          
+          
+          if tru_70 == 'e':
+              break
 
 
 
