@@ -104,8 +104,8 @@ installer
       <li><img src="imgs/cat3.jpg" alt=""></li>
       <li><img src="imgs/cat4.jpg" alt=""></li>
       <li><img src="imgs/cat5.jpg" alt=""></li> -->
-      <li><img src="[holder.js/1100x326?bg=f8fa78](https://github.com/777-oleg-777/test/blob/main/logo-installer.jpg)" alt=""></li>
-      <li><img src="[holder.js/1100x326?bg=2ac726](https://github.com/777-oleg-777/test/blob/main/1present.jpg)" alt=""></li>
+      <li><img src="https://github.com/777-oleg-777/test/blob/main/logo-installer.jpg" alt=""></li>
+      <li><img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt=""></li>
       <li><img src="holder.js/1100x326?bg=fae171" alt=""></li>
       <li><img src="holder.js/1100x326?bg=336699" alt=""></li>
       <li><img src="holder.js/1100x326?bg=e84a15" alt=""></li>
