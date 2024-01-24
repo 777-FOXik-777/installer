@@ -96,5 +96,8 @@ installer
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt="Изображение 1" width="48%">
+    <img src="https://github.com/777-oleg-777/test/blob/main/2present.jpg" alt="Изображение 2" width="48%">
+</div>
+<div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/777-oleg-777/test/blob/main/4present.jpg" alt="Изображение 2" width="48%">
 </div>
