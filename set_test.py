@@ -791,7 +791,11 @@ while True:
           res()
           tru_70 = input(' Выбери пункт ➤ ')
         
-          if tru_70 == '1':
+          if tru_70 == '2':
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
+            res()
             os.system('git clone https://github.com/777-oleg-777/test')
             os.chdir('test')
             os.system('sh test.sh')
