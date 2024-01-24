@@ -54,7 +54,10 @@ python installer.py
 
 <h1 align="center">Снимок некоторых возможностей:</h1>
 
-![Installer](https://github.com/777-oleg-777/test/blob/main/1present.jpg)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt="Изображение 1" width="48%">
+    <img src="https://github.com/777-oleg-777/test/blob/main/4present.jpg" alt="Изображение 2" width="48%">
+</div>
 
 ## [√] Для повторного запуска:
 
@@ -92,12 +95,3 @@ installer
 
 > [!WARNING]\
 > Этот инструмент создан с целью обучения и повышения квалификации в области хакинга и безопасности. Некоторые утилиты, фото, и другие файлы, которые используются в этом инструменте, взяты из открытых источников и принадлежат их законным авторам. Разработчик не несет ответственности за неправомерное использование этого инструмента и уважает права и интересы законных авторов.
-
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt="Изображение 1" width="48%">
-    <img src="https://github.com/777-oleg-777/test/blob/main/2present.jpg" alt="Изображение 2" width="48%">
-</div>
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/777-oleg-777/test/blob/main/4present.jpg" alt="Изображение 2" width="48%">
-</div>
