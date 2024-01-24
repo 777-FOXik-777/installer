@@ -803,7 +803,8 @@ while True:
           
           
           if tru_70 == 'e':
-              break
+            os.system('clear')
+            break
 
 
 
