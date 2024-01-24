@@ -822,7 +822,7 @@ while True:
   
   
     if inp == 'h':
-        os.system('xdg-open https://t.me/SYPEXHACK_help_bot')
+        os.system('xdg-open https://forms.gle/oWX9KzGbJoUixHPp9')
         os.system('clear')
 
 
