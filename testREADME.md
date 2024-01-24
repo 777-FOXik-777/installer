@@ -94,3 +94,23 @@ installer
 > Этот инструмент создан с целью обучения и повышения квалификации в области хакинга и безопасности. Некоторые утилиты, фото, и другие файлы, которые используются в этом инструменте, взяты из открытых источников и принадлежат их законным авторам. Разработчик не несет ответственности за неправомерное использование этого инструмента и уважает права и интересы законных авторов.
 
 
+
+<h1>пример построения карусели</h1>
+
+  <div id="carousel">
+    <ul>
+<!--       <li><img src="imgs/cat1.jpg" alt=""></li>
+      <li><img src="imgs/cat2.jpg" alt=""></li>
+      <li><img src="imgs/cat3.jpg" alt=""></li>
+      <li><img src="imgs/cat4.jpg" alt=""></li>
+      <li><img src="imgs/cat5.jpg" alt=""></li> -->
+      <li><img src="holder.js/1100x326?bg=f8fa78" alt=""></li>
+      <li><img src="holder.js/1100x326?bg=2ac726" alt=""></li>
+      <li><img src="holder.js/1100x326?bg=fae171" alt=""></li>
+      <li><img src="holder.js/1100x326?bg=336699" alt=""></li>
+      <li><img src="holder.js/1100x326?bg=e84a15" alt=""></li>
+    </ul>
+    <a href="#" class="previous"><span>Prev</span></a>
+    <a href="#" class="next"><span>Next</span></a>
+  </div>
+
