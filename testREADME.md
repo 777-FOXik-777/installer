@@ -92,3 +92,77 @@ installer
 
 > [!WARNING]\
 > Этот инструмент создан с целью обучения и повышения квалификации в области хакинга и безопасности. Некоторые утилиты, фото, и другие файлы, которые используются в этом инструменте, взяты из открытых источников и принадлежат их законным авторам. Разработчик не несет ответственности за неправомерное использование этого инструмента и уважает права и интересы законных авторов.
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .carousel {
+      display: flex;
+      overflow: hidden;
+      width: 300px; /* Укажите нужную ширину */
+    }
+
+    .carousel img {
+      width: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    #prevBtn, #nextBtn {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      color: white;
+      background-color: black;
+      border: none;
+      padding: 10px;
+      z-index: 1;
+    }
+
+    #prevBtn { left: 0; }
+    #nextBtn { right: 0; }
+  </style>
+</head>
+<body>
+
+<div class="carousel">
+  <button id="prevBtn" onclick="prevSlide()">❮</button>
+  <img src="image1.jpg" alt="Image 1">
+  <img src="image2.jpg" alt="Image 2">
+  <img src="image3.jpg" alt="Image 3">
+  <!-- Добавьте больше изображений по необходимости -->
+  <button id="nextBtn" onclick="nextSlide()">❯</button>
+</div>
+
+<script>
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    const carousel = document.querySelector('.carousel');
+    const slideWidth = carousel.clientWidth;
+    const newTransformValue = -index * slideWidth + 'px';
+    carousel.style.transform = 'translateX(' + newTransformValue + ')';
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % document.querySelectorAll('.carousel img').length;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + document.querySelectorAll('.carousel img').length) % document.querySelectorAll('.carousel img').length;
+    showSlide(currentSlide);
+  }
+</script>
+
+</body>
+</html>
