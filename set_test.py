@@ -790,7 +790,85 @@ while True:
           print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
           res()
           tru_70 = input(' Выбери пункт ➤ ')
-        
+
+
+          if tru_70 == '11':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files')
+              filename = "tmate"
+      
+              if os.path.exists(filename):
+                  print(Fore.WHITE+'', Style.BRIGHT)
+                  os.system('clear')
+                  print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Tmate уже установлен!")
+                  time.sleep(2)
+                  print(Fore.WHITE+'', Style.BRIGHT)
+                  os.system('clear')
+                  print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                  time.sleep(0.5)
+                
+                  baner()
+                  print(Style.BRIGHT,Fore.CYAN+"[Tmate]")
+                  res()
+                  print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Phoneinfoga позволяет узнать инофрмацию о номере")
+                  res()
+                  print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример номера:"+Fore.CYAN+" +3396360XXXX")
+                  res()
+                  print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+                  res()
+                  tru_701 = input(' Введите номер ➤ ')
+                
+                  if tru_701 == 'e':
+                      os.system('clear')
+      
+                  else:
+                      os.system('clear')
+                      os.system('python phoneinfoga.py -n '+tru_701+'')
+                      os.system('clear')
+                      exit()
+      
+      
+              else:
+                  print(Fore.WHITE+'', Style.BRIGHT)
+                  os.system('clear')
+                  print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Tmate еще НЕ установлен!")
+                  time.sleep(2)
+      
+                  print(Fore.WHITE+'', Style.BRIGHT)
+                  os.system('clear')
+                  print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tmate...")
+                  res()
+                  os.system('pkg install tmate -y')
+                  print(Fore.WHITE+'', Style.BRIGHT)
+                  os.system('clear')
+                  print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                  time.sleep(0.5)
+                  baner()
+                  print(Style.BRIGHT,Fore.CYAN+"[Tmate]")
+                  res()
+                  print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Phoneinfoga позволяет узнать инофрмацию о номере")
+                  res()
+                  print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример номера:"+Fore.CYAN+" +3396360XXXX")
+                  res()
+                  print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+                  res()
+                  tru_701 = input(' Введите номер ➤ ')
+      
+                  if tru_701 == 'e':
+                      os.system('clear')
+      
+                  else:
+                      os.system('clear')
+                      os.system('python phoneinfoga.py -n '+tru_701+'')
+                      os.system('clear')
+                      exit()
+      
+      
+      
+      
+      
+
+
+          
           if tru_70 == '2':
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
