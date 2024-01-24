@@ -95,7 +95,8 @@ installer
 
 
 
-<figure style="display: flex;">
+<p align="center">
     <img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt="Фото 1" />
     <img src="https://github.com/777-oleg-777/test/blob/main/4present.jpg" alt="Фото 2" />
-</figure>
+</p>
+
