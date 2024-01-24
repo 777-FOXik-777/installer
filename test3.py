@@ -298,3 +298,13 @@ if leave == 'e':
     lomik = "echo  "
 
 os.system(""+lomik+"")
+
+
+#--------------------------------------------------
+# ToolName   : Installer
+# Author     : SYPEXHACK
+# Github     : https://github.com/777-FOXik-777
+# Contact    : https://t.me/SYPEXHACK
+# 1st Commit : 2022
+# Language   : Python
+#--------------------------------------------------
