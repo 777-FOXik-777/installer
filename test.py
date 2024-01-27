@@ -1,6 +1,8 @@
 import requests
 import awk
 
+from awk import run
+
 url = "https://www.olx.ua/uk/"
 
 response = requests.get(url)
