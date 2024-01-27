@@ -4,7 +4,7 @@ import tempfile
 import os
 
 # Замените 'ваша_ссылка' на фактическую ссылку страницы
-url = 'ваша_ссылка'
+url = 'https://www.olx.ua/uk/'
 
 # Скачиваем страницу
 response = requests.get(url)
