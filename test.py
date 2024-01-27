@@ -25,7 +25,7 @@ subprocess.run(ssh_command, shell=True)
 os.remove(temp_file_path)
 
 # Получаем URL удаленной страницы
-remote_page_url_command = 'ssh -R 80:localhost:8080 nokey@localhost.run -T -n 2>&1 | awk \'/.lhr.life/ {print $6}\''
+remote_page_url_command = 'ssh -R 80:localhost:8080 nokey@localhost.run -T -n 2>&1 | awk \'/\.lhr\.life/ {print $6}\''
 remote_page_url = subprocess.getoutput(remote_page_url_command)
 
 print(f'Страница доступна по URL: {remote_page_url}')
