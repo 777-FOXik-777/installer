@@ -683,11 +683,11 @@ while True:
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
 
-                  filename = "mmail"
+                  filename = "h8mail"
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
-                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/mmail")
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
                 
