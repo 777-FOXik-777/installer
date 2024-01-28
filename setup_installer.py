@@ -56,6 +56,8 @@ os.system("""sed -i '/alias installer="cd ~\/installer && python testinstaller.p
 os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
 
 
+os.system("""sed -i '/printf "\\33\]0; Telegram > @SYPEXHACK\\a"/d' ~/.bashrc""")
+os.system("""echo 'printf "\33]0; Telegram > @SYPEXHACK\a"' >> ~/.bashrc""")
 
 
 
