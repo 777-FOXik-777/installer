@@ -52,7 +52,7 @@ python installer.py
 
 Дальше Installer сделает все за вас: он установит все необходимые компоненты и обеспечит тебе доступ ко всему функционалу.
 
-<h1 align="center">Снимок некоторых возможностей:</h1>
+<h1 align="center">Снимки некоторых возможностей:</h1>
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt="Изображение 1" width="48%">
