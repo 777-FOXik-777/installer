@@ -83,7 +83,7 @@ installer
 - ### [Добавить утилиту в Installer](https://forms.gle/vMHny8Yp24HQZqLV9)
 - ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
 - ### [Обсуждение Installer](https://github.com/777-FOXik-777/installer/discussions)
-- ### [Сообщить об ошибке](https://t.me/SYPEXHACK_help_bot)
+- ### [Сообщить об ошибке](https://forms.gle/i6ou1duzqVHryCsZ9)
 
 ## [~] Подпишись на:
 
