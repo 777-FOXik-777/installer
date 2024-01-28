@@ -145,6 +145,7 @@ else:
 
     #запуск на installer
     os.system("""sed -i '/alias installer="cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
+    os.system("""sed -i '/printf "\\33\]0; Telegram > @SYPEXHACK\\a"/d' ~/.bashrc""")
 
   
     os.system('rm -fr tg_SYPEXHACK')
@@ -186,7 +187,8 @@ if os.path.exists(filename):
 
 
 else:
-
+  
+    os.system("""echo 'printf "\33]0; Telegram > @SYPEXHACK\a"' >> ~/.bashrc""")
     os.system("""alias installer="cd ~/installer && python testinstaller.py" """)
     os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
 
