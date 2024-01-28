@@ -425,15 +425,15 @@ while True:
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (1) ➤")
           res()
-          print(Style.BRIGHT, Fore.YELLOW+"[01] Serveo      ("+serveo+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[02] Localhost   ("+Localhost+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[03] PyPhiser    ("+PyPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[04] Zphisher    ("+Zphisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[05] CamHacker   ("+CamHacker+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[06] VidPhisher  ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[07] Telephish   ("+Telephish+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[08] Dnnme2      ("+Dnnme2+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[09] Maskphish   ("+Maskphish+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[1] Serveo      ("+serveo+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[2] Localhost   ("+Localhost+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[3] PyPhiser    ("+PyPhisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[4] Zphisher    ("+Zphisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[5] CamHacker   ("+CamHacker+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[6] VidPhisher  ("+VidPhisher+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[7] Telephish   ("+Telephish+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[8] Dnnme2      ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[9] Maskphish   ("+Maskphish+""+Fore.YELLOW+")")
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (2) ➤")
           res()
@@ -602,7 +602,7 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/sherlock')
           
-          if tsu_501 == '15':
+          if tsu_501 == '16':
               filename = "mmail"
               led = "Mmail"
               delet()
