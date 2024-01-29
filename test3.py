@@ -250,7 +250,7 @@ while True:
     
     if inp == 't':
         baner()
-        print(Fore.CYAN+" PayPal"+Fore.GREEN+" 123mayn123@gmail.com")
+        print(Style.BRIGHT,Fore.CYAN+"PayPal >"+Fore.GREEN+" 123mayn123@gmail.com")
         exit()
 
     
