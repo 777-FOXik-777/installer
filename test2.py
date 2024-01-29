@@ -796,8 +796,10 @@ while True:
 
     
     if inp == 't':
-        os.system('xdg-open https://t.me/SYPEXHACK')
-        os.system('clear')
+        baner()
+        print(Fore.WHITE+'', Style.BRIGHT)
+        print(Fore.YELLOW+" ETH"+Fore.CYAN+" 0xf6880812E489d0dD2537Cc0244c52888F4868815")
+        exit()
 
     
     
