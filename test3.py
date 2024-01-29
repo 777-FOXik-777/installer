@@ -249,9 +249,8 @@ while True:
 
     
     if inp == 't':
-        baner()
-        print(Style.BRIGHT,Fore.CYAN+"PayPal >"+Fore.GREEN+" 123mayn123@gmail.com")
-        exit()
+        os.system('xdg-open https://yoomoney.ru/to/4100117367004233/0')
+        os.system('clear')
 
     
     
