@@ -797,7 +797,7 @@ while True:
     
     if inp == 't':
         baner()
-        print(Fore.YELLOW+" ETH"+Fore.CYAN+" 0xf6880812E489d0dD2537Cc0244c52888F4868815")
+        print(Fore.CYAN+" PayPal"+Fore.GREEN+" 123mayn123@gmail.com")
         exit()
 
     
