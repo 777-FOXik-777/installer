@@ -122,7 +122,7 @@ while True:
                 baner()
                 print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
                 print(Fore.WHITE+'', Style.BRIGHT)
-                tsu = input(' [Нажмите Enter чтобы продолжить]')
+                tsu = input(' [Нажмите Enter чтобы закрыть]')
                 os.system('clear')
             
             else:
