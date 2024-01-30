@@ -733,7 +733,7 @@ while True:
       
         os.system('clear')
         baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Запуск Installer при запуске Termux")
+        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Запуск Installer при открытии Termux")
         res()
         print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Auto+"")
         res()
