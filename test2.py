@@ -217,7 +217,7 @@ while True:
             else:
                 os.system('clear')
                 baner()
-                os.system('holehe '+tru_801+' --only-used --no-clear')
+                os.system('holehe '+tru_801+' --no-clear')
                 exit()
 
         else:
@@ -247,7 +247,7 @@ while True:
             else:
                 os.system('clear')
                 baner()
-                os.system('holehe '+tru_801+' --only-used --no-clear')
+                os.system('holehe '+tru_801+' --no-clear')
                 exit()
 
 
