@@ -829,7 +829,7 @@ while True:
                   res()
                   print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
                   res()
-                  tru_501 = input(' Введите порт ➤ ')
+                  tru_501 = input(' Выбери пункт ➤ ')
                   
                   if tru_501 == 'y':
 
@@ -870,7 +870,7 @@ while True:
                   res()
                   print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
                   res()
-                  tru_501 = input(' Введите порт ➤ ')
+                  tru_501 = input(' Выбери пункт ➤ ')
                   
                   if tru_501 == 'y':
 
@@ -907,8 +907,68 @@ while True:
             os.system('sh test.sh')
             os.system('clear')
 
+          
 
+          if tru_70 == '3':
+            os.chdir('/data/data/com.termux/files/home/Installer_Files')
+            filename = "Termux-login"
+    
+            if os.path.exists(filename):
+                os.chdir('/data/data/com.termux/files/home/Installer_Files/Termux-login')
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Termux-login уже установлен!")
+                time.sleep(2)
+              
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(0.5)
+                os.chdir('k-fuscator')
+                os.system('clear')
+                os.system('python3 kf.py')
+                exit()
+                
+            else:
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Termux-login еще НЕ установлен!")
+                time.sleep(2)
+    
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Termux-login...")
+                res()
+                os.system('git clone https://github.com/777-oleg-777/Termux-login.git')
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.chdir('/data/data/com.termux/files/home/Installer_Files/Termux-login')
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Termux-login]")
+                res()
+                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Termux-login позволяет поставить пароль на Termux")
+                res()
+                print(Style.BRIGHT,Fore.YELLOW+"[1] Установить пароль")
+                print(Style.BRIGHT,Fore.YELLOW+"[1] Удалить пароль")
+                res()
+                print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+                res()
+                tru_703 = input(' Выбери пункт ➤ ')
+              
+                if tru_703 == '1':
+                    baner()
+                    os.system('bash setup.sh')
+                    exit()
 
+                if tru_703 == '2':
+                    baner()
+                    os.system('bash uninstall.sh')
+                    exit()
+              
+              
+                else:
+                    os.system('clear')
 
           
           
@@ -918,6 +978,16 @@ while True:
 
 
 
+
+
+
+
+
+
+
+
+
+  
   
   
 
