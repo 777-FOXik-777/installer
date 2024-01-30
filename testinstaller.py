@@ -204,7 +204,7 @@ os.system('clear')
 os.system('lolcat /data/data/com.termux/files/home/installer/banner/baner.txt')
 print(Fore.WHITE+'', Style.BRIGHT)
 print (Fore.YELLOW+" ["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка целостности файлов...")
-time.sleep(1)
+time.sleep(0.5)
 
 
 
