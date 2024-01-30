@@ -454,10 +454,10 @@ while True:
           print(Style.BRIGHT, Fore.YELLOW+"[23] Скоро...    ("+Telephish+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[24] Скоро...    ("+Dnnme2+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[25] Скоро...    ("+Discord+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[26] Скоро...    ("+CamHacker+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[27] Скоро...    ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[28] Скоро...    ("+Telephish+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[29] Скоро...    ("+Dnnme2+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно в данном тарифе! "+Fore.RED+"X")
+          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно в данном тарифе! "+Fore.RED+"X")
+          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно в данном тарифе! "+Fore.RED+"X")
+          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно в данном тарифе! "+Fore.RED+"X")
           res()
           print(Style.BRIGHT, Fore.RED+"[a] Выбрать все утилиты")
           res()
@@ -801,7 +801,7 @@ while True:
 
 
           if tru_70 == '1':
-              os.chdir('/data/data/com.termux/files/home/Installer_Files')
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "tmate"
       
               if os.path.exists(filename):
