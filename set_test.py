@@ -831,7 +831,7 @@ while True:
                   res()
                   tru_501 = input(' Выбери пункт ➤ ')
                   
-                  if tru_501 == 'y':
+                  if tru_501 == '1':
 
                       print(Fore.WHITE+'', Style.BRIGHT)
                       os.system('clear')
@@ -841,7 +841,7 @@ while True:
                       baner()
                       print(Style.BRIGHT,Fore.CYAN+"[Tmate]")
                       print(Fore.WHITE+'', Style.BRIGHT)
-                      print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
+                      print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
                       print(Fore.WHITE+'', Style.BRIGHT)
                       print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
                       res()
@@ -872,7 +872,7 @@ while True:
                   res()
                   tru_501 = input(' Выбери пункт ➤ ')
                   
-                  if tru_501 == 'y':
+                  if tru_501 == '1':
 
                       print(Fore.WHITE+'', Style.BRIGHT)
                       os.system('clear')
@@ -882,7 +882,7 @@ while True:
                       baner()
                       print(Style.BRIGHT,Fore.CYAN+"[Tmate]")
                       print(Fore.WHITE+'', Style.BRIGHT)
-                      print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
+                      print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
                       print(Fore.WHITE+'', Style.BRIGHT)
                       print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
                       res()
