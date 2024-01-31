@@ -235,7 +235,122 @@ while True:
 
 
 
+  
+  
+    if inp == '24':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "noisy"
 
+        if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Noisy уже установлен!")
+            time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+          
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Noisy]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Tmate позволяет получить онлайн доступ терминала")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_501 = input(' Выбери пункт ➤ ')
+            
+            if tru_501 == '1':
+    
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Noisy]")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
+                os.system("""tmate -F | awk 'NR == 5 {print $3}'""")
+                exit()
+    
+            else:
+                os.system('clear')
+
+        else:
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Noisy еще НЕ установлен!")
+            time.sleep(2)
+    
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка noisy...")
+            res()
+            os.system('pkg install tmate -y')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tmate')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Noisy]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Tmate позволяет получить онлайн доступ терминала")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_501 = input(' Выбери пункт ➤ ')
+            
+            if tru_501 == '1':
+    
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+                time.sleep(1)
+                os.system('clear')
+                baner()
+                print(Style.BRIGHT,Fore.CYAN+"[Noisy]")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
+                res()
+                os.system("""tmate -F | awk 'NR == 5 {print $3}'""")
+                exit()
+    
+            else:
+                os.system('clear')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
     if inp == '29':
         os.system('xdg-open https://github.com/777-FOXik-777')
