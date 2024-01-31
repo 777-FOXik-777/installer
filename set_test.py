@@ -272,7 +272,8 @@ while True:
             os.system('mv k-fuscator /data/data/com.termux/files/home/')
             os.system('mv TigerVirus /data/data/com.termux/files/home/')
             os.system('mv hammer /data/data/com.termux/files/home/')
-            os.system('clear')
+            os.system('mv noisy /data/data/com.termux/files/home/')
+          
             baner()
             print(Fore.GREEN+" Все утилиты УСПЕШНО перенесены в папку /files/home")
             exit()
@@ -645,10 +646,15 @@ while True:
               filename = "hammer"
               led = "Hammer"
               delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/zphisher')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/hammer')
 
+          if tsu_501 == '24':
+              filename = "noisy"
+              led = "Noisy"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/noisy')
 
-
+          
 
           if tsu_501 == 'a':
               baner()
@@ -709,7 +715,8 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/hammer')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
-    
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/noisy')
+                
                   baner()
                   print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] ВСЕ Утилиты успешно удалены!")
                   exit()
