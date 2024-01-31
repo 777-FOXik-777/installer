@@ -254,7 +254,7 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Noisy]")
             res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Tmate позволяет получить онлайн доступ терминала")
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Noisy позволяет переполнить лог-файлы провайдера")
             res()
             print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
             res()
@@ -263,7 +263,7 @@ while True:
             tru_501 = input(' Выбери пункт ➤ ')
             
             if tru_501 == '1':
-    
+                os.chdir('noisy')
                 print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -274,9 +274,7 @@ while True:
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
                 print(Fore.WHITE+'', Style.BRIGHT)
-                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
-                res()
-                os.system("""tmate -F | awk 'NR == 5 {print $3}'""")
+                os.system("python noisy.py --config config.json")
                 exit()
     
             else:
@@ -292,8 +290,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка noisy...")
             res()
-            os.system('pkg install tmate -y')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tmate')
+            os.system('git clone https://github.com/777-oleg-777/noisy.git')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -301,7 +298,7 @@ while True:
             baner()
             print(Style.BRIGHT,Fore.CYAN+"[Noisy]")
             res()
-            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Tmate позволяет получить онлайн доступ терминала")
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Noisy позволяет переполнить лог-файлы провайдера")
             res()
             print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
             res()
@@ -310,7 +307,7 @@ while True:
             tru_501 = input(' Выбери пункт ➤ ')
             
             if tru_501 == '1':
-    
+                os.chdir('noisy')
                 print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
@@ -321,9 +318,7 @@ while True:
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Закрыть доступ: Ctrl + C")
                 print(Fore.WHITE+'', Style.BRIGHT)
-                print(Fore.YELLOW+" ["+Fore.RED+"~"+Fore.YELLOW+"] Ваша ссылка:"+Fore.WHITE+"")
-                res()
-                os.system("""tmate -F | awk 'NR == 5 {print $3}'""")
+                os.system("python noisy.py --config config.json")
                 exit()
     
             else:
