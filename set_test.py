@@ -269,10 +269,11 @@ while True:
             os.system('mv shorturl /data/data/com.termux/files/home/')
             os.system('mv seeker /data/data/com.termux/files/home/')
 
-            os.system('mv k-fuscator /data/data/com.termux/files/home/')
+
             os.system('mv TigerVirus /data/data/com.termux/files/home/')
             os.system('mv hammer /data/data/com.termux/files/home/')
             os.system('mv noisy /data/data/com.termux/files/home/')
+            os.system('mv k-fuscator /data/data/com.termux/files/home/')
           
             baner()
             print(Fore.GREEN+" Все утилиты УСПЕШНО перенесены в папку /files/home")
@@ -629,33 +630,34 @@ while True:
           
 
 
-          
-          if tsu_501 == '21':
-              filename = "k-fuscator"
-              led = "K-fuscator"
-              delet()
-              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
 
-          if tsu_501 == '22':
+          if tsu_501 == '21':
               filename = "TigerVirus"
               led = "TigerVirus"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
 
-          if tsu_501 == '23':
+          if tsu_501 == '22':
               filename = "hammer"
               led = "Hammer"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/hammer')
 
-          if tsu_501 == '24':
+          if tsu_501 == '23':
               filename = "noisy"
               led = "Noisy"
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/noisy')
 
+
+          if tsu_501 == '24':
+              filename = "k-fuscator"
+              led = "K-fuscator"
+              delet()
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
           
 
+          
           if tsu_501 == 'a':
               baner()
               print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Вы действительно хотите удалить ВСЕ утилиты?")
@@ -711,11 +713,11 @@ while True:
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/Discord-Nitro-Generator-and-Checker')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/shorturl')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/seeker')
-                
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/hammer')
+
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/TigerVirus')
-                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/hammer')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/noisy')
+                  os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
                 
                   baner()
                   print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] ВСЕ Утилиты успешно удалены!")
