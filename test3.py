@@ -337,6 +337,76 @@ while True:
 
   
 
+    if inp == '25':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+        filename = "exiftool"
+
+        if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Exiftool еще НЕ установлен!")
+            time.sleep(2)
+
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Exiftool...")
+            res()
+            os.system('pkg install exiftool -y')
+            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/exiftool')
+            os.system('clear')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Exiftool]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Exiftool позволяет узнать метаданные фото")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример пути:"+Fore.CYAN+" /storage/pictures/example.jpg")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_250 = input(' Введите путь ➤ ')
+
+            if tru_250 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('exiftool ~'+tru_250+'')
+                exit()
+
+        else:
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] Exiftool уже установлен!")
+            time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+
+            baner()
+            print(Style.BRIGHT,Fore.CYAN+"[Exiftool]")
+            res()
+            print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Exiftool позволяет узнать метаданные фото")
+            res()
+            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример пути:"+Fore.CYAN+" /storage/pictures/example.jpg")
+            res()
+            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            res()
+            tru_250 = input(' Введите путь ➤ ')
+
+            if tru_250 == 'e':
+                os.system('clear')
+            
+            else:
+                os.system('clear')
+                baner()
+                os.system('exiftool ~'+tru_250+'')
+                exit()
 
 
 
@@ -350,13 +420,19 @@ while True:
 
 
 
+    if inp == '26':
+        os.system('xdg-open https://github.com/777-FOXik-777')
+        os.system('clear')
+
+  
+    if inp == '27':
+        os.system('xdg-open https://github.com/777-FOXik-777')
+        os.system('clear')
 
 
-
-
-
-
-
+    if inp == '28':
+        os.system('xdg-open https://github.com/777-FOXik-777')
+        os.system('clear')
   
 
     if inp == '29':
