@@ -164,7 +164,7 @@ while True:
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка queue...")
             res()
-            os.system('pip instal queue')
+            os.system('pip install queuelib')
             print(Fore.WHITE+'', Style.BRIGHT)
             os.system('clear')
             print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Hammer...")
