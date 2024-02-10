@@ -66,10 +66,55 @@ while True:
     os.system('lolcat ~/installer/banner/banner3.txt')
     inp = input('\n Выбери пункт ➤ ')
     os.system('clear')
-    
+
+
+
 
 
     if inp == '21':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "TigerVirus"
+
+        if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
+            time.sleep(2)
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            
+            os.chdir('TigerVirus')
+            os.system('clear')
+            os.system('bash TigerVirus.sh')
+            exit()
+            
+        else:
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
+            time.sleep(2)
+
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
+            res()
+            os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            os.chdir('TigerVirus')
+            os.system('clear')
+            os.system('bash TigerVirus.sh')
+            exit()
+
+  
+
+
+  
+    if inp == '22':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "hammer"
 
@@ -149,95 +194,11 @@ while True:
                 os.system('clear')
                 exit()
 
+  
 
 
-
-    if inp == '22':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "TigerVirus"
-
-        if os.path.exists(filename):
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"~"+Fore.YELLOW+"] TigerVirus уже установлен!")
-            time.sleep(2)
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            
-            os.chdir('TigerVirus')
-            os.system('clear')
-            os.system('bash TigerVirus.sh')
-            exit()
-            
-        else:
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] TigerVirus еще НЕ установлен!")
-            time.sleep(2)
-
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка TigerVirus...")
-            res()
-            os.system('git clone https://github.com/Devil-Tigers/TigerVirus.git')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            os.chdir('TigerVirus')
-            os.system('clear')
-            os.system('bash TigerVirus.sh')
-            exit()
-            
-
-            
-    
+  
     if inp == '23':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files')
-        filename = "k-fuscator"
-
-        if os.path.exists(filename):
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] K-fuscator уже установлен!")
-            time.sleep(2)
-          
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            os.chdir('k-fuscator')
-            os.system('clear')
-            os.system('python3 kf.py')
-            exit()
-            
-        else:
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
-            time.sleep(2)
-
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка K-fuscator...")
-            res()
-            os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
-            time.sleep(0.5)
-            os.chdir('k-fuscator')
-            os.system('clear')
-            os.system('python3 kf.py')
-            exit()
-
-
-
-  
-  
-    if inp == '24':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         filename = "noisy"
 
@@ -329,6 +290,52 @@ while True:
             else:
                 os.system('clear')
 
+
+
+  
+    
+    if inp == '24':
+        os.chdir('/data/data/com.termux/files/home/Installer_Files')
+        filename = "k-fuscator"
+
+        if os.path.exists(filename):
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.GREEN+"!"+Fore.YELLOW+"] K-fuscator уже установлен!")
+            time.sleep(2)
+          
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            os.chdir('k-fuscator')
+            os.system('clear')
+            os.system('python3 kf.py')
+            exit()
+            
+        else:
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] K-fuscator еще НЕ установлен!")
+            time.sleep(2)
+
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка K-fuscator...")
+            res()
+            os.system('git clone https://github.com/KasRoudra/k-fuscator.git')
+            print(Fore.WHITE+'', Style.BRIGHT)
+            os.system('clear')
+            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
+            time.sleep(0.5)
+            os.chdir('k-fuscator')
+            os.system('clear')
+            os.system('python3 kf.py')
+            exit()
+
+
+
+  
 
 
 
