@@ -301,7 +301,9 @@ while True:
             Localhost = ""+Fore.RED+"X"
           else:
             Localhost = ""+Fore.GREEN+"✓"
-        
+
+          
+          
           filename = "IP"
           if os.path.exists(filename):
             IPTracer = ""+Fore.RED+"X"
@@ -319,6 +321,15 @@ while True:
             h8mail = ""+Fore.RED+"X"
           else:
             h8mail = ""+Fore.GREEN+"✓"
+
+
+          
+          filename = "exiftool"
+          if os.path.exists(filename):
+            Exiftool = ""+Fore.RED+"X"
+          else:
+            Exiftool = ""+Fore.GREEN+"✓"
+
         
           os.chdir('/data/data/com.termux/files/home/Installer_Files')
         
@@ -415,12 +426,19 @@ while True:
             Hammer = ""+Fore.GREEN+"✓"
           else:
             Hammer = ""+Fore.RED+"X"
+
+          filename = "noisy"
+          if os.path.exists(filename):
+            Noisy = ""+Fore.GREEN+"✓"
+          else:
+            Noisy = ""+Fore.RED+"X"
           
           filename = "k-fuscator"
           if os.path.exists(filename):
             Kfuscator = ""+Fore.GREEN+"✓"
           else:
             Kfuscator = ""+Fore.RED+"X"
+
           
           baner()
           print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выбери какую именно удалить Утилиту:")
@@ -451,14 +469,14 @@ while True:
           res()
           print(Style.BRIGHT, Fore.WHITE+"Утилиты страницы (3) ➤")
           res()
-          print(Style.BRIGHT, Fore.YELLOW+"[21] Скоро...    ("+CamHacker+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[22] Скоро...    ("+VidPhisher+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[23] Скоро...    ("+Telephish+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[24] Скоро...    ("+Dnnme2+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[25] Скоро...    ("+Discord+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно! ("+Fore.RED+"X"+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно! ("+Fore.RED+"X"+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно! ("+Fore.RED+"X"+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[21] TigerVirus  ("+TigerVirus+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[22] Hammer      ("+Hammer+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[23] Noisy       ("+Noisy+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[24] K-fuscator  ("+Kfuscator+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[25] Exiftool    ("+Exiftool+""+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[26] Недоступно! ("+Fore.RED+"X"+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[27] Недоступно! ("+Fore.RED+"X"+Fore.YELLOW+")")
+          print(Style.BRIGHT, Fore.YELLOW+"[28] Недоступно! ("+Fore.RED+"X"+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно! ("+Fore.RED+"X"+Fore.YELLOW+")")
           res()
           print(Style.BRIGHT, Fore.RED+"[a] Выбрать все утилиты")
@@ -498,6 +516,8 @@ while True:
                 baner()
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Localhost успешно удалена!")
                 exit()
+
+
 
           
           if tsu_501 == '13':
@@ -545,7 +565,23 @@ while True:
                 exit()
 
 
+          
 
+          if tsu_501 == '25':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+              filename = "exiftool"
+              if os.path.exists(filename):
+                baner()
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Exiftool еще не установлена!")
+                exit()
+                
+              else:
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/exiftool")
+                baner()
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Exiftool успешно удалена!")
+                exit()
+
+          
           
           if tsu_501 == '3':
               filename = "PyPhisher"
@@ -679,6 +715,8 @@ while True:
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
 
+
+                
                   filename = "IP"
                   if os.path.exists(filename):
                     os.system('clear')
@@ -696,6 +734,14 @@ while True:
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
+
+
+                
+                  filename = "exiftool"
+                  if os.path.exists(filename):
+                    os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/exiftool")
                 
                   os.chdir('/data/data/com.termux/files/home/Installer_Files')
                 
