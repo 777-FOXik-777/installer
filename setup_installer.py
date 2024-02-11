@@ -52,8 +52,8 @@ os.system('git clone https://github.com/777-FOXik-777/installer')
 os.system("""sed -i '/rm -fr \/data\/data\/com\.termux\/files\/home\/Installer_Files/d' ~/.bashrc""")
 os.system("""sed -i '/cd ~\/ && python setup_installer.py/d' ~/.bashrc""")
 
-os.system("""sed -i '/alias installer="cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
-os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
+os.system("""sed -i '/alias installer="cd ~\/installer && python installer.py/d' ~/.bashrc""")
+os.system("""echo 'alias installer="cd ~/installer && python installer.py"' >> ~/.bashrc""")
 
 
 os.system("""sed -i '/printf "\\33\]0; Telegram > @SYPEXHACK\\a"/d' ~/.bashrc""")
@@ -82,7 +82,7 @@ if os.path.exists(filename):
   os.chdir('/data/data/com.termux/files/home/installer')
   os.system('clear')
   print(Style.RESET_ALL)
-  os.system('python testinstaller.py')
+  os.system('python installer.py')
         
 
 
