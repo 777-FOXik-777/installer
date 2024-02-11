@@ -190,8 +190,8 @@ if os.path.exists(filename):
 else:
   
     os.system("""echo 'printf "\33]0; Telegram > @SYPEXHACK\a"' >> ~/.bashrc""")
-    os.system("""alias installer="cd ~/installer && python testinstaller.py" """)
-    os.system("""echo 'alias installer="cd ~/installer && python testinstaller.py"' >> ~/.bashrc""")
+    os.system("""alias installer="cd ~/installer && python installer.py" """)
+    os.system("""echo 'alias installer="cd ~/installer && python installer.py"' >> ~/.bashrc""")
 
 
 
