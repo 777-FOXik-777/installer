@@ -144,8 +144,8 @@ else:
     os.system('pkg install python3 -y')
 
     #запуск на installer
-    os.system("""alias installer="cd ~/installer && python testinstaller.py" """)
-    os.system("""sed -i '/alias installer="cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
+    os.system("""alias installer="cd ~/installer && python installer.py" """)
+    os.system("""sed -i '/alias installer="cd ~\/installer && python installer.py/d' ~/.bashrc""")
     os.system("""sed -i '/printf "\\33\]0; Telegram > @SYPEXHACK\\a"/d' ~/.bashrc""")
 
   
