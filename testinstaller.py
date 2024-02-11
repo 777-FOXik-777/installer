@@ -610,8 +610,8 @@ if os.path.exists(filename):
 
 else:
 
-  os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
-  os.system('echo "cd ~/installer && python testinstaller.py" >> ~/.bashrc')
+  os.system("""sed -i '/^cd ~\/installer && python installer.py/d' ~/.bashrc""")
+  os.system('echo "cd ~/installer && python installer.py" >> ~/.bashrc')
 
 
 
@@ -639,7 +639,7 @@ os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexha
 
 
 os.chdir('/data/data/com.termux/files/home/installer')
-os.system('python test1.py')
+os.system('python tool1.py')
 
 
 #--------------------------------------------------
