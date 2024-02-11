@@ -1034,6 +1034,7 @@ while True:
                     baner()
                     os.chdir('/data/data/com.termux/files/home/Installer_Files/Termux-login')
                     os.system('bash setup.sh')
+                    os.system('rm -fr /data/data/com.termux/files/home/termux-ohmyzsh')
                     exit()
 
                 if tru_703 == '2':
