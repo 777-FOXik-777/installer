@@ -455,7 +455,7 @@ while True:
     if inp == 's':
         os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
         os.chdir('/data/data/com.termux/files/home/installer')
-        os.system('python set_test.py')
+        os.system('python set.py')
 
 
     
@@ -482,13 +482,13 @@ if leave == '1':
     os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
     
-    lomik = "python test1.py"
+    lomik = "python tool1.py"
 
 if leave == '2':
     os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/sypexhack')
     os.chdir('/data/data/com.termux/files/home/installer')
   
-    lomik = "python test2.py"
+    lomik = "python tool2.py"
 
 if leave == 'e':
     print(f'\33]0; Telegram: @SYPEXHACK желает вам Хорошего дня!\a',
