@@ -246,19 +246,12 @@ else:
     time.sleep(2)
 
 
-filename = "test2.py"
-
-if os.path.exists(filename):
-    time.sleep(0.1)
-
-
-
 
 #стандарт файлы 
 
 os.chdir('/data/data/com.termux/files/home/installer')
 
-filename = "test1.py"
+filename = "tool1.py"
 
 if os.path.exists(filename):
     time.sleep(0.1)
@@ -269,12 +262,12 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool1.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test1.py')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool1.py')
     print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
-filename = "test2.py"
+filename = "tool2.py"
 
 if os.path.exists(filename):
     time.sleep(0.1)
@@ -285,12 +278,12 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: too2.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test2.py')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool2.py')
     print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
-filename = "test3.py"
+filename = "tool3.py"
 
 if os.path.exists(filename):
     time.sleep(0.1)
@@ -301,12 +294,12 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool3.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/test3.py')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool3.py')
     print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
-filename = "set_test.py"
+filename = "set.py"
 
 if os.path.exists(filename):
     time.sleep(0.1)
@@ -317,7 +310,7 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: set.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set_test.py')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set.py')
     print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
