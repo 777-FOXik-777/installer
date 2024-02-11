@@ -800,8 +800,8 @@ while True:
         tru_101 = input(' Выбери пункт ➤ ')
 
         if tru_101 == '1':
-            os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
-            os.system('echo "cd ~/installer && python testinstaller.py" >> ~/.bashrc')
+            os.system("""sed -i '/^cd ~\/installer && python installer.py/d' ~/.bashrc""")
+            os.system('echo "cd ~/installer && python installer.py" >> ~/.bashrc')
             os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
             os.system('clear')
             baner()
@@ -818,7 +818,7 @@ while True:
               exit()
               
             else:
-              os.system("""sed -i '/^cd ~\/installer && python testinstaller.py/d' ~/.bashrc""")
+              os.system("""sed -i '/^cd ~\/installer && python installer.py/d' ~/.bashrc""")
               os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
               baner()
               print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
