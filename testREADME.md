@@ -26,7 +26,7 @@
 
 ## [√] Установка на [Android](https://wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://fr.wikipedia.org/wiki/Android)
  
-Скачиваем [Termux](https://t.me/SYPEXHACK_fail/51) (0.118)
+Скачиваем [Termux](https://t.me/SYPEXHACK_files/51) (0.118)
 
 ### [+] Обновляем пакеты:
 
