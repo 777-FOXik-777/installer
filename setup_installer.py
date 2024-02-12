@@ -95,3 +95,15 @@ else:
   print(Fore.WHITE+" ")
   print(Style.BRIGHT ,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Повторите командой:"+Fore.WHITE+" python setup_installer.py")
   print(Fore.WHITE+" ")
+
+
+  
+
+#--------------------------------------------------
+# ToolName   : Installer
+# Author     : SYPEXHACK
+# Github     : https://github.com/777-FOXik-777
+# Contact    : https://t.me/SYPEXHACK
+# 1st Commit : 2022
+# Language   : Python
+#--------------------------------------------------
