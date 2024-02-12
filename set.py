@@ -867,7 +867,7 @@ while True:
       
                   print(Fore.WHITE+'', Style.BRIGHT)
                   os.system('clear')
-                  print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка tmate...")
+                  print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Tmate...")
                   res()
                   os.system('pkg install tmate -y')
                   os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/tmate')
