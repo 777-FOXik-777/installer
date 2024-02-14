@@ -248,7 +248,7 @@ while True:
     if inp == '3':
         os.chdir('/data/data/com.termux/files/home/Installer_Files')
         baner()
-        print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Переместить скачаные утилты в "+Fore.CYAN+"/home/"+Fore.YELLOW+"?")
+        print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Переместить скачаные утилты в "+Fore.CYAN+"~/home"+Fore.YELLOW+"?")
         res()
         tru_401 = input(' Выбери пункт [y/n] ➤ ')
         if tru_401 == 'y':
