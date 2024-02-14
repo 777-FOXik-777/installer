@@ -480,7 +480,6 @@ while True:
           print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно!")
           res()
           print(Style.BRIGHT, Fore.CYAN+"[t] Удалить файлы настройки Termux")
-          res()
           print(Style.BRIGHT, Fore.RED+"[a] Удалить все утилиты")
           res()
           print(Style.BRIGHT, Fore.RED+"[e] Назад")
