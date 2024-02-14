@@ -970,14 +970,19 @@ while True:
 
           
           if tru_70 == '2':
-            print(Fore.WHITE+'', Style.BRIGHT)
-            os.system('clear')
-            print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
+            baner()
+            print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Вы действительно хотите изменить стиль и цвет?")
             res()
-            os.system('git clone https://github.com/777-oleg-777/test')
-            os.chdir('test')
-            os.system('sh test.sh')
-            os.system('clear')
+            tru_502 = input(' Выбери пункт [y/n] ➤ ')
+            if tru_502 == 'y':
+                print(Fore.WHITE+'', Style.BRIGHT)
+                os.system('clear')
+                print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
+                res()
+                os.system('git clone https://github.com/777-oleg-777/test')
+                os.chdir('test')
+                os.system('sh test.sh')
+                os.system('clear')
 
           
 
