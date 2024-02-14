@@ -91,7 +91,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример номера:"+Fore.CYAN+" +3396360XXXX")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_701 = input(' Введите номер ➤ ')
           
@@ -164,7 +164,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример номера:"+Fore.CYAN+" +3396360XXXX")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_701 = input(' Введите номер ➤ ')
 
@@ -207,7 +207,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример почты:"+Fore.CYAN+" testoleg@gmail.com")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_801 = input(' Введите почту ➤ ')
 
@@ -237,7 +237,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример почты:"+Fore.CYAN+" testoleg@gmail.com")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_801 = input(' Введите почту ➤ ')
             
@@ -286,7 +286,7 @@ while True:
             print(Style.BRIGHT,Fore.GREEN+'[1] Пробить свой IP')
             print(Style.BRIGHT,Fore.GREEN+'[2] Пробить чужой IP')
             res()
-            print(Style.BRIGHT,Fore.YELLOW+'[e] выход')
+            print(Style.BRIGHT,Fore.RED+'[e] выход')
             res()
             tru_801 = input(' Выбери пункт ➤ ')
     
@@ -331,7 +331,7 @@ while True:
             print(Style.BRIGHT,Fore.GREEN+'[1] Пробить свой IP')
             print(Style.BRIGHT,Fore.GREEN+'[2] Пробить чужой IP')
             res()
-            print(Style.BRIGHT,Fore.YELLOW+'[e] выход')
+            print(Style.BRIGHT,Fore.RED+'[e] выход')
             res()
             tru_801 = input(' Выбери пункт ➤ ')
     
@@ -380,7 +380,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример ника:"+Fore.CYAN+" oleghka")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_901 = input(' Введите ник ➤ ')
 
@@ -471,7 +471,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример ника:"+Fore.CYAN+" oleghka")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_901 = input(' Введите ник ➤ ')
             
@@ -520,7 +520,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример почты:"+Fore.CYAN+" testoleg@gmail.com")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_801 = input(' Введите почту ➤ ')
 
@@ -550,7 +550,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример почты:"+Fore.CYAN+" testoleg@gmail.com")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_801 = input(' Введите почту ➤ ')
             
