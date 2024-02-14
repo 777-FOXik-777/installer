@@ -106,7 +106,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_201 = input(' Введите порт ➤ ')
             
@@ -150,7 +150,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_201 = input(' Введите порт ➤ ')
             
@@ -210,7 +210,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_201 = input(' Введите порт ➤ ')
             
@@ -254,7 +254,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример порта:"+Fore.CYAN+" 8080")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_201 = input(' Введите порт ➤ ')
             
