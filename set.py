@@ -479,7 +479,9 @@ while True:
           print(Style.BRIGHT, Fore.YELLOW+"[28] Недоступно!")
           print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно!")
           res()
-          print(Style.BRIGHT, Fore.RED+"[a] Выбрать все утилиты")
+          print(Style.BRIGHT, Fore.CYAN+"[t] Удалить файлы настройки Termux")
+          res()
+          print(Style.BRIGHT, Fore.RED+"[a] Удалить все утилиты")
           res()
           print(Style.BRIGHT, Fore.RED+"[e] Назад")
           res()
@@ -692,6 +694,22 @@ while True:
               delet()
               os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/k-fuscator')
           
+
+
+          if tsu_501 == 't':
+              baner()
+              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Вы действительно хотите удалить файлы Termux?")
+              res()
+              tru_502 = input(' Выбери пункт [y/n] ➤ ')
+              if tru_502 == 'y':
+                
+                  os.system('rm -fr /data/data/com.termux/files/home/termux-ohmyzsh')
+                  os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tmate")
+                
+                  baner()
+                  print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Файлы настройки Termux успешно удалены!")
+                  exit()
+
 
           
           if tsu_501 == 'a':
@@ -1034,7 +1052,6 @@ while True:
                     baner()
                     os.chdir('/data/data/com.termux/files/home/Installer_Files/Termux-login')
                     os.system('bash setup.sh')
-                    os.system('rm -fr /data/data/com.termux/files/home/termux-ohmyzsh')
                     exit()
 
                 if tru_703 == '2':
