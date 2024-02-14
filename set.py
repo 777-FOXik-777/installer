@@ -112,8 +112,8 @@ while True:
             
             
             
-            file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/Installer_Files/about/version"
-            file2_path = "/data/data/com.termux/files/home/Installer_Files/about/version"
+            file1_path = "/data/data/com.termux/files/home/Installer_Files/trash/updatepak/installer/version"
+            file2_path = "/data/data/com.termux/files/home/installer/version"
             
             result = compare_files(file1_path, file2_path)
             
