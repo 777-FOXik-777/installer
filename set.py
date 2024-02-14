@@ -212,7 +212,7 @@ while True:
         print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
         print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
         res()
-        print(Style.BRIGHT ,Fore.YELLOW+'[e] выход')
+        print(Style.BRIGHT,Fore.RED+'[e] выход')
         res()
         tru_101 = input(' Выбери пункт ➤ ')
 
@@ -481,7 +481,7 @@ while True:
           res()
           print(Style.BRIGHT, Fore.RED+"[a] Выбрать все утилиты")
           res()
-          print(Style.BRIGHT, Fore.YELLOW+"[e] Назад")
+          print(Style.BRIGHT, Fore.RED+"[e] Назад")
           res()
           tsu_501 = input(' Выбери пункт ➤ ')
           os.system('clear')
@@ -795,7 +795,7 @@ while True:
         print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
         print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
         res()
-        print(Style.BRIGHT ,Fore.YELLOW+'[e] выход')
+        print(Style.BRIGHT ,Fore.RED+'[e] выход')
         res()
         tru_101 = input(' Выбери пункт ➤ ')
 
@@ -850,7 +850,7 @@ while True:
           print(Style.BRIGHT,Fore.YELLOW+"[2] Стиль и цвет")
           print(Style.BRIGHT,Fore.YELLOW+"[3] Пароль")
           res()
-          print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+          print(Style.BRIGHT,Fore.RED+"[e] Выход")
           res()
           tru_70 = input(' Выбери пункт ➤ ')
 
@@ -923,7 +923,7 @@ while True:
                   res()
                   print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
                   res()
-                  print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+                  print(Style.BRIGHT,Fore.RED+"[e] Выход")
                   res()
                   tru_501 = input(' Выбери пункт ➤ ')
                   
@@ -987,7 +987,7 @@ while True:
                 print(Style.BRIGHT,Fore.YELLOW+"[1] Установить пароль")
                 print(Style.BRIGHT,Fore.YELLOW+"[2] Удалить пароль")
                 res()
-                print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+                print(Style.BRIGHT,Fore.RED+"[e] Выход")
                 res()
                 tru_703 = input(' Выбери пункт ➤ ')
               
@@ -1026,7 +1026,7 @@ while True:
                 print(Style.BRIGHT,Fore.YELLOW+"[1] Установить пароль")
                 print(Style.BRIGHT,Fore.YELLOW+"[2] Удалить пароль")
                 res()
-                print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+                print(Style.BRIGHT,Fore.RED+"[e] Выход")
                 res()
                 tru_703 = input(' Выбери пункт ➤ ')
               
