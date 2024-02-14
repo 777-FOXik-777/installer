@@ -90,7 +90,7 @@ while True:
           print(Style.BRIGHT,Fore.YELLOW+"[2] Глобальная переустановка")
           print(Style.BRIGHT,Fore.YELLOW+"[3] Простая переустановка")
           res()
-          print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+          print(Style.BRIGHT,Fore.RED+"[e] Выход")
           res()
           tru_201 = input(' Выбери пункт ➤ ')
         
