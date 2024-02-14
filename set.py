@@ -897,13 +897,13 @@ while True:
                   res()
                   print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Tmate позволяет получить онлайн доступ терминала")
                   res()
-                  print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
+                  print(Style.BRIGHT,Fore.GREEN+"[y] Запустить")
                   res()
                   print(Style.BRIGHT,Fore.RED+"[e] Выход")
                   res()
                   tru_501 = input(' Выбери пункт ➤ ')
                   
-                  if tru_501 == '1':
+                  if tru_501 == 'y':
 
                       print(Fore.WHITE+'', Style.BRIGHT)
                       os.system('clear')
@@ -938,13 +938,13 @@ while True:
                   res()
                   print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Tmate позволяет получить онлайн доступ терминала")
                   res()
-                  print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
+                  print(Style.BRIGHT,Fore.GREEN+"[y] Запустить")
                   res()
                   print(Style.BRIGHT,Fore.RED+"[e] Выход")
                   res()
                   tru_501 = input(' Выбери пункт ➤ ')
                   
-                  if tru_501 == '1':
+                  if tru_501 == 'y':
 
                       print(Fore.WHITE+'', Style.BRIGHT)
                       os.system('clear')
