@@ -90,8 +90,8 @@ installer
 
 - ### [Добавить утилиту в Installer](https://forms.gle/vMHny8Yp24HQZqLV9)
 - ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
-- ### [Оставить Фидбек](https://forms.gle/Frp83TrnqTWzG5Rx8)
 - ### [Сообщить об ошибке](https://forms.gle/i6ou1duzqVHryCsZ9)
+- ### [Оставить Фидбек](https://forms.gle/Frp83TrnqTWzG5Rx8)
 
 ## [~] Подпишись на:
 
