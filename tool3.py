@@ -136,7 +136,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример IP:"+Fore.CYAN+" 33.73.133.137")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_701 = input(' Введите IP ➤ ')
             if tru_701 == 'e':
@@ -182,7 +182,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример IP:"+Fore.CYAN+" 33.73.133.137")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_701 = input(' Введите IP ➤ ')
             if tru_701 == 'e':
@@ -219,7 +219,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_501 = input(' Выбери пункт ➤ ')
             
@@ -268,7 +268,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_501 = input(' Выбери пункт ➤ ')
             
@@ -365,7 +365,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример пути:"+Fore.CYAN+" /storage/pictures/example.jpg")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_250 = input(' Введите путь ➤ ')
 
@@ -395,7 +395,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Пример пути:"+Fore.CYAN+" /storage/pictures/example.jpg")
             res()
-            print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+            print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
             tru_250 = input(' Введите путь ➤ ')
 
