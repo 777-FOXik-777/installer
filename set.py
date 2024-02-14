@@ -900,7 +900,7 @@ while True:
                   res()
                   print(Style.BRIGHT,Fore.YELLOW+"[1] Запустить")
                   res()
-                  print(Style.BRIGHT,Fore.YELLOW+"[e] Выход")
+                  print(Style.BRIGHT,Fore.RED+"[e] Выход")
                   res()
                   tru_501 = input(' Выбери пункт ➤ ')
                   
