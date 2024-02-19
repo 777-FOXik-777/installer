@@ -850,7 +850,7 @@ while True:
   
     
     if inp == '6':
-        os.system('xdg-open https://t.me/SYPEXHACK_fail/51')
+        os.system('xdg-open https://t.me/SYPEXHACK_files/51')
         os.system('clear')
 
 
