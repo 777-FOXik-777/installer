@@ -106,7 +106,7 @@ installer
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 
-- [![YouTube](https://img.shields.io/badge/YouTube-SYPEXHACK-blue?style=for-the-badge&logo=youtube)](https://t.me/+1MZLhFv1sMJjZmFi)
+- [![YouTube](https://img.shields.io/badge/YouTube-SYPEXHACK-red?style=for-the-badge&logo=youtube)](https://t.me/+1MZLhFv1sMJjZmFi)
 ##
 
 > [!WARNING]\
