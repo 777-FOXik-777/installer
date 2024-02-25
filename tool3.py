@@ -367,7 +367,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
-            tru_250 = input(' Введите путь ➤ ')
+            tru_250 = input(' Введите путь к фото ➤ ')
 
             if tru_250 == 'e':
                 os.system('clear')
@@ -397,7 +397,7 @@ while True:
             res()
             print(Style.BRIGHT,Fore.RED+"[e] Выход")
             res()
-            tru_250 = input(' Введите путь ➤ ')
+            tru_250 = input(' Введите путь к фото ➤ ')
 
             if tru_250 == 'e':
                 os.system('clear')
