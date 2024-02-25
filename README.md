@@ -107,12 +107,13 @@ installer
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 
 
-<h1 align="center">
-  
-[Поддержать](https://yoomoney.ru/to/4100117367004233/0)
-
 - [![YouTube](https://img.shields.io/badge/YouTube-SYPEXHACK-red?style=for-the-badge&logo=youtube)](https://youtube.com/@sypexhack?si=PF2gnWssIrF0vK-7)
 ##
 
 > [!WARNING]\
 > Этот инструмент создан с целью обучения и повышения квалификации в области безопасности. Некоторые утилиты, фото, и другие файлы, которые используются в этом инструменте, взяты из открытых источников и принадлежат их законным авторам. Разработчик не несет ответственности за неправомерное использование этого инструмента и уважает права и интересы законных авторов.
+
+<h1 align="center">
+  
+[Поддержать](https://yoomoney.ru/to/4100117367004233/0)
+
