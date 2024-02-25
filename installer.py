@@ -229,7 +229,7 @@ else:
   
     os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
 
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/Auto')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/trash/Auto 2>&1 | awk "sypexhack {print $1}"')
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/hack")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
@@ -240,9 +240,9 @@ else:
 
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/about")
     os.chdir('/data/data/com.termux/files/home/Installer_Files/about')
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/about/version')
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/about/version 2>&1 | awk "sypexhack {print $1}"')
     
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -262,8 +262,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool1.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool1.py')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool1.py 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -278,8 +278,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: too2.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool2.py')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool2.py 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -294,8 +294,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: tool3.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool3.py')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool3.py 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -310,8 +310,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: set.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set.py')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set.py 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -326,8 +326,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: setup_installer.py...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/setup_installer.py')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/setup_installer.py 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 #банер
@@ -356,8 +356,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: baner.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/baner.txt')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/baner.txt 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -372,8 +372,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banerset.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banerset.txt')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banerset.txt 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -388,8 +388,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner1.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -404,8 +404,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner2.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner2.txt')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner2.txt 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
@@ -420,8 +420,8 @@ else:
     print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: banner3.txt...")
     time.sleep(1)
     res()
-    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner3.txt')
-    print (Style.BRIGHT, Fore.GREEN+"\n ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner3.txt 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
     time.sleep(2)
 
 
