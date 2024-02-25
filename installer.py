@@ -315,6 +315,22 @@ else:
     time.sleep(2)
 
 
+filename = "version"
+
+if os.path.exists(filename):
+    time.sleep(0.1)
+
+else:
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"!"+Fore.YELLOW+"] Отсутствует файл: version")
+    time.sleep(2)
+    print (Style.BRIGHT, Fore.YELLOW+"\n ["+Fore.RED+"~"+Fore.YELLOW+"] Установка файла: version...")
+    time.sleep(1)
+    res()
+    os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/version 2>&1 | awk "sypexhack {print $1}"')
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
+    time.sleep(2)
+  
+
 filename = "setup_installer.py"
 
 if os.path.exists(filename):
