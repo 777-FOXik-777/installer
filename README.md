@@ -106,6 +106,11 @@ installer
 
 - [![Telegram](https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram)](https://t.me/+1MZLhFv1sMJjZmFi)
 
+
+<h1 align="center">
+  
+[Поддержать](https://yoomoney.ru/to/4100117367004233/0)
+
 - [![YouTube](https://img.shields.io/badge/YouTube-SYPEXHACK-red?style=for-the-badge&logo=youtube)](https://youtube.com/@sypexhack?si=PF2gnWssIrF0vK-7)
 ##
 
