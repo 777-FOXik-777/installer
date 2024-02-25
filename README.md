@@ -18,7 +18,7 @@
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
 
-<h1 align="center">
+<align="center">
   
 [Поддержать проект](https://yoomoney.ru/to/4100117367004233/0)
 
