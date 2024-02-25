@@ -18,11 +18,6 @@
 <a href="https://t.me/+1MZLhFv1sMJjZmFi"><img title="Telegram" src="https://img.shields.io/badge/Telegram-SYPEXHACK-blue?style=for-the-badge&logo=telegram"></a>
 </p>
 
-<align="center">
-  
-[Поддержать проект](https://yoomoney.ru/to/4100117367004233/0)
-
-
 ## [~] Описание:
 
 Installer - это мощный и удобный скрипт, который поможет тебе легко и быстро установить более 25 отличных хакерских утилит в Termux. С Installer ты сможешь расширить свои возможности в Termux и получить доступ к различным инструментам для сканирования, анализа, взлома и тестирования безопасности. Этот инструмент подходит для любого уровня опыта и НЕ требует наличия root-прав на твоем устройстве.
@@ -101,6 +96,7 @@ installer
 - ### [Добавить утилиту в Installer](https://forms.gle/vMHny8Yp24HQZqLV9)
 - ### [Другие версии Installer](https://github.com/777-FOXik-777/installer/releases)
 - ### [Сообщить об ошибке](https://forms.gle/i6ou1duzqVHryCsZ9)
+- ### [Поддержать проект](https://yoomoney.ru/to/4100117367004233/0)
 - ### [Оставить Фидбек](https://forms.gle/Frp83TrnqTWzG5Rx8)
 
 ## [~] Подпишись на:
