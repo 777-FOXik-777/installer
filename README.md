@@ -115,5 +115,5 @@ installer
 
 <h1 align="center">
   
-[Поддержать](https://yoomoney.ru/to/4100117367004233/0)
+[Поддержать проект](https://yoomoney.ru/to/4100117367004233/0)
 
