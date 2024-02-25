@@ -242,7 +242,7 @@ else:
     os.chdir('/data/data/com.termux/files/home/Installer_Files/about')
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/Installer_Files/about/version 2>&1 | awk "sypexhack {print $1}"')
     
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -263,7 +263,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool1.py 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -279,7 +279,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool2.py 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -295,7 +295,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/tool3.py 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -311,7 +311,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/set.py 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -327,7 +327,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/setup_installer.py 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 #банер
@@ -357,7 +357,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/baner.txt 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -373,7 +373,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banerset.txt 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -389,7 +389,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner1.txt 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -405,7 +405,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner2.txt 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
@@ -421,7 +421,7 @@ else:
     time.sleep(1)
     res()
     os.system('wget https://raw.githubusercontent.com/777-FOXik-777/installer/main/banner/banner3.txt 2>&1 | awk "sypexhack {print $1}"')
-    print (Style.BRIGHT, Fore.GREEN+" ["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО скачан")
+    print (Style.BRIGHT, Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Файл УСПЕШНО установлен!")
     time.sleep(2)
 
 
