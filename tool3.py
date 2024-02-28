@@ -421,22 +421,22 @@ while True:
 
 
     if inp == '26':
-        os.system('xdg-open https://github.com/777-FOXik-777')
+        os.system('xdg-open https://t.me/SYPEXHACK/418')
         os.system('clear')
 
   
     if inp == '27':
-        os.system('xdg-open https://github.com/777-FOXik-777')
+        os.system('xdg-open https://t.me/SYPEXHACK/418')
         os.system('clear')
 
 
     if inp == '28':
-        os.system('xdg-open https://github.com/777-FOXik-777')
+        os.system('xdg-open https://t.me/SYPEXHACK/418')
         os.system('clear')
   
 
     if inp == '29':
-        os.system('xdg-open https://github.com/777-FOXik-777')
+        os.system('xdg-open https://t.me/SYPEXHACK/418')
         os.system('clear')
 
   
