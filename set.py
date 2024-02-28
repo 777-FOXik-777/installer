@@ -487,8 +487,19 @@ while True:
           tsu_501 = input(' Выбери пункт ➤ ')
           os.system('clear')
 
+          if tsu_501 == '26':
+              os.system('xdg-open https://t.me/SYPEXHACK/418')
+            
+          if tsu_501 == '27':
+              os.system('xdg-open https://t.me/SYPEXHACK/418')
+            
+          if tsu_501 == '28':
+              os.system('xdg-open https://t.me/SYPEXHACK/418')
+            
+          if tsu_501 == '29':
+              os.system('xdg-open https://t.me/SYPEXHACK/418')
 
-
+          
           if tsu_501 == '1':
               os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
               filename = "serveo"
@@ -1130,7 +1141,7 @@ while True:
   
 
     if inp == 't':
-        os.system('xdg-open https://yoomoney.ru/to/4100117367004233/0')
+        os.system('xdg-open https://t.me/SYPEXHACK/418')
         os.system('clear')
   
   
