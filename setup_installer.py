@@ -69,7 +69,7 @@ filename = "installer"
 
 if os.path.exists(filename):
 
-  print(f'\33]0; Installer - Успешно установлен!\a',
+  print(f'\33]0; Installer ➤ Успешно установлен!\a',
                   end='', flush=True)
 
   os.system('rm -fr /data/data/com.termux/files/home/setup_installer.py')
@@ -89,7 +89,7 @@ if os.path.exists(filename):
 
 else:
   
-  print(f'\33]0; Installer - Ошибка во время установки!\a',
+  print(f'\33]0; Installer ➤ Ошибка во время установки!\a',
                   end='', flush=True)
   os.system('clear')
   print(Style.BRIGHT ,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Ошибка во время установки Installer!")
