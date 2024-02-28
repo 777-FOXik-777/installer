@@ -47,7 +47,7 @@ else:
 # Установка зависсимсот
 
 
-print(f'\33]0; Installer - Установка...\a',
+print(f'\33]0; Installer ➤ Запуск...\a',
                   end='', flush=True)
 
 
