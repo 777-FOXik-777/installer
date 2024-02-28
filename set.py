@@ -556,6 +556,9 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
+
+                os.system('pip uninstall holehe -y 2>&1 | awk "sypexhack {print $1}"')
+                
                 baner()
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Holehe успешно удалена!")
                 exit()
@@ -571,6 +574,9 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
+
+                os.system('pip uninstall h8mail -y 2>&1 | awk "sypexhack {print $1}"')
+                
                 baner()
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита H8mail успешно удалена!")
                 exit()
@@ -588,6 +594,9 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/exiftool")
+
+                os.system('pkg remove exiftool -y 2>&1 | awk "sypexhack {print $1}"')
+                
                 baner()
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Exiftool успешно удалена!")
                 exit()
