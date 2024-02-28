@@ -14,7 +14,7 @@ from colorama import Fore, Style
 
 os.system('clear')
 
-print(f'\33]0; Installer - Настройки\a',
+print(f'\33]0; Installer ➤ Настройки\a',
                   end='', flush=True)
 
 
