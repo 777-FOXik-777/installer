@@ -474,10 +474,10 @@ while True:
           print(Style.BRIGHT, Fore.YELLOW+"[23] Noisy       ("+Noisy+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[24] K-fuscator  ("+Kfuscator+""+Fore.YELLOW+")")
           print(Style.BRIGHT, Fore.YELLOW+"[25] Exiftool    ("+Exiftool+""+Fore.YELLOW+")")
-          print(Style.BRIGHT, Fore.YELLOW+"[26] Недоступно!")
-          print(Style.BRIGHT, Fore.YELLOW+"[27] Недоступно!")
-          print(Style.BRIGHT, Fore.YELLOW+"[28] Недоступно!")
-          print(Style.BRIGHT, Fore.YELLOW+"[29] Недоступно!")
+          print(Style.BRIGHT, Fore.YELLOW+"[26] ╔══════════════════════════════════════╗")
+          print(Style.BRIGHT, Fore.YELLOW+"[27] ╠  Недоступно в тарифе Complimentary!  ╣")
+          print(Style.BRIGHT, Fore.YELLOW+"[28] ╠  В тарифе Premium более 45+ утилит.  ╣")
+          print(Style.BRIGHT, Fore.YELLOW+"[29] ╚══════════════════════════════════════╝ ")
           res()
           print(Style.BRIGHT, Fore.CYAN+"[t] Удалить файлы настройки Termux")
           print(Style.BRIGHT, Fore.RED+"[a] Удалить все утилиты")
@@ -702,9 +702,18 @@ while True:
               tru_502 = input(' Выбери пункт [y/n] ➤ ')
               if tru_502 == 'y':
                 
-                  os.system('rm -fr /data/data/com.termux/files/home/termux-ohmyzsh')
-                  os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tmate")
+                  os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
                 
+                  filename = "tmate"
+                
+                  if os.path.exists(filename):
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tmate")
+                  else:
+                    os.system('clear')
+
+                
+                  os.system('rm -fr /data/data/com.termux/files/home/termux-ohmyzsh')
+                  
                   baner()
                   print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Файлы настройки Termux успешно удалены!")
                   exit()
