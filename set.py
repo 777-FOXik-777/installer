@@ -575,6 +575,7 @@ while True:
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
 
+                os.system('pip uninstall requests -y 2>&1 | awk "sypexhack {print $1}"')
                 os.system('pip uninstall h8mail -y 2>&1 | awk "sypexhack {print $1}"')
                 
                 baner()
