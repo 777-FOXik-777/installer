@@ -499,6 +499,11 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/serveo")
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
+
+                os.system('pkg remove dropbear -y 2>&1 | awk "sypexhack {print $1}"')
+                os.system('pkg remove openssh -y 2>&1 | awk "sypexhack {print $1}"')
+                
                 baner()
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Serveo успешно удалена!")
                 exit()
@@ -514,6 +519,11 @@ while True:
                 
               else:
                 os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/serveo")
+
+                os.system('pkg remove dropbear -y 2>&1 | awk "sypexhack {print $1}"')
+                os.system('pkg remove openssh -y 2>&1 | awk "sypexhack {print $1}"')
+                
                 baner()
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Утилита Localhost успешно удалена!")
                 exit()
