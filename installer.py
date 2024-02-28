@@ -476,7 +476,7 @@ else:
     os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
     
     
-    os.system('git clone --depth 1  https://github.com/777-FOXik-777/installer updatepak')
+    os.system('git clone --depth 1  https://github.com/777-FOXik-777/installer updatepak 2>&1 | awk "sypexhack {print $1}"')
     
     def compare_files(file1_path, file2_path):
         with open(file1_path, 'r') as file1, open(file2_path, 'r') as file2:
