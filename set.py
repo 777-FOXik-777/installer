@@ -755,12 +755,18 @@ while True:
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/serveo")
 
+                    os.system('pkg remove dropbear -y 2>&1 | awk "sypexhack {print $1}"')
+                    os.system('pkg remove openssh -y 2>&1 | awk "sypexhack {print $1}"')
+
+                
                   filename = "lochost"
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/lochost")
 
+                    os.system('pkg remove dropbear -y 2>&1 | awk "sypexhack {print $1}"')
+                    os.system('pkg remove openssh -y 2>&1 | awk "sypexhack {print $1}"')
 
                 
                   filename = "IP"
@@ -775,12 +781,17 @@ while True:
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
 
+                    os.system('pip uninstall holehe -y 2>&1 | awk "sypexhack {print $1}"')
+            
+
                   filename = "h8mail"
                   if os.path.exists(filename):
                     os.system('clear')
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
-
+                    
+                    os.system('pip uninstall requests -y 2>&1 | awk "sypexhack {print $1}"')
+                    os.system('pip uninstall h8mail -y 2>&1 | awk "sypexhack {print $1}"')
 
                 
                   filename = "exiftool"
