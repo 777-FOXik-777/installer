@@ -43,7 +43,7 @@ else:
 
 
 def pri():
-    print(f'\33]0; Installer - Страница [1]\a',
+    print(f'\33]0; Installer ➤ Страница [1]\a',
                       end='', flush=True)
 
 def exit():
