@@ -707,9 +707,9 @@ while True:
                   filename = "tmate"
                 
                   if os.path.exists(filename):
-                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tmate")
-                  else:
                     os.system('clear')
+                  else:
+                    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tmate")
 
                 
                   os.system('rm -fr /data/data/com.termux/files/home/termux-ohmyzsh')
