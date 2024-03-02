@@ -44,7 +44,7 @@ print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Installer..
 time.sleep(1.5)
 print(Style.RESET_ALL)
 
-os.system('git clone https://github.com/777-FOXik-777/installer')
+os.system('git clone --depth 1 https://github.com/777-FOXik-777/installer')
 
 
 
