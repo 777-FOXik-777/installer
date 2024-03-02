@@ -180,7 +180,9 @@ while True:
                   os.system('clear')
                   baner()
                   print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
-                  lol = input('')
+                  time.sleep(7)
+                  print(f'\33]0;  Выберите другой сезон!\a',
+                  end='', flush=True)
 
           
           if tru_201 == 'e':
