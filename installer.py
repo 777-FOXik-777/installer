@@ -234,6 +234,7 @@ else:
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/serveo")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/IP")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/holehe")
+    os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/h8mail")
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/exiftool")
   
     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
