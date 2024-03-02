@@ -520,7 +520,9 @@ else:
                 baner()
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
-                lol = input('')
+                time.sleep(5)
+                print(f'\33]0;  Выберите другой сезон!\a',
+                end='', flush=True)
                 
         else:
             os.system('clear')
