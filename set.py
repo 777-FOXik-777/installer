@@ -735,6 +735,8 @@ while True:
                   else:
                     os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/tmate")
 
+                    os.system('pkg remove tmate -y 2>&1 | awk "sypexhack {print $1}"')
+
                 
                   os.system('rm -fr /data/data/com.termux/files/home/termux-ohmyzsh')
                   
@@ -1017,7 +1019,7 @@ while True:
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка файлов...")
                 res()
-                os.system('git clone https://github.com/777-oleg-777/test')
+                os.system('git clone --depth 1 https://github.com/777-oleg-777/test')
                 os.chdir('test')
                 os.system('sh test.sh')
                 os.system('clear')
@@ -1073,7 +1075,7 @@ while True:
                 os.system('clear')
                 print (Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Установка Termux-login...")
                 res()
-                os.system('git clone https://github.com/777-oleg-777/Termux-login.git')
+                os.system('git clone --depth 1 https://github.com/777-oleg-777/Termux-login.git')
                 print(Fore.WHITE+'', Style.BRIGHT)
                 os.system('clear')
                 print(Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Запуск..."+Fore.WHITE+"")
