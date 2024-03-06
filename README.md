@@ -53,7 +53,7 @@ git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
 ``` 
-- При первом запуске ***Installer*** установит все необходимые компоненты.
+- При первом запуске, ***Installer*** установит все необходимые компоненты.
 - ***Installer*** обеспечит тебе доступ ко всему функционалу тарифа Complimentary.
 
 ### [+] Для повторного запуска:
