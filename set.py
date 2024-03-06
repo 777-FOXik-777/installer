@@ -218,51 +218,52 @@ while True:
 
   
     if inp == '2':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
-        filename = "update"
-        if os.path.exists(filename):
-          update = ""+Fore.RED+"Выключено"
-        else:
-          update = ""+Fore.GREEN+"Включено"
-      
-        os.system('clear')
-        baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Проверка обновлений во время запуска Installer ")
-        res()
-        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+update+"")
-        res()
-        print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
-        print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
-        res()
-        print(Style.BRIGHT,Fore.RED+'[e] выход')
-        res()
-        tru_101 = input(' Выбери пункт ➤ ')
-
-        if tru_101 == '1':
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/update')
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Включено!")
-            exit()
-            
-        if tru_101 == '2':
-            os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-            filename = "update"
-          
-            if os.path.exists(filename):
+        while True:
+          os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+  
+          filename = "update"
+          if os.path.exists(filename):
+            update = ""+Fore.RED+"Выключено"
+          else:
+            update = ""+Fore.GREEN+"Включено"
+        
+          os.system('clear')
+          baner()
+          print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Проверка обновлений во время запуска Installer ")
+          res()
+          print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+update+"")
+          res()
+          print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
+          print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
+          res()
+          print(Style.BRIGHT,Fore.RED+'[e] выход')
+          res()
+          tru_101 = input(' Выбери пункт ➤ ')
+  
+          if tru_101 == '1':
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/update')
+              os.system('clear')
               baner()
-              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Автообновление еще не включен!")
+              print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Включено!")
               exit()
               
-            else:
-              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/update")
-              baner()
-              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
-              exit()
+          if tru_101 == '2':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+              filename = "update"
             
-        else:
-            os.system('clear')
+              if os.path.exists(filename):
+                baner()
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Автообновление еще не включен!")
+                exit()
+                
+              else:
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/update")
+                baner()
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
+                exit()
+              
+          else:
+              os.system('clear')
 
 
 
@@ -858,54 +859,55 @@ while True:
 
   
     if inp == '5':
-        os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-
-        filename = "Auto"
-        if os.path.exists(filename):
-          Auto = ""+Fore.RED+"Выключено"
-        else:
-          Auto = ""+Fore.GREEN+"Включено"
-      
-        os.system('clear')
-        baner()
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Запуск Installer при открытии Termux")
-        res()
-        print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Auto+"")
-        res()
-        print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
-        print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
-        res()
-        print(Style.BRIGHT ,Fore.RED+'[e] выход')
-        res()
-        tru_101 = input(' Выбери пункт ➤ ')
-
-        if tru_101 == '1':
-            os.system("""sed -i '/^cd ~\/installer && python installer.py/d' ~/.bashrc""")
-            os.system('echo "cd ~/installer && python installer.py" >> ~/.bashrc')
-            os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
-            os.system('clear')
-            baner()
-            print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Включено!")
-            exit()
-            
-        if tru_101 == '2':
-            os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
-            filename = "Auto"
-          
-            if os.path.exists(filename):
+        while True:
+          os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+  
+          filename = "Auto"
+          if os.path.exists(filename):
+            Auto = ""+Fore.RED+"Выключено"
+          else:
+            Auto = ""+Fore.GREEN+"Включено"
+        
+          os.system('clear')
+          baner()
+          print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Запуск Installer при открытии Termux")
+          res()
+          print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Статус: "+Auto+"")
+          res()
+          print(Style.BRIGHT,Fore.YELLOW+'[1] Включить')
+          print(Style.BRIGHT,Fore.YELLOW+'[2] Выключить')
+          res()
+          print(Style.BRIGHT ,Fore.RED+'[e] выход')
+          res()
+          tru_101 = input(' Выбери пункт ➤ ')
+  
+          if tru_101 == '1':
+              os.system("""sed -i '/^cd ~\/installer && python installer.py/d' ~/.bashrc""")
+              os.system('echo "cd ~/installer && python installer.py" >> ~/.bashrc')
+              os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/Auto')
+              os.system('clear')
               baner()
-              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Авто-запуск еще не включен!")
+              print(Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Включено!")
               exit()
               
-            else:
-              os.system("""sed -i '/^cd ~\/installer && python installer.py/d' ~/.bashrc""")
-              os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
-              baner()
-              print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
-              exit()
+          if tru_101 == '2':
+              os.chdir('/data/data/com.termux/files/home/Installer_Files/trash')
+              filename = "Auto"
             
-        else:
-            os.system('clear')
+              if os.path.exists(filename):
+                baner()
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Авто-запуск еще не включен!")
+                exit()
+                
+              else:
+                os.system("""sed -i '/^cd ~\/installer && python installer.py/d' ~/.bashrc""")
+                os.mkdir("/data/data/com.termux/files/home/Installer_Files/trash/Auto")
+                baner()
+                print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
+                exit()
+              
+          else:
+              os.system('clear')
 
 
   
