@@ -158,7 +158,7 @@ while True:
             else:
                 os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
                 baner()
-                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Не получилось обновить!")
+                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Не получилось проверить наличий обновлений!")
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Проверьте подключение к интернету")
                 print(Fore.WHITE+'', Style.BRIGHT)
