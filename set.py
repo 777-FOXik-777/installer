@@ -147,7 +147,7 @@ while True:
                         baner()
                         print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                         time.sleep(5)
-                        print(f'\33]0;  Выберите другой сезон!\a',
+                        print(f'\33]0;  Не используйте старый сезон Installer!\a',
                         end='', flush=True)
                               
                 else:
@@ -168,7 +168,7 @@ while True:
                   baner()
                   print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                   time.sleep(5)
-                  print(f'\33]0;  Выберите другой сезон!\a',
+                  print(f'\33]0;  Не используйте старый сезон Installer!\a',
                   end='', flush=True)
 
           
@@ -185,7 +185,7 @@ while True:
                   baner()
                   print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                   time.sleep(5)
-                  print(f'\33]0;  Выберите другой сезон!\a',
+                  print(f'\33]0;  Не используйте старый сезон Installer!\a',
                   end='', flush=True)
 
           
