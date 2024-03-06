@@ -45,12 +45,12 @@ pkg install python -y
 
 ``` 
 git clone https://github.com/777-FOXik-777/installer
-cd installer
 ```
 
 ### [+] Запуск Installer:
 
-``` 
+```
+cd installer
 python installer.py
 ``` 
 - При первом запуске Installer установит все необходимые компоненты.
