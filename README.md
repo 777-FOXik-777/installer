@@ -60,11 +60,6 @@ python installer.py
 
 ### [+] Для повторного запуска:
 
-```
-cd ~/installer
-python installer.py
-``` 
-Или:
 ``` 
 installer
 ``` 
