@@ -96,7 +96,6 @@ while True:
         
           if tru_201 == '1':
             baner()
-            print(Fore.WHITE+'', Style.BRIGHT)
             print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"~"+Fore.YELLOW+"] Проверка наличий обновлений...")
             print(Fore.WHITE+'', Style.BRIGHT)
             time.sleep(1)
@@ -123,7 +122,6 @@ while True:
                 if result:
                     os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
                     baner()
-                    print(Fore.WHITE+'', Style.BRIGHT)
                     print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновлений нет!")
                     print(Fore.WHITE+'', Style.BRIGHT)
                     tsu = input(' [Нажмите Enter чтобы продолжить]')
@@ -132,7 +130,6 @@ while True:
                 else:
                     os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
                     baner()
-                    print(Fore.WHITE+'', Style.BRIGHT)
                     print (Style.BRIGHT,Fore.GREEN+"["+Fore.CYAN+"!"+Fore.GREEN+"] Есть обновление!")
                     print(Fore.WHITE+'', Style.BRIGHT)
                     print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Обновить Installer?")
@@ -150,7 +147,6 @@ while True:
                         while True:
                             os.system('clear')
                             baner()
-                            print(Fore.WHITE+'', Style.BRIGHT)
                             print(Style.BRIGHT, Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Перезапустите Termux или создайте новый сезон!")
                             time.sleep(5)
                             print(f'\33]0;  Не используйте старый сезон Installer!\a',
@@ -162,7 +158,6 @@ while True:
             else:
                 os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
                 baner()
-                print(Fore.WHITE+'', Style.BRIGHT)
                 print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Не получилось обновить!")
                 print(Fore.WHITE+'', Style.BRIGHT)
                 print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Проверьте подключение к интернету")
