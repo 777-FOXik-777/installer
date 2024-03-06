@@ -262,8 +262,9 @@ while True:
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
                 exit()
               
-          else:
+          if tru_101 == 'e':
               os.system('clear')
+              break
 
 
 
@@ -906,8 +907,9 @@ while True:
                 print(Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"~"+Fore.YELLOW+"] Выключено!")
                 exit()
               
-          else:
+          if tru_101 == 'e':
               os.system('clear')
+              break
 
 
   
