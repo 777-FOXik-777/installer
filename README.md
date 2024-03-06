@@ -40,14 +40,12 @@ apt upgrade -y
 pkg install git -y
 pkg install python -y
 ```
-- Установка ***Git*** и ***Python***.
 
 ### [+] Установка Installer:
 
 ``` 
 git clone https://github.com/777-FOXik-777/installer
 ```
-- Установка файлов ***Installer***.
 
 ### [+] Запуск Installer:
 
