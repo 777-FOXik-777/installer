@@ -23,7 +23,7 @@
 Installer - это мощный и удобный скрипт, который поможет тебе легко и быстро установить более 25 отличных хакерских утилит в Termux. С Installer ты сможешь расширить свои возможности в Termux и получить доступ к различным инструментам для сканирования, анализа, взлома и тестирования безопасности. Этот инструмент подходит для любого уровня опыта и НЕ требует наличия root-прав на твоем устройстве.
 
 
-## [⇓] Установка на [Android](https://ru.wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://ru.wikipedia.org/wiki/Android)
+## [↓] Установка на [Android](https://ru.wikipedia.org/wiki/Android) [![alt tag](https://cdn1.iconfinder.com/data/icons/logotypes/32/android-32.png)](https://ru.wikipedia.org/wiki/Android)
  
 Скачиваем [Termux](https://t.me/SYPEXHACK_files/51) (0.118)
 
