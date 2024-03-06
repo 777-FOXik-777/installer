@@ -47,7 +47,7 @@ else:
 # Установка зависсимсот
 
 
-print(f'\33]0; Installer ➤ Запуск...\a',
+print(f'\33]0; Installer ➤ Установка зависимостей...\a',
                   end='', flush=True)
 
 
@@ -172,7 +172,8 @@ def baner():
 
 
 
-
+print(f'\33]0; Installer ➤ Запуск...\a',
+                  end='', flush=True)
 
 
 # легкий запуск
