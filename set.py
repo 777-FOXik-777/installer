@@ -151,6 +151,9 @@ while True:
                             time.sleep(5)
                             print(f'\33]0;  Не используйте старый сезон Installer!\a',
                             end='', flush=True)
+                            while True:
+                              baner()
+                              lol = input('')
                             
                     else:
                         os.system('clear')
@@ -182,6 +185,9 @@ while True:
                   time.sleep(5)
                   print(f'\33]0;  Не используйте старый сезон Installer!\a',
                   end='', flush=True)
+                  while True:
+                    baner()
+                    lol = input('')  
 
           
           if tru_201 == '3':
@@ -199,6 +205,9 @@ while True:
                   time.sleep(5)
                   print(f'\33]0;  Не используйте старый сезон Installer!\a',
                   end='', flush=True)
+                  while True:
+                    baner()
+                    lol = input('')
 
           
           if tru_201 == 'e':
