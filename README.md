@@ -64,7 +64,7 @@ python installer.py
 cd ~/installer
 python installer.py
 ``` 
-Альтернатива:
+Или:
 ``` 
 installer
 ``` 
