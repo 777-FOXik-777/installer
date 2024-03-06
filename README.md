@@ -48,8 +48,8 @@ git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
 ``` 
-
-- Дальше Installer сделает все за вас: он установит все необходимые компоненты и обеспечит тебе доступ ко всему функционалу.
+- При первом запуске Installer установит все необходимые компоненты.
+- Installer обеспечит тебе доступ ко всему функционалу тарифа Complimentary.
 
 <h1 align="center">Снимки некоторых возможностей:</h1>
 
