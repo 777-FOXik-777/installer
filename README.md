@@ -53,8 +53,8 @@ git clone https://github.com/777-FOXik-777/installer
 cd installer
 python installer.py
 ``` 
-- При первом запуске Installer установит все необходимые компоненты.
-- Installer обеспечит тебе доступ ко всему функционалу тарифа Complimentary.
+- При первом запуске ***Installer*** установит все необходимые компоненты.
+- ***Installer*** обеспечит тебе доступ ко всему функционалу тарифа Complimentary.
 
 
 
@@ -68,9 +68,9 @@ python installer.py
 ``` 
 installer
 ``` 
-- Данный тип запуска доступен только после первого запуска Installer
+- Данный тип запуска доступен только после первого запуска ***Installer***
 
-<h1 align="center">Снимки некоторых возможностей:</h1>
+<h1 align="center">Часть возможностей:</h1>
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/777-oleg-777/test/blob/main/1present.jpg" alt="Изображение 1" width="48%">
