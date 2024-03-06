@@ -159,16 +159,16 @@ while True:
                     else:
                         os.system('clear')
 
-    else:
-        os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
-        baner()
-        print(Fore.WHITE+'', Style.BRIGHT)
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Не получилось обновить!")
-        print(Fore.WHITE+'', Style.BRIGHT)
-        print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Проверьте подключение к интернету")
-        print(Fore.WHITE+'', Style.BRIGHT)
-        tsu = input(' [Нажмите Enter чтобы продолжить]')
-        os.system('clear')
+            else:
+                os.system('rm -fr /data/data/com.termux/files/home/Installer_Files/trash/updatepak')
+                baner()
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.RED+"!"+Fore.YELLOW+"] Не получилось обновить!")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                print (Style.BRIGHT,Fore.YELLOW+"["+Fore.CYAN+"i"+Fore.YELLOW+"] Проверьте подключение к интернету")
+                print(Fore.WHITE+'', Style.BRIGHT)
+                tsu = input(' [Нажмите Enter чтобы продолжить]')
+                os.system('clear')
   
         
           if tru_201 == '2':
