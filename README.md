@@ -1,7 +1,7 @@
 <h1 align="center">Installer v3</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Версия-3.1.1-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Версия-3.1.2-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
 </p>
@@ -79,11 +79,10 @@ installer
 - Termux из Google Play может некорректно работать. Советую скачать оптимальную версию [Termux](https://t.me/SYPEXHACK_files/51) (0.118).
 
 ## [+] Что нового?
-### 3.1.1:
-- Небольшие коррективы Интерфейса
-- Доработка в системе удаление утилит
-- Оптимизация установки всех утилит
+
+### 3.1.3:
 - Фикс багов
+- 
 ### 3.1.2:
 - Изменения в README.md
 - Небольшие коррективы названий сезонов
