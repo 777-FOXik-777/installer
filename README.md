@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Версия-3.1.3-cyan?style=flat-square">
   <img src="https://img.shields.io/badge/Написано%20на-Python-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Поддерживается%3F-Да-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Поддерживается%3F-Нет-red?style=flat-square">
 </p>
 <p align="center">
 <a href="https://github.com/777-FOXik-777"><img title="Подпищиков" src="https://img.shields.io/github/followers/777-FOXik-777?color=red&style=flat-square"></a>
